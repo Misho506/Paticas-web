@@ -1,0 +1,24 @@
+.max-width-500 {
+  max-width: 500px;
+}
+
+.color-yellow {
+  color: theme('colors.yellow');
+}
+
+.bg-yellow {
+  background-color: theme('colors.yellow');
+}
+
+.bg-dark-green {
+  background-color: theme('colors.darkGreen');
+}
+
+.text-dark-green {
+  color: theme('colors.darkGreen');
+}
+
+.circular-container {
+  width: 12rem;
+  height: 12rem;
+}
