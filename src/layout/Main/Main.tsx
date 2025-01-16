@@ -1,9 +1,8 @@
 import Carousel from "../../components/carousel/Carousel";
 import { IoIosArrowRoundForward, IoIosStar } from "react-icons/io";
-import SubCategoriesCards from "../../components/subCategorieCard/SubCategoriesCards";
+import SubCategoriesCards from "../../components/subCategoryCard/SubCategoriesCards";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail, MdExpandMore } from "react-icons/md";
-import FamiliIMG from "../../assets/aboutUs/Las 3.jpg";
 import { Fragment, ReactNode } from 'react';
 import PostCarrousel from "../../components/postCarrousel/PostCarrousel";
 
@@ -30,7 +29,7 @@ const Main = () => {
   }
   const sectionReviews = {
     title: "Reseñas",
-    body: `Nuestro clientes nos respaldan\n
+    body: `Nuestro clientes nos respaldan
           *STARS*`
   }
 
@@ -84,7 +83,7 @@ const Main = () => {
       <PostCarrousel postList={[<BlogPost />]} />
       {createSectionWithTitle(sectionAboutUs)}
       <section className="relative">
-        <img src={FamiliIMG} alt="family" className="brightness-75 w-full h-auto object-cover" />
+        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
           <h2 className="text-3xl bold">
             Somos más que una familia
@@ -110,7 +109,7 @@ const Main = () => {
             <>
               <h5 className="font-light text-md">Whatsapp</h5>
               <a
-                href="https://api.whatsapp.com/send?phone=+50686918432&text=I Want to know more about this tour: ---> 'Please add the name of the tour that want'"
+                href="https://api.whatsapp.com/send?phone=+50686918432&text=I want to know more about this tour: ---> 'Please add the name of the tour that want'"
 
                 className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
               >

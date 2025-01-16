@@ -1,42 +1,37 @@
 import { CCarousel, CCarouselItem } from '@coreui/react'
-import Banner01 from '../../assets/banners/Banner-1.jpeg';
-import Banner02 from '../../assets/banners/Banner-2.jpg';
-import Banner03 from '../../assets/banners/Banner-3.jpeg';
-import Banner04 from '../../assets/banners/Banner-4.jpg';
-import Banner05 from '../../assets/banners/Banner-5.jpeg';
 import { BannerType } from '../../utils/types';
 
 import "./Carousel.css";
 
 const CarouselBanners: Array<BannerType> = [
   {
-    image: Banner01,
-    title: 'Entre volcanes \ny naturaleza \nexhuberante',
-    description: 'Descubra el impresionante\nvolcan Arenal y la enorme\nbiodiverdodad de Monteverde',
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-1_kqbwsj.jpg",
+    title: 'Entre volcanes y naturaleza exhuberante',
+    description: 'Descubra el impresionante volcan Arenal y la enorme biodiverdodad de Monteverde',
     goToLink: '/expedicion-fotografica',
   },
   {
-    image: Banner02,
-    title: 'Pesca deportiva\nen el Pacifico Sur\ny Costarricense',
-    description: 'Explore la belleza\nmarina de Costa Rica',
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010423/Banner-2_vmvmgr.jpg",
+    title: 'Pesca deportiva en el Pacífico Sur y Costarricense',
+    description: 'Explore la belleza marina de Costa Rica',
     goToLink: '/expedicion-fotografica',
   },
   {
-    image: Banner03,
-    title: 'Descubra \nel Caribe Sur \nCostarricense',
-    description: 'La riqueza cultural y\nla biodiversidad del\nCaribe le espera',
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010425/Banner-3_v9jjjz.jpg",
+    title: 'Descubra el Caribe Sur Costarricense',
+    description: 'La riqueza cultural y la biodiversidad del Caribe le espera',
     goToLink: '/expedicion-fotografica',
   },
   {
-    image: Banner04,
-    title: 'Disfrute \nde Manuel Antonio y\nBahia Ballena',
-    description: 'Playas paradisiacas\ny avistamiento\nde ballenas',
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004885/9._Tortugas_y_ballenas_PORTADA_afkrf3.jpg",
+    title: 'Disfrute de Manuel Antonio y Bahia Ballena',
+    description: 'Playas paradisiacas y avistamiento de ballenas',
     goToLink: '/expedicion-fotografica',
   },
   {
-    image: Banner05,
-    title: 'Expedición Fotográfica:\nVida Silvestre \nen Corcovado',
-    description: 'Capture la belleza\nnatural de nuestro pais',
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-5_rmmocj.jpg",
+    title: 'Expedición Fotográfica: Vida Silvestre en Corcovado',
+    description: 'Capture la belleza natural de nuestro pais',
     goToLink: '/expedicion-fotografica',
   },
 ];
@@ -59,11 +54,11 @@ const Carousel = () => (
               transform: 'translateY(-50%)',
             }}
           >
-            <h1 style={{ fontSize: '2.5rem', whiteSpace: 'pre-wrap' }} className='bold'>
+            <h1 style={{ fontSize: '2.5rem' }} className='bold max-w-lg'>
               {banner.title}
             </h1>
             <hr className='separator w-50' />
-            <p style={{ fontSize: '1.25rem', margin: '1rem 0' }} className='whitespace-pre-wrap italic'>
+            <p className='italic max-w-lg text-xl my-4'>
               {banner.description}
             </p>
             <button className='explore-button' >

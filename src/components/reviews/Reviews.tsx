@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoIosStar } from "react-icons/io";
 import { FcGoogle } from "react-icons/fc";
 import ReviewsHardCoded from "../../utils/hardCodedData/review"

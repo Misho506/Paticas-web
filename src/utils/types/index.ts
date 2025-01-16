@@ -6,10 +6,10 @@ type BannerType = {
   description: string;
   goToLink: string;
 }
-type SubCategorie = {
+type SubCategory = {
   img: string;
   title: string;
-  place: string;
+  places: Array<string>;
   link: string;
   itinerary: string;
   description: string;
@@ -34,11 +34,22 @@ type PostCarrouselProps = {
   postList: Array<ReactNode>;
 }
 
+type SubCategoryCardProps = {
+  img: string;
+  title: string;
+  places: Array<string>;
+  link: string;
+  itinerary: string;
+  description: string;
+  showExtraInfo?: boolean;
+}
+
 
 export type {
   BannerType,
-  SubCategorie,
+  SubCategory,
   ReviewType,
   BlogsType,
   PostCarrouselProps,
+  SubCategoryCardProps
 }

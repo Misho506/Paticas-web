@@ -18,11 +18,11 @@ const Footer = () => (
             <FaTiktok className="text-3xl text-black" />
           </div>
         </div>
-        <p className="text-gray-400 Italic mt-3">¡Siganos en nuestras redes sociales!</p>
+        <p className="text-gray-400 Italic mt-3">!Síganos en nuestras redes sociales!</p>
       </article>
     </section >
     <article className="flex h-20 items-center justify-center rights-text text-white italic">
-      <FaRegCopyright className="text- italic text-2xl pr-2 pb-1" />{new Date().getFullYear()}, Paticas paque las quier. Todos los derechos reservados.
+      <FaRegCopyright className="text- italic text-2xl pr-2 pb-1" />{new Date().getFullYear()}, Paticas paque las quiero. Todos los derechos reservados.
     </article>
   </footer >
 )
