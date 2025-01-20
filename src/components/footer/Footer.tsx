@@ -1,10 +1,31 @@
 import { FaRegCopyright } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { MdExpandMore } from "react-icons/md";
+import { IoIosArrowRoundForward } from "react-icons/io";
+
 
 import "./Footer.css";
 
 const Footer = () => (
   <footer>
+
+    <section className="bg-dark-green px-8 pb-8 pt-2">
+      <article className="flex justify-between ">
+        <label className="text-white">Políticas y condiciones</label>
+        <MdExpandMore className="h-6 w-6 text-white" />
+      </article>
+      <hr className="border-1 border-white mb-3 mt-1 opacity-75" />
+      <article className="space-y-4">
+        <h2 className="text-white text-xl font-medium">Suscríbase</h2>
+        <p className="text-white text-sm">
+          Si le gustaría estar al día con opciones de giras, tips de viajes y más no dude en suscribirse.
+        </p>
+        <button className="bg-white text-dark-green rounded-full py-3 px-6 inline-flex items-center gap-2 hover:bg-gray-100 transition-colors">
+          <span>Suscríbase a nuestro newsletter</span>
+          <IoIosArrowRoundForward className="h-5 w-5" />
+        </button>
+      </article>
+    </section>
     <section>
       <article className="flex flex-col justify-content-center items-center my-6">
         <div className="flex gap-4">

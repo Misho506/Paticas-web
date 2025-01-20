@@ -1,5 +1,6 @@
 import { CCarousel, CCarouselItem } from '@coreui/react'
 import { BannerType } from '../../utils/types';
+import { NavLink } from "react-router";
 
 import "./Carousel.css";
 
@@ -8,31 +9,26 @@ const CarouselBanners: Array<BannerType> = [
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-1_kqbwsj.jpg",
     title: 'Entre volcanes y naturaleza exhuberante',
     description: 'Descubra el impresionante volcan Arenal y la enorme biodiverdodad de Monteverde',
-    goToLink: '/expedicion-fotografica',
   },
   {
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010423/Banner-2_vmvmgr.jpg",
     title: 'Pesca deportiva en el Pacífico Sur y Costarricense',
     description: 'Explore la belleza marina de Costa Rica',
-    goToLink: '/expedicion-fotografica',
   },
   {
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010425/Banner-3_v9jjjz.jpg",
     title: 'Descubra el Caribe Sur Costarricense',
     description: 'La riqueza cultural y la biodiversidad del Caribe le espera',
-    goToLink: '/expedicion-fotografica',
   },
   {
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004885/9._Tortugas_y_ballenas_PORTADA_afkrf3.jpg",
     title: 'Disfrute de Manuel Antonio y Bahia Ballena',
     description: 'Playas paradisiacas y avistamiento de ballenas',
-    goToLink: '/expedicion-fotografica',
   },
   {
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-5_rmmocj.jpg",
     title: 'Expedición Fotográfica: Vida Silvestre en Corcovado',
     description: 'Capture la belleza natural de nuestro pais',
-    goToLink: '/expedicion-fotografica',
   },
 ];
 
@@ -61,14 +57,14 @@ const Carousel = () => (
             <p className='italic max-w-lg text-xl my-4'>
               {banner.description}
             </p>
-            <button className='explore-button' >
+            <NavLink to="/our-tours" className='explore-button'>
               Explorar más →
-            </button>
+            </NavLink>
           </section>
         </section>
       </CCarouselItem>
     ))}
-  </CCarousel>
+  </CCarousel >
 )
 
 export default Carousel;

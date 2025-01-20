@@ -4,13 +4,11 @@ type BannerType = {
   image: string;
   title: string;
   description: string;
-  goToLink: string;
 }
-type SubCategory = {
+type SubCategoryType = {
   img: string;
   title: string;
   places: Array<string>;
-  link: string;
   itinerary: string;
   description: string;
 }
@@ -38,18 +36,24 @@ type SubCategoryCardProps = {
   img: string;
   title: string;
   places: Array<string>;
-  link: string;
   itinerary: string;
   description: string;
-  showExtraInfo?: boolean;
+  showDescription?: boolean;
 }
 
+type TourType = {
+  title: string;
+  image: string;
+  description: string;
+  subCategories: Array<SubCategoryType>
+}
 
 export type {
   BannerType,
-  SubCategory,
+  SubCategoryType,
   ReviewType,
   BlogsType,
   PostCarrouselProps,
-  SubCategoryCardProps
+  SubCategoryCardProps,
+  TourType
 }

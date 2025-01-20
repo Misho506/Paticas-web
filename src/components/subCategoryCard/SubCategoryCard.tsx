@@ -5,7 +5,7 @@ import { SubCategoryCardProps } from "../../utils/types";
 
 import "./SubCategoryCard.css";
 
-const SubCategoryCard = ({ img, title, places, link, itinerary, description, showExtraInfo = false }: SubCategoryCardProps) => (
+const SubCategoryCard = ({ img, title, places, itinerary, description, showDescription = false }: SubCategoryCardProps) => (
   <section className="flex-1 sm=basis-1/2 rounded-lg border-1 border-black card-width m-3">
     <img src={img} alt={title} className="w-full h-48 object-cover rounded-md" />
     <article className="p-4">
@@ -13,7 +13,7 @@ const SubCategoryCard = ({ img, title, places, link, itinerary, description, sho
         <h3 className="text-lg text-gray-800 whitespace-pre-wrap">
           {title}
         </h3>
-        <button onClick={() => alert(link)} className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
+        <button onClick={() => alert("Go to subCategorie view, don't get develope")} className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
           <IoIosArrowRoundForward />
         </button>
       </article>
@@ -25,15 +25,18 @@ const SubCategoryCard = ({ img, title, places, link, itinerary, description, sho
           </article>
         ))}
 
-        {showExtraInfo &&
-          <article className="flex items-center text-sm text-gray-500 mt-2">
-            <FaRegCalendarCheck className="yellow-icon text-xl" />
-            <span className="whitespace-pre-wrap italic ml-1">{itinerary}</span>
-          </article>
+        {showDescription &&
+          <>
+            <hr />
+            <article className="flex items-center text-sm text-gray-500 mt-2">
+              <FaRegCalendarCheck className="yellow-icon text-xl" />
+              <span className="whitespace-pre-wrap italic ml-1">{itinerary}</span>
+            </article>
+          </>
         }
       </section>
-      {showExtraInfo &&
-        <p>{description}</p>
+      {showDescription &&
+        <p className="italic">{description}</p>
       }
     </article>
   </section>

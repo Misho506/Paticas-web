@@ -9,3 +9,7 @@ p {
 button:hover {
   background-color: theme('colors.yellow');
 }
+
+.yellow-star {
+  color: theme("colors.yellow");
+}

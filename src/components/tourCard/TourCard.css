@@ -1,0 +1,10 @@
+.next-button {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+
+  &:hover {
+    background-color: theme('colors.yellow');
+    color: black;
+  }
+}
