@@ -8,5 +8,7 @@ const blogTicosAndTicas: BlogsType = {
   description: "Un viaje al lenguaje y tradiciones que reflejan la identidad de Costa Rica.",
 }
 
-export default blogTicosAndTicas;
+const blogs = [blogTicosAndTicas];
+
+export default blogs;
 

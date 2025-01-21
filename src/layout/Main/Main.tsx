@@ -11,6 +11,7 @@ import { useTour } from "../../context/TourContext";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import ToursCards from "../../components/tourCard/ToursCard";
 import "./Main.css";
+import blogs from "../../utils/hardCodedData/blogs";
 
 const sectionOurTours = {
   title: "Nuestras Giras",
@@ -60,7 +61,17 @@ const Main = () => {
       <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
       <ToursCards tours={tours} />
       <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
-      <PostCarrousel postList={[<BlogPost />]} />
+      <PostCarrousel
+        postList={blogs.map((blog, index) =>
+          <BlogPost
+            key={index}
+            title={blog.title}
+            description={blog.description}
+            picture={blog.picture}
+            date={blog.date}
+            readingTime={blog.readingTime}
+          />)}
+      />
       <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
       <section className="relative">
         <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
