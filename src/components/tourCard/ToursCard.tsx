@@ -14,12 +14,7 @@ const ToursCards = ({ tours, showDescription }: { tours: Array<TourType>; showDe
             return (
               <TourCard
                 key={index}
-                showDescription={showDescription}
-                img={tour.img}
-                title={tour.title}
-                places={tour.places}
-                itinerary={tour.itinerary}
-                description={tour.description}
+                tour={tour}
               />
             )
           })

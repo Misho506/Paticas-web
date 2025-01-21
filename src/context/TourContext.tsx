@@ -16,25 +16,32 @@ interface TourContextType {
 
 const TourContext = createContext<TourContextType | undefined>(undefined);
 
-const tourInitialValue = {
+const categoryInitialValue = {
   title: "",
   image: "",
   description: "",
   tours: [],
 };
-const subCategoryInitialValue = {
+const tourInitialValue = {
   img: "",
   title: "",
   places: [],
-  itinerary: "",
   description: "",
+  subTitle: "",
+  daysAndNights: "",
+  about: "",
+  photos: [""],
+  activities: [""],
+  includes: [""],
+  itinerary: [{ title: "", description: "" }],
+  prices: [{ price: 0, numberOfPeople: 0 }],
 }
 
 export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [selectedCategory, setSelectedCategory] = useState<CategoryType>(tourInitialValue);
+  const [selectedCategory, setSelectedCategory] = useState<CategoryType>(categoryInitialValue);
   const [categories] = useState<CategoryType[]>(CatrogiresData);
   // Tours
-  const [selectedTour, setSelectedTour] = useState<TourType>(subCategoryInitialValue);
+  const [selectedTour, setSelectedTour] = useState<TourType>(tourInitialValue);
   const [tours] = useState<Array<TourType>>(allTours);
 
   return (

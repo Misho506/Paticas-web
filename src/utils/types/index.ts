@@ -5,12 +5,30 @@ type BannerType = {
   title: string;
   description: string;
 }
+
+type PriceType = {
+  price: number;
+  numberOfPeople: number;
+}
+
+type ItineraryType = {
+  title: string;
+  description: string;
+}
+
 type TourType = {
   img: string;
   title: string;
+  subTitle: string;
   places: Array<string>;
-  itinerary: string;
+  daysAndNights: string;
   description: string;
+  about: string;
+  photos: Array<string>;
+  activities: Array<string>;
+  includes: Array<string>;
+  itinerary: Array<ItineraryType>;
+  prices: Array<PriceType>;
 }
 
 type ReviewType = {
@@ -32,12 +50,7 @@ type PostCarrouselProps = {
   postList: Array<ReactNode>;
 }
 
-type TourCardProps = {
-  img: string;
-  title: string;
-  places: Array<string>;
-  itinerary: string;
-  description: string;
+interface TourCardProps extends TourType {
   showDescription?: boolean;
 }
 
