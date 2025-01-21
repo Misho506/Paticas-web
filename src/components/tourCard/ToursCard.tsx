@@ -1,25 +1,25 @@
 import { useState } from "react";
 
-import SubCategoryCard from "./SubCategoryCard";
-import { SubCategoryType } from "../../utils/types";
-import "./SubCategoryCard.css";
+import TourCard from "./TourCard";
+import { TourType } from "../../utils/types";
+import "./TourCard.css";
 
-const SubCategoriesCards = ({ subCategories, showDescription }: { subCategories: Array<SubCategoryType>; showDescription?: boolean }) => {
+const ToursCards = ({ tours, showDescription }: { tours: Array<TourType>; showDescription?: boolean }) => {
   const [showAll, setShowAll] = useState<boolean>(false);
   return (
     <>
       <section className={`flex flex-wrap mx-10 justify-center ${showDescription && 'mb-9'}`}>
         {
-          (showDescription || showAll ? subCategories : subCategories.slice(0, 4)).map((subCategory, index) => {
+          (showDescription || showAll ? tours : tours.slice(0, 4)).map((tour, index) => {
             return (
-              <SubCategoryCard
+              <TourCard
                 key={index}
                 showDescription={showDescription}
-                img={subCategory.img}
-                title={subCategory.title}
-                places={subCategory.places}
-                itinerary={subCategory.itinerary}
-                description={subCategory.description}
+                img={tour.img}
+                title={tour.title}
+                places={tour.places}
+                itinerary={tour.itinerary}
+                description={tour.description}
               />
             )
           })
@@ -36,4 +36,4 @@ const SubCategoriesCards = ({ subCategories, showDescription }: { subCategories:
   )
 }
 
-export default SubCategoriesCards;
+export default ToursCards;

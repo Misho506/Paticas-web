@@ -1,6 +1,6 @@
 import { IoIosStar } from "react-icons/io";
 
-const sectionWithTitle = ({ title, body, bgColor }: { title: string; body: string; bgColor?: string }) => {
+const SectionWithTitle = ({ title, body, bgColor }: { title: string; body: string; bgColor?: string }) => {
   const insertStars = body.includes('*STARS*');
   const secondString =
     <div className="flex items-baseline">
@@ -23,4 +23,4 @@ const sectionWithTitle = ({ title, body, bgColor }: { title: string; body: strin
   )
 };
 
-export default sectionWithTitle;
+export default SectionWithTitle;

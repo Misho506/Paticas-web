@@ -1,3 +1,12 @@
+.card-width {
+  max-width: 600px;
+  min-width: 250px;
+}
+
+.yellow-icon {
+  color: theme('colors.yellow');
+}
+
 .next-button {
   background-color: white;
   color: gray;
@@ -7,4 +16,9 @@
     background-color: theme('colors.yellow');
     color: black;
   }
+}
+
+.show-all-button:hover {
+  background-color: theme('colors.yellow');
+  color: black;
 }

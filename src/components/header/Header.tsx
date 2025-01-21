@@ -10,7 +10,7 @@ const Header = () => (
       <img alt="icon background green" src={IconBKGreen} className="h-16 pl-4" />
       <article className="text-white pl-1">
         <h1 className="text-2xl">Paticas</h1>
-        <p className="text-sm">pa"que las quiero</p>
+        <p className="text-sm">pa'que las quiero</p>
       </article>
     </section>
     <section className="pr-4 text-white mb-3 flex ">

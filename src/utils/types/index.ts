@@ -5,7 +5,7 @@ type BannerType = {
   title: string;
   description: string;
 }
-type SubCategoryType = {
+type TourType = {
   img: string;
   title: string;
   places: Array<string>;
@@ -32,7 +32,7 @@ type PostCarrouselProps = {
   postList: Array<ReactNode>;
 }
 
-type SubCategoryCardProps = {
+type TourCardProps = {
   img: string;
   title: string;
   places: Array<string>;
@@ -41,19 +41,19 @@ type SubCategoryCardProps = {
   showDescription?: boolean;
 }
 
-type TourType = {
+type CategoryType = {
   title: string;
   image: string;
   description: string;
-  subCategories: Array<SubCategoryType>
+  tours: Array<TourType>
 }
 
 export type {
   BannerType,
-  SubCategoryType,
+  TourType,
   ReviewType,
   BlogsType,
   PostCarrouselProps,
-  SubCategoryCardProps,
-  TourType
+  TourCardProps,
+  CategoryType
 }

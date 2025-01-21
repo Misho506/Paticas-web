@@ -1,17 +1,17 @@
 import React, { createContext, useState, ReactNode, useContext } from 'react';
 
-import { TourType, SubCategoryType } from '../utils/types';
-import ToursData from "../utils/hardCodedData/tours";
-import { allSubCategories } from "../utils/hardCodedData/tours/subCategories";
+import { CategoryType, TourType } from '../utils/types';
+import CatrogiresData from "../utils/hardCodedData/categories";
+import { allTours } from "../utils/hardCodedData/categories/tours";
 
 interface TourContextType {
+  selectedCategory: CategoryType;
+  setSelectedCategory: (tour: CategoryType) => void;
+  categories: CategoryType[];
+  // Tours
   selectedTour: TourType;
   setSelectedTour: (tour: TourType) => void;
-  tours: TourType[];
-  // SubCategories
-  selectedSubCategory: SubCategoryType;
-  setSelectedSubCategory: (tour: SubCategoryType) => void;
-  subCategories: Array<SubCategoryType>;
+  tours: Array<TourType>;
 }
 
 const TourContext = createContext<TourContextType | undefined>(undefined);
@@ -20,7 +20,7 @@ const tourInitialValue = {
   title: "",
   image: "",
   description: "",
-  subCategories: [],
+  tours: [],
 };
 const subCategoryInitialValue = {
   img: "",
@@ -31,21 +31,21 @@ const subCategoryInitialValue = {
 }
 
 export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [selectedTour, setSelectedTour] = useState<TourType>(tourInitialValue);
-  const [tours] = useState<TourType[]>(ToursData);
-  // SubCategories
-  const [selectedSubCategory, setSelectedSubCategory] = useState<SubCategoryType>(subCategoryInitialValue);
-  const [subCategories] = useState<Array<SubCategoryType>>(allSubCategories);
+  const [selectedCategory, setSelectedCategory] = useState<CategoryType>(tourInitialValue);
+  const [categories] = useState<CategoryType[]>(CatrogiresData);
+  // Tours
+  const [selectedTour, setSelectedTour] = useState<TourType>(subCategoryInitialValue);
+  const [tours] = useState<Array<TourType>>(allTours);
 
   return (
     <TourContext.Provider
       value={{
+        selectedCategory,
+        setSelectedCategory,
+        categories,
         selectedTour,
         setSelectedTour,
         tours,
-        selectedSubCategory,
-        setSelectedSubCategory,
-        subCategories,
       }}>
       {children}
     </TourContext.Provider>

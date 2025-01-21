@@ -1,11 +1,11 @@
 import { IoMdArrowBack } from "react-icons/io";
 import { useNavigate } from "react-router";
 
-import TourCard from "../../components/tourCard/TourCard";
+import CategoryCard from "../../components/categoryCard/CategoryCard";
 import { useTour } from "../../context/TourContext";
 
 const OurTours = () => {
-  const { tours } = useTour();
+  const { categories } = useTour();
   const navigate = useNavigate();
 
   return (
@@ -17,8 +17,8 @@ const OurTours = () => {
         Aventura sin límites en la naturaleza de Costa Rica
       </p>
       <div className="max-w-2xl mx-auto">
-        {tours.map((tour, index) => (
-          <TourCard key={index} {...tour} />
+        {categories.map((category, index) => (
+          <CategoryCard key={index} {...category} />
         ))}
       </div>
       <button

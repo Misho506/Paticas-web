@@ -1,6 +1,6 @@
-import { SubCategoryType } from '../../../types';
+import { TourType } from '../../../types';
 
-const wildLife: SubCategoryType = {
+const wildLife: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004786/3._Vida_Silvestre_en_Corcovado_y_Osa-2_ndct01.jpg",
   title: "Vida Silvestre en Corcovado y Península de Osa",
   places: ["Pacífico Sue"],
@@ -8,7 +8,7 @@ const wildLife: SubCategoryType = {
   description: "La belleza y la diversidad única de la vida silvestre en el Parque Nacional Corcovado y la Peninsula de Osa ofrecen una experiencia incomparable en los ecosistemas más ricos del mundo",
 };
 
-const followingQuetzal: SubCategoryType = {
+const followingQuetzal: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/7._Tras_las_huellas_del_Quetzal_y_el_Zopilote_Rey_poxs5a.jpg",
   title: "Tras las huellas del Quetzal y el Zopilote Rey",
   places: ["Caribe Norte"],
@@ -16,7 +16,7 @@ const followingQuetzal: SubCategoryType = {
   description: "La majestuosidad del Quetzal cobra vida en el frondoso bosque de El Cerro La Muerte y el famoso Zopilote Rey se destaca en Boca Tapada.",
 };
 
-const crocodilesAndBirds: SubCategoryType = {
+const crocodilesAndBirds: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003791/6._Observacio%CC%81n_de_Cocodrilos_y_aves_jjytd6.jpg",
   title: "Observacion de cocodrilos y aves",
   places: ["Caribe Norte y Pac. Central"],
@@ -24,7 +24,7 @@ const crocodilesAndBirds: SubCategoryType = {
   description: "Adentrarse en el entorno del Rio Tárcoles y Rancho Naturalista permite vivir de cerca la rica biodiversidad de la región.",
 };
 
-const secretsofCostaRica: SubCategoryType = {
+const secretsofCostaRica: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/1._Destinos_secretos_de_Costa_Rica_PORTADA_vt3d9v.jpg",
   title: "Destinos secretos de Costa Rica",
   places: ["Region Central"],
@@ -32,7 +32,7 @@ const secretsofCostaRica: SubCategoryType = {
   description: "La esencia de COta Rica se vive en un tour lleno de aventura, momneots de tranquilad y un entorno natural rico en biodiversidad.",
 };
 
-const mostPopularInCostaRica: SubCategoryType = {
+const mostPopularInCostaRica: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004817/4._Diez_destinos_ma%CC%81s_populares_PORTADA_jwld6f.jpg",
   title: "10 destinos más populares de Cota Rica",
   places: ["Caribe Sur", "Zona Sur", "Pacífico Norte"],
@@ -40,7 +40,7 @@ const mostPopularInCostaRica: SubCategoryType = {
   description: "",
 };
 
-const sportFishing: SubCategoryType = {
+const sportFishing: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003791/8._Pesca_deportiva_en_el_Paci%CC%81fico_Sur_PORTADA_kmkmeg.jpg",
   title: "Pesca deportive en el Pacífico Sur",
   places: ["Pacífico Sur"],
@@ -48,7 +48,7 @@ const sportFishing: SubCategoryType = {
   description: "La mexcla perfecta de aventura, pesca deportiva y conservación marina en los espectaculares escenarios de Isla del Caño y Manuel Antonio en Costa Rica",
 };
 
-const ecoExplor: SubCategoryType = {
+const ecoExplor: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/10._EcoExplora_Gira_de_aventura_PORTADA_hsx2kw.jpg",
   title: "Eco-Explora / Gira de Aventura",
   places: ["Zona Norte"],
@@ -56,7 +56,7 @@ const ecoExplor: SubCategoryType = {
   description: "Nueve días explorando la majestuosidad de Costa Rica, con actividades llenas de adrenalina, desde emocionantes descensos en rappel hasta desafiantes aventuras de rafting",
 };
 
-const sunAndSand: SubCategoryType = {
+const sunAndSand: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/2._Rutas_del_Sol_y_Arena_PORTADA_zt5fbm.jpg",
   title: "Rutas del Sol y Arena",
   places: ["Pacífico Norte"],
@@ -64,7 +64,7 @@ const sunAndSand: SubCategoryType = {
   description: "La costa del Pacífico revela sus mejores destinos en una travesí única, una experiencia que une aventura y descanso en un escenario paradisiaco.",
 };
 
-const manuelAntonio: SubCategoryType = {
+const manuelAntonio: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/5._Manuel_Antonio_y_Uvita_PORTADA_ylwdpx.jpg",
   title: "Manuel Antornio y Uvita",
   places: ["Pacífico Sur"],
@@ -72,7 +72,7 @@ const manuelAntonio: SubCategoryType = {
   description: "Playas de ensueńo, espectaculares avistamientos y coloridos arrecifes coralino en un paraíso tropical",
 };
 
-const turtlesAnWwhales: SubCategoryType = {
+const turtlesAnWwhales: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004885/9._Tortugas_y_ballenas_PORTADA_afkrf3.jpg",
   title: "Torugas y ballenas",
   places: ["Región Caribe", "Pacífico Sur"],
@@ -80,7 +80,7 @@ const turtlesAnWwhales: SubCategoryType = {
   description: "Un encuentro cercano con la biodiversidad, presenciando el desove de tortugas y el avistamiento de ballenas en un ecosistema vibrante",
 };
 
-const volcanoes: SubCategoryType = {
+const volcanoes: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/11._Volcanes_y_naturaleza_PORTADA_frtked.jpg",
   title: "Volcanes y Naturaleza",
   places: ["Zona Norte"],
@@ -88,7 +88,7 @@ const volcanoes: SubCategoryType = {
   description: "Las fascinantes vistas de Monteverde y la emoción sin límites de La Fortuna y el Volcán Arenal, se combinan en u viaje inolvidable.",
 };
 
-const southCaribean: SubCategoryType = {
+const southCaribean: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/12._Caribe_Sur_Costarricense_PORTADA_qujyvt.jpg",
   title: "Caribe Sur Costarricense",
   places: ["Caribe Sur"],
@@ -96,7 +96,7 @@ const southCaribean: SubCategoryType = {
   description: "Un viaje al Caribe Sur, donde la belleza trópical y la herencia afrocaribeñse encuentran en playas y comunidades locales.",
 };
 
-const tropicalTranquility: SubCategoryType = {
+const tropicalTranquility: TourType = {
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/13._Tranquilidad_Tropical_PORTADA_qseneu.jpg",
   title: "Tranquilida Tropical",
   places: ["Zona Norte"],
@@ -104,7 +104,7 @@ const tropicalTranquility: SubCategoryType = {
   description: "Una experiencia de paz y asombro en paisajes que van desde las alturas volcánicas hasta las costas idílicas",
 };
 
-const allSubCategories: Array<SubCategoryType> = [
+const allTours: Array<TourType> = [
   wildLife,
   followingQuetzal,
   crocodilesAndBirds,
@@ -121,7 +121,7 @@ const allSubCategories: Array<SubCategoryType> = [
 ];
 
 export {
-  allSubCategories,
+  allTours,
   wildLife,
   followingQuetzal,
   crocodilesAndBirds,

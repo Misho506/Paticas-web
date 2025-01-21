@@ -4,12 +4,12 @@ import { MdOutlineEmail } from "react-icons/md";
 import { Fragment, ReactNode } from 'react';
 
 import Carousel from "../../components/carousel/Carousel";
-import SubCategoriesCards from "../../components/subCategoryCard/SubCategoriesCards";
 import PostCarrousel from "../../components/postCarrousel/PostCarrousel";
 import BlogPost from "../../components/blogs/Blogs";
 import Reviews from "../../components/reviews/Reviews";
 import { useTour } from "../../context/TourContext";
-import sectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
+import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
+import ToursCards from "../../components/tourCard/ToursCard";
 import "./Main.css";
 
 const sectionOurTours = {
@@ -41,7 +41,7 @@ const sectionContact = {
 }
 
 const Main = () => {
-  const { subCategories } = useTour();
+  const { tours } = useTour();
 
   const circularContainerWithInfo = (icon: ReactNode, children: ReactNode) => (
     <div className="border-black circular-container bg-white rounded-full border-2 flex flex-col items-center justify-center shadow-sm">
@@ -57,11 +57,11 @@ const Main = () => {
   return (
     <section className="main-container">
       <Carousel />
-      {sectionWithTitle(sectionOurTours)}
-      <SubCategoriesCards subCategories={subCategories} />
-      {sectionWithTitle(sectionBlogs)}
+      <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
+      <ToursCards tours={tours} />
+      <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
       <PostCarrousel postList={[<BlogPost />]} />
-      {sectionWithTitle(sectionAboutUs)}
+      <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
       <section className="relative">
         <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
@@ -75,14 +75,14 @@ const Main = () => {
           </button>
         </article>
       </section>
-      {sectionWithTitle(sectionReviews)}
+      <SectionWithTitle title={sectionReviews.title} body={sectionReviews.body} />
       <Reviews />
       <button className="bg-yellow text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
         Dejar una reseña
         <IoIosArrowRoundForward className="mx-1 flex justify-self-center text-2xl" />
       </button>
       <section className="bg-neutral-300 pt-7 mt-4">
-        {sectionWithTitle(sectionContact)}
+        <SectionWithTitle title={sectionContact.title} body={sectionContact.body} bgColor={sectionContact.bgColor} />
         <div className="flex items-center justify-center gap-8 px-6 pb-6 max-sm:flex-col">
           {circularContainerWithInfo(
             <FaWhatsapp className="text-black text-xl" />,
