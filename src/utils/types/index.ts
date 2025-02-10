@@ -25,10 +25,10 @@ type TourType = {
   description: string;
   about: string;
   photos: Array<string>;
-  activities: Array<string>;
   includes: Array<string>;
   itinerary: Array<ItineraryType>;
   prices: Array<PriceType>;
+  childsPrice: number;
 }
 
 type ReviewType = {
@@ -61,6 +61,11 @@ type CategoryType = {
   tours: Array<TourType>
 }
 
+type StoredDataType = {
+  selectedCategory: CategoryType;
+  selectedTour: TourType;
+}
+
 export type {
   BannerType,
   TourType,
@@ -68,5 +73,6 @@ export type {
   BlogsType,
   PostCarrouselProps,
   TourCardProps,
-  CategoryType
+  CategoryType,
+  StoredDataType
 }

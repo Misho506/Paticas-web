@@ -20,6 +20,8 @@ module.exports = {
         yellow: "#f0b500",
         orange: "#ee9900",
         black: "#161616",
+        ligthGray: "#E7E7E3",
+        gray: "#D7D7D7",
       },
     },
   },

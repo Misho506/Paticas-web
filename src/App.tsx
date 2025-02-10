@@ -4,18 +4,20 @@ import { Routes, Route } from "react-router";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { TourProvider } from "./context/TourContext";
-import Tour from "./layout/Category/Category";
-import SubCategory from "./layout/Tour/Tour";
+import Category from "./layout/Category/Category";
+import Tour from "./layout/Tour/Tour";
+import ScrollTop from "./components/scrollTop/ScrollTop";
 
 function App() {
   return (
     <TourProvider>
+      <ScrollTop />
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/our-tours" element={<OurTours />} />
-        <Route path="/tour/:title" element={<Tour />} />
-        <Route path="/tour/detailed" element={<SubCategory />} />
+        <Route path="/categories" element={<OurTours />} />
+        <Route path="/category/:title" element={<Category />} />
+        <Route path="/tour/detailed" element={<Tour />} />
       </Routes>
       <Footer />
     </TourProvider>
