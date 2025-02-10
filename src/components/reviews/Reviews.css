@@ -1,4 +1,4 @@
-p {
+.review-details {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
