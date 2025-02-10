@@ -12,7 +12,7 @@ const CategoryCard = (category: CategoryType) => {
 
   const goToSelectedTour = () => {
     setSelectedCategory(category);
-    navigate(`/tour/:${title}`);
+    navigate(`/category/:${title}`);
   };
 
   return (

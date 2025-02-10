@@ -26,21 +26,21 @@ const CarouselBanners: Array<BannerType> = [
     description: 'Playas paradisiacas y avistamiento de ballenas',
   },
   {
-    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-5_rmmocj.jpg",
+    image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042454/16._Playa_montan%CC%83a_y_sol_vl6yqm.jpg",
     title: 'Expedición Fotográfica: Vida Silvestre en Corcovado',
     description: 'Capture la belleza natural de nuestro pais',
   },
 ];
 
 const Carousel = () => (
-  <CCarousel indicators transition="crossfade" interval={false}>
+  <CCarousel indicators transition="crossfade" interval={500} dark>
     {CarouselBanners.map((banner, index) => (
       <CCarouselItem key={index}>
         <section style={{ position: 'relative', textAlign: 'left', color: '#fff' }}>
           <img
             src={banner.image}
             alt={banner.title}
-            className={`banner brightness-75 ${index === 2 && 'rotate-180'} ${index === 4 && 'scale-x-[-1]'} w-100`}
+            className={`banner brightness-75 ${index === 2 && 'rotate-180'} w-100`}
           />
           <section
             style={{
@@ -57,7 +57,7 @@ const Carousel = () => (
             <p className='italic max-w-lg text-xl my-4'>
               {banner.description}
             </p>
-            <NavLink to="/our-tours" className='explore-button'>
+            <NavLink to="/categories" className='explore-button'>
               Explorar más →
             </NavLink>
           </section>
