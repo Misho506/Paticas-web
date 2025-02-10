@@ -4,9 +4,18 @@ import { FaRegCalendarCheck } from "react-icons/fa";
 import { TourCardProps } from "../../utils/types";
 
 import "./TourCard.css";
+import { useNavigate } from "react-router";
+import { useTour } from "../../context/TourContext";
 
 const TourCard = ({ tour }: { tour: TourCardProps }) => {
   const { img, title, places, daysAndNights, description, showDescription } = tour;
+  const { setSelectedTour } = useTour();
+  const navigate = useNavigate();
+
+  const goToDetailedTour = () => {
+    setSelectedTour(tour);
+    navigate("/tour/detailed");
+  }
 
   return (
     <section className="flex-1 sm=basis-1/2 rounded-lg border-1 border-black card-width m-3">
@@ -16,7 +25,7 @@ const TourCard = ({ tour }: { tour: TourCardProps }) => {
           <h3 className="text-lg text-gray-800 whitespace-pre-wrap">
             {title}
           </h3>
-          <button onClick={() => alert("Go to tour view, don't get develope")} className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
+          <button onClick={goToDetailedTour} className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
             <IoIosArrowRoundForward />
           </button>
         </article>
