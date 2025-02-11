@@ -298,7 +298,7 @@ El parque posee un manglar cubre 0.18 km2 y se encuentra rodeado tanto de bosque
   photos: [
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649863/16-2_qczu9g.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649828/3_qjtobz.jpg",
-    "https://res.clou dinary.com/drbdst7hg/image/upload/v1738649826/4_dxrm2g.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649826/4_dxrm2g.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649826/9_syrmei.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649825/6_velt7r.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649821/2_tatxum.jpg",
@@ -407,7 +407,7 @@ const mostPopularInCostaRica: TourType = {
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500378/13_gyiyqm.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500377/1_bkuzpo.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500376/7_ldrdjx.jpg",
-    "",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500384/6_kdn1xj.jpg",
   ],
   includes: [
     "Traslado desde y hacia el Aeropuerto Internacional Juan Santamaría.",

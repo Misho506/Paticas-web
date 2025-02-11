@@ -8,6 +8,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { useState } from "react";
 import ToursCards from "../../components/tourCard/ToursCard";
 import TourBookingCard from "../../components/tourBookingCard/TourBookingCard";
+import TourImages from "../../components/tourImages/TourImages";
 
 const Tour = () => {
   const { selectedTour, selectedCategory, tours } = useTour();
@@ -54,7 +55,9 @@ const Tour = () => {
         </ul>,
         "Incluye"
       )}
-      <hr className="w-4/5 mx-auto mb-6" />
+      <br />
+      <TourImages />
+      <br />
       {section(
         selectedTour.itinerary.map((activity, index) => (
           <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>

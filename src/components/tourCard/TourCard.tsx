@@ -14,6 +14,7 @@ const TourCard = ({ tour }: { tour: TourCardProps }) => {
 
   const goToDetailedTour = () => {
     setSelectedTour(tour);
+    window.scrollTo(0, 0);
     navigate("/tour/detailed");
   }
 
