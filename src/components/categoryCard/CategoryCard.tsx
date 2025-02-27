@@ -16,7 +16,7 @@ const CategoryCard = (category: CategoryType) => {
   };
 
   return (
-    <section className="relative overflow-hidden rounded-2xl h-48 mb-4 group cursor-pointer">
+    <section className="relative overflow-hidden rounded-2xl h-72 mb-4 group cursor-pointer">
       <img
         src={image}
         alt={title}

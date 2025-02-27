@@ -10,6 +10,7 @@ const wildLife: TourType = {
   about: `Descubra el Parque Nacional Corcovado, uno de los lugares con mayor biodiversidad del planeta, ideal para los amantes de la fotografía de vida silvestre. Ubicado en la Península de Osa, este paraíso natural representa el 2.5% de la flora y fauna mundial, con selvas tropicales, playas vírgenes y cascadas impresionantes.
 Capture imágenes únicas de perezosos, dantas, tucanes y felinos como pumas y ocelotes en su hábitat natural.Reconocido por National Geographic como “el lugar más intenso del planeta en términos de biodiversidad,” Corcovado ofrece actividades como recorridos en lancha, avistamiento de ballenas y delfines, y caminatas nocturnas.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004786/3._Vida_Silvestre_en_Corcovado_y_Osa-2_ndct01.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607072/9-2_vamund.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606930/11_mmvvpj.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606926/8_e5eyk9.jpg",
@@ -116,6 +117,7 @@ Nuestra siguiente parada será en Boca Tapada, Pital, San Carlos, donde se encue
 Para complementar esta experiencia, le ofrecemos un emocionante paseo en bote, donde podrá avistar garzas, lagartos, monos, iguanas y tangaras, en un entorno natural y cautivador. ¡Prepárese para una aventura fotográfica inolvidable llena de biodiversidad y paisajes espectaculares!
 `,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/1_rcnd0a.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607243/10-2_rrcbpa.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607242/14-2_uavz72.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472309/15_sdfc7t.jpg  ",
@@ -127,7 +129,6 @@ Para complementar esta experiencia, le ofrecemos un emocionante paseo en bote, d
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472306/8_tr4kvj.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/13_qag8b9.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/3_hoge27.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/1_rcnd0a.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/12_xgvcox.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/5_fvc8px.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/2_z5ihec.jpg",
@@ -203,6 +204,7 @@ Exploraremos los senderos de Rancho Naturalista en busca de aves especiales, com
 El Río Tárcoles, también llamado Grande de Tárcoles o Río Grande de Tárcoles nace al sur de la cordillera volcánica Central y desemboca en el océano Pacífico, en el Golfo de Nicoya. El río recorre un total de 111 kilómetros de longitud y su drenaje natural (superficie de su cuenca) abarca un área total de 2.121 km2. 
 Su biodiversidad es inmensa: cocodrilos americanos, iguanas, capuchinos aulladores, monos cara blanca y en sus marismas, ubicadas en la desembocadura del río, gran cantidad de aves acuáticas. Entre las garzas y garcetas podemos divisar la garza pico cuchara y la garza tigre de garganta desnuda. La diversidad aviar también es portentosa: aves exóticas como la cotinga de pico amarillo, el jabirú, mot-mot o pájaro bobo, el rascón de cuello rufo, la garza agamí o el ganso del Orinoco -recientemente descubierto-, pueden ser apreciadas en este fantástico lugar. Se estima que la cantidad de aves puede superar las 320 especies. `,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472390/1_tuejfz.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472398/7_grnvse.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472398/10_cs6cue.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472398/14_mhwdjr.jpg",
@@ -220,7 +222,7 @@ Su biodiversidad es inmensa: cocodrilos americanos, iguanas, capuchinos aullador
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472391/4_djrqcv.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472391/17_pier0i.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472390/8_j9qlth.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472390/1_tuejfz.jpg",
+
   ],
   includes: [
     "Traslado desde y hacia el Aeropuerto Internacional Juan Santamaría.",
@@ -296,6 +298,7 @@ El Parque Nacional Manuel Antonio y sus playas son apreciadas internacionalmente
 Montañas colindantes con playas de arenas blancas, ensenadas, bosque húmedo tropical y una multiplicidad de especies hacen del Parque Nacional Manuel Antonio un lugar espectacular. Su biodiversidad marítima -con sus fantásticos arrecifes coralinos- y su flora y fauna terrestre son sorprendentes. Hermosos senderos nos guiarán a través del abundante follaje hacia miradores y lugares encantadores. Playa Manuel Antonio, Punta Catedral, Playa Espadilla, Puerto Escondido, Playa Gemelas son algunas de las experiencias a visitar.
 El parque posee un manglar cubre 0.18 km2 y se encuentra rodeado tanto de bosque primario como secundario. Su fauna es envidiable: monos tití, monos capuchinos, mapaches, venados cola blanca, pizotes, guatuzas, congos y perezosos son algunas de las 109 especies de mamíferos que habitan el parque, compartido con más de 350 especies de aves. `,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649816/13_xjwmcg.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649863/16-2_qczu9g.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649828/3_qjtobz.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649826/4_dxrm2g.jpg",
@@ -305,7 +308,6 @@ El parque posee un manglar cubre 0.18 km2 y se encuentra rodeado tanto de bosque
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649820/1_g0q9zl.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649818/10_j9vsif.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649817/5_nawcej.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649816/13_xjwmcg.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649815/7_ldrlxq.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649813/12_qem2mz.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649811/15_wcosip.jpg  ",
@@ -390,9 +392,9 @@ const mostPopularInCostaRica: TourType = {
   description: "La combinación perfecta de adrenalina y serenidad, rodeada de una riqueza natural única y vistas impresionantes. Enfatizar que son los mejores destinos de CR. Los más populares.",
   about: `Esta gira es para los aventureros de corazón, quienes encontrarán su dosis perfecta de adrenalina en cada rincón de Costa Rica. Los invitamos a emprender una experiencia única y emocionante en nuestra gira de aventura y diversión. Durante estos nueve días y ocho noches, experimentarán emocionantes actividades como rafting en el Río Pacuare, rappel en imponentes cataratas, recorridos en ATV por los paisajes de La Fortuna, wakeboarding y stand-up paddle en el lago Arenal. Además, explorarán la paradisíaca Isla Tortuga y descubrirán la cultura local en el pintoresco pueblo de Sarchí. En EcoExplora, no solo ofrecemos un tour, sino una inmersión completa en la belleza salvaje y las emociones auténticas que solo la naturaleza puede brindar.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738773688/16-2_slp5dy.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738773692/3_cnsdae.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738773690/9-2_dddf6q.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738773688/16-2_slp5dy.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500389/10_ficn4h.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500388/8_qzovn8.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500387/5_tlf4ge.jpg",
@@ -487,16 +489,16 @@ const sportFishing: TourType = {
   description: "La mezcla perfecta de aventura, pesca deportiva y conservación marina en los espectaculares escenarios de Isla del Caño y Manuel Antonio en Costa Rica.",
   about: "Este tour de pesca deportiva en Costa Rica le invita a explorar la riqueza natural de Isla del Caño y el Parque Nacional Manuel Antonio, dos destinos icónicos para los amantes de la pesca y la conservación marina. En Isla del Caño, podrá disfrutar de la pesca deportiva en un entorno tropical, con oportunidades de avistamiento de ballenas, delfines y una gran diversidad de flora y fauna. Manuel Antonio, reconocido internacionalmente por sus playas de arena blanca y su biodiversidad, ofrece senderos que recorren manglares, bosques tropicales y miradores, donde se pueden observar monos, perezosos, y una gran variedad de aves. Esta experiencia combina la emoción de la pesca con el compromiso de conservación, destacando la belleza y la biodiversidad única de Costa Rica.",
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472462/11_tzmjyr.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472466/8_lzcn1a.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649047/17_rnjbiy.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472467/9_qfn4sp.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472466/8_lzcn1a.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472466/2_l9xljs.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472465/7_eekbne.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472464/18_c7kkkk.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472464/14_zifjep.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472463/16_kuzqse.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472463/13_j6igd4.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472462/11_tzmjyr.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472462/15_b5xjtk.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472460/12_fx6lxs.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472460/10_b3gxmb.jpg",
@@ -581,13 +583,13 @@ const ecoExplor: TourType = {
   description: "Nueve días explorando la majestuosidad de Costa Rica, con actividades llenas de adrenalina, desde emocionantes descensos en rappel hasta desafiantes aventuras de rafting.",
   about: `Esta gira es para los aventureros de corazón, quienes encontrarán su dosis perfecta de adrenalina en cada rincón de Costa Rica. Los invitamos a emprender una experiencia única y emocionante en nuestra gira de aventura y diversión. Durante estos nueve días y ocho noches, experimentarán emocionantes actividades como rafting en el Río Pacuare, rappel en imponentes cataratas, recorridos en ATV por los paisajes de La Fortuna, wakeboarding y stand-up paddle en el lago Arenal. Además, explorarán la paradisíaca Isla Tortuga y descubrirán la cultura local en el pintoresco pueblo de Sarchí. En EcoExplora, no solo ofrecemos un tour, sino una inmersión completa en la belleza salvaje y las emociones auténticas que solo la naturaleza puede brindar.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649590/1_v3xdoq.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649599/14_ehuezy.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649597/4_xrxlha.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649597/7_dzurnr.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649594/9_ft6my0.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649593/8_t5jiye.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649593/2_wjqejx.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649590/1_v3xdoq.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649590/10_mdk798.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649589/13_qj51ea.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649586/16_eez67l.jpg",
@@ -679,6 +681,7 @@ const sunAndSand: TourType = {
   about: `Bosques tropicales, humedales, ricas y extensas zonas costeras, ecosistemas de sobresaliente importancia. El pacífico norte de Costa Rica ofrece diversos y numerosos escenarios: deportes acuáticos, buceo, pesca, playas, volcanes, hoteles de lujo y entretenimiento. Guanacaste es una de las siete provincias de Costa Rica. Anexada como el Partido de Nicoya en 1824, posee un territorio de 10.140 km2 y una población aproximada de 354.154 habitantes. Con 100 km de costa marítima cuenta con las playas más visitadas, soleadas y populares del país. Tamarindo y Conchal son dos de los destinos más visitados tanto por nacionales como extranjeros. Y no es una casualidad; la experiencia es formidable. 
 ¡Una semana llena de recuerdos inolvidables en Costa Rica y nuestro siempre amigable Pura Vida nos acompañará a lo largo de todo nuestro viaje!`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499821/1_acchy9.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738648982/3-2_z4trpf.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499846/15_mb4hcc.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499844/5_b0tknt.jpg",
@@ -686,7 +689,6 @@ const sunAndSand: TourType = {
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499837/9_nwicpr.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499836/8_qlzq0p.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499835/11_nga4qs.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499821/1_acchy9.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499820/18_miz13v.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499804/16_me7rxw.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499786/17_rxayv7.jpg",
@@ -773,9 +775,9 @@ Bahía Ballena, en el quinto distrito del cantón de Osa, Puntarenas, se encuent
 
 La Isla del Caño, una pequeña reserva biológica de 3.20 km² en la Península de Osa, destaca por su biodiversidad marina, incluyendo tortugas, manta rayas, delfines y ballenas, y sus bien conservados arrecifes coralinos. Uvita, también en el Pacífico sur, es conocida por la «cola de la ballena» y las playas del Parque Nacional Marino Ballena, ideales para el avistamiento de ballenas jorobadas y su variada fauna exótica.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499899/5_r9gfid.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499901/1_ntnqvt.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499900/6_qhsouj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499899/5_r9gfid.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499883/10_wrxq5m.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499882/14_ctnd8j.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499881/13_qmrjng.jpg",
@@ -865,6 +867,7 @@ También se pueden ver ballenas de Bryde y calderones. Los calderones o ballenas
 Por su parte, los delfines se observan durante todo el año con una probabilidad del 95%. Los más comunes en la costa del Pacífico son los delfines mulares y moteados. Aunque las posibilidades de observar cetáceos son altas, no están garantizadas diariamente debido al comportamiento natural de los animales.
 `,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774145/1-2_g8am24.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774169/6_nozgcg.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774167/7_jylkmc.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774165/4_alkoyn.jpg",
@@ -877,7 +880,6 @@ Por su parte, los delfines se observan durante todo el año con una probabilidad
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774151/18_hycdal.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774149/5_jijb0p.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774148/2-2_adxjre.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774145/1-2_g8am24.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774144/8-2_b0sdhx.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774142/16_rogyto.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774140/15_nzggrs.jpg",
@@ -965,16 +967,16 @@ const volcanoes: TourType = {
 Santa Elena, cabecera de la ciudad, es el centro administrativo y de operaciones del pueblo.Monteverde cuenta con un área de 53.05 km2 y su altitud promedio ronda los 1330 m.s.n.m.Su población media los 4.900 habitantes.La «División Continental» es un fenómeno geográfico de especial atención.Monteverde es una convergencia oceánica; en la «División Continental» las aguas destinadas a desembocar en el mar Caribe confluyen con las aguas que se dirigen al Océano Pacífico creando un extraordinario y sorprendente acontecimiento posible de ser admirado desde el mirador de la Reserva.Este portentoso prodigio natural nos permite contemplar el despliegue que el océano Pacífico exhibe ante nuestros sentidos; un oasis de color.Embelesados de naturaleza, el clima de Monteverde es tan cambiante como la Luna, pero su hermosura delata una agradable grandeza que nos dejará sin palabras. 
 Nuestro rastro sigue a la aventura por Costa Rica; La Fortuna de San Carlos, en la provincia de Alajuela es nuestro próximo destino.Fundada en 1952, La Fortuna tiene una superficie de 229.7 km2, una población aproximada de 19.500 habitantes y una altitud media de 253 m.s.n.m.La Fortuna es internacionalmente reconocida por ofrecer una amplia gama de aventuras turísticas que descollan entre la emoción y la adrenalina; rafting, pesca deportiva, aguas termales, tirolesa, observación de aves, horseback riding, senderismo y teleféricos son algunas de las atracciones que invitan al descanso y la variedad.Una de sus principales atracciones es el grandioso Volcán Arenal.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/4_dzj4ab.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/15_g1ceul.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/14_wztdkp.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/8_rqeswg.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/6_qgswcq.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/18_reci3g.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/18_reci3g.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/7_ejx6za.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606427/1_jynku2.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/2_zrsbnd.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/16_bikeyk.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/4_dzj4ab.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/17_cczy49.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/5_rbxwe3.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606425/13_bllhu0.jpg",
@@ -1067,13 +1069,13 @@ const southCaribean: TourType = {
 Desde explorar jardines medicinales o descubrir el palpitante proceso tradicional de hacer chocolate, el Caribe Sur costarricense nunca nos defraudará. Las playas de Manzanillo, el Parque Nacional Cahuita o el pequeño poblado de Puerto Viejo son sitios imperdibles en esta travesía de colores, sensaciones y texturas. La autenticidad de su gente inicia con su cálida forma de recibirnos, el criol o criollo, una lengua exclusivamente hablada en la provincia de Limón y su costa caribeña. El criollo limonense, también llamado Limon English, Limon tak, creole o mecateliu, surge de la interacción entre el inglés criollo jamaiquino y la lengua española. 
 La vegetación que rodea a estos lugares de ensueño es exuberante y nos invita a adentrarnos en una emocionante aventura en bote o bien, en los tranquilos y serpenteantes canales de Tortuguero donde la flora y fauna silvestre nos dejará atónitos con su explosión de diversidad a cada mirada. Este inolvidable viaje por el Caribe Sur costarricense nos ofrece día a día una experiencia única que de seguro nos conectará con la autenticidad y la belleza de esta zona mágica y mística del país.`,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734507/9_tiakz2.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734505/2_xucqx9.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738773507/2-2_wozj6b.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734514/14_wxuwiz.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734512/7_evza4n.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734510/11_snuy7y.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734508/6_hnazj4.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734507/9_tiakz2.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734505/2_xucqx9.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734504/3_o0hr4i.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734502/1_pvsx1g.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734500/4_ecwec7.jpg",
@@ -1171,6 +1173,7 @@ A lo largo de ocho días, el placer de explorar paisajes impresionantes, degusta
 ¡No más estrés! ¡Serenidad en un paraíso tropical!
 `,
   photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/13._Tranquilidad_Tropical_PORTADA_qseneu.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500374/10_co5hpy.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500373/3_fvixgq.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1737500372/16_iiuxhv.jpg",

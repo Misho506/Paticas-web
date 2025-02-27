@@ -4,7 +4,6 @@
     object-fit: contain;
     object-position: center;
     height: 500px;
-    background-color: black;
   }
 
   ul {
@@ -35,6 +34,7 @@
     width: 35px;
     margin: auto;
     border-radius: 25px;
+    background-color: black;
   }
 
   .carousel-control-next:hover,

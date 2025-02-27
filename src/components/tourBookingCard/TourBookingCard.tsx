@@ -6,16 +6,32 @@ import 'react-datepicker/dist/react-datepicker.css'
 
 import "./TourBookingCard.css";
 import { useTour } from "../../context/TourContext";
+import { useNavigate } from "react-router";
 
 const TourBookingCard = () => {
+  const navigate = useNavigate();
   const [date, setDate] = useState<Date>(new Date());
-  const [persons, setPersons] = useState(2);
-  const { selectedTour, selectedCategory } = useTour();
+  const [people, setPeople] = useState(2);
+  const { selectedTour, selectedCategory, setBooking } = useTour();
   const [pricePerPerson, setPricePerPerson] = useState<number>(selectedTour.prices[0].price);
 
   useEffect(() => {
-    setPricePerPerson(selectedTour.prices.find(({ numberOfPeople }) => persons <= (numberOfPeople + 1))?.price || 0);
-  }, [persons, selectedTour.prices]);
+    setPricePerPerson(selectedTour.prices.find(({ numberOfPeople }) => people <= (numberOfPeople + 1))?.price || 0);
+  }, [people, selectedTour.prices]);
+
+  const goToBooking = () => {
+    setBooking({
+      people: [...Array(people)].map(() => ({ name: "", lastName: "", passportID: "" })),
+      date,
+      price: pricePerPerson * people
+    });
+    navigate("/tour/booking");
+  }
+
+  const addSymbolsToPrice = (num: string): string => {
+    let updatedPrice: string = num.slice(0, num.length - 3) + "," + num.slice(num.length - 3);;
+    return updatedPrice;
+  }
 
   return (
     <div className="tour-booking-card-container">
@@ -34,11 +50,11 @@ const TourBookingCard = () => {
           <input
             type="number"
             className="rounded-full pl-9 pr-4 py-2 border border-black"
-            placeholder="Number of persons"
+            placeholder="Number of people"
             min={2}
             max={6}
-            value={persons}
-            onChange={(e) => setPersons(parseInt(e.target.value))}
+            value={people}
+            onChange={(e) => setPeople(parseInt(e.target.value))}
           />
         </article>
       </section>
@@ -49,12 +65,12 @@ const TourBookingCard = () => {
         </h4>
 
         <h4 className="text-lg italic">
-          {persons} adultos X USD ${pricePerPerson}
+          {people} adultos X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
         </h4>
 
         <div className="space-y-1">
           <h4 className="text-lg text-gray-600">
-            Total ${pricePerPerson * persons}.00
+            Total ${addSymbolsToPrice(JSON.stringify(pricePerPerson * people))}.00
           </h4>
           <span className="text-xs">
             {selectedTour.childsPrice} por niño de 3 - 10 años, solamente se permiten apartir con minimo de 2 adultos.
@@ -66,7 +82,7 @@ const TourBookingCard = () => {
       </div>
 
       {/* Book Now Button */}
-      <button className="booking-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black">
+      <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black">
         Reservar ahora
       </button>
     </div>

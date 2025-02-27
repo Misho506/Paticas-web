@@ -64,6 +64,32 @@ type CategoryType = {
 type StoredDataType = {
   selectedCategory: CategoryType;
   selectedTour: TourType;
+  booking: BookingTourType;
+}
+
+type StepType = {
+  number: number;
+  label: string;
+  active: boolean;
+}
+
+type Person = {
+  name: string;
+  lastName: string;
+  passportID: string;
+}
+
+type BookingTourType = {
+  people: Array<Person>;
+  date: Date;
+  price: number;
+}
+
+
+type FormError = {
+  name: string;
+  error: string;
+  id: string;
 }
 
 export type {
@@ -74,5 +100,9 @@ export type {
   PostCarrouselProps,
   TourCardProps,
   CategoryType,
-  StoredDataType
+  StoredDataType,
+  StepType,
+  BookingTourType,
+  Person,
+  FormError
 }
