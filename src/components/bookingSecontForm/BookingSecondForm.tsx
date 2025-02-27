@@ -95,7 +95,7 @@ const BookingSecondForm = ({ setStep, actions }: BookingSecondFormProps) => {
       {
         formData.map((element, index) => (
           <section key={index}>
-            <h4 className="italic">Viajero {index === 0 ? "Principal" : "#" + index + 1}</h4>
+            <h4 className="italic">Viajero {index === 0 ? "Principal" : "#" + (index + 1)}</h4>
             {inputs.map((inputInfo) =>
               <div key={inputInfo.id + -1}>
                 {CustomInputWithErrorMessage(
