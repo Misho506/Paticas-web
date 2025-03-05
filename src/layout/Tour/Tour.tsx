@@ -17,7 +17,7 @@ const Tour = () => {
 
   const section = (children: JSX.Element | JSX.Element[], title: string) => {
     return (
-      <section className="flex flex-col items-center justify-self-center max-width-650">
+      <section className="flex flex-col items-center justify-self-center max-w-4xl mx-3">
         <h5 className="text-3xl font-bold">{title}</h5>
         {children}
       </section>

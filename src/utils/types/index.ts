@@ -92,6 +92,26 @@ type FormError = {
   id: string;
 }
 
+type Founder = {
+  name: string;
+  title: string;
+  bio: string;
+  imageSrc: string;
+}
+
+type CompanyValues = {
+  title: string;
+  description: string;
+  icon: ReactNode;
+  img: string;
+}
+
+type Stat = {
+  icon: string;
+  number: string;
+  description: string;
+}
+
 export type {
   BannerType,
   TourType,
@@ -104,5 +124,8 @@ export type {
   StepType,
   BookingTourType,
   Person,
-  FormError
+  FormError,
+  Founder,
+  CompanyValues,
+  Stat
 }
