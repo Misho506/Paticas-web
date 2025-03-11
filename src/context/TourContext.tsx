@@ -42,9 +42,15 @@ const tourInitialValue = {
 }
 
 const bookingInitialValue = {
-  people: [],
+  passengers: [],
   date: new Date(),
   price: 0,
+  user: {
+    userName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+  }
 }
 
 export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

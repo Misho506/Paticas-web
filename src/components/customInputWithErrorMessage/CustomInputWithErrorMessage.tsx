@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
-const CustomInputWithErrorMessage = (inputTitle: string, input: ReactNode, required?: boolean, error?: ReactNode) => (
-  <article>
+const CustomInputWithErrorMessage = (inputTitle: string, input: ReactNode, required?: boolean, error?: ReactNode, key?: any) => (
+  <article key={key}>
     <label
       htmlFor="nombre"
       className="block text-sm font-medium text-gray-700 mb-1"
