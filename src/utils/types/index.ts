@@ -4,15 +4,31 @@ type BannerType = {
   image: string;
   title: string;
   description: string;
-  goToLink: string;
 }
-type SubCategory = {
+
+type PriceType = {
+  price: number;
+  numberOfPeople: number;
+}
+
+type ItineraryType = {
+  title: string;
+  description: string;
+}
+
+type TourType = {
   img: string;
   title: string;
+  subTitle: string;
   places: Array<string>;
-  link: string;
-  itinerary: string;
+  daysAndNights: string;
   description: string;
+  about: string;
+  photos: Array<string>;
+  includes: Array<string>;
+  itinerary: Array<ItineraryType>;
+  prices: Array<PriceType>;
+  childsPrice: number;
 }
 
 type ReviewType = {
@@ -34,22 +50,29 @@ type PostCarrouselProps = {
   postList: Array<ReactNode>;
 }
 
-type SubCategoryCardProps = {
-  img: string;
-  title: string;
-  places: Array<string>;
-  link: string;
-  itinerary: string;
-  description: string;
-  showExtraInfo?: boolean;
+interface TourCardProps extends TourType {
+  showDescription?: boolean;
 }
 
+type CategoryType = {
+  title: string;
+  image: string;
+  description: string;
+  tours: Array<TourType>
+}
+
+type StoredDataType = {
+  selectedCategory: CategoryType;
+  selectedTour: TourType;
+}
 
 export type {
   BannerType,
-  SubCategory,
+  TourType,
   ReviewType,
   BlogsType,
   PostCarrouselProps,
-  SubCategoryCardProps
+  TourCardProps,
+  CategoryType,
+  StoredDataType
 }

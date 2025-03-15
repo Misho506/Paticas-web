@@ -1,4 +1,4 @@
-p {
+.review-details {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -8,4 +8,8 @@ p {
 
 button:hover {
   background-color: theme('colors.yellow');
+}
+
+.yellow-star {
+  color: theme("colors.yellow");
 }

@@ -25,7 +25,7 @@ const Reviews = () => {
                       <IoIosStar key={i} className="text-yellow-400" />
                     ))}
                   </div>
-                  <p>{review.details}</p>
+                  <p className="review-details">{review.details}</p>
                 </article>
                 <FcGoogle className="h-11 w-11" />
               </article>
