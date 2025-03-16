@@ -8,11 +8,11 @@ import { useNavigate } from "react-router";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <header className="flex h-28 flex-row items-center justify-between header-container">
+    <header className="flex h-20 flex-row items-center justify-between header-container">
       <section className="flex flex-row items-center" onClick={() => navigate('/')}>
         <img alt="icon background green" src={IconWithName} className="h-16 pl-4" />
       </section>
-      <section className="pr-4 text-white mb-3 flex">
+      <section className="pr-4 text-white mb-1 flex">
         <MdOutlineShoppingCart style={{ fontSize: 40 }} className="p-1" />
         <IoIosMenu style={{ fontSize: 40 }} className="p-1 menu-icon" />
       </section>

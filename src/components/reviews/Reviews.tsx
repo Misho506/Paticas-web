@@ -20,9 +20,9 @@ const Reviews = () => {
                 <article className="w-3/4">
                   <h4 className="m-0">{review.userName}</h4>
                   <label className="italic pb-2">a year ago</label>
-                  <div className="flex">
+                  <div className="flex yellow-star">
                     {[...Array(5)].map((_, i) => (
-                      <IoIosStar key={i} className="text-yellow-400" />
+                      <IoIosStar key={i} />
                     ))}
                   </div>
                   <p className="review-details">{review.details}</p>

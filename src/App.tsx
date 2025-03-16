@@ -7,6 +7,7 @@ import { TourProvider } from "./context/TourContext";
 import Category from "./layout/Category/Category";
 import Tour from "./layout/Tour/Tour";
 import ScrollTop from "./components/scrollTop/ScrollTop";
+import BookingTour from "./layout/Booking/BookingTour";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/categories" element={<OurTours />} />
         <Route path="/category/:title" element={<Category />} />
         <Route path="/tour/detailed" element={<Tour />} />
+        <Route path="/tour/booking" element={<BookingTour />} />
       </Routes>
       <Footer />
     </TourProvider>

@@ -22,7 +22,7 @@ const TourImages = () => {
         onClick={() => setShowsAll(!showsAll)}
         className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
-        {showsAll ? "Ocultar todos" : "Descrubrir más"}
+        {showsAll ? "Ver menos" : "Descrubrir más"}
       </button>
       {selectedImage && (
         <div

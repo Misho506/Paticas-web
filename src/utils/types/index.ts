@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ChangeEvent, ReactNode } from "react";
 
 type BannerType = {
   image: string;
@@ -64,6 +64,54 @@ type CategoryType = {
 type StoredDataType = {
   selectedCategory: CategoryType;
   selectedTour: TourType;
+  booking: BookingTourType;
+}
+
+type StepType = {
+  number: number;
+  label: string;
+}
+
+type BookingTourType = {
+  passengers: Array<PassengerInfo>;
+  date: Date;
+  price: number;
+  user: UserInfo;
+}
+
+type FormFieldsType = {
+  name: string;
+  type: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  id: string;
+  placeholder: string;
+}
+
+type FormError = {
+  id: string;
+  error: string;
+}
+
+type UserInfo = {
+  userName: string;
+  lastName: string;
+  email?: string;
+  phoneNumber?: string;
+};
+
+interface PassengerInfo extends UserInfo {
+  passportID: string;
+}
+
+type FormField = {
+  name: keyof UserInfo;
+  type: string;
+  title: string;
+};
+
+type BookingFormProps = {
+  setStep(step: (prev: number) => number): void;
+  actions: ReactNode;
 }
 
 export type {
@@ -74,5 +122,13 @@ export type {
   PostCarrouselProps,
   TourCardProps,
   CategoryType,
-  StoredDataType
+  StoredDataType,
+  StepType,
+  BookingTourType,
+  FormFieldsType,
+  FormError,
+  UserInfo,
+  FormField,
+  BookingFormProps,
+  PassengerInfo
 }

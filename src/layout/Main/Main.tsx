@@ -100,11 +100,11 @@ const Main = () => {
             <>
               <h5 className="font-light text-md">Whatsapp</h5>
               <a
-                href="https://api.whatsapp.com/send?phone=+50686918432&text=I want to know more about this tour: ---> 'Please add the name of the tour that want'"
+                href="https://api.whatsapp.com/send?phone=+50687758884&text=I want to know more about this tour: ---> 'Please add the name of the tour that want'"
 
                 className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
               >
-                +506 8691 8432
+                +506 8775 8884
               </a>
             </>
           )}
