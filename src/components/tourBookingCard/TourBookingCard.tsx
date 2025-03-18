@@ -24,6 +24,7 @@ const TourBookingCard = () => {
       passengers: [...Array(people)].map(() => ({ userName: "", lastName: "", passportID: "" })),
       date,
       price: pricePerPerson * people,
+      pricePerPerson: pricePerPerson,
       user: {
         userName: "",
         lastName: "",

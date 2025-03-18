@@ -3,7 +3,7 @@ import { StepType } from '../../utils/types';
 import { useNavigate } from 'react-router';
 
 import "./BookingTour.css";
-import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking/';
+import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/createBooking';
 
 const steps: Array<StepType> = [
   { number: 1, label: 'Contacto' },
@@ -13,7 +13,7 @@ const steps: Array<StepType> = [
 
 const BookingTour = () => {
   const navigate = useNavigate();
-  const [currentStep, setCurrentStep] = useState<number>(3);
+  const [currentStep, setCurrentStep] = useState<number>(1);
 
   const actionButtons =
     <article className='flex justify-between'>

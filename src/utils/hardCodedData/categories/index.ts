@@ -5,41 +5,41 @@ import {
   wildLife,
   ecoExplor,
   mostPopularInCostaRica,
-  secretsofCostaRica,
+  secretsOfCostaRica,
   sportFishing,
   sunAndSand,
   manuelAntonio,
-  turtlesAnWwhales,
+  turtlesAndWhales,
   volcanoes,
   southCaribean,
   tropicalTranquility,
 } from './tours';
+import { TFunction } from "i18next";
 
-const CategoriesData: Array<CategoryType> = [
+export const getCategoriesData = (t: TFunction): Array<CategoryType> => [
   {
-    title: "Expedición Fotográfica de Vida Silvestre",
+    title: t('category1.title'),
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042451/14._Expedicio%CC%81n_Fotogra%CC%81fica_de_Vida_Silvestre_xrrxep.jpg",
-    description: "un recorrido fotográfico que inmortaliza la esencia vibrante y auténtica de Costa Rica en cada toma.",
-    tours: [wildLife, followingQuetzal, crocodilesAndBirds],
+    description: t('category1.body'),
+    tours: [wildLife(t), followingQuetzal(t), crocodilesAndBirds(t)],
   },
   {
-    title: "Aventura",
+    title: t('category2.title'),
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042453/15._Aventura_ekgmvv.jpg",
-    description: "La esencia de Costa Rica, capturada en una vivencia intensa de aventura y conexión con la naturaleza",
-    tours: [sportFishing, ecoExplor]
+    description: t('category2.body'),
+    tours: [sportFishing(t), ecoExplor(t)]
   },
   {
-    title: "Playa, Montaña y Sol",
+    title: t('category3.title'),
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042454/16._Playa_montan%CC%83a_y_sol_vl6yqm.jpg",
-    description: "La magia de Costa Rica cobra vida en una fusión de paisajes y aventuras extremas, ofreciendo emoción y escenarios espectaculares.",
-    tours: [sunAndSand, manuelAntonio, turtlesAnWwhales, volcanoes, southCaribean, tropicalTranquility]
+    description: t('category3.body'),
+    tours: [sunAndSand(t), manuelAntonio(t), turtlesAndWhales(t), volcanoes(t), southCaribean(t), tropicalTranquility(t)]
   },
   {
-    title: "Destinos Inolvidables",
+    title: t('category4.title'),
     image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042452/17._Playa_montan%CC%83a_y_sol_els7wa.jpg",
-    description: "Un recorrido completo que descubre los secretos naturales de Costa Rica en cada paso",
-    tours: [secretsofCostaRica, mostPopularInCostaRica],
+    description: t('category4.body'),
+    tours: [secretsOfCostaRica(t), mostPopularInCostaRica(t)],
   }
 ];
 
-export default CategoriesData;

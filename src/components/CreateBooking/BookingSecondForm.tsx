@@ -130,7 +130,7 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
     <form onSubmit={handleSubmit} className="space-y-6">
       {passengers.map((passenger, index) => (
         <section key={index}>
-          <h4 className="italic">Viajero {index === 0 ? "Principal" : "#" + (index + 1)}</h4>
+          <h4 className="italic">Viajero {index === 0 ? "Principal" : "" + (index + 1)}</h4>
           {formFields.map((field) => createFormInputs(field, index, passenger))}
         </section>
       ))}

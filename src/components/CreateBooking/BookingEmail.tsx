@@ -1,7 +1,7 @@
 import { useTour } from "../../context/TourContext";
 
 const BookingEmail = () => {
-  const { selectedTour, booking: { passengers, price, user: { userName, lastName, email }, date } } = useTour();
+  const { selectedTour, booking: { passengers, price, pricePerPerson, user: { userName, lastName, email }, date } } = useTour();
   const tourDate = new Date(date);
   return (
     <section>
@@ -14,7 +14,7 @@ const BookingEmail = () => {
             <li className="text-md">Email: <span className="italic">{email}</span></li>
             <li className="text-md">Fecha: <span className="italic">{tourDate.getDate()}/{tourDate.getMonth()}/{tourDate.getFullYear()}</span></li>
             <li className="text-md">Pasajeros: <span className="italic">#{passengers.length}</span></li>
-            <li className="text-md">Precio: <span className="italic">{price}</span></li>
+            <li className="text-md">Tour: <span className="italic">{selectedTour.title}</span></li>
           </ul>
         </section>
         <hr />
@@ -31,18 +31,15 @@ const BookingEmail = () => {
           ))}
         </section>
         <hr />
-        {/* Tour Details */}
-        <section className="space-y-6 mb-8">
-          <article className="space-y-3">
-            <h2 className="text-2xl font-bold list-disc" >{selectedTour.title}</h2>
-            <ul>
-              {selectedTour.itinerary.map((item, index) => (
-                <li className="mb-4" key={index}>{item.title}: <br /><span className="italic">{item.description}</span></li>
-              ))}
-            </ul>
-          </article>
+        <section className="mb-8">
+          <h1 className="text-2xl font-bold mb-6">Inversión</h1>
+          <ul className="space-y-3">
+            <li className="text-md">Precio por persona: <span className="italic">${pricePerPerson}.00</span></li>
+            <li className="text-md">Precio total: <span className="italic">${price}.00</span></li>
+          </ul>
         </section>
         <hr />
+
         {/* Confirmation Message */}
         <article className="mb-6">
           <p className="text-xs text-gray-600 italic">*Por favor confirmar la información de la reservación antes de enviar el correo</p>
