@@ -3,7 +3,7 @@ import { StepType } from '../../utils/types';
 import { useNavigate } from 'react-router';
 
 import "./BookingTour.css";
-import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/createBooking';
+import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking';
 import { useTranslation } from 'react-i18next';
 
 

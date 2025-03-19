@@ -7,8 +7,6 @@ import 'react-phone-number-input/style.css'
 import { useTour } from "../../context/TourContext";
 import { useTranslation } from "react-i18next";
 
-
-
 const initValues = {
   userName: null,
   lastName: null,
