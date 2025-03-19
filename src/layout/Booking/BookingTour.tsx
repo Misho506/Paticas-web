@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 const BookingTour = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
-  const [currentStep, setCurrentStep] = useState<number>(3);
+  const [currentStep, setCurrentStep] = useState<number>(1);
   const steps: Array<StepType> = [
     { number: 1, label: i18n.t("contact") },
     { number: 2, label: i18n.t("tour") },

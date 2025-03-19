@@ -1,0 +1,7 @@
+.stat-number {
+  color: theme("colors.green");
+}
+
+.stat-container {
+  background-color: theme("colors.ligthGray");
+}
