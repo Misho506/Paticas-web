@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ChangeEvent, ReactNode } from "react";
 
 type BannerType = {
   image: string;
@@ -70,26 +70,48 @@ type StoredDataType = {
 type StepType = {
   number: number;
   label: string;
-  active: boolean;
-}
-
-type Person = {
-  name: string;
-  lastName: string;
-  passportID: string;
 }
 
 type BookingTourType = {
-  people: Array<Person>;
+  passengers: Array<PassengerInfo>;
   date: Date;
   price: number;
+  user: UserInfo;
 }
 
+type FormFieldsType = {
+  name: string;
+  type: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  id: string;
+  placeholder: string;
+}
 
 type FormError = {
-  name: string;
-  error: string;
   id: string;
+  error: string;
+}
+
+type UserInfo = {
+  userName: string;
+  lastName: string;
+  email?: string;
+  phoneNumber?: string;
+};
+
+interface PassengerInfo extends UserInfo {
+  passportID: string;
+}
+
+type FormField = {
+  name: keyof UserInfo;
+  type: string;
+  title: string;
+};
+
+type BookingFormProps = {
+  setStep(step: (prev: number) => number): void;
+  actions: ReactNode;
 }
 
 type Founder = {
@@ -123,9 +145,13 @@ export type {
   StoredDataType,
   StepType,
   BookingTourType,
-  Person,
   FormError,
   Founder,
   CompanyValues,
-  Stat
+  Stat,
+  FormFieldsType,
+  UserInfo,
+  FormField,
+  BookingFormProps,
+  PassengerInfo
 }

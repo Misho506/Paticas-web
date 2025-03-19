@@ -21,9 +21,15 @@ const TourBookingCard = () => {
 
   const goToBooking = () => {
     setBooking({
-      people: [...Array(people)].map(() => ({ name: "", lastName: "", passportID: "" })),
+      passengers: [...Array(people)].map(() => ({ userName: "", lastName: "", passportID: "" })),
       date,
-      price: pricePerPerson * people
+      price: pricePerPerson * people,
+      user: {
+        userName: "",
+        lastName: "",
+        email: "",
+        phoneNumber: "",
+      },
     });
     navigate("/tour/booking");
   }
