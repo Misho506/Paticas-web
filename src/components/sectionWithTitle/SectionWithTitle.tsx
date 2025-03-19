@@ -1,10 +1,11 @@
 import { IoIosStar } from "react-icons/io";
 import "./SectionWithTitle.css";
 import { useTranslation } from "react-i18next";
+import { ReactNode } from "react";
 
-const SectionWithTitle = ({ title, body, bgColor, img }: { title: string; body: string; bgColor?: string, img?: string }) => {
+const SectionWithTitle = ({ title, body, bgColor, img }: { title: string; body: string | ReactNode; bgColor?: string, img?: string }) => {
   const { i18n } = useTranslation();
-  const insertStars = body.includes('*STARS*');
+  const insertStars = typeof body === 'string' && body.includes('*STARS*');
   const secondString =
     <span className="flex items-baseline">
       <br />

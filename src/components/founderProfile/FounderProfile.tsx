@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Founder } from "../../utils/types";
+import { useTranslation } from "react-i18next";
 
 const FounderProfile = ({ name, title, bio, imageSrc }: Founder) => {
+  const { i18n } = useTranslation();
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -24,7 +26,7 @@ const FounderProfile = ({ name, title, bio, imageSrc }: Founder) => {
           onClick={() => setExpanded(!expanded)}
           className="ml-2 text-green-700 font-medium hover:text-green-800 focus:outline-none"
         >
-          {expanded ? 'Leer menos' : 'Leer más'}
+          {expanded ? i18n.t("readLess") : i18n.t("readMore")}
         </span>
       </article>
     </section>

@@ -1,4 +1,5 @@
 import { ReactNode, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 type CardProps = {
   img: string;
@@ -8,6 +9,7 @@ type CardProps = {
 }
 
 const AboutUsCards = ({ img, title, icon, description }: CardProps) => {
+  const { i18n } = useTranslation();
   let [expanded, setExpanded] = useState(false);
   return (
     <div className="relative rounded-2xl overflow-hidden shadow-xl mt-5">
@@ -28,7 +30,7 @@ const AboutUsCards = ({ img, title, icon, description }: CardProps) => {
           onClick={() => setExpanded(!expanded)}
           className="ml-2 font-bold"
         >
-          {expanded ? 'Leer menos' : 'Leer más'}
+          {expanded ? i18n.t("readLess") : i18n.t("readMore")}
         </span>
       </article >
     </div >)
