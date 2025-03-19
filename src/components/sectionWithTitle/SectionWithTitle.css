@@ -1,4 +1,6 @@
-.max-width-650 {
-  max-width: 650px;
-  margin: 0 10px;
+.section-container {
+
+  .section-img {
+    border-radius: 50px;
+  }
 }
