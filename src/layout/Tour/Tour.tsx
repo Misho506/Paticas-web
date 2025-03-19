@@ -1,5 +1,6 @@
 import { CCarousel, CCarouselItem } from "@coreui/react";
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
 
 import { useTour } from "../../context/TourContext";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
@@ -11,6 +12,7 @@ import TourBookingCard from "../../components/tourBookingCard/TourBookingCard";
 import TourImages from "../../components/tourImages/TourImages";
 
 const Tour = () => {
+  const { i18n } = useTranslation();
   const { selectedTour, selectedCategory, tours } = useTour();
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
@@ -44,7 +46,7 @@ const Tour = () => {
       </CCarousel>
       {section(
         <p className="py-11 flex flex-col justify-self-center text-gray-500 italic text-lg text-center" > {selectedTour.about}</p >,
-        "Acerca del Tour"
+        i18n.t("aboutTour")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
@@ -53,7 +55,7 @@ const Tour = () => {
             <li key={index} className="py-2 text-gray-500 italic text-lg">{activity}</li>
           ))}
         </ul>,
-        "Incluye"
+        i18n.t("includes")
       )}
       <br />
       <TourImages />
@@ -65,17 +67,17 @@ const Tour = () => {
             <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out`}>{activity.description}</p>
           </article>
         )),
-        "Itinerario"
+        i18n.t("itinerary")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
         <TourBookingCard />,
-        "Inversión"
+        i18n.t("investment")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
         <ToursCards tours={tours} />,
-        "Otras experiencias"
+        i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       <button
@@ -83,7 +85,7 @@ const Tour = () => {
         className="show-all-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
         <IoMdArrowBack />
-        Volver atrás
+        {i18n.t("goBack")}
       </button>
     </div>
   )

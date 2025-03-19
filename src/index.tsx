@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router";
-
 import './assets/fonts.css';
 
 import '@coreui/coreui/dist/css/coreui.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './i18n';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
