@@ -232,7 +232,7 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.5.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.5description")
+      description: t("tours.crocodilesAndBirds.itinerary.5.description")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.6.title"),
@@ -533,16 +533,16 @@ const ecoExplor = (t: TFunction): TourType => ({
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738649576/6_lnhu8w.jpg",
   ],
   includes: [
-    t("tours.ecoExplor.includes.0."),
-    t("tours.ecoExplor.includes.1."),
-    t("tours.ecoExplor.includes.2."),
-    t("tours.ecoExplor.includes.3."),
-    t("tours.ecoExplor.includes.4."),
-    t("tours.ecoExplor.includes.5."),
-    t("tours.ecoExplor.includes.6."),
-    t("tours.ecoExplor.includes.7."),
-    t("tours.ecoExplor.includes.8."),
-    t("tours.ecoExplor.includes.9."),
+    t("tours.ecoExplor.includes.0"),
+    t("tours.ecoExplor.includes.1"),
+    t("tours.ecoExplor.includes.2"),
+    t("tours.ecoExplor.includes.3"),
+    t("tours.ecoExplor.includes.4"),
+    t("tours.ecoExplor.includes.5"),
+    t("tours.ecoExplor.includes.6"),
+    t("tours.ecoExplor.includes.7"),
+    t("tours.ecoExplor.includes.8"),
+    t("tours.ecoExplor.includes.9"),
     t("tours.ecoExplor.includes.10"),
     t("tours.ecoExplor.includes.11"),
     t("tours.ecoExplor.includes.12"),
@@ -636,7 +636,6 @@ const sunAndSand = (t: TFunction): TourType => ({
     t("tours.sunAndSand.includes.10"),
     t("tours.sunAndSand.includes.11"),
     t("tours.sunAndSand.includes.12"),
-    t("tours.sunAndSand.includes.13"),
   ],
   itinerary: [
     {
@@ -726,28 +725,28 @@ const manuelAntonio = (t: TFunction): TourType => ({
   ],
   itinerary: [
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.0.title"),
+      description: t("tours.manuelAntonio.itinerary.0.description")
     },
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.1.title"),
+      description: t("tours.manuelAntonio.itinerary.1.description")
     },
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.2.title"),
+      description: t("tours.manuelAntonio.itinerary.2.description")
     },
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.3.title"),
+      description: t("tours.manuelAntonio.itinerary.3.description")
     },
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.4.title"),
+      description: t("tours.manuelAntonio.itinerary.4.description")
     },
     {
-      title: t("tours.manuelAntonio.itinerary.7.title"),
-      description: t("tours.manuelAntonio.itinerary.7.description")
+      title: t("tours.manuelAntonio.itinerary.5.title"),
+      description: t("tours.manuelAntonio.itinerary.5.description")
     },
   ],
   prices: [
@@ -915,10 +914,6 @@ const volcanoes = (t: TFunction): TourType => ({
     {
       title: t("tours.turtlesAndWhales.itinerary.6.title"),
       description: t("tours.turtlesAndWhales.itinerary.6.description")
-    },
-    {
-      title: t("tours.turtlesAndWhales.itinerary.7.title"),
-      description: t("tours.turtlesAndWhales.itinerary.7.description")
     },
   ],
   prices: [

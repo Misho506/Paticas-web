@@ -13,7 +13,8 @@
   },
   "sectionReviews": {
     "title": "Reseñas",
-    "body": "Nuestro clientes nos respaldan"
+    "body": "Nuestros clientes nos respaldan",
+    "numberOf": "5.0 calificación de 250 reseñas"
   },
   "sectionContact": {
     "title": "Contáctenos",
@@ -41,13 +42,58 @@
     "title": "Unforgettable Destinations",
     "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of."
   },
+  "yearAgo": "hace un año",
   "moreThanFamily": "We're more than just a family",
   "weAre": "We have the spirit for travel",
   "policies&Conditions": "Policies and Conditions",
   "discoverMore": "Discover More",
   "exploreMore": "Explore More",
+  "allTours": "See All Tours",
+  "showLess": "Show Less",
+  "seeMore": "See More",
+  "reserveNow": "Reserve Now",
+  "childrensText": "per child aged 3-10 years, only allowed with a minimum of 2 adults.",
+  "adults": "adults",
+  "noTaxes": "No additional taxes or booking fees",
+  "next": "Next",
+  "name": "Name",
+  "lastName": "Last name",
+  "email": "Email",
+  "passportId": "Número de Pasaporte",
+  "formErrors": {
+    "userName": {
+      "required": "El nombre es requerido"
+    },
+    "email": {
+      "required": "El correo es inválido",
+      "invalidType": "El correo es requerido"
+    },
+    "lastName": {
+      "required": "El apellido es requerido"
+    },
+    "phoneNumber": {
+      "required": "El número de celular es requerido",
+      "invalidType": "El número de celular no debe de contener texto"
+    },
+    "passportId": {
+      "required": "El número de pasaporte es requerido"
+    }
+  },
+  "traveler": "Viajero",
+  "travelers": "Viajeros",
+  "principal": "Principal",
+  "bookingInfo": "Información de la reservación",
+  "booking": "Reservar",
+  "completeName": "Nombre completo",
+  "endDate": "Fecha de regreso",
+  "startDate": "Fecha de inicio",
+  "phoneNumber": "Número de teléfono",
   "goBack": "Go Back",
   "submit": "Submit",
+  "investment": "Inversión",
+  "totalPrice": "Precio total",
+  "pricePeerPerson": "Precio por persona",
+  "bookingNote": "Por favor confirmar la información de la reservación antes de enviar el correo",
   "ourTours": {
     "title": "Our Tours",
     "description": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes."

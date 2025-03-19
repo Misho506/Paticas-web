@@ -13,7 +13,8 @@
   },
   "sectionReviews": {
     "title": "Reviews",
-    "body": "Nuestro clientes nos respaldan"
+    "body": "Our customers support us",
+    "numberOf": "5.0 rating from 250 reviews"
   },
   "sectionContact": {
     "title": "Contact us",
@@ -23,6 +24,7 @@
     "subject": "Assistance with Planning My Trip to Costa Rica",
     "body": "Dear Paticas Team,\n\nI hope you're doing well. My name is [Your Name], and I'm interested in planning a trip to Costa Rica. I would love your guidance in organizing my visit and exploring the best tour options available. Additionally, I'm open to personalized experiences and would appreciate a quote based on my preferences.\n\nCould you please share more details on the tours you offer and how you can help me create an unforgettable trip? I look forward to your recommendations and your response.\n\nBest,\n[Your Name]"
   },
+  "yearAgo": "a year ago",
   "moreThanFamily": "We're more than just a family",
   "weAre": "We have the spirit for travel",
   "policies&Conditions": "Policies and Conditions",
@@ -31,6 +33,49 @@
   "exploreMore": "Explore More",
   "allTours": "See All Tours",
   "showLess": "Show Less",
+  "seeMore": "See More",
+  "reserveNow": "Reserve Now",
+  "childrensText": "per child aged 3-10 years, only allowed with a minimum of 2 adults.",
+  "adults": "adults",
+  "noTaxes": "No additional taxes or booking fees",
+  "next": "Next",
+  "name": "Name",
+  "lastName": "Last name",
+  "email": "Email",
+  "passportId": "Passport ID",
+  "formErrors": {
+    "userName": {
+      "required": "The name is required",
+      "invalidType": "The name must be a text"
+    },
+    "email": {
+      "required": "The email is required",
+      "invalidType": "The email must be a valid format"
+    },
+    "lastName": {
+      "required": "The last name is required",
+      "invalidType": "The last name must be a text"
+    },
+    "phoneNumber": {
+      "required": "The phone number is required",
+      "invalidType": "The phone number must not contain text"
+    },
+    "passportId": {
+      "required": "The passport number is required"
+    }
+  },
+  "traveler": "Traveler",
+  "travelers": "Travelers",
+  "principal": "Principal",
+  "bookingInfo": "Reservation Information",
+  "completeName": "Complete name",
+  "endDate": "End date",
+  "startDate": "Start date",
+  "phoneNumber": "Phone Number",
+  "investment": "Investment",
+  "totalPrice": "Total price",
+  "pricePeerPerson": "Price peer person",
+  "bookingNote": "Please confirm the reservation information before sending the email.",
   "whatsappMessage": "Hi, my name is [Your Name]! I'm interested in learning more about your tours and travel options. Could you help me find the best experience based on my preferences? I’d appreciate your assistance. Thank you!",
   "category1": {
     "title": "Wildlife Photography Expedition",
@@ -61,6 +106,13 @@
     "description": "If you like staying up to date with tour options, travel tips, and more, don't hesitate to subscribe."
   },
   "shareExperience": "Share Your Experience",
+  "aboutTour": "About the Tour",
+  "otherExp": "Other experiences",
+  "itinerary": "Itinerary",
+  "includes": "Includes",
+  "contact": "Contact",
+  "tour": "Tour",
+  "reserve": "Reserve",
   "principalBanners": {
     "betweenVolcanoes": {
       "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures",

@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { MdOutlineCancel } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 import { useTour } from "../../context/TourContext";
 import "./TourImages.css";
+
 const TourImages = () => {
+  const { i18n } = useTranslation();
   const { selectedTour } = useTour();
   const [showsAll, setShowsAll] = useState<boolean>(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -22,7 +25,7 @@ const TourImages = () => {
         onClick={() => setShowsAll(!showsAll)}
         className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
-        {showsAll ? "Ver menos" : "Descrubrir más"}
+        {showsAll ? i18n.t("showLess") : i18n.t("seeMore")}
       </button>
       {selectedImage && (
         <div

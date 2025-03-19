@@ -1,7 +1,9 @@
 import { IoIosStar } from "react-icons/io";
 import "./SectionWithTitle.css";
+import { useTranslation } from "react-i18next";
 
 const SectionWithTitle = ({ title, body, bgColor }: { title: string; body: string; bgColor?: string }) => {
+  const { i18n } = useTranslation();
   const insertStars = body.includes('*STARS*');
   const secondString =
     <span className="flex items-baseline">
@@ -11,7 +13,7 @@ const SectionWithTitle = ({ title, body, bgColor }: { title: string; body: strin
       <IoIosStar className="color-yellow" />
       <IoIosStar className="color-yellow" />
       <IoIosStar className="color-yellow mr-1" />
-      5.0 rating de 250 reviews
+      {i18n.t("sectionReviews.numberOf")}
     </span>
   return (
     <article className={`py-11 max-width-650 flex flex-col justify-self-center ${bgColor}`}>

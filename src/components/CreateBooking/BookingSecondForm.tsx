@@ -3,43 +3,41 @@ import { ChangeEvent, FormEvent, useState } from "react";
 import { PassengerInfo, BookingFormProps, FormError } from "../../utils/types";
 import { z } from "zod";
 import { useTour } from "../../context/TourContext";
-
+import { useTranslation } from "react-i18next";
 type inputType = {
   title: string,
   name: 'userName' | 'lastName' | 'passportID',
 };
-// Zod validation schema
-const passengerInfoValidation = z.object({
-  userName: z.string({
-    required_error: "El nombre es requerido",
-    invalid_type_error: "El nombre debe ser un texto",
-  }).min(1, { message: "El nombre es requerido" }),
-  lastName: z.string({
-    required_error: "El apellido es requerido",
-    invalid_type_error: "El apellido debe ser un texto",
-  }).min(1, { message: "El apellido es requerido" }),
-  passportID: z.string({
-    required_error: "El número de pasaporte es requerido"
-  }).min(1, { message: "El número de pasaporte es requerido" })
-});
-
-const formFields: Array<inputType> = [
-  {
-    name: 'userName',
-    title: 'Nombre',
-  },
-  {
-    name: 'lastName',
-    title: 'Apellido',
-  },
-  {
-    name: 'passportID',
-    title: 'Número de pasaporte',
-  },
-];
-
 
 const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
+  const { i18n } = useTranslation();
+  // Zod validation schema
+  const passengerInfoValidation = z.object({
+    userName: z.string({
+      invalid_type_error: i18n.t("formErrors.userName.required"),
+    }).min(1, { message: i18n.t("formErrors.userName.required") }),
+    lastName: z.string({
+      required_error: i18n.t("formErrors.lastName.required"),
+    }).min(1, { message: i18n.t("formErrors.lastName.required") }),
+    passportID: z.string({
+      required_error: i18n.t("formErrors.passportId.required")
+    }).min(1, { message: i18n.t("formErrors.passportId.required") })
+  });
+
+  const formFields: Array<inputType> = [
+    {
+      name: 'userName',
+      title: i18n.t("name")
+    },
+    {
+      name: 'lastName',
+      title: i18n.t("lastName")
+    },
+    {
+      name: 'passportID',
+      title: i18n.t("passportId")
+    },
+  ];
   const { booking, setBooking } = useTour();
   const [passengers, setPassengers] = useState<PassengerInfo[]>(
     [...Array(booking.passengers.length)].map(() => ({
@@ -130,7 +128,7 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
     <form onSubmit={handleSubmit} className="space-y-6">
       {passengers.map((passenger, index) => (
         <section key={index}>
-          <h4 className="italic">Viajero {index === 0 ? "Principal" : "" + (index + 1)}</h4>
+          <h4 className="italic">{i18n.t('traveler')} {index === 0 ? i18n.t("principal") : "" + (index + 1)}</h4>
           {formFields.map((field) => createFormInputs(field, index, passenger))}
         </section>
       ))}

@@ -5,42 +5,9 @@ import { UserInfo, FormField, BookingFormProps } from "../../utils/types";
 import { z } from "zod";
 import 'react-phone-number-input/style.css'
 import { useTour } from "../../context/TourContext";
+import { useTranslation } from "react-i18next";
 
-// Zod validation schema
-const userInfoValidation = z.object({
-  userName: z.string({
-    required_error: "El nombre es requerido",
-    invalid_type_error: "El nombre debe ser un texto",
-  }).min(1, { message: "El nombre es requerido" }),
-  lastName: z.string({
-    required_error: "El apellido es requerido",
-    invalid_type_error: "El apellido debe ser un texto",
-  }).min(1, { message: "El apellido es requerido" }),
-  email: z.string()
-    .min(1, { message: "El correo es requerido" })
-    .email({ message: "El correo es inválido" }),
-  phoneNumber: z.string({
-    required_error: "El número de celular es requerido"
-  }).min(1, { message: "El número de celular es requerido" })
-});
 
-const formFields: Array<FormField> = [
-  {
-    name: 'userName',
-    type: 'text',
-    title: 'Nombre',
-  },
-  {
-    name: 'lastName',
-    type: 'text',
-    title: 'Apellido',
-  },
-  {
-    name: 'email',
-    type: 'email',
-    title: 'Correo electrónico',
-  },
-];
 
 const initValues = {
   userName: null,
@@ -50,8 +17,42 @@ const initValues = {
 }
 
 const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
+  const { i18n } = useTranslation();
   const { booking, setBooking } = useTour();
   const [wasSubmitted, setWasSubmitted] = useState<boolean>(false);
+  // Zod validation schema
+  const userInfoValidation = z.object({
+    userName: z.string({
+      invalid_type_error: i18n.t("formErrors.userName.invalidType"),
+    }).min(1, { message: i18n.t("formErrors.userName.required") }),
+    lastName: z.string({
+      invalid_type_error: i18n.t("formErrors.lastName.invalidType"),
+    }).min(1, { message: i18n.t("formErrors.lastName.required") }),
+    email: z.string()
+      .min(1, { message: i18n.t("formErrors.email.required") })
+      .email({ message: i18n.t("formErrors.email.invalidType") }),
+    phoneNumber: z.string({
+      invalid_type_error: i18n.t("formErrors.phoneNumber.invalidType"),
+    }).min(1, { message: i18n.t("formErrors.phoneNumber.required") })
+  });
+
+  const formFields: Array<FormField> = [
+    {
+      name: 'userName',
+      type: 'text',
+      title: i18n.t("name"),
+    },
+    {
+      name: 'lastName',
+      type: 'text',
+      title: i18n.t("lastName"),
+    },
+    {
+      name: 'email',
+      type: 'email',
+      title: i18n.t("email"),
+    },
+  ];
   const [userInfo, setUserInfo] = useState<UserInfo>({
     userName: '',
     lastName: '',
@@ -84,6 +85,8 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
     const formField = userInfo[name];
     const fieldError = wasSubmitted ? errors[name] : null;
     const hasError = Boolean(fieldError);
+
+
 
     return (
       CustomInputWithErrorMessage(
@@ -150,7 +153,7 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
       {formFields.map((field, index) => createFormFields(field, index))}
       {
         CustomInputWithErrorMessage(
-          "Número de teléfono",
+          i18n.t("phoneNumber"),
           <PhoneInput
             defaultCountry="US"
             id="phoneNumber"

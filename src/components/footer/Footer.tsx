@@ -13,7 +13,7 @@ const Footer = () => {
 
       <section className="bg-dark-green px-8 pb-8 pt-2">
         <article className="flex justify-between ">
-          <label className="text-white">{i18n.t("moreThanFamily")}</label>
+          <label className="text-white">{i18n.t("policies&Conditions")}</label>
           <MdExpandMore className="h-6 w-6 text-white" />
         </article>
         <hr className="border-1 border-white mb-3 mt-1 opacity-75" />
