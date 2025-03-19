@@ -38,15 +38,15 @@
   "mission&Vision": "Mission and Vision",
   "mission": {
     "title": "Nuestra Misión",
-    "descripiton": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica."
+    "description": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica."
   },
   "vision": {
     "title": "Nuestra Visión",
-    "descripiton": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry."
+    "description": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry."
   },
   "values": {
     "title": "Nuestros valores",
-    "descripiton": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories."
+    "description": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories."
   },
   "partners": "Partners",
   "sectionOurTour": {
