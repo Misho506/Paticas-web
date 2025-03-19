@@ -3,11 +3,13 @@ import { IoIosStar } from "react-icons/io";
 import { FcGoogle } from "react-icons/fc";
 import ReviewsHardCoded from "../../utils/hardCodedData/review"
 import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
+import { useTranslation } from "react-i18next";
 
 import "./Reviews.css";
 
 const Reviews = () => {
   const [activeReview, setActiveReview] = useState<number>(0);
+  const { i18n } = useTranslation();
 
   return (
     <div className="max-w-2xl h-60 my-auto mx-auto relative">
@@ -19,7 +21,7 @@ const Reviews = () => {
                 <label className="p-3 text-5xl h-16 w-16 flex items-center justify-center text-white bg-green rounded-full">{review.userName[0]}</label>
                 <article className="w-3/4">
                   <h4 className="m-0">{review.userName}</h4>
-                  <label className="italic pb-2">a year ago</label>
+                  <label className="italic pb-2">{i18n.t("yearAgo")}</label>
                   <div className="flex yellow-star">
                     {[...Array(5)].map((_, i) => (
                       <IoIosStar key={i} />

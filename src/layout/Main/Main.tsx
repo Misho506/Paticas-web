@@ -1,7 +1,7 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import { Fragment, ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 import Carousel from "../../components/carousel/Carousel";
 import PostCarrousel from "../../components/postCarrousel/PostCarrousel";
@@ -12,37 +12,34 @@ import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle
 import ToursCards from "../../components/tourCard/ToursCard";
 import "./Main.css";
 import blogs from "../../utils/hardCodedData/blogs";
-
-const sectionOurTours = {
-  title: "Nuestras Giras",
-  body: `Escenarios naturales sorprendentes, paisajes que cuentan historias y
-          biodiverdiad única que inspiran y capturan momentos únicos.`
-}
-const sectionBlogs = {
-  title: "Blogs",
-  body: `Un retiro tranquilo,una aventura cultural o una experiencia al aire libre se
-          encuentran en cada rincón, ofreciendo la escapada local ideal.`
-}
-const sectionAboutUs = {
-  title: "Nosotros",
-  body: `La esencia de una experiencia en conexión con la naturalexa se refleja en cada 
-          actividad, dectacando la riqueza natural y el compromiso con la utenticidad 
-          de Costa Rica.`
-}
-const sectionReviews = {
-  title: "Reseñas",
-  body: `Nuestro clientes nos respaldan
-        *STARS*`
-}
-const sectionContact = {
-  title: "Contáctenos",
-  body: `No dude en escribirnos, Estamos listos para hacer realidad su viaje soñado y
-        transformar cada detalle en una experiencia inolvidable`,
-  bgColor: "bg-neutral-300"
-}
+import { useTranslation } from 'react-i18next';
 
 const Main = () => {
+  const { i18n } = useTranslation();
   const { tours } = useTour();
+
+  const sectionOurTours = {
+    title: i18n.t('sectionOurTour.title'),
+    body: i18n.t('sectionOurTour.body')
+  }
+  const sectionBlogs = {
+    title: i18n.t('sectionBlogs.title'),
+    body: i18n.t('sectionBlogs.body'),
+  }
+  const sectionAboutUs = {
+    title: i18n.t('sectionAboutUs.title'),
+    body: i18n.t('sectionAboutUs.body')
+  }
+  const sectionReviews = {
+    title: i18n.t('sectionReviews.title'),
+    body: `${i18n.t('sectionReviews.body')}
+          *STARS*`
+  }
+  const sectionContact = {
+    title: i18n.t('sectionContact.title'),
+    body: i18n.t('sectionContact.body'),
+    bgColor: "bg-neutral-300"
+  }
 
   const circularContainerWithInfo = (icon: ReactNode, children: ReactNode) => (
     <div className="border-black circular-container bg-white rounded-full border-2 flex flex-col items-center justify-center shadow-sm">
@@ -76,12 +73,12 @@ const Main = () => {
       <section className="relative">
         <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
-          <h2 className="text-3xl bold">
-            Somos más que una familia
+          <h2 className="text-3xl text-center bold">
+            {i18n.t("moreThanFamily")}
           </h2>
-          <p className="text-2xl italic">Somos las patacalientes</p>
+          <p className="text-2xl italic">{i18n.t("weAre")}</p>
           <button className="bg-white text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
-            Descubrir más
+            {i18n.t("discoverMore")}
             <IoIosArrowRoundForward className="mx-1 flex self-center text-2xl" />
           </button>
         </article>
@@ -89,7 +86,7 @@ const Main = () => {
       <SectionWithTitle title={sectionReviews.title} body={sectionReviews.body} />
       <Reviews />
       <button className="bg-yellow text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
-        Dejar una reseña
+        {i18n.t("shareExperience")}
         <IoIosArrowRoundForward className="mx-1 flex justify-self-center text-2xl" />
       </button>
       <section className="bg-neutral-300 pt-7 mt-4">
@@ -100,7 +97,7 @@ const Main = () => {
             <>
               <h5 className="font-light text-md">Whatsapp</h5>
               <a
-                href="https://api.whatsapp.com/send?phone=+50687758884&text=I want to know more about this tour: ---> 'Please add the name of the tour that want'"
+                href={`https://api.whatsapp.com/send?phone=+50687758884&text=${i18n.t("whatsappMessage")}`}
 
                 className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
               >
@@ -114,7 +111,7 @@ const Main = () => {
             <>
               <h5 className="font-light text-md">E-mail</h5>
               <a
-                href="mailto:info@paticascr.com"
+                href={`mailto:info@paticascr.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
                 className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
               >
                 info@paticascr.com

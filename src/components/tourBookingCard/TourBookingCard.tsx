@@ -3,12 +3,14 @@ import { PiUsersBold } from "react-icons/pi";
 import { LuCalendarClock } from "react-icons/lu";
 import DatePicker from "react-datepicker";
 import 'react-datepicker/dist/react-datepicker.css'
+import { useTranslation } from "react-i18next";
 
 import "./TourBookingCard.css";
 import { useTour } from "../../context/TourContext";
 import { useNavigate } from "react-router";
 
 const TourBookingCard = () => {
+  const { i18n } = useTranslation();
   const navigate = useNavigate();
   const [date, setDate] = useState<Date>(new Date());
   const [people, setPeople] = useState(2);
@@ -24,6 +26,7 @@ const TourBookingCard = () => {
       passengers: [...Array(people)].map(() => ({ userName: "", lastName: "", passportID: "" })),
       date,
       price: pricePerPerson * people,
+      pricePerPerson: pricePerPerson,
       user: {
         userName: "",
         lastName: "",
@@ -71,7 +74,7 @@ const TourBookingCard = () => {
         </h4>
 
         <h4 className="text-lg italic">
-          {people} adultos X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
+          {people} {i18n.t("adults")} X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
         </h4>
 
         <div className="space-y-1">
@@ -79,17 +82,17 @@ const TourBookingCard = () => {
             Total ${addSymbolsToPrice(JSON.stringify(pricePerPerson * people))}.00
           </h4>
           <span className="text-xs">
-            {selectedTour.childsPrice} por niño de 3 - 10 años, solamente se permiten apartir con minimo de 2 adultos.
+            ${selectedTour.childsPrice} {i18n.t("childrensText")}
           </span>
           <span className="text-xs">
-            (No additional taxes or booking fees)
+            ({i18n.t("noTaxes")})
           </span>
         </div>
       </div>
 
       {/* Book Now Button */}
       <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black">
-        Reservar ahora
+        {i18n.t("reserveNow")}
       </button>
     </div>
   );

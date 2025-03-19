@@ -2,7 +2,8 @@ import React, { createContext, useState, ReactNode, useContext, useEffect } from
 
 import { BookingTourType, CategoryType, StoredDataType, TourType } from '../utils/types';
 import { allTours } from "../utils/hardCodedData/categories/tours";
-import CategoriesData from '../utils/hardCodedData/categories';
+import { getCategoriesData } from '../utils/hardCodedData/categories';
+import { useTranslation } from 'react-i18next';
 
 interface TourContextType {
   selectedCategory: CategoryType;
@@ -45,6 +46,7 @@ const bookingInitialValue = {
   passengers: [],
   date: new Date(),
   price: 0,
+  pricePerPerson: 0,
   user: {
     userName: "",
     lastName: "",
@@ -54,9 +56,11 @@ const bookingInitialValue = {
 }
 
 export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  const { i18n } = useTranslation();
   // Initialize state with data from localStorage or default values
   // CATEGORY
-  const [categories] = useState(CategoriesData);
+  const categoriesData = getCategoriesData(i18n.t);
+  const [categories] = useState(categoriesData);
   const [selectedCategory, setSelectedCategory] = useState<CategoryType>(() => {
     const storedData = localStorage.getItem('storedData');
     if (storedData) {
@@ -67,7 +71,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   });
 
   // TOUR
-  const [tours] = useState(allTours);
+  const [tours] = useState(allTours(i18n.t));
   const [selectedTour, setSelectedTour] = useState<TourType>(() => {
     const storedData = localStorage.getItem('storedData');
     if (storedData) {

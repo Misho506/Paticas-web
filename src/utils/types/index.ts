@@ -76,6 +76,7 @@ type BookingTourType = {
   passengers: Array<PassengerInfo>;
   date: Date;
   price: number;
+  pricePerPerson: number;
   user: UserInfo;
 }
 

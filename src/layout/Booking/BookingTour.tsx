@@ -3,17 +3,19 @@ import { StepType } from '../../utils/types';
 import { useNavigate } from 'react-router';
 
 import "./BookingTour.css";
-import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking/';
+import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking';
+import { useTranslation } from 'react-i18next';
 
-const steps: Array<StepType> = [
-  { number: 1, label: 'Contacto' },
-  { number: 2, label: 'Tour' },
-  { number: 3, label: 'Reservar' }, // Change for "Pago"/"Payment"
-];
 
 const BookingTour = () => {
+  const { i18n } = useTranslation();
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState<number>(3);
+  const steps: Array<StepType> = [
+    { number: 1, label: i18n.t("contact") },
+    { number: 2, label: i18n.t("tour") },
+    { number: 3, label: i18n.t("reserve") }, //TODO: Change for "Pago"/"Payment"
+  ];
 
   const actionButtons =
     <article className='flex justify-between'>
@@ -22,13 +24,13 @@ const BookingTour = () => {
         onClick={() => currentStep > 1 ? setCurrentStep(currentStep - 1) : navigate("/tour/detailed")}
         className="w-2/5 bg-[#1B2821] text-white py-3 px-6 rounded-full hover:bg-[#2c3f33] transition-colors duration-300"
       >
-        Atrás
+        {i18n.t("goBack")}
       </button>
       <button
         type="submit"
         className="w-2/5 bg-[#1B2821] text-white py-3 px-6 rounded-full hover:bg-[#2c3f33] transition-colors duration-300"
       >
-        {currentStep === 3 ? "Submit" : "Siguiente"}
+        {currentStep === 3 ? i18n.t("submit") : i18n.t("next")}
       </button>
     </article>;
 
