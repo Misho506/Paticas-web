@@ -1,0 +1,15 @@
+.review-details {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+button:hover {
+  background-color: theme('colors.yellow');
+}
+
+.yellow-star {
+  color: theme("colors.yellow");
+}

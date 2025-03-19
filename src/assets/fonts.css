@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Archia'; /* Replace with your desired font name */
+  src: url('./fonts/Archia-Regular.otf') format('opentype'); /* Regular weight */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* If you have multiple weights/styles, add them like this: */
+@font-face {
+  font-family: 'Archia';
+  src: url('./fonts/Archia-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Archia';
+  src: url('./fonts/Archia-Light.otf') format('opentype');
+  font-weight: light;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Archia';
+  src: url('./fonts/Archia-Medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Archia';
+  src: url('./fonts/Archia-SemiBold.otf') format('opentype');
+  font-weight: semibold;
+  font-style: semibold;
+}
+
+@font-face {
+  font-family: 'Archia';
+  src: url('./fonts/Archia-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}

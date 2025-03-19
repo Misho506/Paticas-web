@@ -1,0 +1,19 @@
+.tour-images-container {
+  background-color: theme('colors.darkGreen');
+  margin: 10px auto;
+
+  .tour-image {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+  }
+
+  .show-all-button {
+    background-color: theme('colors.yellow');
+    color: black;
+  }
+
+  .img-modal {
+    --bs-bg-opacity: 0.9;
+  }
+}

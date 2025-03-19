@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Main from "./layout/Main/Main";
+import OurTours from "./layout/Categories/Categories";
+import { Routes, Route } from "react-router";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import { TourProvider } from "./context/TourContext";
+import Category from "./layout/Category/Category";
+import Tour from "./layout/Tour/Tour";
+import ScrollTop from "./components/scrollTop/ScrollTop";
+import BookingTour from "./layout/Booking/BookingTour";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TourProvider>
+      <ScrollTop />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/categories" element={<OurTours />} />
+        <Route path="/category/:title" element={<Category />} />
+        <Route path="/tour/detailed" element={<Tour />} />
+        <Route path="/tour/booking" element={<BookingTour />} />
+      </Routes>
+      <Footer />
+    </TourProvider>
   );
 }
 

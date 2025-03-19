@@ -1,0 +1,27 @@
+.banner {
+  object-fit: cover;
+  object-position: center;
+  height: 800px;
+  /* \800 for laptop and 550 for mobile and position right img Monkey */
+}
+
+.separator {
+  opacity: 1;
+  border-top: 3px solid;
+  border-radius: 10px;
+  color: theme('colors.green');
+}
+
+.explore-button {
+  background-color: lightgray;
+  color: theme('colors.black');
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin-top: 25px;
+  font-style: normal;
+  text-decoration: none;
+
+  &:hover {
+    background-color: theme('colors.orange');
+  }
+}
