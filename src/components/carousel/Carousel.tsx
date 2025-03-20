@@ -37,14 +37,14 @@ const Carousel = () => {
   ];
 
   return (
-    <CCarousel indicators transition="crossfade" interval={500} dark>
+    <CCarousel indicators transition="crossfade" interval={1000}>
       {CarouselBanners.map((banner, index) => (
         <CCarouselItem key={index}>
           <section style={{ position: 'relative', textAlign: 'left', color: '#fff' }}>
             <img
               src={banner.image}
               alt={banner.title}
-              className={`banner brightness-75 ${index === 2 && 'rotate-180'} w-100`}
+              className={`banner brightness-75 ${index === 2 && 'rotate-180'} w-100 ${index === 4 ? 'object-s' : 'object-center'}`}
             />
             <section
               style={{

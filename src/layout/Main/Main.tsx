@@ -74,7 +74,7 @@ const Main = () => {
       />
       <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
       <section className="relative">
-        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1740782675/Somos_ma%CC%81s_que_una_familia_geion4.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
+        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/t_Banner 16:9/v1740782675/Somos_ma%CC%81s_que_una_familia_geion4.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
           <h2 className="text-3xl text-center bold">
             {i18n.t("moreThanFamily")}
@@ -88,7 +88,7 @@ const Main = () => {
       </section>
       <SectionWithTitle title={sectionReviews.title} body={sectionReviews.body} />
       <Reviews />
-      <button className="bg-yellow text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
+      <button className="bg-yellow text-black border-full py-2 px-3 mt-3  mx-auto rounded-full flex justify-self-center">
         {i18n.t("shareExperience")}
         <IoIosArrowRoundForward className="mx-1 flex justify-self-center text-2xl" />
       </button>

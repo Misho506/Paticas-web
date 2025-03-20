@@ -8,9 +8,13 @@ import Category from "./layout/Category/Category";
 import Tour from "./layout/Tour/Tour";
 import ScrollTop from "./components/scrollTop/ScrollTop";
 import BookingTour from "./layout/Booking/BookingTour";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 import AboutUs from "./layout/AboutUs/AboutUs";
 
 function App() {
+  const { i18n } = useTranslation();
+  useEffect(() => { i18n.changeLanguage(window.navigator.language) }, [i18n]);
   return (
     <TourProvider>
       <ScrollTop />

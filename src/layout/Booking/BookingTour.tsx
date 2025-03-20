@@ -17,12 +17,20 @@ const BookingTour = () => {
     { number: 3, label: i18n.t("reserve") }, //TODO: Change for "Pago"/"Payment"
   ];
 
+  const buttonBack = () => {
+    console.log(currentStep);
+    if (currentStep === 1) {
+      navigate("/tour/detailed");
+    } else {
+      setCurrentStep(currentStep - 1);
+    }
+  }
+
   const actionButtons =
     <article className='flex justify-between'>
       <button
-        disabled={currentStep === 1}
-        onClick={() => currentStep > 1 ? setCurrentStep(currentStep - 1) : navigate("/tour/detailed")}
-        className="w-2/5 bg-[#1B2821] text-white py-3 px-6 rounded-full hover:bg-[#2c3f33] transition-colors duration-300"
+        onClick={buttonBack}
+        className="w-2/5 bg-[#1B2821] text-white py-3 px-6 mx-auto rounded-full hover:bg-[#2c3f33] transition-colors duration-300"
       >
         {i18n.t("goBack")}
       </button>
