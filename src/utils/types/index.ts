@@ -115,6 +115,26 @@ type BookingFormProps = {
   actions: ReactNode;
 }
 
+type Founder = {
+  name: string;
+  title: string;
+  bio: string;
+  imageSrc: string;
+}
+
+type CompanyValues = {
+  title: string;
+  description: string;
+  icon: ReactNode;
+  img: string;
+}
+
+type Stat = {
+  icon: string;
+  number: string;
+  description: string;
+}
+
 export type {
   BannerType,
   TourType,
@@ -126,8 +146,11 @@ export type {
   StoredDataType,
   StepType,
   BookingTourType,
-  FormFieldsType,
   FormError,
+  Founder,
+  CompanyValues,
+  Stat,
+  FormFieldsType,
   UserInfo,
   FormField,
   BookingFormProps,

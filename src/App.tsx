@@ -10,6 +10,7 @@ import ScrollTop from "./components/scrollTop/ScrollTop";
 import BookingTour from "./layout/Booking/BookingTour";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import AboutUs from "./layout/AboutUs/AboutUs";
 
 function App() {
   const { i18n } = useTranslation();
@@ -24,6 +25,7 @@ function App() {
         <Route path="/category/:title" element={<Category />} />
         <Route path="/tour/detailed" element={<Tour />} />
         <Route path="/tour/booking" element={<BookingTour />} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
       <Footer />
     </TourProvider>

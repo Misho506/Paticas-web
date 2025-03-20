@@ -1,4 +1,54 @@
 {
+  "aboutUs": {
+    "title": "Nuestro viaje",
+    "subDescription": "Paticas pa´que las Quiero, ",
+    "description": "Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. In 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "weAre": "We are Paticas Paque' Las Quiero"
+  },
+  "greenFocus": {
+    "title": "Our Green Approach",
+    "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage."
+  },
+  "founders": " Our Founders",
+  "foundersInfo": {
+    "karla": {
+      "name": "Karla Calderón",
+      "title": "CEO & Founder",
+      "bio": "A young entrepreneur passionate about travel, and photography. During her years as a student in English and Business Management at the University of Costa Rica, she was inspired to create her own business. Alongside her mother and sister, she founded Paticas, a travel agency in Costa Rica that reflects her love for exploring Costa Rica, capturing its beauty through photography, and sharing unforgettable travel experiences. During her university career, Karla embarked on this exciting journey, leading Paticas to become a top-rated Costa Rica tour company. Her dedication to sustainable tourism, personalized travel experiences, and local culture has been key to building a brand synonymous with unique and memorable tours in Costa Rica."
+    },
+    "yoely": {
+      "name": "Yoely Jiménez",
+      "title": "CMO & Co-Founder",
+      "bio": "A student of International Trade at the University of Costa Rica, Yoely is the co-founder of Paticas, a leading travel agency in Costa Rica. Her passion for global commerce, tourism, and customer experience is reflected in every Costa Rica tour package Paticas offers. As Head of Marketing and Customer Service, she brings a fresh and dynamic approach that has contributed to Paticas' growth in the Costa Rica tourism industry. Her expertise in digital marketing, personalized travel planning, and customer engagement helps the company connect with travelers worldwide. Her commitment to sustainable tourism and exclusive travel experiences in Costa Rica continues to drive Paticas toward new opportunities and innovation."
+    },
+    "yorlene": {
+      "name": "Yorlene Calderón",
+      "title": "COO & Co-Founder",
+      "bio": "Yorlene Calderón Molina is the matriarch of our team at Paticas. Her extensive experience and unwavering support have been the driving force behind the creation of this exciting travel project in Costa Rica. Yorlene's dedication and passion for exploring the most fascinating corners of our country are reflected in every aspect of our travel agency. She represents the very essence of Paticas, and it is an honor to have her leadership on this journey toward unforgettable travel experiences."
+    }
+  },
+  "readLess": "Read Less",
+  "readMore": "Read More",
+  "statsInfo": [
+    "Successfully completed trips",
+    "Living from our passion",
+    "Satisfied customers",
+    "Unforgettable destinations"
+  ],
+  "mission&Vision": "Mission and Vision",
+  "mission": {
+    "title": "Nuestra Misión",
+    "descripiton": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica."
+  },
+  "vision": {
+    "title": "Nuestra Visión",
+    "descripiton": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry."
+  },
+  "values": {
+    "title": "Nuestros valores",
+    "descripiton": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories."
+  },
+  "partners": "Partners",
   "sectionOurTour": {
     "title": "Our Tours",
     "body": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes."

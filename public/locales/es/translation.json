@@ -1,4 +1,54 @@
 {
+  "aboutUs": {
+    "title": "Nuestro viaje",
+    "subDescription": "Paticas pa´que las Quiero, ",
+    "description": "Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. In 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "weAre": "somos Paticas Paque' Las Quiero"
+  },
+  "greenFocus": {
+    "title": "Our green focus",
+    "description": "Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica."
+  },
+  "founders": "Nuestras Fundadoras",
+  "foundersInfo": {
+    "karla": {
+      "name": "Karla Calderón",
+      "title": "CEO & Founder",
+      "bio": "Una joven emprendedora apasionada por los viajes y la fotografia. Durante sus años de estudiante en la carrera de Inglés con Formación en Gestión Empresarial en la Universidad de Costa Rica, surgió en ella la inspiración de crear su propia empresa. Junto a su madre y hermana, materializó este sueño, dando vida a Paticas, una agencia de viajes que refleja su amor por explorar nuevos destinos y compartir esa experiencia con otros viajeros. Con tan solo 20 años de edad, Karla dio inicio a esta emocionante travesía que ha llevado a Paticas a destacarse como un referente en el ámbito de los viajes en Costa Rica. Su dedicación y visión han sido la clave para iniciar con este apasionante proyecto que hoy en día es sinónimo de experiencias únicas y memorables en el turismo costarricense."
+    },
+    "yoely": {
+      "name": "Yoely Jiménez",
+      "title": "CMO $ Co-Founder",
+      "bio": "A los impresionantes 17 años de edad, Yoely co-fundó esta emocionante empresa de viajes. Actualmente, es estudiante de la carrera Administración Aduanera y Comercio Exterior en la Universidad de Costa Rica. Su pasión por el mundo del comercio internacional se refleja en cada experiencia que Paticas ofrece. Como encargada del área de marketing y servicio al cliente, aporta un enfoque fresco y dinámico que ha contribuido al éxito continuo de Paticas. Su energía y dedicación son la brújula que guía a nuestra empresa hacia nuevos horizontes en la industria de los viajes."
+    },
+    "yorlene": {
+      "name": "Yorlene Calderón",
+      "title": "COO & Co-Founder",
+      "bio": "Yorlene Calderón Molina es el pilar fundamental de nuestro equipo en Paticas. Su vasta experiencia y apoyo incondicional han sido el motor que impulsó la creación de este emocionante proyecto de viajes en Costa Rica. Su dedicación y pasión por explorar los rincones más fascinantes de nuestro país se reflejan en cada aspecto de nuestra empresa. Yorlene personifica la esencia misma de Paticas y es un honor contar con su liderazgo en este viaje hacia experiencias inolvidables."
+    }
+  },
+  "readLess": "Leer menos",
+  "readMore": "Leer más",
+  "statsInfo": [
+    "Viajes realizados con éxito",
+    "Viviendo de nuestra pasión",
+    "Clientes satisfechos",
+    "Destinos inolvidables"
+  ],
+  "mission&Vision": "Misión and Visión",
+  "mission": {
+    "title": "Nuestra Misión",
+    "descripiton": "Crear experiencias de viajes basados en las preferencias de nuestros clientes, cumpliendo con los más altos estándares de calidad, responsabilidad social y ambiental. Además, promover el turismo nacional, impulsando negocios locales y emprendimientos rurales."
+  },
+  "vision": {
+    "title": "Nuestra Visión",
+    "descripiton": "Crear experiencias de viajes basados en las preferencias de nuestros clientes, cumpliendo con los más altos estándares de calidad, responsabilidad social y ambiental. Además, promover el turismo nacional, impulsando negocios locales y emprendimientos rurales."
+  },
+  "values": {
+    "title": "Nuestros valores",
+    "descripiton": "Integridad: Promovemos el turismo nacional ayudando a otros emprendimientos turísticos y locales. Responsabilidad: Nos comprometemos a actuar de manera responsable en todas nuestras operaciones y decisiones. Implementando protocolos y medidas para garantizar viajes seguros.Inclusión: Nos dedicamos a hacer que los viajes sean accesibles para todos, eliminando barreras físicas, comunicativas y cognitivas. Nuestro personal está capacitado para ofrecer asistencia adicional y contamos con una amplia gama de destinos para adaptarnos a las necesidades e intereses de todos los clientes.Innovación: Nos esforzamos por ser innovadores en la creación de experiencias de viaje únicas y personalizadas. Buscamos constantemente nuevas formas de sorprender a nuestros clientes y adaptarnos a las tendencias del mercado.Pasión: Nos apasiona viajar y queremos compartir esa pasión con nuestros clientes. Nos esforzamos por brindar experiencias extraordinarias que dejan recuerdos duraderos. Nuestro enfoque verde:Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica."
+  },
+  "partners": "Patrocinadores",
   "sectionOurTour": {
     "title": "Nuestras Giras",
     "body": "Escenarios naturales sorprendentes, paisajes que cuentan historias y biodiverdiad única que inspiran y capturan momentos únicos."
