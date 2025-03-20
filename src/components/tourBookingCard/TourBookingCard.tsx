@@ -91,7 +91,7 @@ const TourBookingCard = () => {
       </div>
 
       {/* Book Now Button */}
-      <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black">
+      <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 mx-auto text-xl rounded-full border-1 border-black">
         {i18n.t("reserveNow")}
       </button>
     </div>

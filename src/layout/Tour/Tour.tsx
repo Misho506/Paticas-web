@@ -19,7 +19,7 @@ const Tour = () => {
 
   const section = (children: JSX.Element | JSX.Element[], title: string) => {
     return (
-      <section className="flex flex-col items-center justify-self-center max-w-4xl mx-3">
+      <section className="flex flex-col items-center justify-self-center max-w-4xl px-3 mx-auto">
         <h5 className="text-3xl font-bold">{title}</h5>
         {children}
       </section>
@@ -63,7 +63,7 @@ const Tour = () => {
       {section(
         selectedTour.itinerary.map((activity, index) => (
           <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
-            <h5 key={index} className="activity-title w-full py-3 px-28 rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
+            <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
             <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out`}>{activity.description}</p>
           </article>
         )),
@@ -82,7 +82,7 @@ const Tour = () => {
       <hr className="w-4/5 mx-auto mb-6" />
       <button
         onClick={() => navigate(`/category/:${selectedCategory.title}`)}
-        className="show-all-button flex justify-self-center items-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
+        className="show-all-button flex justify-self-center items-center mx-auto my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
         <IoMdArrowBack />
         {i18n.t("goBack")}
