@@ -23,7 +23,7 @@ const TourImages = () => {
       </article>
       <button
         onClick={() => setShowsAll(!showsAll)}
-        className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
+        className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black  mx-auto"
       >
         {showsAll ? i18n.t("showLess") : i18n.t("seeMore")}
       </button>
@@ -34,7 +34,7 @@ const TourImages = () => {
         >
           <button
             onClick={() => setSelectedImage(null)}
-            className="absolute top-4 right-4 text-white z-10"
+            className="absolute top-4 right-4 text-white z-10 mx-auto"
           >
             <MdOutlineCancel size={24} />
           </button>

@@ -1,8 +1,6 @@
 .banner {
   object-fit: cover;
-  object-position: center;
   height: 800px;
-  /* \800 for laptop and 550 for mobile and position right img Monkey */
 }
 
 .separator {
@@ -23,5 +21,12 @@
 
   &:hover {
     background-color: theme('colors.orange');
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 550px;
   }
 }

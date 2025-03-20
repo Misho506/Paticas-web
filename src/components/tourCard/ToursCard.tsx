@@ -25,7 +25,7 @@ const ToursCards = ({ tours, showDescription }: { tours: Array<TourType>; showDe
       {!showDescription &&
         <button
           onClick={() => setShowAll(!showAll)}
-          className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
+          className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl mx-auto rounded-full border-1 border-black"
         >
           {showAll ? i18n.t("showLess") : i18n.t("allTours")}
         </button>}
