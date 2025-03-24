@@ -93,7 +93,7 @@ const BookingEmail = () => {
       <button className="w-2/5 bg-[#1B2821] text-white py-3 px-6 rounded-full m-auto flex justify-center ">
         <a
           href={`mailto:info@paticascr.com?subject=${encodeURIComponent(subjectEmail)}&body=${encodeURIComponent(bodyEmail)}`}
-          className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
+          className="no-underline text-white text-xs hover:text-gray-800 transition-colors"
         >
           {i18n.t("reserve")}
         </a>
