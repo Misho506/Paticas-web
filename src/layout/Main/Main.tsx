@@ -59,7 +59,7 @@ const Main = () => {
     <section className="main-container">
       <Carousel />
       <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
-      <ToursCards tours={tours} />
+      <ToursCards tours={tours} showDescription={false} />
       <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
       <PostCarrousel
         postList={blogs.map((blog, index) =>
@@ -74,7 +74,7 @@ const Main = () => {
       />
       <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
       <section className="relative">
-        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/t_Banner 16:9/v1740782675/Somos_ma%CC%81s_que_una_familia_geion4.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
+        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
           <h2 className="text-3xl text-center bold">
             {i18n.t("moreThanFamily")}

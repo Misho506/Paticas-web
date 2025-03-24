@@ -44,7 +44,7 @@ const Carousel = () => {
             <img
               src={banner.image}
               alt={banner.title}
-              className={`banner brightness-75 ${index === 2 && 'rotate-180'} w-100 ${index === 4 ? 'object-s' : 'object-center'}`}
+              className={`banner brightness-75 ${index === 2 && 'rotate-180'} w-100 ${index === 4 ? 'object-right' : 'object-center'}`}
             />
             <section
               style={{

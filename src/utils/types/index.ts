@@ -19,9 +19,9 @@ type ItineraryType = {
 type TourType = {
   img: string;
   title: string;
-  subTitle: string;
   places: Array<string>;
   daysAndNights: string;
+  days: number;
   description: string;
   about: string;
   photos: Array<string>;
@@ -74,9 +74,12 @@ type StepType = {
 
 type BookingTourType = {
   passengers: Array<PassengerInfo>;
-  date: Date;
+  kids: Array<PassengerInfo>;
+  startDate: Date;
+  endDate: Date;
   price: number;
   pricePerPerson: number;
+  pricePerKid: number;
   user: UserInfo;
 }
 

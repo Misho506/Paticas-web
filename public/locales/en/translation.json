@@ -1,262 +1,310 @@
 {
+  "aboutTour": "The Tour",
   "aboutUs": {
-    "title": "Nuestro viaje",
-    "subDescription": "Paticas pa´que las Quiero, ",
     "description": "Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. In 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "subDescription": "Paticas pa´que las Quiero, ",
+    "title": "Our Journey",
     "weAre": "We are Paticas Paque' Las Quiero"
   },
-  "greenFocus": {
-    "title": "Our Green Approach",
-    "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage."
+  "adults": "Adults",
+  "allTours": "See All Tours",
+  "booking": "Booking",
+  "bookingInfo": "Reservation Information",
+  "bookingNote": "Please confirm the reservation information before sending the email.",
+  "category1": {
+    "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of.",
+    "title": "Wildlife Photography Expedition"
+  },
+  "category2": {
+    "body": "Experience adrenaline-filled adventures in Costa Rica with rafting, zip-lining, ATV rides, wakeboarding, and waterfall rappelling. Explore the rainforest, rivers, and mountains with expert guides. Whether you're a thrill-seeker or nature lover, our Costa Rica travel agency offers the best adventure tours for an unforgettable journey in paradise.",
+    "title": "Adventure"
+  },
+  "category3": {
+    "body": "Unwind on Costa Rica’s best beaches, mountain retreats, and natural hot springs. Enjoy the sound of the ocean, explore breathtaking landscapes, and escape to a tropical paradise. Our relaxation-focused tours offer the perfect getaway for travelers seeking peace, comfort, and nature with the best Costa Rica travel agency for beach and wellness tourism.",
+    "title": "Beach, Mountain, and Sun"
+  },
+  "category4": {
+    "body": "Explore Costa Rica’s most breathtaking destinations, from the Top 10 most popular spots, like La Fortuna’s hot springs, Rio Celeste’s turquoise waters, Santa Teresa’s paradise beaches, and the vibrant Caribbean coast, to hidden gems only locals know, including secluded waterfalls, volcanic hikes, and untouched beaches. Travel with the best Costa Rica travel agency for exclusive adventures.",
+    "title": "Unforgettable Destinations"
+  },
+  "childrensText": "per child aged 3-10 years, only allowed with a minimum of 2 adults.",
+  "close": "Close",
+  "completeName": "Complete name",
+  "contact": "Contact",
+  "discoverMore": "Discover More",
+  "email": "Email",
+  "endDate": "End date",
+  "exploreMore": "Explore More",
+  "followUs": "Stay connected for travel updates!",
+  "formErrors": {
+    "email": {
+      "invalidType": "The email must be a valid format",
+      "required": "The email is required"
+    },
+    "lastName": {
+      "required": "The last name is required"
+    },
+    "passportId": {
+      "required": "The passport number is required"
+    },
+    "phoneNumber": {
+      "invalidType": "The phone number must not contain text",
+      "required": "The phone number is required"
+    },
+    "userName": {
+      "required": "The name is required"
+    }
   },
   "founders": " Our Founders",
   "foundersInfo": {
     "karla": {
+      "bio": "A young entrepreneur passionate about travel, and photography. During her years as a student in English and Business Management at the University of Costa Rica, she was inspired to create her own business. Alongside her mother and sister, she founded Paticas, a travel agency in Costa Rica that reflects her love for exploring Costa Rica, capturing its beauty through photography, and sharing unforgettable travel experiences. During her university career, Karla embarked on this exciting journey, leading Paticas to become a top-rated Costa Rica tour company. Her dedication to sustainable tourism, personalized travel experiences, and local culture has been key to building a brand synonymous with unique and memorable tours in Costa Rica.",
       "name": "Karla Calderón",
-      "title": "CEO & Founder",
-      "bio": "A young entrepreneur passionate about travel, and photography. During her years as a student in English and Business Management at the University of Costa Rica, she was inspired to create her own business. Alongside her mother and sister, she founded Paticas, a travel agency in Costa Rica that reflects her love for exploring Costa Rica, capturing its beauty through photography, and sharing unforgettable travel experiences. During her university career, Karla embarked on this exciting journey, leading Paticas to become a top-rated Costa Rica tour company. Her dedication to sustainable tourism, personalized travel experiences, and local culture has been key to building a brand synonymous with unique and memorable tours in Costa Rica."
+      "title": "CEO & Founder"
     },
     "yoely": {
+      "bio": "A student of International Trade at the University of Costa Rica, Yoely is the co-founder of Paticas, a leading travel agency in Costa Rica. Her passion for global commerce, tourism, and customer experience is reflected in every Costa Rica tour package Paticas offers. As Head of Marketing and Customer Service, she brings a fresh and dynamic approach that has contributed to Paticas' growth in the Costa Rica tourism industry. Her expertise in digital marketing, personalized travel planning, and customer engagement helps the company connect with travelers worldwide. Her commitment to sustainable tourism and exclusive travel experiences in Costa Rica continues to drive Paticas toward new opportunities and innovation.",
       "name": "Yoely Jiménez",
-      "title": "CMO & Co-Founder",
-      "bio": "A student of International Trade at the University of Costa Rica, Yoely is the co-founder of Paticas, a leading travel agency in Costa Rica. Her passion for global commerce, tourism, and customer experience is reflected in every Costa Rica tour package Paticas offers. As Head of Marketing and Customer Service, she brings a fresh and dynamic approach that has contributed to Paticas' growth in the Costa Rica tourism industry. Her expertise in digital marketing, personalized travel planning, and customer engagement helps the company connect with travelers worldwide. Her commitment to sustainable tourism and exclusive travel experiences in Costa Rica continues to drive Paticas toward new opportunities and innovation."
+      "title": "CMO & Co-Founder"
     },
     "yorlene": {
+      "bio": "Yorlene Calderón Molina is the matriarch of our team at Paticas. Her extensive experience and unwavering support have been the driving force behind the creation of this exciting travel project in Costa Rica. Yorlene's dedication and passion for exploring the most fascinating corners of our country are reflected in every aspect of our travel agency. She represents the very essence of Paticas, and it is an honor to have her leadership on this journey toward unforgettable travel experiences.",
       "name": "Yorlene Calderón",
-      "title": "COO & Co-Founder",
-      "bio": "Yorlene Calderón Molina is the matriarch of our team at Paticas. Her extensive experience and unwavering support have been the driving force behind the creation of this exciting travel project in Costa Rica. Yorlene's dedication and passion for exploring the most fascinating corners of our country are reflected in every aspect of our travel agency. She represents the very essence of Paticas, and it is an honor to have her leadership on this journey toward unforgettable travel experiences."
+      "title": "COO & Co-Founder"
+    }
+  },
+  "generalEmail": {
+    "body": "Dear Paticas Team,\n\nI hope you're doing well. My name is [Your Name], and I'm interested in planning a trip to Costa Rica. I would love your guidance in organizing my visit and exploring the best tour options available. Additionally, I'm open to personalized experiences and would appreciate a quote based on my preferences.\n\nCould you please share more details on the tours you offer and how you can help me create an unforgettable trip? I look forward to your recommendations and your response.\n\nBest,\n[Your Name]",
+    "subject": "Assistance with Planning My Trip to Costa Rica"
+  },
+  "goBack": "Go Back",
+  "greenFocus": {
+    "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage.",
+    "title": "Our Green Approach"
+  },
+  "includes": "Includes",
+  "investment": "Investment",
+  "itinerary": "Itinerary",
+  "kid": "Kid",
+  "kids": "Kids",
+  "lastName": "Last name",
+  "mission": {
+    "description": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica.",
+    "title": "Our Mission"
+  },
+  "mission&Vision": "Mission and Vision",
+  "moreThanFamily": "We're more than just a family",
+  "name": "Name",
+  "newsletter": {
+    "description": "If you like staying up to date with tour options, travel tips, and more, don't hesitate to subscribe.",
+    "subscribe": "Subscribe to our newsletter"
+  },
+  "next": "Next",
+  "notAvailableCard": {
+    "message": "Sorry! It's not available right now, but it will be very soon. Stay tuned!",
+    "title": "Not available"
+  },
+  "notAvailableNewsLetter": {
+    "message": "Sorry! Our newsletter is not available right now, but it will be very soon. Stay tuned for updates, offers, and more!",
+    "title": "Not available"
+  },
+  "noTaxes": "No additional taxes or booking fees",
+  "otherExp": "Other experiences",
+  "ourTours": {
+    "description": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes.",
+    "title": "Our Tours"
+  },
+  "partners": "Partners",
+  "passportId": "Passport ID",
+  "phoneNumber": "Phone Number",
+  "terms&Conditions": "Terms and Conditions",
+  "pricePerKid": "Price per kid",
+  "pricePerPerson": "Price per adult",
+  "principal": "Principal",
+  "principalBanners": {
+    "betweenVolcanoes": {
+      "description": "Discover the stunning Arenal Volcano and the incredible biodiversity of Monteverde.",
+      "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
+    },
+    "caribeanSouthCaribean": {
+      "description": "Explore white-sand beaches and Afro-Caribbean culture in Costa Rica",
+      "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea"
+    },
+    "fishingSport": {
+      "description": "Experience deep-sea fishing in Quepos and Caño Island, and reel in trophy fish",
+      "title": "Sport Fishing Adventures"
+    },
+    "manuelAntonio": {
+      "description": "Enjoy paradise beaches, whale watching, and turtle nesting under the moonlight",
+      "title": "Turtle Nesting & Whale Watching"
+    },
+    "wildLife": {
+      "description": "Capture stunning wildlife shots in Corcovado, one of the most biodiverse places on the planet.",
+      "title": "Wildlife Photography in Corcovado"
     }
   },
   "readLess": "Read Less",
   "readMore": "Read More",
-  "statsInfo": [
-    "Successfully completed trips",
-    "Living from our passion",
-    "Satisfied customers",
-    "Unforgettable destinations"
-  ],
-  "mission&Vision": "Mission and Vision",
-  "mission": {
-    "title": "Nuestra Misión",
-    "descripiton": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica."
-  },
-  "vision": {
-    "title": "Nuestra Visión",
-    "descripiton": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry."
-  },
-  "values": {
-    "title": "Nuestros valores",
-    "descripiton": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories."
-  },
-  "partners": "Partners",
-  "sectionOurTour": {
-    "title": "Our Tours",
-    "body": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes."
+  "reserve": "Reserve",
+  "reserveNow": "Reserve Now",
+  "rightsReserved": "Paticas Pa'que las Quiero. All rights reserved.",
+  "sectionAboutUs": {
+    "body": "Get to know Paticas, a leading Costa Rica travel agency! Meet our founders and discover how we create sustainable, authentic, and personalized travel experiences while supporting local communities.",
+    "title": "About us"
   },
   "sectionBlogs": {
-    "title": "Blogs",
-    "body": "Explore Costa Rica, the land of Pura Vida! Dive into our blogs to explore its vibrant culture, deep-rooted traditions, and incredible biodiversity. Learn what makes this tropical paradise unique and get inspired for your next adventure."
-  },
-  "sectionAboutUs": {
-    "title": "About us",
-    "body": "Get to know Paticas, a leading Costa Rica travel agency! Meet our founders and discover how we create sustainable, authentic, and personalized travel experiences while supporting local communities."
-  },
-  "sectionReviews": {
-    "title": "Reviews",
-    "body": "Our customers support us",
-    "numberOf": "5.0 rating from 250 reviews"
+    "body": "Explore Costa Rica, the land of Pura Vida! Dive into our blogs to explore its vibrant culture, deep-rooted traditions, and incredible biodiversity. Learn what makes this tropical paradise unique and get inspired for your next adventure.",
+    "title": "Blogs"
   },
   "sectionContact": {
-    "title": "Contact us",
-    "body": "Feel free to reach out to us! We are ready to make your dream trip a reality and turn every detail into an unforgettable experience."
+    "body": "Feel free to reach out to us! We are ready to make your dream trip a reality and turn every detail into an unforgettable experience.",
+    "title": "Contact us"
   },
-  "generalEmail": {
-    "subject": "Assistance with Planning My Trip to Costa Rica",
-    "body": "Dear Paticas Team,\n\nI hope you're doing well. My name is [Your Name], and I'm interested in planning a trip to Costa Rica. I would love your guidance in organizing my visit and exploring the best tour options available. Additionally, I'm open to personalized experiences and would appreciate a quote based on my preferences.\n\nCould you please share more details on the tours you offer and how you can help me create an unforgettable trip? I look forward to your recommendations and your response.\n\nBest,\n[Your Name]"
+  "sectionOurTour": {
+    "body": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes.",
+    "title": "Our Tours"
   },
-  "yearAgo": "a year ago",
-  "moreThanFamily": "We're more than just a family",
-  "weAre": "We have the spirit for travel",
-  "policies&Conditions": "Policies and Conditions",
-  "subscribe": "Subscribe",
-  "discoverMore": "Discover More",
-  "exploreMore": "Explore More",
-  "allTours": "See All Tours",
-  "showLess": "Show Less",
+  "sectionReviews": {
+    "body": "Our customers support us",
+    "numberOf": "5.0 rating from 250 reviews",
+    "title": "Reviews"
+  },
   "seeMore": "See More",
-  "reserveNow": "Reserve Now",
-  "childrensText": "per child aged 3-10 years, only allowed with a minimum of 2 adults.",
-  "adults": "adults",
-  "noTaxes": "No additional taxes or booking fees",
-  "next": "Next",
-  "name": "Name",
-  "lastName": "Last name",
-  "email": "Email",
-  "passportId": "Passport ID",
-  "formErrors": {
-    "userName": {
-      "required": "The name is required",
-      "invalidType": "The name must be a text"
-    },
-    "email": {
-      "required": "The email is required",
-      "invalidType": "The email must be a valid format"
-    },
-    "lastName": {
-      "required": "The last name is required",
-      "invalidType": "The last name must be a text"
-    },
-    "phoneNumber": {
-      "required": "The phone number is required",
-      "invalidType": "The phone number must not contain text"
-    },
-    "passportId": {
-      "required": "The passport number is required"
-    }
-  },
-  "traveler": "Traveler",
-  "travelers": "Travelers",
-  "principal": "Principal",
-  "bookingInfo": "Reservation Information",
-  "completeName": "Complete name",
-  "endDate": "End date",
-  "startDate": "Start date",
-  "phoneNumber": "Phone Number",
-  "investment": "Investment",
-  "totalPrice": "Total price",
-  "pricePeerPerson": "Price peer person",
-  "bookingNote": "Please confirm the reservation information before sending the email.",
-  "whatsappMessage": "Hi, my name is [Your Name]! I'm interested in learning more about your tours and travel options. Could you help me find the best experience based on my preferences? I’d appreciate your assistance. Thank you!",
-  "category1": {
-    "title": "Wildlife Photography Expedition",
-    "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of."
-  },
-  "category2": {
-    "title": "Adventure",
-    "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of."
-  },
-  "category3": {
-    "title": "Beach, Mountain, and Sun",
-    "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of."
-  },
-  "category4": {
-    "title": "Unforgettable Destinations",
-    "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of."
-  },
-  "goBack": "Go Back",
-  "submit": "Submit",
-  "ourTours": {
-    "title": "Our Tours",
-    "description": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes."
-  },
-  "rightsReserved": "Paticas Pa'que las Quiero. All rights reserved.",
-  "followUs": "Stay connected for travel updates!",
-  "newsletter": {
-    "subscribe": "Subscribe to our newsletter",
-    "description": "If you like staying up to date with tour options, travel tips, and more, don't hesitate to subscribe."
-  },
   "shareExperience": "Share Your Experience",
-  "aboutTour": "About the Tour",
-  "otherExp": "Other experiences",
-  "itinerary": "Itinerary",
-  "includes": "Includes",
-  "contact": "Contact",
+  "showLess": "Show Less",
+  "startDate": "Start date",
+  "statsInfo": [
+    "Living from our passion",
+    "Satisfied customers",
+    "Successfully completed trips",
+    "Unforgettable destinations"
+  ],
+  "submit": "Submit",
+  "subscribe": "Subscribe",
+  "totalPrice": "Total price",
   "tour": "Tour",
-  "reserve": "Reserve",
-  "principalBanners": {
-    "betweenVolcanoes": {
-      "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures",
-      "description": "Discover the stunning Arenal Volcano and the incredible biodiversity of Monteverde."
-    },
-    "fishingSport": {
-      "title": "Sport Fishing Adventures",
-      "description": "Experience deep-sea fishing in Quepos and Caño Island, and reel in trophy fish"
-    },
-    "caribeanSouthCaribean": {
-      "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea",
-      "description": "Explore white-sand beaches and Afro-Caribbean culture in Costa Rica"
-    },
-    "manuelAntonio": {
-      "title": "Turtle Nesting & Whale Watching",
-      "description": "Enjoy paradise beaches, whale watching, and turtle nesting under the moonlight"
-    },
-    "wildLife": {
-      "title": "Wildlife Photography in Corcovado",
-      "description": "Capture stunning wildlife shots in Corcovado, one of the most biodiverse places on the planet."
-    }
-  },
   "tours": {
-    "wildLife": {
-      "title": "Wildlife Photography in Corcovado",
-      "subTitle": "Photographing wildlife in Corcovado, one of the most biodiverse places on the planet",
-      "places": [
-        "South Pacific"
+    "crocodilesAndBirds": {
+      "about": "Join our Photography Expedition designed for nature and wildlife photographers. Experience the breathtaking biodiversity of Costa Rica, from lush rainforests to the Tárcoles River. Capture stunning images of exotic fauna and flora. Rancho Naturalista, located in Turrialba, is a top birdwatching destination in Central America, offering views of over 450 bird species, including hummingbirds and rare birds like the Black-Throated Wren and Lovely Cotinga. Photographers and nature lovers will enjoy the unparalleled views of Turrialba Volcano. Explore the Tárcoles River, home to American crocodiles, iguanas, and howler monkeys. With over 320 bird species, including the yellow-billed cotinga and jabiru, this river is a paradise for wildlife photographers.",
+      "daysAndNights": "7 days and 6 nights",
+      "description": "Explore the rich biodiversity of Río Tárcoles and Rancho Naturalista, perfect for photographing crocodiles, herons, roseate spoonbills, toucans, and other exotic birds. Capture stunning images of wildlife and lush tropical landscapes with this specialized crocodile and bird photography tour in Costa Rica.",
+      "includes": [
+        "Transfers to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "6 nights of accommodation with breakfast and lunch included.",
+        "Night photography tour at Rancho Naturalista.",
+        "Hummingbird and bird tour at Rancho Naturalista.",
+        "Coffee tour and spa day at Rancho Naturalista.",
+        "Boat tour on the Tárcoles River.",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT).",
+        "Children aged 0 to 2 years do not incur any additional cost.",
+        "The child rate applies to ages 3 to 10 years. A maximum of 2 children can share a room with their parents or guardians."
       ],
-      "daysAndNights": "8 days and 7 nights",
-      "description": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of.",
-      "about": "Explore Corcovado National Park, one of the most biologically diverse places on Earth, perfect for wildlife photography enthusiasts. Located on Costa Rica’s Osa Peninsula, this natural wonder represents 2.5% of the world’s biodiversity, blending tropical rainforests, pristine beaches, and waterfalls.\nCapture incredible images of sloths, tapirs, toucans, and even elusive wild cats like pumas and ocelots in their natural habitat. Recognized by National Geographic as “the most biologically intense place on Earth,” Corcovado offers activities like boat tours, whale and dolphin watching, and nighttime hikes.",
+      "itinerary": [
+        {
+          "description": "Kick off your Costa Rican adventure upon arrival at Juan Santamaría International Airport! Our professional local team will warmly greet you with a smile and the traditional Costa Rican saying, '¡Pura vida!' After luggage retrieval, you will be transferred in comfortable private transport to your hotel in San José. The afternoon is yours to relax or explore the vibrant capital.",
+          "title": "Day 1 - Welcome to Costa Rica"
+        },
+        {
+          "description": "Experience the beauty of Costa Rica at Rancho Naturalista, an eco-tourism paradise surrounded by lush vegetation. This hotel boasts over 120 acres of protected rainforest and extensive trails, perfect for birdwatching. You will have the chance to capture stunning images of various bird species, such as tanagers, toucans, and hummingbirds. After dinner, enjoy a guided night tour exploring fascinating nocturnal wildlife, including insects, amphibians, and reptiles.",
+          "title": "Day 2 - Night Photography Tour at Rancho Naturalista"
+        },
+        {
+          "description": "At Rancho Naturalista, in addition to enjoying its natural beauty, we will have the opportunity to participate in an exciting birdwatching tour, exploring the diverse avifauna that inhabits the area. This tour will take us along the trails, allowing us to admire and photograph a wide variety of bird species, including the Black-Throated Wren, Grey-Headed Piprites, Snowcap, Black-Crested Coquette, Tawny-Chested Flycatcher, White-Throated Flycatcher, Lovely Cotinga, Thicket Antpitta, Dull-Mantled Antbird, and White-Crowned Manakin.",
+          "title": "Day 3: Birdwatching at Rancho Naturalista"
+        },
+        {
+          "description": "Start your day with the rich aroma of Costa Rican coffee. Participate in the Golden Bean Coffee Tour, learning about the coffee production process from planting to roasting. Afterward, relax with rejuvenating spa treatments that offer tranquility amidst nature.",
+          "title": "Day 4 - Coffee Tour and Spa Day at Rancho Naturalista"
+        },
+        {
+          "description": "After a leisurely morning, our boat will be waiting for us to embark on a tour of the Tárcoles River. Renowned for its rich biodiversity, we will spend the afternoon searching out photographs of the many crocodiles and bird species along the river corridor. Sunset will provide us with many beautiful photo opportunities only available from a boat gliding gently along the breathtaking river banks.",
+          "title": "Day 5 - Tárcoles River Adventure"
+        },
+        {
+          "description": "We will begin our day with an early start on an exhilarating boat expedition again on the Tárcoles River. As home to one of the largest crocodile populations, we'll photograph and observe these magnificent reptiles along with over 60 bird species, including the Great Egret and Bare-throated Tiger-Heron. Then we're off to explore the Guacalillo Canal, a crucial habitat for the endangered Scarlet Macaw. Afterward, return to San José, enjoying the stunning landscapes along the way.",
+          "title": "Day 6 - Tárcoles River Tour and Return to San José"
+        },
+        {
+          "description": "On this final day in Costa Rica, we will be ready to take you to Juan Santamaría International Airport for your return flight home. It has been a true pleasure to be part of this exciting experience with all of you. We sincerely hope for your swift and friendly return to this beautiful country, which is also your home.",
+          "title": "Day 7: Last Day in Costa Rica"
+        }
+      ],
+      "places": [
+        "North Caribean",
+        "Central Pacific"
+      ],
+      "title": "Wildlife Photography Workshop: Crocodiles and Birds"
+    },
+    "ecoExplor": {
+      "about": "EcoExplora is designed for thrill-seekers looking to experience Costa Rica’s most exhilarating outdoor adventures. From white-water rafting on the Pacuare River and waterfall rappelling in the rainforest to ATV jungle expeditions in La Fortuna, every moment is packed with excitement. Glide across Lake Arenal on a wakeboard or stand-up paddleboard, snorkel in crystal-clear waters at the stunning Tortuga Island, and immerse yourself in Costa Rica’s rich culture with a visit to the traditional artisan town of Sarchí.",
+      "daysAndNights": "9 days and 8 nights",
+      "description": "Experience the ultimate Costa Rica adventure with snorkeling in pristine waters, rappelling down breathtaking waterfalls, and wakeboarding on the scenic Arenal Lake. Your next adrenaline rush starts here!",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
-        "7 nights of accommodation with breakfast and lunch included.",
-        "Round-trip flight to Puerto Jiménez by small plane.",
-        "Round-trip boat transportation to Corcovado National Park.",
-        "Boat tour of the Golfo Dulce (landscape photography).",
-        "Sloth tour at La Perica Sloth Garden.",
-        "Boat tour on the Sierpe River (birdwatching, crocodiles, and monkeys).",
-        "Night photography tour.",
-        "Visit to Playa Matapalo.",
-        "Entrance fee included to national parks and wildlife refuges.",
+        "8 nights of accommodation with breakfast and lunch included.",
+        "White-water rafting on the Pacuare River.",
+        "Waterfall rappelling at Maquique Adventures.",
+        "ATV tour in La Fortuna.",
+        "Private yacht tour with Arenal Volcano views (includes stand-up paddleboarding, wakeboarding, or fishing).",
+        "Catamaran tour to Isla Tortuga with snorkeling.",
+        "Entry to the Traditional Oxcart Factory in Sarchí.",
         "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT).",
-        "Children aged 0 to 2 do not incur additional costs.",
+        "Value Added Tax (VAT) included.",
+        "Children aged 0 to 2 years do not incur additional costs.",
         "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
       ],
       "itinerary": [
         {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "Costa Rica, a country of contrasts with friendly people and unparalleled cuisine, spans 51,100 km², with 26% of its territory protected. Home to rich biodiversity, it boasts 6% of the world’s species. With no army, free public education, and a competitive healthcare system, it is an ideal vacation destination. Visitors appreciate its stunning nature, high quality of life, friendly locals, and safety. Upon arrival at Juan Santamaría International Airport, our professional team greets you with a warm 'Pura Vida!' and transfers you to a luxurious hotel."
+          "description": "Your adventure starts with a warm welcome at Juan Santamaría International Airport, where our team will greet you and provide private transportation to your hotel in San José. Take the day to explore the vibrant city, discover its rich culture, indulge in local cuisine, or simply relax before the adrenaline-packed days ahead.",
+          "title": "Day 1 - Arrival in San José"
         },
         {
-          "title": "Day 2 - Puerto Jiménez: Flight, Sloth Garden, and Night Photography",
-          "description": "We start with an exciting flight from Alajuela to Puerto Jiménez, where breathtaking views of lush jungle and Pacific coast await. After arriving, we visit La Perica Sloth Garden, dedicated to observing and learning about these charming mammals in their natural habitat. As night falls, we embark on a macro photography tour in the jungle, capturing unique images of nocturnal wildlife, including red-eyed tree frogs and intricate spiders."
+          "description": "Get ready for an unforgettable experience on the world-famous Pacuare River. This thrilling white-water rafting adventure takes you through lush tropical rainforest, rushing rapids, and breathtaking scenery. With expert guides ensuring your safety, you’ll navigate exhilarating Class III-IV rapids while immersing yourself in Costa Rica’s stunning biodiversity.",
+          "title": "Day 2 - White-Water Rafting on the Pacuare River"
         },
         {
-          "title": "Day 3 - Gulf Dulce",
-          "description": "The day begins with an exhilarating boat tour of Gulf Dulce, a tropical gulf surrounded by Corcovado National Park and Piedras Blancas National Park. This area is home to endangered species like hammerhead sharks and needlefish. We may spot dolphins, marine birds, and, during the right season, majestic humpback whales. Our knowledgeable guide will share insights about the area's diverse wildlife, including four monkey species and various birds."
+          "description": "Travel to La Fortuna, home to the iconic Arenal Volcano. Spend the evening exploring the town, enjoying traditional Costa Rican cuisine, or simply relaxing in preparation for the next adventure.",
+          "title": "Day 3 - Arrival in La Fortuna"
         },
         {
-          "title": "Day 4 - Corcovado National Park",
-          "description": "We embark on an exciting excursion to Corcovado National Park, traveling by boat to Sirena Station, the park's central hub. The park is teeming with biodiversity, including endangered species like Baird's tapir and a rich variety of birds, making it a paradise for nature lovers and photographers."
+          "description": "Kickstart your day with an adrenaline-fueled canyoning experience. Descend stunning waterfalls, rappel down rugged cliffs, and soar through the rainforest on exhilarating ziplines. Along the way, take in breathtaking views of Arenal Volcano and spot incredible wildlife. The adventure ends with a well-deserved, delicious local lunch.",
+          "title": "Day 4 - Rappelling & Ziplining with Maquique Adventures"
         },
         {
-          "title": "Day 5 - Playa Matapalo: Jeep Tour and Birdwatching",
-          "description": "We start the day with an exhilarating jeep tour to Playa Matapalo, where we can observe vibrant wildlife like scarlet macaws and various bird species. Our expert guide will share fascinating information about the region's flora and fauna before we enjoy some relaxation time at the beach."
+          "description": "Start your day with an exhilarating ATV tour in La Fortuna, exploring scenic trails and off-road paths surrounded by lush rainforest and stunning views of Arenal Volcano. Feel the thrill of speed and freedom as you navigate through rugged terrain, experiencing the perfect blend of adrenaline and breathtaking natural beauty.",
+          "title": "Day 5 - ATV Adventure in La Fortuna"
         },
         {
-          "title": "Day 6 - Sierpe River",
-          "description": "Next, we explore the Sierpe River, an exceptional ecosystem within the Golfo Dulce Forest Reserve. The mangroves provide habitat for diverse wildlife, including monkeys, iguanas, and colorful birds. This thrilling boat tour also offers the chance to spot caimans in their natural habitat."
+          "description": "Sail across Lake Arenal aboard a luxurious private yacht, where you can enjoy exciting water activities like stand-up paddleboarding, wakeboarding, or fishing while taking in the mesmerizing views of Arenal Volcano. In the afternoon, we travel to Alajuela for the next stage of our adventure.",
+          "title": "Day 6 - Private Yacht Experience on Lake Arenal"
         },
         {
-          "title": "Day 7 - Farewell to Osa and Return to San José",
-          "description": "We savor the beautiful morning in Puerto Jiménez before taking a scenic flight back to San José. We take one last look at Costa Rica's stunning landscapes, bidding farewell to the Osa Peninsula."
+          "description": "Get ready for an unforgettable Tortuga Island tour! Located in the Gulf of Nicoya, near the Curú Wildlife Refuge, this paradise island boasts crystal-clear waters and pristine white-sand beaches. Enjoy a snorkeling adventure, discovering vibrant marine life, or simply relax in this tropical haven. Adventure lovers can also try thrilling water sports or explore scenic island viewpoints.",
+          "title": "Day 7 - Tortuga Island Catamaran Tour & Snorkeling"
         },
         {
-          "title": "Day 8 - Last Day in Costa Rica",
-          "description": "It’s time to say goodbye to Costa Rica, taking wonderful memories of Corcovado with us. Our team will transfer you from your hotel to Juan Santamaría International Airport. Thank you for choosing Paticas for your unforgettable journey."
+          "description": "Sarchí, known as the 'Cradle of Costa Rican Handicrafts,' is home to the country's iconic painted oxcarts, a UNESCO-recognized cultural heritage. Visit an authentic artisan workshop, witness the craftsmanship behind these colorful masterpieces, and immerse yourself in Costa Rica’s rich cultural tradition",
+          "title": "Day 8 - Traditional Oxcart Factory in Sarchí"
+        },
+        {
+          "description": "As our journey comes to an end, we express our heartfelt gratitude for sharing this adventure with us. Our private airport transfer will take you to Juan Santamaría International Airport for your flight home. ¡Pura vida y buen viaje!",
+          "title": "Day 9 - Farewell & Departure from San José"
         }
-      ]
+      ],
+      "places": [
+        "North Zone"
+      ],
+      "title": "EcoExplora Adventure: Rafting, ATV & Jungle Expeditions"
     },
     "followingQuetzal": {
-      "title": "Wildlife Photography Workshop: Quetzals and King Vultures",
-      "subTitle": "Take Those Once-in-a-Lifetime Photos of Quetzals and King Vultures",
-      "places": [
-        "North Caribean"
-      ],
+      "about": "Embark on a 7-day photographic adventure in the lush forests of Cerro La Muerte, home to the quetzal, where you'll capture stunning images of this iconic bird. Next, we will travel to Sarapiquí, renowned for its biodiversity, where you can photograph species like the yellow bocaracá, the venomous parrot, and various toucans.\nWe will then proceed to Boca Tapada, Pital, San Carlos, known for the king vulture. During this stage, you will enjoy a specialized tour of hummingbirds equipped with multiple flash devices to capture every detail. You will also have the opportunity to join a nighttime tour to observe bats in their natural habitat.\nGet ready for an unforgettable adventure aboard our boat ride as we travel through a spectacular and biodiverse landscape. We'll be searching for herons, lizards, iguanas, monkeys, tanagers, and more, trying to capture that once-in-a-lifetime photograph we've all been dreaming about.",
       "daysAndNights": "7 days and 6 nights",
-      "description": "La majestuosidad del Quetzal cobra vida en el frondoso bosque de El Cerro La Muerte y el famoso Zopilote Rey se destaca en Boca Tapada.",
-      "about": "Embark on a 7-day photographic adventure in the lush forests of Cerro La Muerte, home to the quetzal, where you'll capture stunning images of this iconic bird. Next, we will travel to Sarapiquí, renowned for its biodiversity, where you can photograph species like the yellow bocaracá, the venomous parrot, and various toucans. We will then proceed to Boca Tapada, Pital, San Carlos, known for the king vulture. During this stage, you will enjoy a specialized tour of hummingbirds equipped with multiple flash devices to capture every detail. You will also have the opportunity to join a nighttime tour to observe bats in their natural habitat. Get ready for an unforgettable adventure aboard our boat ride as we travel through a spectacular and biodiverse landscape. We'll be searching for herons, lizards, iguanas, monkeys, tanagers, and more, trying to capture that once-in-a-lifetime photograph we've all been dreaming about.",
+      "description": "Take Those Once-in-a-Lifetime Photos of Quetzals and King Vultures. Capture the majestic Quetzal in the lush cloud forests of Cerro de la Muerte and the iconic King Vulture in Boca Tapada. Join our wildlife photography workshop in Costa Rica for an unforgettable experience.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
@@ -275,114 +323,54 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "With a warm smile and the traditional greeting of 'Pura Vida' we cordially welcome you. We will be waiting for you at Juan Santamaría International Airport, where our private transportation with a driver will be ready to take you comfortably to your destination: Quetzal Lodge, where you will spend the next three nights of this exciting adventure."
+          "description": "With a warm smile and the traditional greeting of 'Pura Vida' we cordially welcome you. We will be waiting for you at Juan Santamaría International Airport, where our private transportation with a driver will be ready to take you comfortably to your destination: Quetzal Lodge, where you will spend the next three nights of this exciting adventure.",
+          "title": "Day 1 - Welcome to Costa Rica"
         },
         {
-          "title": "Day 2 - Quetzal Paradise",
-          "description": "We start the day with a unique experience: the quetzal tour. In Costa Rica, these majestic birds are considered a national treasure and one of the most emblematic species of our cloud forests. With their bright plumage and graceful flight, quetzals are a truly impressive sight, and we hope you can capture their beauty in their natural state. In the afternoon, you will have the opportunity to explore the hummingbird garden, a sanctuary filled with life and color where these tiny birds flutter among the flowers in search of nectar. You will be able to admire their agility and beauty as they blend with the local vegetation."
+          "description": "We start the day with a unique experience: the quetzal tour. In Costa Rica, these majestic birds are considered a national treasure and one of the most emblematic species of our cloud forests. With their bright plumage and graceful flight, quetzals are a truly impressive sight, and we hope you can capture their beauty in their natural state. In the afternoon, you will have the opportunity to explore the hummingbird garden, a sanctuary filled with life and color where these tiny birds flutter among the flowers in search of nectar. You will be able to admire their agility and beauty as they blend with the local vegetation.",
+          "title": "Day 2 - Quetzal Paradise"
         },
         {
-          "title": "Day 3 - Visit to Quetzal Feeders and Nests",
-          "description": "We will head to the quetzal feeders and nests, strategic locations where we will have the opportunity to closely observe their behavior as they feed and care for their young. Accompanied by expert birdwatching guides, we will venture into the dense vegetation of the area, attentive to every movement and song that brings us closer to these magical creatures. It will be a day filled with emotions and unforgettable moments as we marvel at the beauty and mystery of quetzals in their natural environment."
+          "description": "We will head to the quetzal feeders and nests, strategic locations where we will have the opportunity to closely observe their behavior as they feed and care for their young. Accompanied by expert birdwatching guides, we will venture into the dense vegetation of the area, attentive to every movement and song that brings us closer to these magical creatures. It will be a day filled with emotions and unforgettable moments as we marvel at the beauty and mystery of quetzals in their natural environment.",
+          "title": "Day 3 - Visit to Quetzal Feeders and Nests"
         },
         {
-          "title": "Day 4 - Frogs Heaven in Sarapiquí",
-          "description": "This morning, we will head to Sarapiquí, a renowned destination for its incredible biodiversity. Here, you will have the opportunity to photograph a wide variety of species, including the famous yellow-billed cacique and several species of frogs. Sarapiquí covers 80% of the Heredia province, making it a true paradise for nature and photography lovers. In the afternoon, we will move to Boca Tapada, where we can observe the impressive King Vulture in its natural habitat."
+          "description": "This morning, we will head to Sarapiquí, a renowned destination for its incredible biodiversity. Here, you will have the opportunity to photograph a wide variety of species, including the famous yellow-billed cacique and several species of frogs. Sarapiquí covers 80% of the Heredia province, making it a true paradise for nature and photography lovers. In the afternoon, we will move to Boca Tapada, where we can observe the impressive King Vulture in its natural habitat.",
+          "title": "Day 4 - Frogs Heaven in Sarapiquí"
         },
         {
-          "title": "Day 5 - Tours in Boca Tapada",
-          "description": "We will enjoy a morning tour to observe the King Vulture (Sarcoramphus papa), a unique experience to learn about this magnificent bird and capture amazing photographs. In the afternoon, we will explore the rich avifauna of the area, including toucans and colorful hummingbirds, using a multiple flash system to capture stunning images. We will conclude the day with a night tour, where we will observe bats and other nocturnal species."
+          "description": "We will enjoy a morning tour to observe the King Vulture (Sarcoramphus papa), a unique experience to learn about this magnificent bird and capture amazing photographs. In the afternoon, we will explore the rich avifauna of the area, including toucans and colorful hummingbirds, using a multiple flash system to capture stunning images. We will conclude the day with a night tour, where we will observe bats and other nocturnal species.",
+          "title": "Day 5 - Tours in Boca Tapada"
         },
         {
-          "title": "Day 6 - Boat Tour to the Nicaragua Border",
-          "description": "We will start the day with a relaxing boat tour along the San Carlos River and Tres Amigos, near the Nicaragua border. During the tour, you will spot a variety of wildlife, such as herons, iguanas, monkeys, and tanagers. In the afternoon, we will travel to Alajuela, a peaceful city in the Central Valley, perfect for resting after a day full of adventures."
+          "description": "We will start the day with a relaxing boat tour along the San Carlos River and Tres Amigos, near the Nicaragua border. During the tour, you will spot a variety of wildlife, such as herons, iguanas, monkeys, and tanagers. In the afternoon, we will travel to Alajuela, a peaceful city in the Central Valley, perfect for resting after a day full of adventures.",
+          "title": "Day 6 - Boat Tour to the Nicaragua Border"
         },
         {
-          "title": "Day 7 - Last Day in Costa Rica",
-          "description": "To conclude your trip comfortably and safely, we will arrange private transportation to take you from your hotel to Juan Santamaría International Airport. We sincerely thank you for your visit and hope you enjoyed every moment of your adventure in Costa Rica."
+          "description": "To conclude your trip comfortably and safely, we will arrange private transportation to take you from your hotel to Juan Santamaría International Airport. We sincerely thank you for your visit and hope you enjoyed every moment of your adventure in Costa Rica.",
+          "title": "Day 7 - Last Day in Costa Rica"
         }
-      ]
-    },
-    "crocodilesAndBirds": {
-      "title": "Wildlife Photography Workshop: Crocodiles and Birds",
-      "subTitle": "Capture Stunning Shots of Crocodiles, Rare Birds & Wildlife in Costa Rica!",
+      ],
       "places": [
-        "North Caribean and Central Pac"
+        "North Caribean"
       ],
-      "daysAndNights": "7 days and 6 nights",
-      "description": "Adentrarse en el entorno del Río Tárcoles y Rancho Naturalista permite vivir de cerca la rica biodiversidad de la región.",
-      "about": "Join our Photography Expedition designed for nature and wildlife photographers. Experience the breathtaking biodiversity of Costa Rica, from lush rainforests to the Tárcoles River. Capture stunning images of exotic fauna and flora. Rancho Naturalista, located in Turrialba, is a top birdwatching destination in Central America, offering views of over 450 bird species, including hummingbirds and rare birds like the Black-Throated Wren and Lovely Cotinga. Photographers and nature lovers will enjoy the unparalleled views of Turrialba Volcano. Explore the Tárcoles River, home to American crocodiles, iguanas, and howler monkeys. With over 320 bird species, including the yellow-billed cotinga and jabiru, this river is a paradise for wildlife photographers.",
-      "includes": [
-        "Transfers to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "6 nights of accommodation with breakfast and lunch included.",
-        "Night photography tour at Rancho Naturalista.",
-        "Hummingbird and bird tour at Rancho Naturalista.",
-        "Coffee tour and spa day at Rancho Naturalista.",
-        "Boat tour on the Tárcoles River.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT).",
-        "Children aged 0 to 2 years do not incur any additional cost.",
-        "The child rate applies to ages 3 to 10 years. A maximum of 2 children can share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "Kick off your Costa Rican adventure upon arrival at Juan Santamaría International Airport! Our professional local team will warmly greet you with a smile and the traditional Costa Rican saying, '¡Pura vida!' After luggage retrieval, you will be transferred in comfortable private transport to your hotel in San José. The afternoon is yours to relax or explore the vibrant capital."
-        },
-        {
-          "title": "Day 2 - Night Photography Tour at Rancho Naturalista",
-          "description": "Experience the beauty of Costa Rica at Rancho Naturalista, an eco-tourism paradise surrounded by lush vegetation. This hotel boasts over 120 acres of protected rainforest and extensive trails, perfect for birdwatching. You will have the chance to capture stunning images of various bird species, such as tanagers, toucans, and hummingbirds. After dinner, enjoy a guided night tour exploring fascinating nocturnal wildlife, including insects, amphibians, and reptiles."
-        },
-        {
-          "title": "Day 3: Birdwatching at Rancho Naturalista",
-          "description": "At Rancho Naturalista, in addition to enjoying its natural beauty, we will have the opportunity to participate in an exciting birdwatching tour, exploring the diverse avifauna that inhabits the area. This tour will take us along the trails, allowing us to admire and photograph a wide variety of bird species, including the Black-Throated Wren, Grey-Headed Piprites, Snowcap, Black-Crested Coquette, Tawny-Chested Flycatcher, White-Throated Flycatcher, Lovely Cotinga, Thicket Antpitta, Dull-Mantled Antbird, and White-Crowned Manakin."
-        },
-        {
-          "title": "Day 4 - Coffee Tour and Spa Day at Rancho Naturalista",
-          "description": "Start your day with the rich aroma of Costa Rican coffee. Participate in the Golden Bean Coffee Tour, learning about the coffee production process from planting to roasting. Afterward, relax with rejuvenating spa treatments that offer tranquility amidst nature."
-        },
-        {
-          "title": "Day 5 - Tárcoles River Adventure",
-          "description": "After a leisurely morning, our boat will be waiting for us to embark on a tour of the Tárcoles River. Renowned for its rich biodiversity, we will spend the afternoon searching out photographs of the many crocodiles and bird species along the river corridor. Sunset will provide us with many beautiful photo opportunities only available from a boat gliding gently along the breathtaking river banks."
-        },
-        {
-          "title": "Day 6 - Tárcoles River Tour and Return to San José",
-          "description": "We will begin our day with an early start on an exhilarating boat expedition again on the Tárcoles River. As home to one of the largest crocodile populations, we'll photograph and observe these magnificent reptiles along with over 60 bird species, including the Great Egret and Bare-throated Tiger-Heron. Then we're off to explore the Guacalillo Canal, a crucial habitat for the endangered Scarlet Macaw. Afterward, return to San José, enjoying the stunning landscapes along the way."
-        },
-        {
-          "title": "Day 7: Last Day in Costa Rica",
-          "description": "On this final day in Costa Rica, we will be ready to take you to Juan Santamaría International Airport for your return flight home. It has been a true pleasure to be part of this exciting experience with all of you. We sincerely hope for your swift and friendly return to this beautiful country, which is also your home."
-        }
-      ]
+      "title": "Wildlife Photography Workshop: Quetzals and King Vultures"
     },
-    "secretsOfCostaRica": {
-      "title": "Destinos secretos de Costa Rica",
-      "subTitle": "Explorando tesoros escondidos de Costa Rica en una aventura que revela su esencia natural y cultural.",
-      "places": [
-        "Central Region"
-      ],
-      "daysAndNights": "8 days and 7 nights",
-      "description": "La esencia de Costa Rica se vive en un tour lleno de aventura, momentos de tranquilidad y un entorno natural rico en biodiversidad.",
-      "about": "'The Hidden Gems of Costa Rica' is an exclusive tour that unveils the magical and hidden essence of this lush paradise. Join us on an adventure and immerse yourself in a unique experience in this beautiful Central American country, exploring mysterious and captivating destinations. Discover imposing volcanoes, pristine beaches, hidden waterfalls, serene lakes, dense forests, and charming little towns that will take your breath away. 'The Hidden Gems of Costa Rica' is the journey that will lead us through rarely visited paradises, rich in almost unreal beauty. Join us on a trip we guarantee will be unforgettable and discover the authentic secret Costa Rica.",
+    "manuelAntonio": {
+      "about": "Discover the breathtaking beauty of Manuel Antonio National Park and Uvita, a premier eco-tourism destination on Costa Rica's southern Pacific coast. Established in 1972, Manuel Antonio is one of the country's most visited parks. Recognized by Forbes as one of the 12 most beautiful parks in the world, it boasts stunning white sandy beaches, clear waters, vibrant biodiversity, and abundant wildlife, including monkeys, sloths, dolphins, and various tropical species. Relax in this serene environment, perfect for unwinding in nature.\nUvita, part of Marino Ballena National Park, is renowned for its unique whale tail formation and is a premier destination for whale watching, thanks to its rich marine life. This haven for exotic fauna serves as a sanctuary for dolphins and turtles. Explore Isla del Caño, a biological reserve celebrated for its pristine coral reefs and diverse marine species.",
+      "daysAndNights": "6 days and 5 nights",
+      "description": "Explore Manuel Antonio, where vibrant beaches meet playful monkeys, lazy sloths, and friendly dolphins in a tropical wildlife haven.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
-        "7 nights of accommodation with breakfast and lunch included.",
-        "Boat transport to Playa Quesera.",
-        "Ferry transport (round trip).",
-        "Hike to the Burned Forest and Turrialba Volcano.",
-        "City Tour of Cartago.",
-        "Strawberry tour at Fresas & Más.",
-        "Visit to Laguna Hule.",
-        "Visit to the Sarchí Traditional Cart Factory.",
-        "Entrance fee included to Tesoro Escondido Waterfall and Mirador la Gota.",
-        "Entrance fee included to El Cocora Cloud Forest.",
-        "Entrance fee included to Curú National Wildlife Refuge.",
-        "Entrance fee included to Poás Volcano National Park.",
+        "5 nights of accommodation with breakfast and lunch included.",
+        "Entrance fee included to Marino Ballena National Park.",
+        "Entrance fee included to Manuel Antonio National Park.",
+        "Visit to the Tárcoles River bridge.",
+        "Visit to the Jacó viewpoint.",
+        "Sunset catamaran tour in Quepos.",
+        "Boat tour and snorkeling at Isla del Caño.",
         "Tour guide for your entire stay in Costa Rica.",
         "Value Added Tax (VAT) included.",
         "Children aged 0 to 2 years do not incur additional costs.",
@@ -390,50 +378,39 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "Upon landing at Juan Santamaría International Airport, you will be greeted with a warm ¡Pura Vida! marking the start of an exciting, authentically Costa Rican adventure. Our team will warmly welcome you and transfer you in luxurious private transportation to a cozy hotel filled with comfort and tranquility."
+          "description": "The adventure and excitement of fun is ours! Costa Rica and Paticas greet you with the utmost affection and warmth. At Juan Santamaría International Airport, we will be waiting for you with a smile and an authentic 'Pura vida.' It’s our pleasure to serve you. A driver with private luxury transportation will take you to a comfortable and cozy hotel. Your stay will be pleasant.",
+          "title": "Day 1 - We warmly welcome you to Costa Rica!"
         },
         {
-          "title": "Day 2 - Hike to the Burned Forest at Turrialba Volcano and Visit Cartago",
-          "description": "Our tour of Costa Rica begins with a beautiful hike through breathtaking contrasts. At the foothills of the majestic Turrialba Volcano, you can admire the fascinating greenery of nature and the extraordinary Burned Forest of Silence, canyons, mineral rivers, and lava flows. Afterwards, we will head to the city of Cartago, where we will enjoy a tour of the city and its iconic Basilica of Los Ángeles, home to La Negrita, the country’s patron saint. That night, we will rest in San José."
+          "description": "Our journey continues in Manuel Antonio, Quepos, Puntarenas. The southern Pacific leads us to the Tárcoles River, famous for its stunning wildlife, including crocodiles and caimans. We’ll visit the Playa Jacó viewpoint, offering breathtaking views of the Nicoya Gulf. After checking into a comfortable hotel, we’ll embark on a memorable sunset catamaran tour, enjoying Manuel Antonio’s vibrant nightlife, delicious dining, and starry skies—perfect for relaxation.",
+          "title": "Day 2 – Sunset Catamaran Tour in Quepos"
         },
         {
-          "title": "Day 3 - Visit to Poás Volcano, Strawberry Tour, and Hule Lagoon",
-          "description": "This morning, we will explore Poás Volcano National Park, which boasts one of the largest craters in the world and is known for its volcanic activity and unique characteristics. The main crater houses an acidic lagoon whose color and size may vary due to volcanic activity. Next, we will visit Fresas & Más, a strawberry plantation with over 40,000 plants. Upon arrival, a refreshing strawberry smoothie will welcome us, starting our delicious experience. During the tour, we will learn about the cultivation techniques and care of strawberries, giving us the chance to pick our own and be part of the production process. The best part? We can take freshly harvested strawberries home! Each participant will have an individual basket for collecting strawberries, and we will offer toppings of condensed milk and chocolate for maximum enjoyment of this juicy fruit. After the strawberry picking, the most delicious moment of the tour awaits: the tasting. Here you can try a variety of products made with strawberries, from rompope and sangría to wine. We will have the opportunity to delight our palates with the unique and fresh flavors of this exotic fruit. Once the strawberry tour is complete, we will head to Hule Lagoon, known as the deepest lagoon in Costa Rica. This volcanic lagoon is located in the Río Cuarto canton of Alajuela province, Costa Rica."
+          "description": "Manuel Antonio National Park, on Costa Rica’s southern Pacific coast, is famous for its lush tropical vegetation, white sand beaches, and unique biodiversity. Here, we can marvel at an incredible variety of wildlife, including monkeys, sloths, iguanas, deer, raccoons, and tropical birds. Its pristine beaches with crystal-clear waters are regarded as some of the most beautiful in the world, ideal for swimming, snorkeling, or relaxing under the warm sun. The park’s trails offer breathtaking viewpoints and opportunities to observe the region’s rich biodiversity.",
+          "title": "Day 3 – Manuel Antonio National Park"
         },
         {
-          "title": "Day 4 - Visit to Tesoro Escondido Waterfall and Mirador La Gota ",
-          "description": "The day begins with a hike of approximately 2.5 kilometers. Once we complete the hike, we will encounter the stunning Tesoro Escondido Waterfall, a natural wonder with turquoise waters and pastel colors, rarely explored by national or international tourists. Tesoro Escondido Waterfall is a family-run venture that allows you to visit Mirador La Gota and enjoy majestic panoramic views of the mountains and the charming village of Bajos del Toro."
+          "description": "We’ll head to Uvita, starting at Marino Ballena National Park, famous for its whale-tail-shaped beach. From there, we’ll take a thrilling boat trip to Isla del Caño, a snorkeling paradise with crystal-clear waters and vibrant marine life, including exotic fish, sea turtles, and seasonal humpback whales (August-November).",
+          "title": "Day 4 – Isla del Caño and Bahía Ballena Visit"
         },
         {
-          "title": "Day 5 - El Cocora Cloud Forest",
-          "description": "In the morning, our journey takes us to El Cocora Cloud Forest, a captivating tourist project that surprises even the most discerning: a hummingbird garden, a butterfly garden, and an impressive orchid garden await us. A serene walk through a beautiful garden by a lake gives us the opportunity to explore trails through the tropical cloud forest; an unparalleled experience. To conclude our day, we will head to the charming coastal city of Puntarenas."
+          "description": "In the afternoon, we will say a 'see you soon' to Manuel Antonio and begin our journey back to San José. Our return will be facilitated by private transportation, allowing us to admire once again the stunning landscapes that Costa Rica offers: lush tropical rainforests, majestic mountains, picturesque towns, and dreamy beaches; each curve and bend in the road presents a new view worthy of admiration.",
+          "title": "Day 5 - Return to the Capital"
         },
         {
-          "title": "Day 6 - Curú National Wildlife Refuge and Quesera Beach",
-          "description": "We will explore the natural beauty of Puntarenas by visiting Curú National Wildlife Refuge. Known for its white sand and turquoise waters, this sanctuary is home to one of Costa Rica's most paradise-like beaches: Quesera Beach. This destination is exciting, as a ferry ride takes us there, adding a subtle and fun charm to the experience. At the refuge, you may encounter a variety of unusual wildlife: deer, raccoons, gray foxes, agoutis, howler monkeys, white-faced monkeys, and many more species of birds, reptiles, and plants."
-        },
-        {
-          "title": "Day 7 - Sarchí Traditional Cart Factory",
-          "description": "Recognized as the artistic center of Costa Rica, Sarchí in Alajuela is famous for its exceptional craftsmanship, especially in the production of furniture and ox carts. In Sarchí, you will find the largest cart in the world, decorated and painted according to ancestral traditions, crafted exclusively by local artisans. This monumental cart was built in 2006 with the intention of entering the Guinness World Records, a true gem reflecting the artistic and cultural richness of this charming Costa Rican town. The cultural experience of exploring artisan workshops and closely observing how these colorful and cheerful traditional works of art are created is an authentic experience that should not be missed during your stay in Costa Rica."
-        },
-        {
-          "title": "Day 8 - Farewell in Costa Rica: Memories, Emotions, and a See You Soon",
-          "description": "On this final day in Costa Rica, we are ready to transport you to Juan Santamaría International Airport for your flight back home. It has been a true pleasure to be part of this exciting and fun experience with all of you. We sincerely thank you for choosing us. On behalf of Paticas and all the people on our team, we hope you enjoyed your stay in the country and that you return soon."
+          "description": "On this last day, we will take care of transporting you from San José to Juan Santamaría International Airport, marking the conclusion to your adventure in Costa Rica. For Paticas and our entire team, it has been an honor to have your delightful company. We wish you a safe journey home and always a warm welcome back to Costa Rica.",
+          "title": "Day 6 - Saying Goodbye to Paradise"
         }
-      ]
+      ],
+      "places": [
+        "South Pacific"
+      ],
+      "title": "Manuel Antonio and Uvita: A Pacific South Escape into Nature"
     },
     "mostPopularInCostaRica": {
-      "title": "Top 10 Paticas: Best Places to Visit in Costa Rica",
-      "subTitle": "Discover Costa Rica’s most popular destinations, from stunning beaches and active volcanoes to lush rainforests and exotic wildlife.",
-      "places": [
-        "South Caribean",
-        "South Zone",
-        "North Pacific"
-      ],
-      "daysAndNights": "17 days and 16 nights",
-      "description": "La combinación perfecta de adrenalina y serenidad, rodeada de una riqueza natural única y vistas impresionantes. Enfatizar que son los mejores destinos de CR. Los más populares.",
       "about": "Discover Costa Rica with our 17-day all-inclusive tour, designed for travelers seeking the country’s most breathtaking destinations. Explore white-sand beaches with crystal-clear waters, ride the waves at top surfing spots, and wander through national parks where ancient trees embrace the sea. Witness exotic wildlife like sloths, monkeys, and toucans, marvel at active volcanoes, soak in natural hot springs, and chase turquoise waterfalls hidden deep in the rainforest. From the lush jungles of Tortuguero and Monteverde to the stunning coastlines of the Caribbean and Pacific, this adventure offers the perfect mix of relaxation and excitement in one of the world’s most beautiful travel destinations.",
+      "daysAndNights": "17 days and 16 nights",
+      "description": "Discover the most popular destinations in Costa Rica, from stunning beaches and active volcanoes to lush rainforests and exotic wildlife. The perfect blend of adventure and serenity in the top tourist spots of the country.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
@@ -462,386 +439,101 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1 - Welcome to Costa Rica!",
-          "description": "We greet you with a warm 'Pura Vida' upon your arrival at Juan Santamaría International Airport. Our team will provide efficient private transportation to your accommodation in the capital. This arrival day is designed for relaxation, but if you wish to explore, we would be happy to arrange a sightseeing tour of San José, Costa Rica's vibrant capital."
+          "description": "We greet you with a warm 'Pura Vida' upon your arrival at Juan Santamaría International Airport. Our team will provide efficient private transportation to your accommodation in the capital. This arrival day is designed for relaxation, but if you wish to explore, we would be happy to arrange a sightseeing tour of San José, Costa Rica's vibrant capital.",
+          "title": "Day 1 - Welcome to Costa Rica!"
         },
         {
-          "title": "Day 2 - Costa Rica's Caribbean",
-          "description": "In the morning, we’ll journey to Manzanillo, a gem in Costa Rica's Afro-Caribbean region. Our destination is the Gandoca-Manzanillo National Wildlife Refuge, a paradise featuring a panoramic viewpoint, a mysterious cave, and dreamy beaches shaded by lush trees with crystal-clear waters and diverse flora and fauna. For the next two nights, we will stay in Puerto Viejo, a melting pot of cultures, languages, and traditions—an unforgettable experience."
+          "description": "In the morning, we’ll journey to Manzanillo, a gem in Costa Rica's Afro-Caribbean region. Our destination is the Gandoca-Manzanillo National Wildlife Refuge, a paradise featuring a panoramic viewpoint, a mysterious cave, and dreamy beaches shaded by lush trees with crystal-clear waters and diverse flora and fauna. For the next two nights, we will stay in Puerto Viejo, a melting pot of cultures, languages, and traditions—an unforgettable experience.",
+          "title": "Day 2 - Costa Rica's Caribbean"
         },
         {
-          "title": "Day 3 - Cahuita National Park",
-          "description": "On this third day, we will head to Cahuita National Park, renowned for its diverse marine ecosystems. Nestled in a humid tropical rainforest, the park features some of the largest and healthiest coral reefs in Costa Rica. With stunning white sand beaches and crystal-clear turquoise waters, it’s a natural treasure of the Caribbean region. For hiking enthusiasts, this destination offers picturesque trails shaded by lush vegetation. Expect to encounter a rich variety of fish, mollusks, crustaceans, birds, and mammals, making this park a must-visit."
+          "description": "On this third day, we will head to Cahuita National Park, renowned for its diverse marine ecosystems. Nestled in a humid tropical rainforest, the park features some of the largest and healthiest coral reefs in Costa Rica. With stunning white sand beaches and crystal-clear turquoise waters, it’s a natural treasure of the Caribbean region. For hiking enthusiasts, this destination offers picturesque trails shaded by lush vegetation. Expect to encounter a rich variety of fish, mollusks, crustaceans, birds, and mammals, making this park a must-visit.",
+          "title": "Day 3 - Cahuita National Park"
         },
         {
-          "title": "Day 4 - Tortuguero, Limón",
-          "description": "Today, we will journey to Tortuguero, a truly magical destination. Access to this charming village is primarily by water, taking boats through its fascinating canals. Tortuguero is famous for being home to four species of sea turtles—green, leatherback, hawksbill, and loggerhead—that come to its beaches to nest. Upon arrival, we will enjoy a tour of the village to explore this beautiful area."
+          "description": "Today, we will journey to Tortuguero, a truly magical destination. Access to this charming village is primarily by water, taking boats through its fascinating canals. Tortuguero is famous for being home to four species of sea turtles—green, leatherback, hawksbill, and loggerhead—that come to its beaches to nest. Upon arrival, we will enjoy a tour of the village to explore this beautiful area.",
+          "title": "Day 4 - Tortuguero, Limón"
         },
         {
-          "title": "Day 5 - Hike to Cerro Tortuguero, the Highest Point on the Caribbean Coast",
-          "description": "On the morning of day five, visitors will have the chance to paddle peacefully through the fascinating canals, admiring the lush vegetation and unique wildlife. In the afternoon, we’ll embark on an exciting hike to Cerro Tortuguero, the highest point on the Caribbean coast, where the effort will be rewarded with breathtaking panoramic views of the incomparable beauty of Tortuguero."
+          "description": "On the morning of day five, visitors will have the chance to paddle peacefully through the fascinating canals, admiring the lush vegetation and unique wildlife. In the afternoon, we’ll embark on an exciting hike to Cerro Tortuguero, the highest point on the Caribbean coast, where the effort will be rewarded with breathtaking panoramic views of the incomparable beauty of Tortuguero.",
+          "title": "Day 5 - Hike to Cerro Tortuguero, the Highest Point on the Caribbean Coast"
         },
         {
-          "title": "Day 6 - La Fortuna",
-          "description": "La Fortuna, in the Alajuela province, is internationally recognized for its scenic beauty, forests, and tourist appeal. Home to a rich diversity of flora and fauna, it also hosts a sanctuary dedicated solely to sloths. La Fortuna is famous for its hot springs and its most prominent attraction: the stunning Arenal Volcano. After an incredible journey, we will spend the night here and the following two nights, soaking in the tranquility that makes La Fortuna a truly amazing destination."
+          "description": "La Fortuna, in the Alajuela province, is internationally recognized for its scenic beauty, forests, and tourist appeal. Home to a rich diversity of flora and fauna, it also hosts a sanctuary dedicated solely to sloths. La Fortuna is famous for its hot springs and its most prominent attraction: the stunning Arenal Volcano. After an incredible journey, we will spend the night here and the following two nights, soaking in the tranquility that makes La Fortuna a truly amazing destination.",
+          "title": "Day 6 - La Fortuna"
         },
         {
-          "title": "Day 7 - Arenal Lake: Yacht Adventure and Paddleboarding",
-          "description": "On our second day in La Fortuna, we will head to the stunning Arenal Lake, where visitors can enjoy an exciting yacht tour and the opportunity to try paddleboarding on its calm waters. Arenal Lake is an artificial reservoir created by the construction of a dam in 1979, utilizing a pre-existing lake of the same name. It plays a crucial role in a major hydroelectric energy generation project in Costa Rica, supplying electricity to a significant portion of the country. It’s worth noting that the construction led to the complete flooding of the communities of Arenal Viejo and Tronadora due to the lake's expansion."
+          "description": "On our second day in La Fortuna, we will head to the stunning Arenal Lake, where visitors can enjoy an exciting yacht tour and the opportunity to try paddleboarding on its calm waters. Arenal Lake is an artificial reservoir created by the construction of a dam in 1979, utilizing a pre-existing lake of the same name. It plays a crucial role in a major hydroelectric energy generation project in Costa Rica, supplying electricity to a significant portion of the country. It’s worth noting that the construction led to the complete flooding of the communities of Arenal Viejo and Tronadora due to the lake's expansion.",
+          "title": "Day 7 - Arenal Lake: Yacht Adventure and Paddleboarding"
         },
         {
-          "title": "Day 8 - Río Celeste Waterfall",
-          "description": "On the morning of day eight, visitors will have the dazzling experience of exploring the Río Celeste Waterfall, located in the province of Alajuela within the Tenorio Volcano National Park, part of the Arenal-Tempisque Conservation Area. Río Celeste features crystal-clear waters that take on an impressive turquoise hue due to a high concentration of aluminum silicates and the scattering of sunlight. This natural phenomenon can only be seen at a site known as El Teñidero. The Río Celeste Waterfall stands approximately 30 meters tall and has become one of the main attractions in the area due to its stunning blue coloration."
+          "description": "On the morning of day eight, visitors will have the dazzling experience of exploring the Río Celeste Waterfall, located in the province of Alajuela within the Tenorio Volcano National Park, part of the Arenal-Tempisque Conservation Area. Río Celeste features crystal-clear waters that take on an impressive turquoise hue due to a high concentration of aluminum silicates and the scattering of sunlight. This natural phenomenon can only be seen at a site known as El Teñidero. The Río Celeste Waterfall stands approximately 30 meters tall and has become one of the main attractions in the area due to its stunning blue coloration.",
+          "title": "Day 8 - Río Celeste Waterfall"
         },
         {
-          "title": "Day 9 - Monteverde",
-          "description": "The road from La Fortuna to Monteverde is a tour in itself, offering breathtaking landscapes that change as we advance. Leaving the Arenal region, we enter the mountainous terrain of Monteverde, Santa Elena. Visitors can freely explore this natural gem, wandering along charming trails, visiting local cafes, or simply relaxing in the tranquil atmosphere. Monteverde's mystical aura invites guests to immerse themselves in its enchanting surroundings."
+          "description": "The road from La Fortuna to Monteverde is a tour in itself, offering breathtaking landscapes that change as we advance. Leaving the Arenal region, we enter the mountainous terrain of Monteverde, Santa Elena. Visitors can freely explore this natural gem, wandering along charming trails, visiting local cafes, or simply relaxing in the tranquil atmosphere. Monteverde's mystical aura invites guests to immerse themselves in its enchanting surroundings.",
+          "title": "Day 9 - Monteverde"
         },
         {
-          "title": "Day 10 - Soar Among the Clouds: Zipline Tour in Monteverde",
-          "description": "Now, let’s add some adrenaline! The thrill of literally flying among the treetops is indescribable and exhilarating. Visitors will glide on a zipline through the lush cloud forest, moving from platform to platform. The joy of this experience, combined with stunning panoramic views, creates a sense of blissful freedom. Our expert guides will share insights about the region's rich wildlife and flora, making this adventure both thrilling and educational."
+          "description": "Now, let’s add some adrenaline! The thrill of literally flying among the treetops is indescribable and exhilarating. Visitors will glide on a zipline through the lush cloud forest, moving from platform to platform. The joy of this experience, combined with stunning panoramic views, creates a sense of blissful freedom. Our expert guides will share insights about the region's rich wildlife and flora, making this adventure both thrilling and educational.",
+          "title": "Day 10 - Soar Among the Clouds: Zipline Tour in Monteverde"
         },
         {
-          "title": "Day 11 - Sunset in Puntarenas",
-          "description": "In the morning, we will head to the central canton of Puntarenas, experiencing a dramatic shift from the lush forest of Monteverde to the warm embrace of the beach. The drive invites us to admire the changing landscapes as we transition from mountains to the tropical coast. We aim to arrive in Puntarenas just in time to witness one of the most beautiful sunsets in the world. Strolling along the boardwalk, enjoying a seaside dinner, or simply relaxing on the beach while the sun sets is a delightful way to end the day, providing a serene night after an eventful journey."
+          "description": "In the morning, we will head to the central canton of Puntarenas, experiencing a dramatic shift from the lush forest of Monteverde to the warm embrace of the beach. The drive invites us to admire the changing landscapes as we transition from mountains to the tropical coast. We aim to arrive in Puntarenas just in time to witness one of the most beautiful sunsets in the world. Strolling along the boardwalk, enjoying a seaside dinner, or simply relaxing on the beach while the sun sets is a delightful way to end the day, providing a serene night after an eventful journey.",
+          "title": "Day 11 - Sunset in Puntarenas"
         },
         {
-          "title": "Day 12 - Catamaran Tour to Isla Tortuga",
-          "description": "Today promises to be splendid! An exciting aquatic adventure awaits as we snorkel in the crystal-clear waters of the paradise island, Isla Tortuga. Marvel at the vibrant coral reefs and the diversity of tropical marine life. Our luxurious catamaran will host a lively party at sea, complete with refreshing drinks and breathtaking ocean views. Dancing to the rhythm of the music while feeling the ocean breeze creates an unforgettable experience. Back on land, the evening in Puntarenas can be spent enjoying a beachside dinner, exploring local attractions, or simply relaxing."
+          "description": "Today promises to be splendid! An exciting aquatic adventure awaits as we snorkel in the crystal-clear waters of the paradise island, Isla Tortuga. Marvel at the vibrant coral reefs and the diversity of tropical marine life. Our luxurious catamaran will host a lively party at sea, complete with refreshing drinks and breathtaking ocean views. Dancing to the rhythm of the music while feeling the ocean breeze creates an unforgettable experience. Back on land, the evening in Puntarenas can be spent enjoying a beachside dinner, exploring local attractions, or simply relaxing.",
+          "title": "Day 12 - Catamaran Tour to Isla Tortuga"
         },
         {
-          "title": "Day 13 - Heading to Santa Teresa Beaches",
-          "description": "Today is thrilling as we travel from Puntarenas to the stunning beaches of Santa Teresa. The ferry ride offers breathtaking views of Costa Rica's diverse landscapes, from the Pacific coast to lush tropical vegetation. Once in Santa Teresa, the evening is yours to unwind in this charming coastal gem. Enjoy a delicious dinner with fresh seafood at a local restaurant, explore the area, or simply appreciate the serene beach atmosphere known for its breathtaking sunsets."
+          "description": "Today is thrilling as we travel from Puntarenas to the stunning beaches of Santa Teresa. The ferry ride offers breathtaking views of Costa Rica's diverse landscapes, from the Pacific coast to lush tropical vegetation. Once in Santa Teresa, the evening is yours to unwind in this charming coastal gem. Enjoy a delicious dinner with fresh seafood at a local restaurant, explore the area, or simply appreciate the serene beach atmosphere known for its breathtaking sunsets.",
+          "title": "Day 13 - Heading to Santa Teresa Beaches"
         },
         {
-          "title": "Day 14 - Surf Lessons in Santa Teresa",
-          "description": "Have you ever surfed? Today is the day! Santa Teresa is renowned as one of Costa Rica’s surfing capitals. Beginners and seasoned surfers alike can enjoy lessons from the country’s best instructors. The day starts with the excitement of trying something new, with gentle ocean breezes and warm sunshine. After a rewarding surf session, visitors will have the afternoon free to explore Santa Teresa at their leisure, whether by strolling along the beach, visiting cafes, or shopping at local boutiques."
+          "description": "Have you ever surfed? Today is the day! Santa Teresa is renowned as one of Costa Rica’s surfing capitals. Beginners and seasoned surfers alike can enjoy lessons from the country’s best instructors. The day starts with the excitement of trying something new, with gentle ocean breezes and warm sunshine. After a rewarding surf session, visitors will have the afternoon free to explore Santa Teresa at their leisure, whether by strolling along the beach, visiting cafes, or shopping at local boutiques.",
+          "title": "Day 14 - Surf Lessons in Santa Teresa"
         },
         {
-          "title": "Day 15 - Last Morning in Santa Teresa",
-          "description": "This day offers the chance to savor a final morning in Santa Teresa before heading to Alajuela. Enjoy the beauty of the beaches, warm weather, and a delightful breakfast while reminiscing about your coastal experience. We bid farewell to Santa Teresa and make our way to Alajuela, located in Costa Rica's Central Valley. In the evening, we’ll have opportunities to dine at local restaurants, reflect on our journey, and revel in the warm hospitality of Costa Rica."
+          "description": "This day offers the chance to savor a final morning in Santa Teresa before heading to Alajuela. Enjoy the beauty of the beaches, warm weather, and a delightful breakfast while reminiscing about your coastal experience. We bid farewell to Santa Teresa and make our way to Alajuela, located in Costa Rica's Central Valley. In the evening, we’ll have opportunities to dine at local restaurants, reflect on our journey, and revel in the warm hospitality of Costa Rica.",
+          "title": "Day 15 - Last Morning in Santa Teresa"
         },
         {
-          "title": "Day 16 - Poás Volcano National Park",
-          "description": "The majestic Poás Volcano is best visited early in the morning. Its natural splendor transforms the landscape with a crater that looks like it belongs in a surrealist painting. Poás National Park features one of the largest craters in the world, known for its volcanic activity and unique characteristics, including an acid lagoon whose color and size fluctuate due to volcanic activity. After the visit, Alajuela invites you to explore its charming corners. This is the perfect opportunity to shop for souvenirs or simply enjoy the comforts of your accommodation. For your last night in Costa Rica, you can choose from a wide range of restaurants offering diverse culinary options. This final dinner promises to be a special and delightful experience."
+          "description": "The majestic Poás Volcano is best visited early in the morning. Its natural splendor transforms the landscape with a crater that looks like it belongs in a surrealist painting. Poás National Park features one of the largest craters in the world, known for its volcanic activity and unique characteristics, including an acid lagoon whose color and size fluctuate due to volcanic activity. After the visit, Alajuela invites you to explore its charming corners. This is the perfect opportunity to shop for souvenirs or simply enjoy the comforts of your accommodation. For your last night in Costa Rica, you can choose from a wide range of restaurants offering diverse culinary options. This final dinner promises to be a special and delightful experience.",
+          "title": "Day 16 - Poás Volcano National Park"
         },
         {
-          "title": "Day 17 - Farewell to Costa Rica",
-          "description": "On the morning of day eight, visitors will have the dazzling experience of exploring the Río Celeste Waterfall, located in the province of Alajuela within the Tenorio Volcano National Park, part of the Arenal-Tempisque Conservation Area. Río Celeste features crystal-clear waters that take on an impressive turquoise hue due to a high concentration of aluminum silicates and the scattering of sunlight. This natural phenomenon can only be seen at a site known as El Teñidero. The Río Celeste Waterfall stands approximately 30 meters tall and has become one of the main attractions in the area due to its stunning blue coloration."
+          "description": "After a perfect journey, it's time to say goodbye. On the final day of this adventure in Costa Rica, we will ensure your return trip home is comfortable and smooth. Our shuttle service will pick you up promptly from your hotel in San José and take you to the airport for your respective flights. It has been an honor to share this adventure with you, and we sincerely appreciate your affection and trust. The doors of Paticas and the heart of Costa Rica will always be open to you.",
+          "title": "Day 17 - Farewell to Costa Rica"
         }
-      ]
-    },
-    "sportFishing": {
-      "title": "Sport Fishing Adventures – Explore Costa Rica's Pacific Coast",
-      "subTitle": "Discover the thrill of deep-sea sport fishing in Quepos and Caño Island—catch trophy fish in paradise!",
+      ],
       "places": [
-        "South Pacific"
+        "North Pacific",
+        "South Caribean",
+        "South Zone"
       ],
-      "daysAndNights": "7 days and 6 nights",
-      "description": "La mezcla perfecta de aventura, pesca deportiva y conservación marina en los espectaculares escenarios de Isla del Caño y Manuel Antonio en Costa Rica.",
-      "about": "Experience world-class sport fishing in Costa Rica, one of the best destinations for deep-sea fishing and sustainable tourism. This guided tour takes you to Quepos and Caño Island, two top fishing spots known for their rich marine biodiversity and stunning landscapes. Quepos is a premier fishing hub, offering the chance to catch Marlin, Sailfish, Dorado, and Yellowfin Tuna. Close to Manuel Antonio National Park, it combines sport fishing with breathtaking nature. Caño Island Biological Reserve, located near Corcovado National Park, is a marine sanctuary teeming with marine life. Besides offshore fishing, visitors can enjoy snorkeling, diving, and whale watching in crystal-clear waters.",
-      "includes": [
-        "Transfer to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "6 nights of accommodation with breakfast and lunch included.",
-        "Entrance fee included to Marino Ballena National Park.",
-        "Entrance fee included to Manuel Antonio National Park.",
-        "Sunset catamaran tour in Quepos.",
-        "Fishing and snorkeling at Caño Island and Quepos.",
-        "Fishing equipment provided.",
-        "Fruits and snacks.",
-        "Beverages (water and beer) during fishing tours on board the boat.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT) included.",
-        "Children aged 0 to 2 years do not incur additional costs.",
-        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - Welcome to Costa Rica, the Land of Pura Vida!",
-          "description": "With great enthusiasm and joy, our team will be waiting for you at Juan Santamaría International Airport with a warm smile and a genuine 'Pura Vida!' Our beautiful country and its welcoming people are thrilled to host you, extending a heartfelt welcome. From the moment you step onto 'Tico' soil, we are at your service to make your trip an unforgettable experience. You'll enjoy comfortable private transportation to your hotel, where you can relax after your flight."
-        },
-        {
-          "title": "Day 2 - Sunset Catamaran Tour in Quepos",
-          "description": "Our next destination is Quepos, on the southern Pacific coast. This adventure begins as we drive through picturesque towns like Atenas, Orotina, and Playa Jacó, showcasing Costa Rica's stunning scenery. Known for its laid-back vibe and rich biodiversity, Quepos is perfect for exploring natural wonders, including Manuel Antonio National Park. In the afternoon, enjoy an exciting sunset catamaran tour along the beautiful Pacific coastline."
-        },
-        {
-          "title": "Day 3 - Fishing Tour at Caño Island",
-          "description": "Join us for a family-friendly fishing adventure! This guided tour includes snorkeling at Caño Island Biological Reserve, nature walks, birdwatching, and fishing in designated spots 20 km offshore. Costa Rica is renowned for its crystal-clear waters and diverse marine life, making it a top fishing destination. We’ll depart from Marino Ballena National Park, equipped with professional fishing gear and safety equipment. Experience responsible sport fishing under the guidance of our experienced team."
-        },
-        {
-          "title": "Day 4 - Manuel Antonio National Park",
-          "description": "Immerse yourself in the natural wonders of Manuel Antonio National Park. Walk along trails that wind through lush forests, spotting various wildlife, including monkeys, sloths, and tropical birds. Relax on the park’s stunning white sand beaches, perfect for swimming and sunbathing, and enjoy panoramic views of the Pacific Ocean."
-        },
-        {
-          "title": "Day 5 - Fishing Tour in Quepos",
-          "description": "Let’s embark on an unforgettable fishing adventure around Quepos, where the tropical waters of the Pacific provide the ideal setting for sport fishing. Here, you can catch sailfish, striped marlin, blue and black marlin, dorado, tuna, and wahoo. We offer a variety of fishing options, including live bait, trolling, casting, and fly fishing, both along the coast and offshore. As you cast your line, keep an eye out for dolphins and, seasonally, whales. After an exciting day on the water, savor a delicious local lunch featuring fresh Costa Rican flavors."
-        },
-        {
-          "title": "Day 6 - Return to the Capital",
-          "description": "Our return journey to Alajuela province awaits us; a pleasant return to our hotel leads to relaxation and enjoyment. This adventure is filled with memorable moments in a land rich in life and color."
-        },
-        {
-          "title": "Day 7 - Farewell to Costa Rica",
-          "description": "At the scheduled time, our transportation service will take you from the hotel to Juan Santamaría International Airport. During the ride, unforgettable experiences, exciting adventures, and amazing moments will stay with you. Paticas thanks you for your trust in us, and we sincerely hope to meet again."
-        }
-      ]
+      "title": "Top 10 Paticas: Best Places to Visit in Costa Rica"
     },
-    "ecoExplor": {
-      "title": "EcoExplora Adventure: Rafting, ATV & Jungle Expeditions",
-      "subTitle": "Experience the ultimate Costa Rica adventure with snorkeling in pristine waters, rappelling down breathtaking waterfalls, and wakeboarding on the scenic Arenal Lake. Your next adrenaline rush starts here!",
-      "places": [
-        "North Zone"
-      ],
-      "daysAndNights": "9 days and 8 nights",
-      "description": "Nueve días explorando la majestuosidad de Costa Rica, con actividades llenas de adrenalina, desde emocionantes descensos en rappel hasta desafiantes aventuras de rafting.",
-      "about": "EcoExplora is designed for thrill-seekers looking to experience Costa Rica’s most exhilarating outdoor adventures. From white-water rafting on the Pacuare River and waterfall rappelling in the rainforest to ATV jungle expeditions in La Fortuna, every moment is packed with excitement. Glide across Lake Arenal on a wakeboard or stand-up paddleboard, snorkel in crystal-clear waters at the stunning Tortuga Island, and immerse yourself in Costa Rica’s rich culture with a visit to the traditional artisan town of Sarchí.",
-      "includes": [
-        "Transfer to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "8 nights of accommodation with breakfast and lunch included.",
-        "White-water rafting on the Pacuare River.",
-        "Waterfall rappelling at Maquique Adventures.",
-        "ATV tour in La Fortuna.",
-        "Private yacht tour with Arenal Volcano views (includes stand-up paddleboarding, wakeboarding, or fishing).",
-        "Catamaran tour to Isla Tortuga with snorkeling.",
-        "Entry to the Traditional Oxcart Factory in Sarchí.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT) included.",
-        "Children aged 0 to 2 years do not incur additional costs.",
-        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - Arrival in San José",
-          "description": "Your adventure starts with a warm welcome at Juan Santamaría International Airport, where our team will greet you and provide private transportation to your hotel in San José. Take the day to explore the vibrant city, discover its rich culture, indulge in local cuisine, or simply relax before the adrenaline-packed days ahead."
-        },
-        {
-          "title": "Day 2 - White-Water Rafting on the Pacuare River",
-          "description": "Get ready for an unforgettable experience on the world-famous Pacuare River. This thrilling white-water rafting adventure takes you through lush tropical rainforest, rushing rapids, and breathtaking scenery. With expert guides ensuring your safety, you’ll navigate exhilarating Class III-IV rapids while immersing yourself in Costa Rica’s stunning biodiversity."
-        },
-        {
-          "title": "Day 3 - Arrival in La Fortuna",
-          "description": "Travel to La Fortuna, home to the iconic Arenal Volcano. Spend the evening exploring the town, enjoying traditional Costa Rican cuisine, or simply relaxing in preparation for the next adventure."
-        },
-        {
-          "title": "Day 4 - Rappelling & Ziplining with Maquique Adventures",
-          "description": "Kickstart your day with an adrenaline-fueled canyoning experience. Descend stunning waterfalls, rappel down rugged cliffs, and soar through the rainforest on exhilarating ziplines. Along the way, take in breathtaking views of Arenal Volcano and spot incredible wildlife. The adventure ends with a well-deserved, delicious local lunch."
-        },
-        {
-          "title": "Day 5 - ATV Adventure in La Fortuna",
-          "description": "Start your day with an exhilarating ATV tour in La Fortuna, exploring scenic trails and off-road paths surrounded by lush rainforest and stunning views of Arenal Volcano. Feel the thrill of speed and freedom as you navigate through rugged terrain, experiencing the perfect blend of adrenaline and breathtaking natural beauty."
-        },
-        {
-          "title": "Day 6 - Private Yacht Experience on Lake Arenal",
-          "description": "Sail across Lake Arenal aboard a luxurious private yacht, where you can enjoy exciting water activities like stand-up paddleboarding, wakeboarding, or fishing while taking in the mesmerizing views of Arenal Volcano. In the afternoon, we travel to Alajuela for the next stage of our adventure."
-        },
-        {
-          "title": "Day 7 - Tortuga Island Catamaran Tour & Snorkeling",
-          "description": "Get ready for an unforgettable Tortuga Island tour! Located in the Gulf of Nicoya, near the Curú Wildlife Refuge, this paradise island boasts crystal-clear waters and pristine white-sand beaches. Enjoy a snorkeling adventure, discovering vibrant marine life, or simply relax in this tropical haven. Adventure lovers can also try thrilling water sports or explore scenic island viewpoints."
-        },
-        {
-          "title": "Day 8 - Traditional Oxcart Factory in Sarchí",
-          "description": "Sarchí, known as the 'Cradle of Costa Rican Handicrafts,' is home to the country's iconic painted oxcarts, a UNESCO-recognized cultural heritage. Visit an authentic artisan workshop, witness the craftsmanship behind these colorful masterpieces, and immerse yourself in Costa Rica’s rich cultural tradition"
-        },
-        {
-          "title": "Day 9 - Farewell & Departure from San José",
-          "description": "As our journey comes to an end, we express our heartfelt gratitude for sharing this adventure with us. Our private airport transfer will take you to Juan Santamaría International Airport for your flight home. ¡Pura vida y buen viaje!"
-        }
-      ]
-    },
-    "sunAndSand": {
-      "title": "Sun & Sand Escapes: Relaxing Retreat in the North Pacific",
-      "subTitle": "Escape to the tranquil paradise of Guanacaste, Costa Rica, where stunning beaches, luxury resorts, and the true Pura Vida experience await.",
-      "places": [
-        "North Pacific"
-      ],
+    "secretsOfCostaRica": {
+      "about": "'The Hidden Gems of Costa Rica' is an exclusive tour that unveils the magical and hidden essence of this lush paradise. Join us on an adventure and immerse yourself in a unique experience in this beautiful Central American country, exploring mysterious and captivating destinations. Discover imposing volcanoes, pristine beaches, hidden waterfalls, serene lakes, dense forests, and charming little towns that will take your breath away. 'The Hidden Gems of Costa Rica' is the journey that will lead us through rarely visited paradises, rich in almost unreal beauty. Join us on a trip we guarantee will be unforgettable and discover the authentic secret Costa Rica.",
       "daysAndNights": "8 days and 7 nights",
-      "description": "La costa del Pacífico revela sus mejores destinos en una travesía única, una experiencia que une aventura y descanso en un escenario paradisíaco.",
-      "about": "Experience the best of Guanacaste, Costa Rica, where stunning beaches, lush tropical forests, and relaxing water activities await. Explore Tamarindo and Conchal, two of the most popular Costa Rica beach destinations, perfect for snorkeling, sunset walks, and luxury getaways. With over 100 km of coastline, this region offers world-class resorts, wellness retreats, and breathtaking landscapes. Whether you're seeking tranquility and comfort, a trip to Guanacaste promises unforgettable memories and the true Pura Vida experience.",
+      "description": "Come explore the hidden gems of Costa Rica, tucked away from the usual tourist routes, and experience the country’s most authentic and untouched treasures.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
         "7 nights of accommodation with breakfast and lunch included.",
-        "Sunset catamaran tour in Tamarindo.",
-        "Visit to Playa Conchal.",
-        "Surfing lessons in Santa Teresa.",
-        "Visit to Malpaís.",
-        "Ferry transportation.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT) included.",
-        "Children aged 0 to 2 years do not incur additional costs.",
-        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - Warm Welcome to Paradise",
-          "description": "Upon arrival at Juan Santamaría International Airport, our local team will greet you with a friendly smile and a heartfelt “Pura Vida.” Welcome to a land of peace, rich biodiversity, and vibrant culture. Renowned for its strong democracy, this tropical destination stands out as one of the few countries without a military, where education and healthcare are free and accessible to all. Let the journey begin in this breathtaking paradise!"
-        },
-        {
-          "title": "Day 2 - Scenic Flight to Tamarindo & Sunset Cruise",
-          "description": "After a traditional Costa Rican breakfast, embark on a breathtaking small-plane flight to Tamarindo, where golden beaches meet serene ocean views. The day ends with a relaxing catamaran sunset tour, gliding through the Pacific waters as the sky transforms into stunning pastel hues."
-        },
-        {
-          "title": "Day 3 - Paradise at Playa Conchal",
-          "description": "Discover the beauty of Playa Conchal, where seashells of various shapes, colors, and sizes create a unique and idyllic landscape. Its crystal-clear waters offer the perfect setting for a refreshing swim and ultimate relaxation in a tropical paradise."
-        },
-        {
-          "title": "Day 4 - Exploring Santa Teresa",
-          "description": "Travel through picturesque landscapes to Santa Teresa, a charming beach town known for its bohemian vibe, unspoiled beaches, and inviting atmosphere. Whether strolling through the town or unwinding by the shore, this stop promises a peaceful retreat."
-        },
-        {
-          "title": "Day 5 - Surf Lessons & Nightlife in Santa Teresa",
-          "description": "Experience world-class surfing in Santa Teresa, one of the top surf destinations globally. Local instructors will guide you, making it enjoyable for all skill levels. After a day in the waves, Santa Teresa’s vibrant nightlife offers beachside bars, fresh cuisine, and the soothing sound of the ocean under the starry sky."
-        },
-        {
-          "title": "Day 6 - Serenity at Playa Malpaís",
-          "description": "With its untouched natural beauty and crystal-clear waters, Malpaís is the perfect escape for relaxation and coastal exploration. Bask under the warm sun, take a peaceful walk along the shore, or enjoy a refreshing swim in the calm Pacific waters."
-        },
-        {
-          "title": "Día 7 - Regreso a San José a través del ferry",
-          "description": "El día inicia con un encantador viaje por ferry. Cruzaremos el Golfo de Nicoya desde Santa Teresa hasta Alajuela. Esta experiencia única añade un toque especial a la travesía, permitiéndonos disfrutar de vistas panorámicas y paisajes costeros de inigualable belleza. Una experiencia escénica que aumentará el encanto adicional a nuestro viaje de regreso."
-        },
-        {
-          "title": "Day 8 - Farewell & Departure",
-          "description": "As our tropical escape comes to an end, our professional team at Paticas will ensure a smooth transfer to Juan Santamaría International Airport. With a warm smile and a heartfelt “Pura Vida,” we bid farewell, carrying unforgettable memories of this coastal retreat."
-        }
-      ]
-    },
-    "manuelAntonio": {
-      "title": "Manuel Antonio and Uvita: A Pacific South Escape into Nature",
-      "subTitle": "Explore Manuel Antonio, where vibrant beaches meet playful monkeys, lazy sloths, and friendly dolphins in a tropical wildlife haven.",
-      "places": [
-        "South Pacific"
-      ],
-      "daysAndNights": "6 days and 5 nights",
-      "description": "Playas de ensueño, espectaculares avistamientos de cetáceos y coloridos arrecifes coralinos en un paraíso tropical.",
-      "about": "Discover the breathtaking beauty of Manuel Antonio National Park and Uvita, a premier eco-tourism destination on Costa Rica's southern Pacific coast. Established in 1972, Manuel Antonio is one of the country's most visited parks. Recognized by Forbes as one of the 12 most beautiful parks in the world, it boasts stunning white sandy beaches, clear waters, vibrant biodiversity, and abundant wildlife, including monkeys, sloths, dolphins, and various tropical species. Relax in this serene environment, perfect for unwinding in nature. Uvita, part of Marino Ballena National Park, is renowned for its unique whale tail formation and is a premier destination for whale watching, thanks to its rich marine life. This haven for exotic fauna serves as a sanctuary for dolphins and turtles. Explore Isla del Caño, a biological reserve celebrated for its pristine coral reefs and diverse marine species.",
-      "includes": [
-        "Transfer to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "5 nights of accommodation with breakfast and lunch included.",
-        "Entrance fee included to Marino Ballena National Park.",
-        "Entrance fee included to Manuel Antonio National Park.",
-        "Visit to the Tárcoles River bridge.",
-        "Visit to the Jacó viewpoint.",
-        "Sunset catamaran tour in Quepos.",
-        "Boat tour and snorkeling at Isla del Caño.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT) included.",
-        "Children aged 0 to 2 years do not incur additional costs.",
-        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - We warmly welcome you to Costa Rica!",
-          "description": "The adventure and excitement of fun is ours! Costa Rica and Paticas greet you with the utmost affection and warmth. At Juan Santamaría International Airport, we will be waiting for you with a smile and an authentic 'Pura vida.' It’s our pleasure to serve you. A driver with private luxury transportation will take you to a comfortable and cozy hotel. Your stay will be pleasant."
-        },
-        {
-          "title": "Day 2 – Sunset Catamaran Tour in Quepos",
-          "description": "Our journey continues in Manuel Antonio, Quepos, Puntarenas. The southern Pacific leads us to the Tárcoles River, famous for its stunning wildlife, including crocodiles and caimans. We’ll visit the Playa Jacó viewpoint, offering breathtaking views of the Nicoya Gulf. After checking into a comfortable hotel, we’ll embark on a memorable sunset catamaran tour, enjoying Manuel Antonio’s vibrant nightlife, delicious dining, and starry skies—perfect for relaxation."
-        },
-        {
-          "title": "Day 3 – Manuel Antonio National Park",
-          "description": "Manuel Antonio National Park, on Costa Rica’s southern Pacific coast, is famous for its lush tropical vegetation, white sand beaches, and unique biodiversity. Here, we can marvel at an incredible variety of wildlife, including monkeys, sloths, iguanas, deer, raccoons, and tropical birds. Its pristine beaches with crystal-clear waters are regarded as some of the most beautiful in the world, ideal for swimming, snorkeling, or relaxing under the warm sun. The park’s trails offer breathtaking viewpoints and opportunities to observe the region’s rich biodiversity."
-        },
-        {
-          "title": "Day 4 – Isla del Caño and Bahía Ballena Visit",
-          "description": "We’ll head to Uvita, starting at Marino Ballena National Park, famous for its whale-tail-shaped beach. From there, we’ll take a thrilling boat trip to Isla del Caño, a snorkeling paradise with crystal-clear waters and vibrant marine life, including exotic fish, sea turtles, and seasonal humpback whales (August-November)."
-        },
-        {
-          "title": "Day 5 - Return to the Capital",
-          "description": "In the afternoon, we will say a 'see you soon' to Manuel Antonio and begin our journey back to San José. Our return will be facilitated by private transportation, allowing us to admire once again the stunning landscapes that Costa Rica offers: lush tropical rainforests, majestic mountains, picturesque towns, and dreamy beaches; each curve and bend in the road presents a new view worthy of admiration."
-        },
-        {
-          "title": "Day 6 - Saying Goodbye to Paradise",
-          "description": "On this last day, we will take care of transporting you from San José to Juan Santamaría International Airport, marking the conclusion to your adventure in Costa Rica. For Paticas and our entire team, it has been an honor to have your delightful company. We wish you a safe journey home and always a warm welcome back to Costa Rica."
-        }
-      ]
-    },
-    "turtlesAndWhales": {
-      "title": "Turtle Nesting & Whale Watching",
-      "subTitle": "Paradise beaches, whale watching, and turtle nesting under the moonlight",
-      "places": [
-        "Caribe Region",
-        "South Pacific"
-      ],
-      "daysAndNights": "7 days and 6 nights",
-      "description": "Un encuentro cercano con la biodiversidad, presenciando el desove de tortugas y el avistamiento de ballenas en un ecosistema vibrante.",
-      "about": "For nature and conservation enthusiasts, our exclusive 'Green Turtle Nesting in Tortuguero' tour offers a unique opportunity to witness green sea turtles nesting in their natural habitat at night. Tortuguero National Park, renowned for its rich biodiversity and stunning landscapes, is one of the most important marine turtle nesting sites in Costa Rica. Experience the awe-inspiring sight of these magnificent creatures laying their eggs under the moonlight. This limited-time tour is available only in September, coinciding with the peak nesting season for green turtles and the best time for whale watching. \nWhat is Turtle Nesting?\nTurtle nesting is a natural process where female green turtles come ashore at night to lay their eggs in the sand. After laying the eggs, they return to the ocean, leaving their nests behind. Males remain in the sea during this process.\nTortuguero's Importance\nTortuguero is one of the world's top sites for green turtle nesting, protected from development and light pollution. These turtles are highly loyal to their nesting beaches, ensuring Tortuguero remains a key sanctuary for their preservation.\nPark Guidelines for Turtle Nesting:\nPhotography, cameras, and cell phone use are not allowed.\nDirect contact with the turtles or their eggs is prohibited.\nAfter the magic of turtle nesting, we'll continue to Uvita for an incredible whale watching experience. During the whale migration season (December-March and July-October), you may encounter humpback whales, Bryde’s whales, pilot whales, and Dolphins.",
-      "includes": [
-        "Transfer to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "6 nights of accommodation with breakfast and lunch included.",
-        "Round-trip boat transportation to Tortuguero.",
-        "Entrance fee included to Tortuguero National Park.",
-        "Entrance fee included to Marino Ballena National Park.",
-        "Entrance fee included to Cerro Tortuguero.",
-        "Green turtle nesting tour.",
-        "Canoe tour through the Tortuguero canals.",
-        "Whale watching and snorkeling tour.",
-        "City Tour of Tortuguero.",
-        "Tour guide for your entire stay in Costa Rica.",
-        "Value Added Tax (VAT) included.",
-        "Children aged 0 to 2 years do not incur additional costs.",
-        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "Upon landing at Juan Santamaría International Airport, you'll be greeted with a warm '¡Pura Vida!' marking the beginning of an exciting adventure in this beautiful country. Our team will welcome you with their signature hospitality and transport you in luxurious private transportation to a cozy hotel, where comfort and tranquility await."
-        },
-        {
-          "title": "Day 2 - Canoe Tour in Tortuguero Canals and Turtle Nesting",
-          "description": "We’ll start the day with a fascinating canoe tour through the Tortuguero canals, where we’ll observe abundant wildlife in its natural habitat. Following this, we’ll embark on a guided city tour of Tortuguero, with the afternoon free to explore local restaurants and shops, or simply relax at the hotel.\nIn the evening, we’ll prepare for the spectacular event of green turtle nesting. The nesting tour is organized through a daily electronic lottery at 5 p.m. The Tortuguero National Park determines the timing, order, and sector for observation.\nAvailable Time Slots:\nTime Slot 1: 8: 00 p.m. - 10: 00 p.m.\nTime Slot 2: 10: 00 p.m. - 12: 00 a.m.\nThe beach is patrolled by volunteers from a private company providing the service. Tourists gather at a waiting base until trackers indicate the location of a turtle. The entire process for a turtle (coming onto the beach, nesting, covering the nest, camouflaging the nest, and returning to the ocean) takes about two hours.\nNesting Phases Allowed for Observation:\nNesting Process: When the turtle lays its eggs.\nCovering Process: When the turtle covers the nest.\nCamouflaging Process: When the turtle camouflages the nest to prevent predation.\nDescending Process: When the turtle returns to the sea.\nRecommendations:\nClothing: Dark colors like black, blue, and green. No white or fluorescent colors allowed.\nRain Gear: To protect against rain.\nFootwear: Sports shoes or dark-colored boots."
-        },
-        {
-          "title": "Day 3 - Visit to Cerro Tortuguero",
-          "description": "The morning is free for you to enjoy at your own pace. Nature lovers can start the day on the beach, watching as baby turtles emerge from their nests in the sand and make their way to the sea. Later, we’ll visit Cerro Tortuguero, a 119-meter-high ancient volcano located at the foothills of the San Francisco community. This highest point in the Costa Rican Caribbean offers stunning views. After our exploration, we’ll head to San José, the capital, for the night."
-        },
-        {
-          "title": "Day 4 - Uvita",
-          "description": "After a delicious breakfast, we’ll begin our journey to the South Pacific of Costa Rica, heading towards Uvita. This area is the most popular for whale watching in Costa Rica and is home to the country's first marine national park. On the way, we’ll make strategic stops at places like the Tárcoles River Bridge, where we can see hundreds of crocodiles, and the Jacó Lookout, offering panoramic views of the beach and the town of Jacó."
-        },
-        {
-          "title": "Day 5 - Whale Watching Tour",
-          "description": "In the morning, we’ll embark on an exciting whale-watching tour in Marino Ballena National Park. This prime location provides the opportunity to see dolphins and whales in their natural habitat. We’ll start our excursion from Dolphin Tours’ office, where you can enjoy snacks like empanadas, coffee, and orange juice. After a short walk to the park’s beach, we’ll begin our boat adventure. We’ll look for whales, dolphins, various bird species, and turtles. Highlights during the tour include Whale Rock, Playa Ventana with its impressive caves, and the formation known as the 'Whale Tail.' We’ll have the chance to swim in the ocean or, depending on water and weather conditions, snorkel. Fruit drinks and water will be available during the excursion."
-        },
-        {
-          "title": "Day 6 - Return to the Capital",
-          "description": "In the morning, we’ll say “see you soon” to Uvita as we start our return journey to the capital. We’ll be accompanied by private transportation, allowing us to once again enjoy the stunning landscapes Costa Rica has to offer: lush rainforests, majestic mountains, charming villages, and paradise beaches. Every turn and stretch of the road offers a new perspective worthy of admiration."
-        },
-        {
-          "title": "Day 7 - Until We Meet Again, Costa Rica",
-          "description": "It’s time to say goodbye to Costa Rica. Our team will handle your transfer from the hotel to Juan Santamaría International Airport. At Paticas, we deeply appreciate your trust and hope this experience has been unforgettable."
-        }
-      ]
-    },
-    "volcanoes": {
-      "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures",
-      "subTitle": "Explore Costa Rica’s cloud forests and volcanoes with zip-lining, a coffee & chocolate tour, a private yacht tour on Lake Arenal, and a night wildlife adventure.",
-      "places": [
-        "North Zone"
-      ],
-      "daysAndNights": "8 days and 7 nights",
-      "description": "La fascinante biodiversidad de Monteverde y la emoción sin límites de La Fortuna y el Volcán Arenal, se combinan en un viaje inolvidable.",
-      "about": "Explore the breathtaking landscapes of Costa Rica, where biodiversity and adventure come together. Our journey begins in Monteverde, home to the famous Monteverde Cloud Forest Reserve, a sanctuary for 120 species of amphibians and reptiles, nearly 100 species of mammals, and 400 species of birds. This biological paradise is part of the Arenal-Monteverde Cloud Forest Complex, a vital corridor connecting Monteverde with Arenal Volcano National Park, where trails and lush rainforests provide an unforgettable experience for wildlife lovers and photographers. Next, we head to La Fortuna, home to the majestic Arenal Volcano. This region offers adventure and cultural experiences, including a coffee and chocolate tour, zip-lining, and a guided night tour to explore nocturnal wildlife. Relax on a private yacht tour on Lake Arenal, taking in stunning volcano views, or enjoy a peaceful nature hike. Immerse yourself in Costa Rica’s natural wonders, where volcanoes, cloud forests, and wildlife create an unforgettable experience.",
-      "includes": [
-        "Transfer to and from Juan Santamaría International Airport.",
-        "Private transportation with a driver.",
-        "Internet connection during your stay in Costa Rica.",
-        "7 nights of accommodation with breakfast and lunch included.",
+        "Boat transport to Playa Quesera.",
+        "Ferry transport (round trip).",
+        "Hike to the Burned Forest and Turrialba Volcano.",
+        "City Tour of Cartago.",
+        "Strawberry tour at Fresas & Más.",
+        "Visit to Laguna Hule.",
+        "Visit to the Sarchí Traditional Cart Factory.",
+        "Entrance fee included to Tesoro Escondido Waterfall and Mirador la Gota.",
+        "Entrance fee included to El Cocora Cloud Forest.",
+        "Entrance fee included to Curú National Wildlife Refuge.",
         "Entrance fee included to Poás Volcano National Park.",
-        "Entrance fee included to Mano de Arenal Viewpoint.",
-        "Coffee and chocolate tour at Don Juan.",
-        "4 km of ziplining, Tarzan Swing, rappelling, Aerial Superman, and Subterranean Superman at Monteverde Extremo Park.",
-        "Night tour in Monteverde.",
-        "Private yacht on Lake Arenal (stand-up paddleboarding, wakeboarding, or fishing).",
         "Tour guide for your entire stay in Costa Rica.",
         "Value Added Tax (VAT) included.",
         "Children aged 0 to 2 years do not incur additional costs.",
@@ -849,48 +541,47 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1: Welcome to Costa Rica",
-          "description": "Your arrival at Juan Santamaría International Airport marks the start of an unforgettable adventure in Costa Rica. Enjoy a warm welcome with a friendly smile and a heartfelt '¡Pura Vida!' as we transport you in luxury to your comfortable hotel in San José. Experience the vibrant culture, markets, museums, parks, and nightlife of our beautiful capital."
+          "description": "Upon landing at Juan Santamaría International Airport, you will be greeted with a warm ¡Pura Vida! marking the start of an exciting, authentically Costa Rican adventure. Our team will warmly welcome you and transfer you in luxurious private transportation to a cozy hotel filled with comfort and tranquility.",
+          "title": "Day 1 - Welcome to Costa Rica"
         },
         {
-          "title": "Day 2: Coffee and Chocolate Tour in Monteverde",
-          "description": "In Monteverde, immerse yourself in a unique coffee and chocolate tour at Don Juan Hacienda. Learn about the traditional and modern processes of Costa Rica's renowned coffee and chocolate production, from harvest to preparation. Delight your senses with samples of these delicious products. After the tour, enjoy free time to explore the beautiful natural trails and attractions of Santa Elena."
+          "description": "Our tour of Costa Rica begins with a beautiful hike through breathtaking contrasts. At the foothills of the majestic Turrialba Volcano, you can admire the fascinating greenery of nature and the extraordinary Burned Forest of Silence, canyons, mineral rivers, and lava flows. Afterwards, we will head to the city of Cartago, where we will enjoy a tour of the city and its iconic Basilica of Los Ángeles, home to La Negrita, the country’s patron saint. That night, we will rest in San José.",
+          "title": "Day 2 - Hike to the Burned Forest at Turrialba Volcano and Visit Cartago"
         },
         {
-          "title": "Day 3: Zip-lining and Night Tour in Monteverde",
-          "description": "Get ready for an adrenaline rush with Costa Rica's longest zip-line adventure! Soar through the lush canopy on 11 cables spanning 4 km, including thrilling experiences like the Tarzan swing and a stunning rappel descent. In the evening, join a night tour to discover the region's unique nocturnal wildlife, guided by experts who will share insights into the local flora and fauna."
+          "description": "This morning, we will explore Poás Volcano National Park, which boasts one of the largest craters in the world and is known for its volcanic activity and unique characteristics. The main crater houses an acidic lagoon whose color and size may vary due to volcanic activity. Next, we will visit Fresas & Más, a strawberry plantation with over 40,000 plants. Upon arrival, a refreshing strawberry smoothie will welcome us, starting our delicious experience. During the tour, we will learn about the cultivation techniques and care of strawberries, giving us the chance to pick our own and be part of the production process. The best part? We can take freshly harvested strawberries home! Each participant will have an individual basket for collecting strawberries, and we will offer toppings of condensed milk and chocolate for maximum enjoyment of this juicy fruit. After the strawberry picking, the most delicious moment of the tour awaits: the tasting. Here you can try a variety of products made with strawberries, from rompope and sangría to wine. We will have the opportunity to delight our palates with the unique and fresh flavors of this exotic fruit. Once the strawberry tour is complete, we will head to Hule Lagoon, known as the deepest lagoon in Costa Rica. This volcanic lagoon is located in the Río Cuarto canton of Alajuela province, Costa Rica.",
+          "title": "Day 3 - Visit to Poás Volcano, Strawberry Tour, and Hule Lagoon"
         },
         {
-          "title": "Day 4: Discover La Fortuna",
-          "description": "Enjoy a relaxing morning before traveling to La Fortuna, home to the iconic Arenal Volcano. Experience the breathtaking landscapes and partake in exciting activities such as hot springs, hiking, and horseback riding with stunning views of the volcano."
+          "description": "The day begins with a hike of approximately 2.5 kilometers. Once we complete the hike, we will encounter the stunning Tesoro Escondido Waterfall, a natural wonder with turquoise waters and pastel colors, rarely explored by national or international tourists. Tesoro Escondido Waterfall is a family-run venture that allows you to visit Mirador La Gota and enjoy majestic panoramic views of the mountains and the charming village of Bajos del Toro.",
+          "title": "Day 4 - Visit to Tesoro Escondido Waterfall and Mirador La Gota "
         },
         {
-          "title": "Day 5: Adventure on Lake Arenal",
-          "description": "Explore the picturesque Lake Arenal aboard a luxurious yacht. Engage in thrilling activities like stand-up paddleboarding, kayaking, wakeboarding, or fishing while admiring the majestic Arenal Volcano. Enjoy the serene beauty of Costa Rica's largest lake."
+          "description": "In the morning, our journey takes us to El Cocora Cloud Forest, a captivating tourist project that surprises even the most discerning: a hummingbird garden, a butterfly garden, and an impressive orchid garden await us. A serene walk through a beautiful garden by a lake gives us the opportunity to explore trails through the tropical cloud forest; an unparalleled experience. To conclude our day, we will head to the charming coastal city of Puntarenas.",
+          "title": "Day 5 - El Cocora Cloud Forest"
         },
         {
-          "title": "Day 6: Scenic Lookout at Arenal",
-          "description": "Embark on a day filled with natural wonders, including waterfalls, hanging bridges, and trails. Take a scenic cable car ride to the 'Hand of Arenal' lookout, offering breathtaking views of the volcano and its surroundings."
+          "description": "We will explore the natural beauty of Puntarenas by visiting Curú National Wildlife Refuge. Known for its white sand and turquoise waters, this sanctuary is home to one of Costa Rica's most paradise-like beaches: Quesera Beach. This destination is exciting, as a ferry ride takes us there, adding a subtle and fun charm to the experience. At the refuge, you may encounter a variety of unusual wildlife: deer, raccoons, gray foxes, agoutis, howler monkeys, white-faced monkeys, and many more species of birds, reptiles, and plants.",
+          "title": "Day 6 - Curú National Wildlife Refuge and Quesera Beach"
         },
         {
-          "title": "Day 7: Poás Volcano National Park",
-          "description": "In the morning, we will embark on our journey to Alajuela. During the trip, we will make a stop to explore the fantastic Poás Volcano National Park. This stunning volcano features one of the largest craters in the world and is renowned for its volcanic activity and unique characteristics. The main crater houses an acid lagoon, the color and size of which can vary due to volcanic activity, climate, or the time of year."
+          "description": "Recognized as the artistic center of Costa Rica, Sarchí in Alajuela is famous for its exceptional craftsmanship, especially in the production of furniture and ox carts. In Sarchí, you will find the largest cart in the world, decorated and painted according to ancestral traditions, crafted exclusively by local artisans. This monumental cart was built in 2006 with the intention of entering the Guinness World Records, a true gem reflecting the artistic and cultural richness of this charming Costa Rican town. The cultural experience of exploring artisan workshops and closely observing how these colorful and cheerful traditional works of art are created is an authentic experience that should not be missed during your stay in Costa Rica.",
+          "title": "Day 7 - Sarchí Traditional Cart Factory"
         },
         {
-          "title": "Day 8: Farewell to Costa Rica",
-          "description": "The last day of our Costa Rica adventure has arrived. We will provide transportation to Juan Santamaría International Airport for a comfortable and pleasant return home. For Paticas and our team, it has been an honor to have you with us, and we hope to meet again in the future."
+          "description": "On this final day in Costa Rica, we are ready to transport you to Juan Santamaría International Airport for your flight back home. It has been a true pleasure to be part of this exciting and fun experience with all of you. We sincerely thank you for choosing us. On behalf of Paticas and all the people on our team, we hope you enjoyed your stay in the country and that you return soon.",
+          "title": "Day 8 - Farewell in Costa Rica: Memories, Emotions, and a See You Soon"
         }
-      ]
+      ],
+      "places": [
+        "Central Region"
+      ],
+      "title": "The Hidden gems of Costa Rica"
     },
     "southCaribean": {
-      "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea",
-      "subTitle": "Discover white-sand beaches and vibrant Afro-Caribbean culture in Costa Rica, where the trees meet the ocean and nature invites you to unwind in the shade.",
-      "places": [
-        "South Caribean"
-      ],
+      "about": "Discover Costa Rica’s South Caribbean, a tropical paradise with white-sand beaches, crystal-clear waters, and lush rainforests. This region, influenced by Afro-Caribbean culture and the indigenous Bribri and Cabécar communities, offers an authentic experience full of vibrant colors, flavors, and rhythms.\nExplore Cahuita National Park, home to incredible marine and terrestrial biodiversity, or relax on the pristine beaches of Manzanillo. Immerse yourself in the laid-back vibe of Puerto Viejo, where reggae beats and Caribbean cuisine create a unique atmosphere. Don’t miss a boat tour through the Tortuguero Canals, a wildlife haven for sea turtles, monkeys, and exotic birds.\nExperience unforgettable activities like traditional chocolate-making, scenic boat rides through the jungle, and walks through medicinal gardens. Costa Rica’s South Caribbean is a must-visit destination for nature lovers, culture seekers, and adventure enthusiasts",
       "daysAndNights": "7 días y 6 noches",
-      "description": "Un viaje al Caribe Sur, donde la belleza tropical y la herencia afrocaribeña se encuentran en playas y comunidades locales.",
-      "about": "Discover Costa Rica’s South Caribbean, a tropical paradise with white-sand beaches, crystal-clear waters, and lush rainforests. This region, influenced by Afro-Caribbean culture and the indigenous Bribri and Cabécar communities, offers an authentic experience full of vibrant colors, flavors, and rhythms.\nExplore Cahuita National Park, home to incredible marine and terrestrial biodiversity, or relax on the pristine beaches of Manzanillo. Immerse yourself in the laid-back vibe of Puerto Viejo, where reggae beats and Caribbean cuisine create a unique atmosphere. Don’t miss a boat tour through the Tortuguero Canals, a wildlife haven for sea turtles, monkeys, and exotic birds.\nExperience unforgettable activities like traditional chocolate-making, scenic boat rides through the jungle, and walks through medicinal gardens. Costa Rica’s South Caribbean is a must-visit destination for nature lovers, culture seekers, and adventure enthusiasts.",
+      "description": "Discover white-sand beaches and vibrant Afro-Caribbean culture in Costa Rica, where the trees meet the ocean and nature invites you to unwind in the shade.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
@@ -913,44 +604,157 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1 - Welcome to Costa Rica",
-          "description": "Arrive at Juan Santamaría International Airport and receive a warm Pura Vida welcome. Begin your journey in San José, Costa Rica’s vibrant capital, where you can explore historic landmarks, museums, and local markets. Enjoy a relaxing night in a luxury hotel before heading to the Caribbean coast."
+          "description": "Arrive at Juan Santamaría International Airport and receive a warm Pura Vida welcome. Begin your journey in San José, Costa Rica’s vibrant capital, where you can explore historic landmarks, museums, and local markets. Enjoy a relaxing night in a luxury hotel before heading to the Caribbean coast.",
+          "title": "Day 1 - Welcome to Costa Rica"
         },
         {
-          "title": "Day 2 - Gandoca-Manzanillo Wildlife Refuge",
-          "description": "Travel to Manzanillo in the province of Limón, home to the Gandoca-Manzanillo National Wildlife Refuge. Discover the rich biodiversity of the rainforest and immerse yourself in the Afro-Caribbean culture. Enjoy local cuisine like rice and beans, patí, rondón, and agua e’sapo. End the day in Puerto Viejo, a top destination for surfing, known for the famous Salsa Brava wave and stunning beaches like Playa Chiquita, Playa Negra, and Punta Uva."
+          "description": "Travel to Manzanillo in the province of Limón, home to the Gandoca-Manzanillo National Wildlife Refuge. Discover the rich biodiversity of the rainforest and immerse yourself in the Afro-Caribbean culture. Enjoy local cuisine like rice and beans, patí, rondón, and agua e’sapo. End the day in Puerto Viejo, a top destination for surfing, known for the famous Salsa Brava wave and stunning beaches like Playa Chiquita, Playa Negra, and Punta Uva.",
+          "title": "Day 2 - Gandoca-Manzanillo Wildlife Refuge"
         },
         {
-          "title": "Day 3 - Cahuita National Park",
-          "description": "Explore Cahuita National Park, a paradise with pristine beaches, clear waters, and abundant wildlife. Take an 8-km scenic hike along the coastline, encountering howler monkeys, sloths, toucans, and hawks. A must-visit for nature lovers and wildlife photographers."
+          "description": "Explore Cahuita National Park, a paradise with pristine beaches, clear waters, and abundant wildlife. Take an 8-km scenic hike along the coastline, encountering howler monkeys, sloths, toucans, and hawks. A must-visit for nature lovers and wildlife photographers.",
+          "title": "Day 3 - Cahuita National Park"
         },
         {
-          "title": "Day 4 - Bribri Indigenous Culture in Talamanca",
-          "description": "Discover the Bribri Indigenous Culture in Talamanca, Costa Rica, an ancient civilization deeply connected to nature. Visit the Watsi community, where traditions, language, and ancestral healing practices are still alive. Explore a sacred medicinal garden, where Bribri shamans (Awá) use herbal medicine and chants to heal, guided by Sibö, their supreme deity. This unique cultural experience offers insight into a sustainable way of life, where oral traditions preserve centuries of wisdom.\nA highlight of the tour is the traditional cacao ceremony, where cacao is revered as a sacred plant. Learn the chocolate-making process, from bean to bar, and immerse yourself in this authentic Costa Rican experience. This tour is perfect for travelers seeking cultural immersion, ecotourism, and indigenous heritage exploration in Costa Rica."
+          "description": "Discover the Bribri Indigenous Culture in Talamanca, Costa Rica, an ancient civilization deeply connected to nature. Visit the Watsi community, where traditions, language, and ancestral healing practices are still alive. Explore a sacred medicinal garden, where Bribri shamans (Awá) use herbal medicine and chants to heal, guided by Sibö, their supreme deity. This unique cultural experience offers insight into a sustainable way of life, where oral traditions preserve centuries of wisdom.\nA highlight of the tour is the traditional cacao ceremony, where cacao is revered as a sacred plant. Learn the chocolate-making process, from bean to bar, and immerse yourself in this authentic Costa Rican experience. This tour is perfect for travelers seeking cultural immersion, ecotourism, and indigenous heritage exploration in Costa Rica.",
+          "title": "Day 4 - Bribri Indigenous Culture in Talamanca"
         },
         {
-          "title": "Day 5 – Explore Tortuguero Village & Hike Cerro Tortuguero",
-          "description": "Embark on an unforgettable journey from Puerto Viejo to Tortuguero, one of Costa Rica’s most remote and biodiverse destinations. Accessible only by boat or plane, this hidden paradise is a must-visit for nature lovers.\nUpon arrival, we’ll take a scenic boat tour through Tortuguero’s canals, offering breathtaking views of its lush landscapes. Our adventure continues with a hike to Cerro Tortuguero, the highest point on the Caribbean coast. This extinct volcano stands at 119 meters above sea level and provides panoramic views of the Tortuguero National Park, its winding waterways, and vibrant wildlife."
+          "description": "Embark on an unforgettable journey from Puerto Viejo to Tortuguero, one of Costa Rica’s most remote and biodiverse destinations. Accessible only by boat or plane, this hidden paradise is a must-visit for nature lovers.\nUpon arrival, we’ll take a scenic boat tour through Tortuguero’s canals, offering breathtaking views of its lush landscapes. Our adventure continues with a hike to Cerro Tortuguero, the highest point on the Caribbean coast. This extinct volcano stands at 119 meters above sea level and provides panoramic views of the Tortuguero National Park, its winding waterways, and vibrant wildlife.",
+          "title": "Day 5 – Explore Tortuguero Village & Hike Cerro Tortuguero"
         },
         {
-          "title": "Day 6 – Wildlife Canoe Tour in Tortuguero Canals",
-          "description": "Start your day with a canoe tour through the serene Tortuguero Canals, home to an incredible variety of wildlife, tropical birds, monkeys, and aquatic species. As we glide through these calm waters, you’ll experience the untouched beauty of Costa Rica’s rainforest and rich biodiversity up close.\nIn the afternoon, we say farewell to Tortuguero and head back to San José, where you can enjoy a final evening filled with local cuisine and shared stories of your adventure."
+          "description": "Start your day with a canoe tour through the serene Tortuguero Canals, home to an incredible variety of wildlife, tropical birds, monkeys, and aquatic species. As we glide through these calm waters, you’ll experience the untouched beauty of Costa Rica’s rainforest and rich biodiversity up close.\nIn the afternoon, we say farewell to Tortuguero and head back to San José, where you can enjoy a final evening filled with local cuisine and shared stories of your adventure.",
+          "title": "Day 6 – Wildlife Canoe Tour in Tortuguero Canals"
         },
         {
-          "title": "Day 7 – Farewell & Airport Transfer",
-          "description": "As our incredible Costa Rica adventure comes to an end, our team will ensure a smooth transfer from San José to Juan Santamaría International Airport. Though this marks the end of the journey, it’s only the beginning of many more explorations with Paticas Pa'que las Quiero.\nWe are honored to have shared this experience with you and look forward to welcoming you back to Costa Rica, the land of Pura Vida!"
+          "description": "As our incredible Costa Rica adventure comes to an end, our team will ensure a smooth transfer from San José to Juan Santamaría International Airport. Though this marks the end of the journey, it’s only the beginning of many more explorations with Paticas Pa'que las Quiero.\nWe are honored to have shared this experience with you and look forward to welcoming you back to Costa Rica, the land of Pura Vida!",
+          "title": "Day 7 – Farewell & Airport Transfer"
         }
-      ]
+      ],
+      "places": [
+        "South Caribean"
+      ],
+      "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea"
+    },
+    "sportFishing": {
+      "about": "Experience world-class sport fishing in Costa Rica, one of the best destinations for deep-sea fishing and sustainable tourism. This guided tour takes you to Quepos and Caño Island, two top fishing spots known for their rich marine biodiversity and stunning landscapes. Quepos is a premier fishing hub, offering the chance to catch Marlin, Sailfish, Dorado, and Yellowfin Tuna. Close to Manuel Antonio National Park, it combines sport fishing with breathtaking nature. Caño Island Biological Reserve, located near Corcovado National Park, is a marine sanctuary teeming with marine life. Besides offshore fishing, visitors can enjoy snorkeling, diving, and whale watching in crystal-clear waters.",
+      "daysAndNights": "7 days and 6 nights",
+      "description": "Discover the thrill of deep-sea sport fishing in Quepos and Caño Island—catch trophy fish in paradise!",
+      "includes": [
+        "Transfer to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "6 nights of accommodation with breakfast and lunch included.",
+        "Entrance fee included to Marino Ballena National Park.",
+        "Entrance fee included to Manuel Antonio National Park.",
+        "Sunset catamaran tour in Quepos.",
+        "Fishing and snorkeling at Caño Island and Quepos.",
+        "Fishing equipment provided.",
+        "Fruits and snacks.",
+        "Beverages (water and beer) during fishing tours on board the boat.",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT) included.",
+        "Children aged 0 to 2 years do not incur additional costs.",
+        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
+      ],
+      "itinerary": [
+        {
+          "description": "With great enthusiasm and joy, our team will be waiting for you at Juan Santamaría International Airport with a warm smile and a genuine 'Pura Vida!' Our beautiful country and its welcoming people are thrilled to host you, extending a heartfelt welcome. From the moment you step onto 'Tico' soil, we are at your service to make your trip an unforgettable experience. You'll enjoy comfortable private transportation to your hotel, where you can relax after your flight.",
+          "title": "Day 1 - Welcome to Costa Rica, the Land of Pura Vida!"
+        },
+        {
+          "description": "Our next destination is Quepos, on the southern Pacific coast. This adventure begins as we drive through picturesque towns like Atenas, Orotina, and Playa Jacó, showcasing Costa Rica's stunning scenery. Known for its laid-back vibe and rich biodiversity, Quepos is perfect for exploring natural wonders, including Manuel Antonio National Park. In the afternoon, enjoy an exciting sunset catamaran tour along the beautiful Pacific coastline.",
+          "title": "Day 2 - Sunset Catamaran Tour in Quepos"
+        },
+        {
+          "description": "Join us for a family-friendly fishing adventure! This guided tour includes snorkeling at Caño Island Biological Reserve, nature walks, birdwatching, and fishing in designated spots 20 km offshore. Costa Rica is renowned for its crystal-clear waters and diverse marine life, making it a top fishing destination. We’ll depart from Marino Ballena National Park, equipped with professional fishing gear and safety equipment. Experience responsible sport fishing under the guidance of our experienced team.",
+          "title": "Day 3 - Fishing Tour at Caño Island"
+        },
+        {
+          "description": "Immerse yourself in the natural wonders of Manuel Antonio National Park. Walk along trails that wind through lush forests, spotting various wildlife, including monkeys, sloths, and tropical birds. Relax on the park’s stunning white sand beaches, perfect for swimming and sunbathing, and enjoy panoramic views of the Pacific Ocean.",
+          "title": "Day 4 - Manuel Antonio National Park"
+        },
+        {
+          "description": "Let’s embark on an unforgettable fishing adventure around Quepos, where the tropical waters of the Pacific provide the ideal setting for sport fishing. Here, you can catch sailfish, striped marlin, blue and black marlin, dorado, tuna, and wahoo. We offer a variety of fishing options, including live bait, trolling, casting, and fly fishing, both along the coast and offshore. As you cast your line, keep an eye out for dolphins and, seasonally, whales. After an exciting day on the water, savor a delicious local lunch featuring fresh Costa Rican flavors.",
+          "title": "Day 5 - Fishing Tour in Quepos"
+        },
+        {
+          "description": "Our return journey to Alajuela province awaits us; a pleasant return to our hotel leads to relaxation and enjoyment. This adventure is filled with memorable moments in a land rich in life and color.",
+          "title": "Day 6 - Return to the Capital"
+        },
+        {
+          "description": "At the scheduled time, our transportation service will take you from the hotel to Juan Santamaría International Airport. During the ride, unforgettable experiences, exciting adventures, and amazing moments will stay with you. Paticas thanks you for your trust in us, and we sincerely hope to meet again.",
+          "title": "Day 7 - Farewell to Costa Rica"
+        }
+      ],
+      "places": [
+        "South Pacific"
+      ],
+      "title": "Sport Fishing Adventures – Explore Costa Rica's Pacific Coast"
+    },
+    "sunAndSand": {
+      "about": "Experience the best of Guanacaste, Costa Rica, where stunning beaches, lush tropical forests, and relaxing water activities await. Explore Tamarindo and Conchal, two of the most popular Costa Rica beach destinations, perfect for snorkeling, sunset walks, and luxury getaways. With over 100 km of coastline, this region offers world-class resorts, wellness retreats, and breathtaking landscapes. Whether you're seeking tranquility and comfort, a trip to Guanacaste promises unforgettable memories and the true Pura Vida experience.",
+      "daysAndNights": "8 days and 7 nights",
+      "description": "Escape to the tranquil paradise of Guanacaste, Costa Rica, where stunning beaches, luxury resorts, and the true Pura Vida experience await.",
+      "includes": [
+        "Transfer to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "7 nights of accommodation with breakfast and lunch included.",
+        "Sunset catamaran tour in Tamarindo.",
+        "Visit to Playa Conchal.",
+        "Surfing lessons in Santa Teresa.",
+        "Visit to Malpaís.",
+        "Ferry transportation.",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT) included.",
+        "Children aged 0 to 2 years do not incur additional costs.",
+        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
+      ],
+      "itinerary": [
+        {
+          "description": "Upon arrival at Juan Santamaría International Airport, our local team will greet you with a friendly smile and a heartfelt “Pura Vida.” Welcome to a land of peace, rich biodiversity, and vibrant culture. Renowned for its strong democracy, this tropical destination stands out as one of the few countries without a military, where education and healthcare are free and accessible to all. Let the journey begin in this breathtaking paradise!",
+          "title": "Day 1 - Warm Welcome to Paradise"
+        },
+        {
+          "description": "After a traditional Costa Rican breakfast, embark on a breathtaking small-plane flight to Tamarindo, where golden beaches meet serene ocean views. The day ends with a relaxing catamaran sunset tour, gliding through the Pacific waters as the sky transforms into stunning pastel hues.",
+          "title": "Day 2 - Scenic Flight to Tamarindo & Sunset Cruise"
+        },
+        {
+          "description": "Discover the beauty of Playa Conchal, where seashells of various shapes, colors, and sizes create a unique and idyllic landscape. Its crystal-clear waters offer the perfect setting for a refreshing swim and ultimate relaxation in a tropical paradise.",
+          "title": "Day 3 - Paradise at Playa Conchal"
+        },
+        {
+          "description": "Travel through picturesque landscapes to Santa Teresa, a charming beach town known for its bohemian vibe, unspoiled beaches, and inviting atmosphere. Whether strolling through the town or unwinding by the shore, this stop promises a peaceful retreat.",
+          "title": "Day 4 - Exploring Santa Teresa"
+        },
+        {
+          "description": "Experience world-class surfing in Santa Teresa, one of the top surf destinations globally. Local instructors will guide you, making it enjoyable for all skill levels. After a day in the waves, Santa Teresa’s vibrant nightlife offers beachside bars, fresh cuisine, and the soothing sound of the ocean under the starry sky.",
+          "title": "Day 5 - Surf Lessons & Nightlife in Santa Teresa"
+        },
+        {
+          "description": "With its untouched natural beauty and crystal-clear waters, Malpaís is the perfect escape for relaxation and coastal exploration. Bask under the warm sun, take a peaceful walk along the shore, or enjoy a refreshing swim in the calm Pacific waters.",
+          "title": "Day 6 - Serenity at Playa Malpaís"
+        },
+        {
+          "description": "The journey back begins with a picturesque ferry ride across the Gulf of Nicoya, offering breathtaking ocean views and a unique perspective of the coastline. This scenic experience adds a special touch to our return, making it a memorable part of the trip.",
+          "title": "Day 7 - Scenic Ferry Ride Back to San José"
+        },
+        {
+          "description": "As our tropical escape comes to an end, our professional team at Paticas will ensure a smooth transfer to Juan Santamaría International Airport. With a warm smile and a heartfelt “Pura Vida,” we bid farewell, carrying unforgettable memories of this coastal retreat.",
+          "title": "Day 8 - Farewell & Departure"
+        }
+      ],
+      "places": [
+        "North Pacific"
+      ],
+      "title": "Sun & Sand Escapes: Relaxing Retreat in the North Pacific"
     },
     "tropicalTranquility": {
-      "title": "Tropical Serenity: Relaxation Retreat in Paradise",
-      "subTitle": "Discover the ultimate relaxation experience in Costa Rica, where every moment invites you to unwind.",
-      "places": [
-        "North Zone"
-      ],
-      "daysAndNights": "8 days and 7 nights",
-      "description": "Una experiencia de paz y asombro en paisajes que van desde las alturas volcánicas hasta las costas idílicas.",
       "about": "Peace, tranquility, and relaxation: the 'Tropical Serenity' tour is designed for those seeking a lush journey through the hidden gems of Costa Rica. Over the course of eight days, indulge in stunning landscapes, unique scenery, and majestic volcanoes. Marvel at endemic flora and fauna while exploring the breathtaking Pacific Ocean with its crystal-clear waters teeming with vibrant marine life, inviting you to unwind on pristine white-sand beaches with gentle breezes.\nSay goodbye to stress! Experience serenity in a tropical paradise!",
+      "daysAndNights": "8 days and 7 nights",
+      "description": "Discover the ultimate relaxation experience in Costa Rica, where every moment invites you to unwind.",
       "includes": [
         "Transfer to and from Juan Santamaría International Airport.",
         "Private transportation with a driver.",
@@ -969,38 +773,235 @@
       ],
       "itinerary": [
         {
-          "title": "Day 1 – Welcome to Costa Rica",
-          "description": "Pura Vida! A warm smile greets you as you arrive in Costa Rica. At the Juan Santamaría International Airport, our friendly team will be there to warmly welcome you. Get ready for a perfect Costa Rican adventure! You’ll enjoy a comfortable and luxurious private transport to your cozy accommodation. San José, the capital of Costa Rica, invites you to explore its rich cultural and social treasures."
+          "description": "Pura Vida! A warm smile greets you as you arrive in Costa Rica. At the Juan Santamaría International Airport, our friendly team will be there to warmly welcome you. Get ready for a perfect Costa Rican adventure! You’ll enjoy a comfortable and luxurious private transport to your cozy accommodation. San José, the capital of Costa Rica, invites you to explore its rich cultural and social treasures.",
+          "title": "Day 1 – Welcome to Costa Rica"
         },
         {
-          "title": "Day 2 - Visit Poás Volcano National Park",
-          "description": "Next, we head to La Fortuna, where you’ll enjoy a three-night stay in this dreamy destination. Our adventure begins with a visit to Poás Volcano National Park, located in Alajuela. This national park, part of the Central Volcanic Mountain Range and the National Conservation Area System, was established on January 25, 1971. It features one of the largest craters in the world, renowned for its volcanic activity and unique characteristics. The main crater houses an acid lagoon, whose color and size can change due to volcanic activity."
+          "description": "Next, we head to La Fortuna, where you’ll enjoy a three-night stay in this dreamy destination. Our adventure begins with a visit to Poás Volcano National Park, located in Alajuela. This national park, part of the Central Volcanic Mountain Range and the National Conservation Area System, was established on January 25, 1971. It features one of the largest craters in the world, renowned for its volcanic activity and unique characteristics. The main crater houses an acid lagoon, whose color and size can change due to volcanic activity.",
+          "title": "Day 2 - Visit Poás Volcano National Park"
         },
         {
-          "title": "Day 3 – Arenal Lake",
-          "description": "Cruise on Arenal Lake aboard a private yacht. Engage in activities like stand-up paddleboarding and fishing, all while enjoying stunning views of Arenal Volcano, known for its hot springs and unique conical shape."
+          "description": "Cruise on Arenal Lake aboard a private yacht. Engage in activities like stand-up paddleboarding and fishing, all while enjoying stunning views of Arenal Volcano, known for its hot springs and unique conical shape.",
+          "title": "Day 3 – Arenal Lake"
         },
         {
-          "title": "Day 4 – Spa and Hot Springs in La Fortuna",
-          "description": "The fourth day of this thrilling Costa Rican adventure is designed for maximum enjoyment and relaxation. In La Fortuna, renowned for its stunning hot springs, you’ll spend the day in a spa oasis. This tour is thoughtfully crafted for you to unwind and enjoy serenity while soaking in the warm springs with views of the majestic Arenal Volcano. It’s a day dedicated to recharging your energy, enjoying the natural surroundings, and rejuvenating your body and mind amidst the lush beauty of Costa Rica."
+          "description": "The fourth day of this thrilling Costa Rican adventure is designed for maximum enjoyment and relaxation. In La Fortuna, renowned for its stunning hot springs, you’ll spend the day in a spa oasis. This tour is thoughtfully crafted for you to unwind and enjoy serenity while soaking in the warm springs with views of the majestic Arenal Volcano. It’s a day dedicated to recharging your energy, enjoying the natural surroundings, and rejuvenating your body and mind amidst the lush beauty of Costa Rica.",
+          "title": "Day 4 – Spa and Hot Springs in La Fortuna"
         },
         {
-          "title": "Day 5 – Río Celeste and Transfer to Alajuela",
-          "description": "We will explore the breathtaking Río Celeste Waterfall, a stunning natural wonder renowned for its light blue waters, created by volcanic minerals like aluminum sulfate and calcium carbonate. Surrounded by lush tropical vegetation, this area is home to unique wildlife, including jaguars, tapirs, and various bird species. Afterward, we will head to Alajuela Province, the third-largest province in Costa Rica, celebrated for its rich culture and natural beauty."
+          "description": "We will explore the breathtaking Río Celeste Waterfall, a stunning natural wonder renowned for its light blue waters, created by volcanic minerals like aluminum sulfate and calcium carbonate. Surrounded by lush tropical vegetation, this area is home to unique wildlife, including jaguars, tapirs, and various bird species. Afterward, we will head to Alajuela Province, the third-largest province in Costa Rica, celebrated for its rich culture and natural beauty.",
+          "title": "Day 5 – Río Celeste and Transfer to Alajuela"
         },
         {
-          "title": "Day 6 - Tortuga Island",
-          "description": "Located in the Gulf of Nicoya, Tortuga Island is famous for its tranquil turquoise waters and pristine white sand beaches, offering a serene ocean experience. Our morning begins in Puntarenas, the Pearl of the Pacific, where we will embark on a unique catamaran adventure to the island. Prepare for a day filled with vibrant colors and diverse marine life, featuring snorkeling in crystal-clear waters and relaxing on the beautiful sandy beach for a perfect day of sun and tranquility."
+          "description": "Located in the Gulf of Nicoya, Tortuga Island is famous for its tranquil turquoise waters and pristine white sand beaches, offering a serene ocean experience. Our morning begins in Puntarenas, the Pearl of the Pacific, where we will embark on a unique catamaran adventure to the island. Prepare for a day filled with vibrant colors and diverse marine life, featuring snorkeling in crystal-clear waters and relaxing on the beautiful sandy beach for a perfect day of sun and tranquility.",
+          "title": "Day 6 - Tortuga Island"
         },
         {
-          "title": "Day 7 - Traditional Cart Factory in Sarchí",
-          "description": "Sarchí, the twelfth canton of Alajuela Province, was formerly known as Valverde Vega, meaning 'open field' or 'place to rest.' Renowned as Costa Rica's artistic epicenter, Sarchí is famous for its exceptional craftsmanship in wooden furniture and traditional oxcarts. Here, you can see the world's largest oxcart, beautifully decorated in ancestral Costa Rican styles. Constructed in 2006 with the goal of being listed in the Guinness World Records, this giant cart embodies the artistic and cultural richness of this charming town. "
+          "description": "Sarchí, the twelfth canton of Alajuela Province, was formerly known as Valverde Vega, meaning 'open field' or 'place to rest.' Renowned as Costa Rica's artistic epicenter, Sarchí is famous for its exceptional craftsmanship in wooden furniture and traditional oxcarts. Here, you can see the world's largest oxcart, beautifully decorated in ancestral Costa Rican styles. Constructed in 2006 with the goal of being listed in the Guinness World Records, this giant cart embodies the artistic and cultural richness of this charming town. ",
+          "title": "Day 7 - Traditional Cart Factory in Sarchí"
         },
         {
-          "title": "Day 8 - Farewell to Costa Rica",
-          "description": "As your adventure concludes, take a moment to reflect on the beautiful memories you've created. Enjoy a comfortable transfer back to San José and depart from Juan Santamaría International Airport with unforgettable experiences in your heart. We know you’re already dreaming of your next journey, and remember, Paticas is here for you! We can’t wait to welcome you back for another amazing adventure."
+          "description": "As your adventure concludes, take a moment to reflect on the beautiful memories you've created. Enjoy a comfortable transfer back to San José and depart from Juan Santamaría International Airport with unforgettable experiences in your heart. We know you’re already dreaming of your next journey, and remember, Paticas is here for you! We can’t wait to welcome you back for another amazing adventure.",
+          "title": "Day 8 - Farewell to Costa Rica"
         }
-      ]
+      ],
+      "places": [
+        "North Zone"
+      ],
+      "title": "Tropical Serenity: Relaxation Retreat in Paradise"
+    },
+    "turtlesAndWhales": {
+      "about": "For nature and conservation enthusiasts, our exclusive 'Green Turtle Nesting in Tortuguero' tour offers a unique opportunity to witness green sea turtles nesting in their natural habitat at night. Tortuguero National Park, renowned for its rich biodiversity and stunning landscapes, is one of the most important marine turtle nesting sites in Costa Rica. Experience the awe-inspiring sight of these magnificent creatures laying their eggs under the moonlight. This limited-time tour is available only in September, coinciding with the peak nesting season for green turtles and the best time for whale watching. \nWhat is Turtle Nesting?\nTurtle nesting is a natural process where female green turtles come ashore at night to lay their eggs in the sand. After laying the eggs, they return to the ocean, leaving their nests behind. Males remain in the sea during this process.\nTortuguero's Importance\nTortuguero is one of the world's top sites for green turtle nesting, protected from development and light pollution. These turtles are highly loyal to their nesting beaches, ensuring Tortuguero remains a key sanctuary for their preservation.\nPark Guidelines for Turtle Nesting:\nPhotography, cameras, and cell phone use are not allowed.\nDirect contact with the turtles or their eggs is prohibited.\nAfter the magic of turtle nesting, we'll continue to Uvita for an incredible whale watching experience. During the whale migration season (December-March and July-October), you may encounter humpback whales, Bryde’s whales, pilot whales, and Dolphins.",
+      "daysAndNights": "7 days and 6 nights",
+      "description": "Paradise beaches, whale watching, and turtle nesting under the moonlight",
+      "includes": [
+        "Transfer to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "6 nights of accommodation with breakfast and lunch included.",
+        "Round-trip boat transportation to Tortuguero.",
+        "Entrance fee included to Tortuguero National Park.",
+        "Entrance fee included to Marino Ballena National Park.",
+        "Entrance fee included to Cerro Tortuguero.",
+        "Green turtle nesting tour.",
+        "Canoe tour through the Tortuguero canals.",
+        "Whale watching and snorkeling tour.",
+        "City Tour of Tortuguero.",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT) included.",
+        "Children aged 0 to 2 years do not incur additional costs.",
+        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
+      ],
+      "itinerary": [
+        {
+          "description": "Upon landing at Juan Santamaría International Airport, you'll be greeted with a warm '¡Pura Vida!' marking the beginning of an exciting adventure in this beautiful country. Our team will welcome you with their signature hospitality and transport you in luxurious private transportation to a cozy hotel, where comfort and tranquility await.",
+          "title": "Day 1 - Welcome to Costa Rica"
+        },
+        {
+          "description": "We’ll start the day with a fascinating canoe tour through the Tortuguero canals, where we’ll observe abundant wildlife in its natural habitat. Following this, we’ll embark on a guided city tour of Tortuguero, with the afternoon free to explore local restaurants and shops, or simply relax at the hotel.\nIn the evening, we’ll prepare for the spectacular event of green turtle nesting. The nesting tour is organized through a daily electronic lottery at 5 p.m. The Tortuguero National Park determines the timing, order, and sector for observation.\nAvailable Time Slots:\nTime Slot 1: 8: 00 p.m. - 10: 00 p.m.\nTime Slot 2: 10: 00 p.m. - 12: 00 a.m.\nThe beach is patrolled by volunteers from a private company providing the service. Tourists gather at a waiting base until trackers indicate the location of a turtle. The entire process for a turtle (coming onto the beach, nesting, covering the nest, camouflaging the nest, and returning to the ocean) takes about two hours.\nNesting Phases Allowed for Observation:\nNesting Process: When the turtle lays its eggs.\nCovering Process: When the turtle covers the nest.\nCamouflaging Process: When the turtle camouflages the nest to prevent predation.\nDescending Process: When the turtle returns to the sea.\nRecommendations:\nClothing: Dark colors like black, blue, and green. No white or fluorescent colors allowed.\nRain Gear: To protect against rain.\nFootwear: Sports shoes or dark-colored boots.",
+          "title": "Day 2 - Canoe Tour in Tortuguero Canals and Turtle Nesting"
+        },
+        {
+          "description": "The morning is free for you to enjoy at your own pace. Nature lovers can start the day on the beach, watching as baby turtles emerge from their nests in the sand and make their way to the sea. Later, we’ll visit Cerro Tortuguero, a 119-meter-high ancient volcano located at the foothills of the San Francisco community. This highest point in the Costa Rican Caribbean offers stunning views. After our exploration, we’ll head to San José, the capital, for the night.",
+          "title": "Day 3 - Visit to Cerro Tortuguero"
+        },
+        {
+          "description": "After a delicious breakfast, we’ll begin our journey to the South Pacific of Costa Rica, heading towards Uvita. This area is the most popular for whale watching in Costa Rica and is home to the country's first marine national park. On the way, we’ll make strategic stops at places like the Tárcoles River Bridge, where we can see hundreds of crocodiles, and the Jacó Lookout, offering panoramic views of the beach and the town of Jacó.",
+          "title": "Day 4 - Uvita"
+        },
+        {
+          "description": "In the morning, we’ll embark on an exciting whale-watching tour in Marino Ballena National Park. This prime location provides the opportunity to see dolphins and whales in their natural habitat. We’ll start our excursion from Dolphin Tours’ office, where you can enjoy snacks like empanadas, coffee, and orange juice. After a short walk to the park’s beach, we’ll begin our boat adventure. We’ll look for whales, dolphins, various bird species, and turtles. Highlights during the tour include Whale Rock, Playa Ventana with its impressive caves, and the formation known as the 'Whale Tail.' We’ll have the chance to swim in the ocean or, depending on water and weather conditions, snorkel. Fruit drinks and water will be available during the excursion.",
+          "title": "Day 5 - Whale Watching Tour"
+        },
+        {
+          "description": "In the morning, we’ll say “see you soon” to Uvita as we start our return journey to the capital. We’ll be accompanied by private transportation, allowing us to once again enjoy the stunning landscapes Costa Rica has to offer: lush rainforests, majestic mountains, charming villages, and paradise beaches. Every turn and stretch of the road offers a new perspective worthy of admiration.",
+          "title": "Day 6 - Return to the Capital"
+        },
+        {
+          "description": "It’s time to say goodbye to Costa Rica. Our team will handle your transfer from the hotel to Juan Santamaría International Airport. At Paticas, we deeply appreciate your trust and hope this experience has been unforgettable.",
+          "title": "Day 7 - Until We Meet Again, Costa Rica"
+        }
+      ],
+      "places": [
+        "Caribe Region",
+        "South Pacific"
+      ],
+      "title": "Turtle Nesting & Whale Watching"
+    },
+    "volcanoes": {
+      "about": "Explore the breathtaking landscapes of Costa Rica, where biodiversity and adventure come together. Our journey begins in Monteverde, home to the famous Monteverde Cloud Forest Reserve, a sanctuary for 120 species of amphibians and reptiles, nearly 100 species of mammals, and 400 species of birds. This biological paradise is part of the Arenal-Monteverde Cloud Forest Complex, a vital corridor connecting Monteverde with Arenal Volcano National Park, where trails and lush rainforests provide an unforgettable experience for wildlife lovers and photographers.\nNext, we head to La Fortuna, home to the majestic Arenal Volcano. This region offers adventure and cultural experiences, including a coffee and chocolate tour, zip-lining, and a guided night tour to explore nocturnal wildlife. Relax on a private yacht tour on Lake Arenal, taking in stunning volcano views, or enjoy a peaceful nature hike. Immerse yourself in Costa Rica’s natural wonders, where volcanoes, cloud forests, and wildlife create an unforgettable experience.",
+      "daysAndNights": "8 days and 7 nights",
+      "description": "Explore Costa Rica’s cloud forests and volcanoes with zip-lining, a coffee & chocolate tour, a private yacht tour on Lake Arenal, and a night wildlife adventure.",
+      "includes": [
+        "Transfer to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "7 nights of accommodation with breakfast and lunch included.",
+        "Entrance fee included to Poás Volcano National Park.",
+        "Entrance fee included to Mano de Arenal Viewpoint.",
+        "Coffee and chocolate tour at Don Juan.",
+        "4 km of ziplining, Tarzan Swing, rappelling, Aerial Superman, and Subterranean Superman at Monteverde Extremo Park.",
+        "Night tour in Monteverde.",
+        "Private yacht on Lake Arenal (stand-up paddleboarding, wakeboarding, or fishing).",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT) included.",
+        "Children aged 0 to 2 years do not incur additional costs.",
+        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
+      ],
+      "itinerary": [
+        {
+          "description": "Your arrival at Juan Santamaría International Airport marks the start of an unforgettable adventure in Costa Rica. Enjoy a warm welcome with a friendly smile and a heartfelt '¡Pura Vida!' as we transport you in luxury to your comfortable hotel in San José. Experience the vibrant culture, markets, museums, parks, and nightlife of our beautiful capital.",
+          "title": "Day 1: Welcome to Costa Rica"
+        },
+        {
+          "description": "In Monteverde, immerse yourself in a unique coffee and chocolate tour at Don Juan Hacienda. Learn about the traditional and modern processes of Costa Rica's renowned coffee and chocolate production, from harvest to preparation. Delight your senses with samples of these delicious products. After the tour, enjoy free time to explore the beautiful natural trails and attractions of Santa Elena.",
+          "title": "Day 2: Coffee and Chocolate Tour in Monteverde"
+        },
+        {
+          "description": "Get ready for an adrenaline rush with Costa Rica's longest zip-line adventure! Soar through the lush canopy on 11 cables spanning 4 km, including thrilling experiences like the Tarzan swing and a stunning rappel descent. In the evening, join a night tour to discover the region's unique nocturnal wildlife, guided by experts who will share insights into the local flora and fauna.",
+          "title": "Day 3: Zip-lining and Night Tour in Monteverde"
+        },
+        {
+          "description": "Enjoy a relaxing morning before traveling to La Fortuna, home to the iconic Arenal Volcano. Experience the breathtaking landscapes and partake in exciting activities such as hot springs, hiking, and horseback riding with stunning views of the volcano.",
+          "title": "Day 4: Discover La Fortuna"
+        },
+        {
+          "description": "Explore the picturesque Lake Arenal aboard a luxurious yacht. Engage in thrilling activities like stand-up paddleboarding, kayaking, wakeboarding, or fishing while admiring the majestic Arenal Volcano. Enjoy the serene beauty of Costa Rica's largest lake.",
+          "title": "Day 5: Adventure on Lake Arenal"
+        },
+        {
+          "description": "Embark on a day filled with natural wonders, including waterfalls, hanging bridges, and trails. Take a scenic cable car ride to the 'Hand of Arenal' lookout, offering breathtaking views of the volcano and its surroundings.",
+          "title": "Day 6: Scenic Lookout at Arenal"
+        },
+        {
+          "description": "In the morning, we will embark on our journey to Alajuela. During the trip, we will make a stop to explore the fantastic Poás Volcano National Park. This stunning volcano features one of the largest craters in the world and is renowned for its volcanic activity and unique characteristics. The main crater houses an acid lagoon, the color and size of which can vary due to volcanic activity, climate, or the time of year.",
+          "title": "Day 7: Poás Volcano National Park"
+        },
+        {
+          "description": "The last day of our Costa Rica adventure has arrived. We will provide transportation to Juan Santamaría International Airport for a comfortable and pleasant return home. For Paticas and our team, it has been an honor to have you with us, and we hope to meet again in the future.",
+          "title": "Day 8: Farewell to Costa Rica"
+        }
+      ],
+      "places": [
+        "North Zone"
+      ],
+      "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
+    },
+    "wildLife": {
+      "about": "Explore Corcovado National Park, one of the most biologically diverse places on Earth, perfect for wildlife photography enthusiasts. Located on Costa Rica’s Osa Peninsula, this natural wonder represents 2.5% of the world’s biodiversity, blending tropical rainforests, pristine beaches, and waterfalls. \nCapture incredible images of sloths, tapirs, toucans, and even elusive wild cats like pumas and ocelots in their natural habitat. Recognized by National Geographic as “the most biologically intense place on Earth,” Corcovado offers activities like boat tours, whale and dolphin watching, and nighttime hikes.",
+      "daysAndNights": "8 days and 7 nights",
+      "description": "Photographing wildlife in Corcovado, one of the most biodiverse places on the planet. Capture stunning images of tapirs, toucans, pumas, and ocelots. Explore rainforests and beaches, practice macro photography, and visit a sloth garden for an unforgettable wildlife photography experience in Costa Rica.",
+      "includes": [
+        "Transfer to and from Juan Santamaría International Airport.",
+        "Private transportation with a driver.",
+        "Internet connection during your stay in Costa Rica.",
+        "7 nights of accommodation with breakfast and lunch included.",
+        "Round-trip flight to Puerto Jiménez by small plane.",
+        "Round-trip boat transportation to Corcovado National Park.",
+        "Boat tour of the Golfo Dulce (landscape photography).",
+        "Sloth tour at La Perica Sloth Garden.",
+        "Boat tour on the Sierpe River (birdwatching, crocodiles, and monkeys).",
+        "Night photography tour.",
+        "Visit to Playa Matapalo.",
+        "Entrance fee included to national parks and wildlife refuges.",
+        "Tour guide for your entire stay in Costa Rica.",
+        "Value Added Tax (VAT).",
+        "Children aged 0 to 2 do not incur additional costs.",
+        "Child rates apply for ages 3 to 10, allowing a maximum of 2 children to share a room with their parents or guardians."
+      ],
+      "itinerary": [
+        {
+          "description": "Costa Rica, a country of contrasts with friendly people and unparalleled cuisine, spans 51,100 km², with 26% of its territory protected. Home to rich biodiversity, it boasts 6% of the world’s species. With no army, free public education, and a competitive healthcare system, it is an ideal vacation destination. Visitors appreciate its stunning nature, high quality of life, friendly locals, and safety. Upon arrival at Juan Santamaría International Airport, our professional team greets you with a warm 'Pura Vida!' and transfers you to a luxurious hotel.",
+          "title": "Day 1 - Welcome to Costa Rica"
+        },
+        {
+          "description": "We start with an exciting flight from Alajuela to Puerto Jiménez, where breathtaking views of lush jungle and Pacific coast await. After arriving, we visit La Perica Sloth Garden, dedicated to observing and learning about these charming mammals in their natural habitat. As night falls, we embark on a macro photography tour in the jungle, capturing unique images of nocturnal wildlife, including red-eyed tree frogs and intricate spiders.",
+          "title": "Day 2 - Puerto Jiménez: Flight, Sloth Garden, and Night Photography"
+        },
+        {
+          "description": "The day begins with an exhilarating boat tour of Gulf Dulce, a tropical gulf surrounded by Corcovado National Park and Piedras Blancas National Park. This area is home to endangered species like hammerhead sharks and needlefish. We may spot dolphins, marine birds, and, during the right season, majestic humpback whales. Our knowledgeable guide will share insights about the area's diverse wildlife, including four monkey species and various birds.",
+          "title": "Day 3 - Gulf Dulce"
+        },
+        {
+          "description": "We embark on an exciting excursion to Corcovado National Park, traveling by boat to Sirena Station, the park's central hub. The park is teeming with biodiversity, including endangered species like Baird's tapir and a rich variety of birds, making it a paradise for nature lovers and photographers.",
+          "title": "Day 4 - Corcovado National Park"
+        },
+        {
+          "description": "We start the day with an exhilarating jeep tour to Playa Matapalo, where we can observe vibrant wildlife like scarlet macaws and various bird species. Our expert guide will share fascinating information about the region's flora and fauna before we enjoy some relaxation time at the beach.",
+          "title": "Day 5 - Playa Matapalo: Jeep Tour and Birdwatching"
+        },
+        {
+          "description": "Next, we explore the Sierpe River, an exceptional ecosystem within the Golfo Dulce Forest Reserve. The mangroves provide habitat for diverse wildlife, including monkeys, iguanas, and colorful birds. This thrilling boat tour also offers the chance to spot caimans in their natural habitat.",
+          "title": "Day 6 - Sierpe River"
+        },
+        {
+          "description": "We savor the beautiful morning in Puerto Jiménez before taking a scenic flight back to San José. We take one last look at Costa Rica's stunning landscapes, bidding farewell to the Osa Peninsula.",
+          "title": "Day 7 - Farewell to Osa and Return to San José"
+        },
+        {
+          "description": "It’s time to say goodbye to Costa Rica, taking wonderful memories of Corcovado with us. Our team will transfer you from your hotel to Juan Santamaría International Airport. Thank you for choosing Paticas for your unforgettable journey.",
+          "title": "Day 8 - Last Day in Costa Rica"
+        }
+      ],
+      "places": [
+        "South Pacific"
+      ],
+      "title": "Wildlife Photography in Corcovado"
     }
-  }
+  },
+  "traveler": "Traveler",
+  "travelers": "Travelers",
+  "values": {
+    "description": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories.",
+    "title": "Our Values"
+  },
+  "vision": {
+    "description": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry.",
+    "title": "Our Vision"
+  },
+  "weAre": "We have the spirit for travel",
+  "whatsappMessage": "Hi, my name is [Your Name]! I'm interested in learning more about your tours and travel options. Could you help me find the best experience based on my preferences? I’d appreciate your assistance. Thank you!",
+  "yearAgo": "a year ago",
+  "years": "years",
+  "": ""
 }

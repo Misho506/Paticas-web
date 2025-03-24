@@ -7,8 +7,8 @@ import "./TourCard.css";
 import { useNavigate } from "react-router";
 import { useTour } from "../../context/TourContext";
 
-const TourCard = ({ tour }: { tour: TourCardProps }) => {
-  const { img, title, places, daysAndNights, description, showDescription } = tour;
+const TourCard = ({ tour, showDescription }: { tour: TourCardProps, showDescription: boolean }) => {
+  const { img, title, places, daysAndNights, description } = tour;
   const { setSelectedTour } = useTour();
   const navigate = useNavigate();
 
@@ -37,20 +37,12 @@ const TourCard = ({ tour }: { tour: TourCardProps }) => {
               <span className="whitespace-pre-wrap italic ml-1">{place}</span>
             </article>
           ))}
-
-          {showDescription &&
-            <>
-              <hr />
-              <article className="flex items-center text-sm text-gray-500 mt-2">
-                <FaRegCalendarCheck className="yellow-icon text-xl" />
-                <span className="whitespace-pre-wrap italic ml-1">{daysAndNights}</span>
-              </article>
-            </>
-          }
+          <hr />
+          <article className="flex items-center text-sm text-gray-500 mt-2">
+            <FaRegCalendarCheck className="yellow-icon text-xl" />
+            <span className="whitespace-pre-wrap italic ml-1">{daysAndNights}</span>
+          </article>
         </section>
-        {showDescription &&
-          <p className="italic">{description}</p>
-        }
       </article>
     </section>
   )
