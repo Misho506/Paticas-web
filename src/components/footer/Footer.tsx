@@ -14,8 +14,14 @@ const Footer = () => {
     <footer>
       <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableNewsLetter.message")} title={i18n.t("notAvailableCard.title")} />
       <section className="bg-dark-green px-8 pb-8 pt-2">
-        <article className="flex justify-between ">
-          <label className="text-white">{i18n.t("terms&Conditions")}</label>
+        <article className="flex justify-between">
+          <a
+            href={'../../assets/terms&Conditions' + i18n.language === 'es' ? 'Términos español.pdf' : 'Términos ingles.pdf'}
+            target='_blank'
+            download={i18n.language === 'es' ? "Terminos&Condiciones.pdf" : "Terms&Conditions.pdf"} rel="noreferrer"
+          >
+            <label className="text-white cursor-pointer">{i18n.t("terms&Conditions")}</label>
+          </a>
         </article>
         <hr className="border-1 border-white mb-3 mt-1 opacity-75" />
         <article className="space-y-4">
