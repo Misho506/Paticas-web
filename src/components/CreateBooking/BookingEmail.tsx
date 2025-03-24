@@ -3,9 +3,41 @@ import { useTranslation } from "react-i18next";
 
 const BookingEmail = () => {
   const { i18n } = useTranslation();
-  const { selectedTour, booking: { kids, passengers, price, pricePerPerson, pricePerKid, user: { userName, lastName, email }, startDate, endDate } } = useTour();
+  const { selectedTour, booking: { kids, passengers, price, pricePerPerson, pricePerKid, user: { userName, lastName, email, phoneNumber }, startDate, endDate } } = useTour();
   const startTourDate = new Date(startDate);
   const endTourDate = new Date(endDate);
+
+  const subjectEmail = i18n.t('bookingEmail.subject', { tourTitle: selectedTour.title });
+
+  const bodyEmail = `
+  ${i18n.t('bookingEmail.greeting')}
+
+    ${i18n.t('bookingEmail.intro', { tourTitle: selectedTour.title })}
+    ${i18n.t('bookingEmail.mainContact', { fullName: userName + " " + lastName, phone: phoneNumber })}
+    ${i18n.t('bookingEmail.participants', { count: kids.length + passengers.length })}
+    
+    ${i18n.t('bookingEmail.participantsDetails')}:
+    ${[...passengers, ...kids].map((passenger) =>
+    `      ${i18n.t('bookingEmail.participantLine', {
+      fullName: passenger.userName + ' ' + passenger.lastName,
+      passport: passenger.passportID
+    })}`
+  ).join("\n")
+    }
+
+    ${i18n.t('bookingEmail.childrenIncluded')}: ${kids.length > 0 ? i18n.t('bookingEmail.yes') : i18n.t('bookingEmail.no')}
+    ${i18n.t('bookingEmail.pricePerPerson')}: $${pricePerPerson}
+    ${kids.length > 0 ? i18n.t('bookingEmail.pricePerKid', { price: pricePerKid }) : ''}
+    ${i18n.t('bookingEmail.totalPrice')}: $${price}
+    \n
+    ${i18n.t('bookingEmail.tourStartDate')}: ${startTourDate.getDate()}/${startTourDate.getMonth() + 1}/${startTourDate.getFullYear()}
+    ${i18n.t('bookingEmail.tourEndDate')}: ${endTourDate.getDate()}/${endTourDate.getMonth() + 1}/${endTourDate.getFullYear()}
+    \n
+    ${i18n.t('bookingEmail.closingMessage')}
+    ${i18n.t('bookingEmail.signature')}
+    ${userName + " " + lastName}
+  `;
+
   return (
     <section>
       {/* Contact Step (Showing Reservation Information) */}
@@ -59,7 +91,12 @@ const BookingEmail = () => {
         </article>
       </>
       <button className="w-2/5 bg-[#1B2821] text-white py-3 px-6 rounded-full m-auto flex justify-center ">
-        {i18n.t("reserve")}
+        <a
+          href={`mailto:info@paticascr.com?subject=${encodeURIComponent(subjectEmail)}&body=${encodeURIComponent(bodyEmail)}`}
+          className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
+        >
+          {i18n.t("reserve")}
+        </a>
       </button>
     </section >
   )

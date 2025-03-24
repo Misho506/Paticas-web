@@ -1003,5 +1003,23 @@
   "whatsappMessage": "Hi, my name is [Your Name]! I'm interested in learning more about your tours and travel options. Could you help me find the best experience based on my preferences? I’d appreciate your assistance. Thank you!",
   "yearAgo": "a year ago",
   "years": "years",
-  "": ""
+  "bookingEmail": {
+    "subject": "Tour Reservation Request – {{tourTitle}}",
+    "greeting": "Dear Paticas Team,",
+    "intro": "I hope this email finds you well. I am interested in booking the \"{{tourTitle}}\" and would like to proceed with the reservation for my group. Below, I provide all the necessary details for your kind consideration:",
+    "mainContact": "Main Contact: {{fullName}} – Phone number: {{phone}}",
+    "participants": "Total Number of Participants: {{count}}",
+    "participantsDetails": "Participants' Details",
+    "participantLine": "Full Name: {{fullName}} – Passport: {{passport}}",
+    "childrenIncluded": "Children Included",
+    "yes": "Yes",
+    "no": "No",
+    "pricePerPerson": "Price per Adult",
+    "pricePerKid": "Price per kid: ${{price}}",
+    "totalPrice": "Total Price",
+    "tourStartDate": "Tour Start Date",
+    "tourEndDate": "Tour End Date",
+    "closingMessage": "Please let me know the next steps to confirm the reservation. Should you require any additional information, do not hesitate to ask. I appreciate your assistance and look forward to your confirmation.",
+    "signature": "Best,"
+  }
 }

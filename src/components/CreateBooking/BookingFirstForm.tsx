@@ -21,10 +21,8 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
   // Zod validation schema
   const userInfoValidation = z.object({
     userName: z.string({
-      invalid_type_error: i18n.t("formErrors.userName.invalidType"),
     }).min(1, { message: i18n.t("formErrors.userName.required") }),
     lastName: z.string({
-      invalid_type_error: i18n.t("formErrors.lastName.invalidType"),
     }).min(1, { message: i18n.t("formErrors.lastName.required") }),
     email: z.string()
       .min(1, { message: i18n.t("formErrors.email.required") })

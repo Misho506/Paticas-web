@@ -1002,5 +1002,24 @@
   "weAre": "tenemos espiritu de viajeros",
   "whatsappMessage": "¡Hola! Mi nombre es [Your Name]. Estoy interesado en conocer más sobre sus tours y opciones de viaje. ¿Podrían ayudarme a encontrar la mejor experiencia según mis preferencias? Agradezco su ayuda. ¡Gracias!",
   "yearAgo": "hace un año",
-  "years": "años"
+  "years": "años",
+  "bookingEmail": {
+    "subject": "Solicitud de Reserva – {{tourTitle}}",
+    "greeting": "Estimado Equipo de Paticas,",
+    "intro": "Espero que este correo los encuentre bien. Estoy interesado(a) en reservar el tour \"{{tourTitle}}\" y me gustaría avanzar con la gestión de la reserva para mi grupo. A continuación, les comparto todos los datos necesarios para su amable consideración:",
+    "mainContact": "Contacto Principal: {{fullName}} – Número de teléfono: {{phone}}",
+    "participants": "Cantidad total de participantes: {{count}}",
+    "participantsDetails": "Datos de los participantes:",
+    "participantLine": "Nombre Completo: {{fullName}} – Pasaporte: {{passport}}",
+    "childrenIncluded": "¿Incluye niños?",
+    "yes": "Sí",
+    "no": "No",
+    "pricePerPerson": "Precio por adulto",
+    "pricePerKid": "Precio por niño: ${{price}}",
+    "totalPrice": "Precio Total",
+    "tourStartDate": "Fecha de Inicio del Tour",
+    "tourEndDate": "Fecha de Finalización del Tour",
+    "closingMessage": "Agradecería que me indicaran los siguientes pasos para confirmar la reserva. Si necesitan información adicional, no duden en solicitarla.\nAgradezco mucho su asistencia y quedo atento(a) a su confirmación.",
+    "signature": "Saludos cordiales,"
+  }
 }
