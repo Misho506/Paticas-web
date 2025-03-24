@@ -1,7 +1,7 @@
 {
   "aboutTour": "Sobre el Tour",
   "aboutUs": {
-    "description": "Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. In 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "description": "«Paticas pa´que las Quiero» Paticas es una agencia de viajes costarricense destinada a turistas nacionales y extranjeros que pretende promover el turismo nacional apoyando negocios locales y emprendimientos rurales. \nEn 2021, una familia de 3 mujeres (Yorlene, Karla y Yoely) cumple el sueño de inspirar y compartir la belleza y biodiversidad de un país que, como Costa Rica, ofrece disfrute, seguridad, amistad y alegría. ",
     "subDescription": "Paticas pa´que las Quiero, ",
     "title": "Nuestro viaje",
     "weAre": "somos Paticas Paque' Las Quiero"
@@ -58,12 +58,12 @@
   "founders": "Nuestras Fundadoras",
   "foundersInfo": {
     "karla": {
-      "bio": "Una joven emprendedora apasionada por los viajes y la fotografia. Durante sus años de estudiante en la carrera de Inglés con Formación en Gestión Empresarial en la Universidad de Costa Rica, surgió en ella la inspiración de crear su propia empresa. Junto a su madre y hermana, materializó este sueño, dando vida a Paticas, una agencia de viajes que refleja su amor por explorar nuevos destinos y compartir esa experiencia con otros viajeros. Con tan solo 20 años de edad, Karla dio inicio a esta emocionante travesía que ha llevado a Paticas a destacarse como un referente en el ámbito de los viajes en Costa Rica. Su dedicación y visión han sido la clave para iniciar con este apasionante proyecto que hoy en día es sinónimo de experiencias únicas y memorables en el turismo costarricense.",
+      "bio": "Una joven emprendedora apasionada por los viajes y la fotografía. Durante sus años como estudiante de Inglés con Formación en Gestión Empresarial en la Universidad de Costa Rica, se sintió inspirada a crear su propio negocio. Junto a su madre y su hermana, fundó Paticas, una agencia de viajes en Costa Rica que refleja su amor por explorar el país, capturar su belleza a través de la fotografía y compartir experiencias de viaje inolvidables. \nDurante su etapa universitaria, Karla emprendió este emocionante camino, liderando a Paticas para convertirse en una de las agencias mejor valoradas del país. Su dedicación al turismo sostenible, las experiencias personalizadas y la cultura local ha sido clave para construir una marca sinónimo de tours únicos y memorables en Costa Rica.",
       "name": "Karla Calderón",
       "title": "CEO & Founder"
     },
     "yoely": {
-      "bio": "A los impresionantes 17 años de edad, Yoely co-fundó esta emocionante empresa de viajes. Actualmente, es estudiante de la carrera Administración Aduanera y Comercio Exterior en la Universidad de Costa Rica. Su pasión por el mundo del comercio internacional se refleja en cada experiencia que Paticas ofrece. Como encargada del área de marketing y servicio al cliente, aporta un enfoque fresco y dinámico que ha contribuido al éxito continuo de Paticas. Su energía y dedicación son la brújula que guía a nuestra empresa hacia nuevos horizontes en la industria de los viajes.",
+      "bio": "Estudiante de Administración Aduanera y Comercio Exterior en la Universidad de Costa Rica, Yoely es cofundadora de Paticas, una agencia de viajes líder en Costa Rica. Su pasión por el mundo del comercio internacional se refleja en cada experiencia que Paticas ofrece. Como encargada del área de marketing y servicio al cliente, aporta un enfoque fresco y dinámico que ha contribuido al éxito continuo de Paticas. Su energía y dedicación son la brújula que guía a nuestra empresa hacia nuevos horizontes en la industria de los viajes.",
       "name": "Yoely Jiménez",
       "title": "CMO $ Co-Founder"
     },
@@ -149,7 +149,7 @@
   "reserveNow": "Reservar Ahora",
   "rightsReserved": "Paticas Pa'que las Quiero. Todos los derechos reservados.",
   "sectionAboutUs": {
-    "body": "La esencia de una experiencia en conexión con la naturalexa se refleja en cada actividad, dectacando la riqueza natural y el compromiso con la utenticidad de Costa Rica.",
+    "body": "Conozca Paticas, una agencia de viajes líder en Costa Rica. Descubra a nuestros fundadores y cómo creamos experiencias auténticas, sostenibles y personalizadas, mientras apoyamos a las comunidades locales.",
     "title": "Nosotros"
   },
   "sectionBlogs": {

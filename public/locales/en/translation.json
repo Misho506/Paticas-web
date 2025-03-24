@@ -1,7 +1,7 @@
 {
   "aboutTour": "The Tour",
   "aboutUs": {
-    "description": "Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. In 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "description": "«Paticas pa´que las Quiero» Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. \nIn 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
     "subDescription": "Paticas pa´que las Quiero, ",
     "title": "Our Journey",
     "weAre": "We are Paticas Paque' Las Quiero"
@@ -58,7 +58,7 @@
   "founders": " Our Founders",
   "foundersInfo": {
     "karla": {
-      "bio": "A young entrepreneur passionate about travel, and photography. During her years as a student in English and Business Management at the University of Costa Rica, she was inspired to create her own business. Alongside her mother and sister, she founded Paticas, a travel agency in Costa Rica that reflects her love for exploring Costa Rica, capturing its beauty through photography, and sharing unforgettable travel experiences. During her university career, Karla embarked on this exciting journey, leading Paticas to become a top-rated Costa Rica tour company. Her dedication to sustainable tourism, personalized travel experiences, and local culture has been key to building a brand synonymous with unique and memorable tours in Costa Rica.",
+      "bio": "A young entrepreneur passionate about travel, and photography. During her years as a student in English and Business Management at the University of Costa Rica, she was inspired to create her own business. Alongside her mother and sister, she founded Paticas, a travel agency in Costa Rica that reflects her love for exploring Costa Rica, capturing its beauty through photography, and sharing unforgettable travel experiences.\nDuring her university career, Karla embarked on this exciting journey, leading Paticas to become a top-rated Costa Rica tour company. Her dedication to sustainable tourism, personalized travel experiences, and local culture has been key to building a brand synonymous with unique and memorable tours in Costa Rica.",
       "name": "Karla Calderón",
       "title": "CEO & Founder"
     },
@@ -993,7 +993,7 @@
   "travelers": "Travelers",
   "values": {
     "description": "At Paticas, our corporate values guide our commitment to excellence in the travel industry. We promote national tourism by supporting local enterprises and ensuring integrity in all operations. Our focus on responsibility includes implementing protocols for safe travel experiences. We are dedicated to inclusion, making travel accessible for everyone by removing barriers and offering diverse, tailored destinations. Our drive for innovation allows us to create unique, personalized travel experiences, while our passion for travel inspires us to share extraordinary experiences that create lasting memories.",
-    "title": "Our Values"
+    "title": "Corporate Values"
   },
   "vision": {
     "description": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry.",
