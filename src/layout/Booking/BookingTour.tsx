@@ -18,7 +18,6 @@ const BookingTour = () => {
   ];
 
   const buttonBack = () => {
-    console.log(currentStep);
     if (currentStep === 1) {
       navigate("/tour/detailed");
     } else {

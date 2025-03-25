@@ -3,6 +3,7 @@ import { GiBinoculars } from "react-icons/gi";
 import { BiSearchAlt } from "react-icons/bi";
 import { TbTargetArrow } from "react-icons/tb";
 import { TFunction } from "i18next";
+import i18n from "../../../i18n";
 
 const founders = (t: TFunction): Array<Founder> => [
   {
@@ -54,7 +55,7 @@ const statsInfo = (t: TFunction): Array<Stat> => [
   },
   {
     icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139096/Cuatro_xcjyft.png",
-    number: "4 años",
+    number: "4 " + i18n.t("years"),
     description: t("statsInfo.1")
   },
   {

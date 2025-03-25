@@ -17,7 +17,7 @@ const Tour = () => {
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
 
-  const section = (children: JSX.Element | JSX.Element[], title: string) => {
+  const section = (children: React.ReactNode | React.ReactNode[], title: string) => {
     return (
       <section className="flex flex-col items-center justify-self-center max-w-4xl px-3 mx-auto">
         <h5 className="text-3xl font-bold">{title}</h5>
@@ -76,7 +76,7 @@ const Tour = () => {
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
-        <ToursCards tours={tours} />,
+        <ToursCards tours={tours} showDescription={true} />,
         i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />

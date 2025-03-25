@@ -31,8 +31,8 @@ const tourInitialValue = {
   title: "",
   places: [],
   description: "",
-  subTitle: "",
   daysAndNights: "",
+  days: 0,
   about: "",
   photos: [""],
   activities: [""],
@@ -44,9 +44,12 @@ const tourInitialValue = {
 
 const bookingInitialValue = {
   passengers: [],
-  date: new Date(),
+  kids: [],
+  startDate: new Date(),
+  endDate: new Date(),
   price: 0,
   pricePerPerson: 0,
+  pricePerKid: 0,
   user: {
     userName: "",
     lastName: "",

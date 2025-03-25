@@ -4,6 +4,7 @@ import { PassengerInfo, BookingFormProps, FormError } from "../../utils/types";
 import { z } from "zod";
 import { useTour } from "../../context/TourContext";
 import { useTranslation } from "react-i18next";
+
 type inputType = {
   title: string,
   name: 'userName' | 'lastName' | 'passportID',
@@ -39,6 +40,13 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
     },
   ];
   const { booking, setBooking } = useTour();
+  const [kids, setKids] = useState<PassengerInfo[]>(
+    [...Array(booking.kids.length)].map(() => ({
+      userName: "",
+      lastName: "",
+      passportID: ""
+    }))
+  );
   const [passengers, setPassengers] = useState<PassengerInfo[]>(
     [...Array(booking.passengers.length)].map(() => ({
       userName: "",
@@ -72,20 +80,25 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
       allErrors.push(...passengerErrors);
     });
 
+    kids.forEach((kid, index) => {
+      const kidErrors = validatePassenger(kid, index);
+      allErrors.push(...kidErrors);
+    });
     return allErrors;
   };
 
-  const updateFormValues = (e: ChangeEvent<HTMLInputElement>, id: string, position: number) => {
+  const updateFormValues = (e: ChangeEvent<HTMLInputElement>, id: string, position: number, isKid: boolean) => {
+    const updatedList = isKid ? kids : passengers;
     const { name, value } = e.target;
     if (formErrors && formErrors.length > 0) {
       setFormErrors([...formErrors.filter((error) => error.id !== id)]);
     }
-    const updatedData = passengers.map((element, index) =>
+    const updatedData = updatedList.map((element, index) =>
       index === position
         ? { ...element, [name]: value }
         : element
     );
-    setPassengers(updatedData);
+    isKid ? setKids(updatedData) : setPassengers(updatedData)
   }
 
   const handleSubmit = (e: FormEvent) => {
@@ -97,12 +110,12 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
     }
     setFormErrors(null);
     if (setStep) {
-      setBooking({ ...booking, passengers: passengers });
+      setBooking({ ...booking, passengers, kids });
       setStep(prevStep => prevStep + 1);
     }
   };
 
-  const createFormInputs = (field: inputType, index: number, passenger: PassengerInfo) => {
+  const createFormInputs = (field: inputType, index: number, passenger: PassengerInfo, isKid: boolean) => {
     const { name, title } = field;
     const id = `${name}-${index}`;
 
@@ -117,7 +130,7 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
         id={id}
         className={inputClassName}
         value={passenger[name as keyof PassengerInfo]}
-        onChange={(e) => updateFormValues(e, id, index)}
+        onChange={(e) => updateFormValues(e, id, index, isKid)}
       />,
       true,
       errorForField?.error && <label className="text-red-600">{errorForField?.error}</label>
@@ -129,7 +142,13 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
       {passengers.map((passenger, index) => (
         <section key={index}>
           <h4 className="italic">{i18n.t('traveler')} {index === 0 ? i18n.t("principal") : "" + (index + 1)}</h4>
-          {formFields.map((field) => createFormInputs(field, index, passenger))}
+          {formFields.map((field) => createFormInputs(field, index, passenger, false))}
+        </section>
+      ))}
+      {kids.map((passenger, index) => (
+        <section key={index}>
+          <h4 className="italic">{i18n.t('kid')} {index + 1}</h4>
+          {formFields.map((field) => createFormInputs(field, index, passenger, true))}
         </section>
       ))}
       {actions}
