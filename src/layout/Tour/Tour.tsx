@@ -64,7 +64,7 @@ const Tour = () => {
         selectedTour.itinerary.map((activity, index) => (
           <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
             <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
-            <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out`}>{activity.description}</p>
+            <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out whitespace-pre-line`}>{activity.description}</p>
           </article>
         )),
         i18n.t("itinerary")

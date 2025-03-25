@@ -1,6 +1,332 @@
 import { TFunction } from 'i18next';
 import { TourType } from '../../../types';
 
+const followingQuetzal = (t: TFunction): TourType => ({
+  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/7._Tras_las_huellas_del_Quetzal_y_el_Zopilote_Rey_poxs5a.jpg",
+  title: t("tours.followingQuetzal.title"),
+  places: [t("tours.followingQuetzal.places.0")],
+  daysAndNights: t("tours.followingQuetzal.daysAndNights"),
+  description: t("tours.followingQuetzal.description"),
+  about: t("tours.followingQuetzal.about"),
+  days: 7,
+  photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/1_rcnd0a.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607243/10-2_rrcbpa.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607242/14-2_uavz72.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472309/15_sdfc7t.jpg  ",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472308/6_dj6irx.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472308/17_keszad.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/16_zk5iwn.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/11_jwzdjg.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/9_oy40xg.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472306/8_tr4kvj.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/13_qag8b9.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/3_hoge27.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/12_xgvcox.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/5_fvc8px.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/2_z5ihec.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/18_mz41jl.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/7_wcvxgj.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472302/4_es8nlr.jpg",
+  ],
+  includes: [
+    t("tours.followingQuetzal.includes.0"),
+    t("tours.followingQuetzal.includes.1"),
+    t("tours.followingQuetzal.includes.2"),
+    t("tours.followingQuetzal.includes.3"),
+    t("tours.followingQuetzal.includes.4"),
+    t("tours.followingQuetzal.includes.5"),
+    t("tours.followingQuetzal.includes.6"),
+    t("tours.followingQuetzal.includes.7"),
+    t("tours.followingQuetzal.includes.8"),
+    t("tours.followingQuetzal.includes.9"),
+    t("tours.followingQuetzal.includes.10"),
+    t("tours.followingQuetzal.includes.11"),
+    t("tours.followingQuetzal.includes.12"),
+    t("tours.followingQuetzal.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.followingQuetzal.itinerary.0.title"),
+      description: t("tours.followingQuetzal.itinerary.0.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.1.title"),
+      description: t("tours.followingQuetzal.itinerary.1.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.2.title"),
+      description: t("tours.followingQuetzal.itinerary.2.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.3.title"),
+      description: t("tours.followingQuetzal.itinerary.3.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.4.title"),
+      description: t("tours.followingQuetzal.itinerary.4.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.5.title"),
+      description: t("tours.followingQuetzal.itinerary.5.description")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.6.title"),
+      description: t("tours.followingQuetzal.itinerary.6.description")
+    },
+  ],
+  prices: [
+    { price: 3256, numberOfPeople: 2 },
+    { price: 2372, numberOfPeople: 4 },
+    { price: 2076, numberOfPeople: 6 },
+  ],
+  childsPrice: 495,
+});
+
+const sunAndSand = (t: TFunction): TourType => ({
+  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/2._Rutas_del_Sol_y_Arena_PORTADA_zt5fbm.jpg",
+  title: t("tours.sunAndSand.title"),
+  places: [t("tours.sunAndSand.places.0")],
+  daysAndNights: t("tours.sunAndSand.daysAndNights"),
+  description: t("tours.sunAndSand.description"),
+  about: t("tours.sunAndSand.about"),
+  days: 8,
+  photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499821/1_acchy9.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738648982/3-2_z4trpf.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499846/15_mb4hcc.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499844/5_b0tknt.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499844/4_ujzdw3.jpg ",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499837/9_nwicpr.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499836/8_qlzq0p.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499835/11_nga4qs.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499820/18_miz13v.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499804/16_me7rxw.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499786/17_rxayv7.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499785/6_wlweoh.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499784/10_syqnxc.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499783/2_xc2w5v.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499782/7_ascrag.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499781/13_wh2qnb.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499781/14_ybzifa.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499780/12_boke0v.jpg",
+  ],
+  includes: [
+    t("tours.sunAndSand.includes.0"),
+    t("tours.sunAndSand.includes.1"),
+    t("tours.sunAndSand.includes.2"),
+    t("tours.sunAndSand.includes.3"),
+    t("tours.sunAndSand.includes.4"),
+    t("tours.sunAndSand.includes.5"),
+    t("tours.sunAndSand.includes.6"),
+    t("tours.sunAndSand.includes.7"),
+    t("tours.sunAndSand.includes.8"),
+    t("tours.sunAndSand.includes.9"),
+    t("tours.sunAndSand.includes.10"),
+    t("tours.sunAndSand.includes.11"),
+    t("tours.sunAndSand.includes.12"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.sunAndSand.itinerary.0.title"),
+      description: t("tours.sunAndSand.itinerary.0.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.1.title"),
+      description: t("tours.sunAndSand.itinerary.1.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.2.title"),
+      description: t("tours.sunAndSand.itinerary.2.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.3.title"),
+      description: t("tours.sunAndSand.itinerary.3.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.4.title"),
+      description: t("tours.sunAndSand.itinerary.4.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.5.title"),
+      description: t("tours.sunAndSand.itinerary.5.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.6.title"),
+      description: t("tours.sunAndSand.itinerary.6.description")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.7.title"),
+      description: t("tours.sunAndSand.itinerary.7.description")
+    },
+  ],
+  prices: [
+    { price: 3558, numberOfPeople: 2 },
+    { price: 2383, numberOfPeople: 4 },
+    { price: 2069, numberOfPeople: 6 },
+  ],
+  childsPrice: 696,
+});
+
+const volcanoes = (t: TFunction): TourType => ({
+  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/11._Volcanes_y_naturaleza_PORTADA_frtked.jpg",
+
+  title: t("tours.volcanoes.title"),
+  places: [t("tours.volcanoes.places.0")],
+  daysAndNights: t("tours.volcanoes.daysAndNights"),
+  description: t("tours.volcanoes.description"),
+  about: t("tours.volcanoes.about"),
+  days: 8,
+  photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/4_dzj4ab.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/15_g1ceul.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/14_wztdkp.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/8_rqeswg.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/6_qgswcq.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/18_reci3g.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/7_ejx6za.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606427/1_jynku2.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/2_zrsbnd.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/16_bikeyk.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/17_cczy49.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/5_rbxwe3.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606425/13_bllhu0.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606425/3_vxgw8v.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/9_lc2wnb.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/10_csiitj.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/11_b16pyd.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/12_roa3fb.jpg",
+  ],
+  includes: [
+    t("tours.volcanoes.includes.0"),
+    t("tours.volcanoes.includes.1"),
+    t("tours.volcanoes.includes.2"),
+    t("tours.volcanoes.includes.3"),
+    t("tours.volcanoes.includes.4"),
+    t("tours.volcanoes.includes.5"),
+    t("tours.volcanoes.includes.6"),
+    t("tours.volcanoes.includes.7"),
+    t("tours.volcanoes.includes.8"),
+    t("tours.volcanoes.includes.9"),
+    t("tours.volcanoes.includes.10"),
+    t("tours.volcanoes.includes.11"),
+    t("tours.volcanoes.includes.12"),
+    t("tours.volcanoes.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.volcanoes.itinerary.0.title"),
+      description: t("tours.volcanoes.itinerary.0.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.1.title"),
+      description: t("tours.volcanoes.itinerary.1.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.2.title"),
+      description: t("tours.volcanoes.itinerary.2.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.3.title"),
+      description: t("tours.volcanoes.itinerary.3.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.4.title"),
+      description: t("tours.volcanoes.itinerary.4.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.5.title"),
+      description: t("tours.volcanoes.itinerary.5.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.6.title"),
+      description: t("tours.volcanoes.itinerary.6.description")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.7.title"),
+      description: t("tours.volcanoes.itinerary.7.description")
+    },
+  ],
+  prices: [
+    { price: 3129, numberOfPeople: 2 },
+    { price: 2148, numberOfPeople: 4 },
+    { price: 1853, numberOfPeople: 6 },
+  ],
+  childsPrice: 667,
+});
+
+const manuelAntonio = (t: TFunction): TourType => ({
+  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/5._Manuel_Antonio_y_Uvita_PORTADA_ylwdpx.jpg",
+  title: t("tours.manuelAntonio.title"),
+  places: [t("tours.manuelAntonio.places.0")],
+  daysAndNights: t("tours.manuelAntonio.daysAndNights"),
+  description: t("tours.manuelAntonio.description"),
+  about: t("tours.manuelAntonio.about"),
+  days: 6,
+  photos: [
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499899/5_r9gfid.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499901/1_ntnqvt.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499900/6_qhsouj.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499883/10_wrxq5m.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499882/14_ctnd8j.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499881/13_qmrjng.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499857/15_xjyldd.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499856/4_g5efrw.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499856/2_h5j5qz.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499855/9_wjht3y.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499854/12_waokub.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499853/16_y4zhkh.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499852/18_ygwlrn.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499851/11_zhidzi.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499850/17_pgykwj.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499850/8_bzzsnw.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499849/7_cna2i6.jpg",
+    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499848/3_hsi9j0.jpg",
+  ],
+  includes: [
+    t("tours.manuelAntonio.includes.0"),
+    t("tours.manuelAntonio.includes.1"),
+    t("tours.manuelAntonio.includes.2"),
+    t("tours.manuelAntonio.includes.3"),
+    t("tours.manuelAntonio.includes.4"),
+    t("tours.manuelAntonio.includes.5"),
+    t("tours.manuelAntonio.includes.6"),
+    t("tours.manuelAntonio.includes.7"),
+    t("tours.manuelAntonio.includes.8"),
+    t("tours.manuelAntonio.includes.9"),
+    t("tours.manuelAntonio.includes.10"),
+    t("tours.manuelAntonio.includes.11"),
+    t("tours.manuelAntonio.includes.12"),
+    t("tours.manuelAntonio.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.manuelAntonio.itinerary.0.title"),
+      description: t("tours.manuelAntonio.itinerary.0.description")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.1.title"),
+      description: t("tours.manuelAntonio.itinerary.1.description")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.2.title"),
+      description: t("tours.manuelAntonio.itinerary.2.description")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.3.title"),
+      description: t("tours.manuelAntonio.itinerary.3.description")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.4.title"),
+      description: t("tours.manuelAntonio.itinerary.4.description")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.5.title"),
+      description: t("tours.manuelAntonio.itinerary.5.description")
+    },
+  ],
+  prices: [
+    { price: 2418, numberOfPeople: 2 },
+    { price: 1709, numberOfPeople: 4 },
+    { price: 1474, numberOfPeople: 6 },
+  ],
+  childsPrice: 319,
+});
+
 const wildLife = (t: TFunction): TourType => ({
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004786/3._Vida_Silvestre_en_Corcovado_y_Osa-2_ndct01.jpg",
   title: t("tours.wildLife.title"),
@@ -10,7 +336,6 @@ const wildLife = (t: TFunction): TourType => ({
   about: t("tours.wildLife.about"),
   days: 8,
   photos: [
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004786/3._Vida_Silvestre_en_Corcovado_y_Osa-2_ndct01.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607072/9-2_vamund.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606930/11_mmvvpj.jpg",
     "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606926/8_e5eyk9.jpg",
@@ -90,86 +415,10 @@ const wildLife = (t: TFunction): TourType => ({
   childsPrice: 1365,
 });
 
-const followingQuetzal = (t: TFunction): TourType => ({
-  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/7._Tras_las_huellas_del_Quetzal_y_el_Zopilote_Rey_poxs5a.jpg",
-  title: t("tours.followingQuetzal.title"),
-  places: [t("tours.followingQuetzal.places.0")],
-  daysAndNights: t("tours.followingQuetzal.daysAndNights"),
-  description: t("tours.followingQuetzal.description"),
-  about: t("tours.followingQuetzal.about"),
-  days: 7,
-  photos: [
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/1_rcnd0a.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607243/10-2_rrcbpa.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738607242/14-2_uavz72.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472309/15_sdfc7t.jpg  ",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472308/6_dj6irx.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472308/17_keszad.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/16_zk5iwn.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/11_jwzdjg.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472307/9_oy40xg.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472306/8_tr4kvj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/13_qag8b9.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472305/3_hoge27.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472304/12_xgvcox.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/5_fvc8px.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/2_z5ihec.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/18_mz41jl.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472303/7_wcvxgj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472302/4_es8nlr.jpg",
-  ],
-  includes: [
-    t("tours.followingQuetzal.includes.0"),
-    t("tours.followingQuetzal.includes.1"),
-    t("tours.followingQuetzal.includes.2"),
-    t("tours.followingQuetzal.includes.3"),
-    t("tours.followingQuetzal.includes.4"),
-    t("tours.followingQuetzal.includes.5"),
-    t("tours.followingQuetzal.includes.6"),
-    t("tours.followingQuetzal.includes.7"),
-    t("tours.followingQuetzal.includes.8"),
-    t("tours.followingQuetzal.includes.9"),
-    t("tours.followingQuetzal.includes.10"),
-    t("tours.followingQuetzal.includes.11"),
-    t("tours.followingQuetzal.includes.12"),
-    t("tours.followingQuetzal.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.followingQuetzal.itinerary.0.title"),
-      description: t("tours.followingQuetzal.itinerary.0.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.1.title"),
-      description: t("tours.followingQuetzal.itinerary.1.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.2.title"),
-      description: t("tours.followingQuetzal.itinerary.2.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.3.title"),
-      description: t("tours.followingQuetzal.itinerary.3.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.4.title"),
-      description: t("tours.followingQuetzal.itinerary.4.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.5.title"),
-      description: t("tours.followingQuetzal.itinerary.5.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.6.title"),
-      description: t("tours.followingQuetzal.itinerary.6.description")
-    },
-  ],
-  prices: [
-    { price: 3256, numberOfPeople: 2 },
-    { price: 2372, numberOfPeople: 4 },
-    { price: 2076, numberOfPeople: 6 },
-  ],
-  childsPrice: 495,
-});
-
 const crocodilesAndBirds = (t: TFunction): TourType => ({
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003791/6._Observacio%CC%81n_de_Cocodrilos_y_aves_jjytd6.jpg",
   title: t("tours.crocodilesAndBirds.title"),
-  places: [t("tours.crocodilesAndBirds.places.0")],
+  places: [t("tours.crocodilesAndBirds.places.0"), t("tours.crocodilesAndBirds.places.1")],
   daysAndNights: t("tours.crocodilesAndBirds.daysAndNights"),
   description: t("tours.crocodilesAndBirds.description"),
   about: t("tours.crocodilesAndBirds.about"),
@@ -321,14 +570,18 @@ const secretsOfCostaRica = (t: TFunction): TourType => ({
       title: t("tours.secretsOfCostaRica.itinerary.6.title"),
       description: t("tours.secretsOfCostaRica.itinerary.6.description")
     },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.7.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.7.description")
+    },
 
   ],
   prices: [
-    { price: 4204, numberOfPeople: 2 },
-    { price: 2569, numberOfPeople: 4 },
-    { price: 2063, numberOfPeople: 6 },
+    { price: 2993, numberOfPeople: 2 },
+    { price: 2042, numberOfPeople: 4 },
+    { price: 1727, numberOfPeople: 6 },
   ],
-  childsPrice: 869,
+  childsPrice: 371,
 });
 
 const mostPopularInCostaRica = (t: TFunction): TourType => ({
@@ -412,13 +665,45 @@ const mostPopularInCostaRica = (t: TFunction): TourType => ({
       title: t("tours.mostPopularInCostaRica.itinerary.8.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.8.description")
     },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.9.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.9.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.10.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.10.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.11.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.11.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.12.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.12.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.13.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.13.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.14.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.14.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.15.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.15.description")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.16.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.16.description")
+    },
   ],
   prices: [
-    { price: 3644, numberOfPeople: 2 },
-    { price: 2538, numberOfPeople: 4 },
-    { price: 2183, numberOfPeople: 6 },
+    { price: 6793, numberOfPeople: 2 },
+    { price: 4663, numberOfPeople: 4 },
+    { price: 4070, numberOfPeople: 6 },
   ],
-  childsPrice: 670,
+  childsPrice: 1007,
 });
 
 const sportFishing = (t: TFunction): TourType => ({
@@ -594,169 +879,6 @@ const ecoExplor = (t: TFunction): TourType => ({
   childsPrice: 670,
 });
 
-const sunAndSand = (t: TFunction): TourType => ({
-  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/2._Rutas_del_Sol_y_Arena_PORTADA_zt5fbm.jpg",
-  title: t("tours.sunAndSand.title"),
-  places: [t("tours.sunAndSand.places.0")],
-  daysAndNights: t("tours.sunAndSand.daysAndNights"),
-  description: t("tours.sunAndSand.description"),
-  about: t("tours.sunAndSand.about"),
-  days: 8,
-  photos: [
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499821/1_acchy9.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738648982/3-2_z4trpf.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499846/15_mb4hcc.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499844/5_b0tknt.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499844/4_ujzdw3.jpg ",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499837/9_nwicpr.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499836/8_qlzq0p.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499835/11_nga4qs.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499820/18_miz13v.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499804/16_me7rxw.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499786/17_rxayv7.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499785/6_wlweoh.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499784/10_syqnxc.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499783/2_xc2w5v.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499782/7_ascrag.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499781/13_wh2qnb.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499781/14_ybzifa.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499780/12_boke0v.jpg",
-  ],
-  includes: [
-    t("tours.sunAndSand.includes.0"),
-    t("tours.sunAndSand.includes.1"),
-    t("tours.sunAndSand.includes.2"),
-    t("tours.sunAndSand.includes.3"),
-    t("tours.sunAndSand.includes.4"),
-    t("tours.sunAndSand.includes.5"),
-    t("tours.sunAndSand.includes.6"),
-    t("tours.sunAndSand.includes.7"),
-    t("tours.sunAndSand.includes.8"),
-    t("tours.sunAndSand.includes.9"),
-    t("tours.sunAndSand.includes.10"),
-    t("tours.sunAndSand.includes.11"),
-    t("tours.sunAndSand.includes.12"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.sunAndSand.itinerary.0.title"),
-      description: t("tours.sunAndSand.itinerary.0.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.1.title"),
-      description: t("tours.sunAndSand.itinerary.1.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.2.title"),
-      description: t("tours.sunAndSand.itinerary.2.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.3.title"),
-      description: t("tours.sunAndSand.itinerary.3.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.4.title"),
-      description: t("tours.sunAndSand.itinerary.4.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.5.title"),
-      description: t("tours.sunAndSand.itinerary.5.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.6.title"),
-      description: t("tours.sunAndSand.itinerary.6.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.7.title"),
-      description: t("tours.sunAndSand.itinerary.7.description")
-    },
-  ],
-  prices: [
-    { price: 3558, numberOfPeople: 2 },
-    { price: 2383, numberOfPeople: 4 },
-    { price: 2069, numberOfPeople: 6 },
-  ],
-  childsPrice: 696,
-});
-
-const manuelAntonio = (t: TFunction): TourType => ({
-  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003793/5._Manuel_Antonio_y_Uvita_PORTADA_ylwdpx.jpg",
-  title: t("tours.manuelAntonio.title"),
-  places: [t("tours.manuelAntonio.places.0")],
-  daysAndNights: t("tours.manuelAntonio.daysAndNights"),
-  description: t("tours.manuelAntonio.description"),
-  about: t("tours.manuelAntonio.about"),
-  days: 6,
-  photos: [
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499899/5_r9gfid.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499901/1_ntnqvt.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499900/6_qhsouj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499883/10_wrxq5m.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499882/14_ctnd8j.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499881/13_qmrjng.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499857/15_xjyldd.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499856/4_g5efrw.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499856/2_h5j5qz.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499855/9_wjht3y.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499854/12_waokub.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499853/16_y4zhkh.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499852/18_ygwlrn.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499851/11_zhidzi.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499850/17_pgykwj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499850/8_bzzsnw.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499849/7_cna2i6.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1737499848/3_hsi9j0.jpg",
-  ],
-  includes: [
-    t("tours.manuelAntonio.includes.0"),
-    t("tours.manuelAntonio.includes.1"),
-    t("tours.manuelAntonio.includes.2"),
-    t("tours.manuelAntonio.includes.3"),
-    t("tours.manuelAntonio.includes.4"),
-    t("tours.manuelAntonio.includes.5"),
-    t("tours.manuelAntonio.includes.6"),
-    t("tours.manuelAntonio.includes.7"),
-    t("tours.manuelAntonio.includes.8"),
-    t("tours.manuelAntonio.includes.9"),
-    t("tours.manuelAntonio.includes.10"),
-    t("tours.manuelAntonio.includes.11"),
-    t("tours.manuelAntonio.includes.12"),
-    t("tours.manuelAntonio.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.manuelAntonio.itinerary.0.title"),
-      description: t("tours.manuelAntonio.itinerary.0.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.1.title"),
-      description: t("tours.manuelAntonio.itinerary.1.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.2.title"),
-      description: t("tours.manuelAntonio.itinerary.2.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.3.title"),
-      description: t("tours.manuelAntonio.itinerary.3.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.4.title"),
-      description: t("tours.manuelAntonio.itinerary.4.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.5.title"),
-      description: t("tours.manuelAntonio.itinerary.5.description")
-    },
-  ],
-  prices: [
-    { price: 2418, numberOfPeople: 2 },
-    { price: 1709, numberOfPeople: 4 },
-    { price: 1474, numberOfPeople: 6 },
-  ],
-  childsPrice: 319,
-});
-
 const turtlesAndWhales = (t: TFunction): TourType => ({
   img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1738774145/1-2_g8am24.jpg",
   title: t("tours.turtlesAndWhales.title"),
@@ -839,89 +961,6 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
     { price: 1688, numberOfPeople: 6 },
   ],
   childsPrice: 389,
-});
-
-const volcanoes = (t: TFunction): TourType => ({
-  img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737003792/11._Volcanes_y_naturaleza_PORTADA_frtked.jpg",
-
-  title: t("tours.volcanoes.title"),
-  places: [t("tours.volcanoes.places.0")],
-  daysAndNights: t("tours.volcanoes.daysAndNights"),
-  description: t("tours.volcanoes.description"),
-  about: t("tours.volcanoes.about"),
-  days: 8,
-  photos: [
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/4_dzj4ab.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/15_g1ceul.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/14_wztdkp.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606429/8_rqeswg.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/6_qgswcq.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/18_reci3g.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606428/7_ejx6za.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606427/1_jynku2.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/2_zrsbnd.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/16_bikeyk.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/17_cczy49.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606426/5_rbxwe3.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606425/13_bllhu0.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606425/3_vxgw8v.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/9_lc2wnb.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/10_csiitj.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/11_b16pyd.jpg",
-    "https://res.cloudinary.com/drbdst7hg/image/upload/v1738606424/12_roa3fb.jpg",
-  ],
-  includes: [
-    t("tours.volcanoes.includes.0"),
-    t("tours.volcanoes.includes.1"),
-    t("tours.volcanoes.includes.2"),
-    t("tours.volcanoes.includes.3"),
-    t("tours.volcanoes.includes.4"),
-    t("tours.volcanoes.includes.5"),
-    t("tours.volcanoes.includes.6"),
-    t("tours.volcanoes.includes.7"),
-    t("tours.volcanoes.includes.8"),
-    t("tours.volcanoes.includes.9"),
-    t("tours.volcanoes.includes.10"),
-    t("tours.volcanoes.includes.11"),
-    t("tours.volcanoes.includes.12"),
-    t("tours.volcanoes.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.volcanoes.itinerary.0.title"),
-      description: t("tours.volcanoes.itinerary.0.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.1.title"),
-      description: t("tours.volcanoes.itinerary.1.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.2.title"),
-      description: t("tours.volcanoes.itinerary.2.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.3.title"),
-      description: t("tours.volcanoes.itinerary.3.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.4.title"),
-      description: t("tours.volcanoes.itinerary.4.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.5.title"),
-      description: t("tours.volcanoes.itinerary.5.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.6.title"),
-      description: t("tours.volcanoes.itinerary.6.description")
-    },
-  ],
-  prices: [
-    { price: 3129, numberOfPeople: 2 },
-    { price: 2148, numberOfPeople: 4 },
-    { price: 1853, numberOfPeople: 6 },
-  ],
-  childsPrice: 667,
 });
 
 const southCaribean = (t: TFunction): TourType => ({
@@ -1056,36 +1095,36 @@ const tropicalTranquility = (t: TFunction): TourType => ({
   ],
   itinerary: [
     {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
+      title: t("tours.tropicalTranquility.itinerary.0.title"),
+      description: t("tours.tropicalTranquility.itinerary.0.description")
+    },
+    {
+      title: t("tours.tropicalTranquility.itinerary.1.title"),
+      description: t("tours.tropicalTranquility.itinerary.1.description")
+    },
+    {
+      title: t("tours.tropicalTranquility.itinerary.2.title"),
+      description: t("tours.tropicalTranquility.itinerary.2.description")
+    },
+    {
+      title: t("tours.tropicalTranquility.itinerary.3.title"),
+      description: t("tours.tropicalTranquility.itinerary.3.description")
+    },
+    {
+      title: t("tours.tropicalTranquility.itinerary.4.title"),
+      description: t("tours.tropicalTranquility.itinerary.4.description")
+    },
+    {
+      title: t("tours.tropicalTranquility.itinerary.5.title"),
+      description: t("tours.tropicalTranquility.itinerary.5.description")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.6.title"),
       description: t("tours.tropicalTranquility.itinerary.6.description")
     },
     {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
-    },
-    {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
-    },
-    {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
-    },
-    {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
-    },
-    {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
-    },
-    {
-      title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
+      title: t("tours.tropicalTranquility.itinerary.7.title"),
+      description: t("tours.tropicalTranquility.itinerary.7.description")
     },
   ],
   prices: [
@@ -1097,17 +1136,17 @@ const tropicalTranquility = (t: TFunction): TourType => ({
 });
 
 const allTours = (t: TFunction): Array<TourType> => [
-  wildLife(t),
   followingQuetzal(t),
+  sunAndSand(t),
+  manuelAntonio(t),
+  volcanoes(t),
+  wildLife(t),
   crocodilesAndBirds(t),
   secretsOfCostaRica(t),
   mostPopularInCostaRica(t),
   sportFishing(t),
   ecoExplor(t),
-  sunAndSand(t),
-  manuelAntonio(t),
   southCaribean(t),
-  volcanoes(t),
   turtlesAndWhales(t),
   tropicalTranquility(t),
 ];
