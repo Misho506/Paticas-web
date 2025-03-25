@@ -10,18 +10,34 @@ import { useState } from "react";
 const Footer = () => {
   const { i18n } = useTranslation();
   const [openModal, setOpenModal] = useState<boolean>(false);
+
+  const handleDownloadTerms = (e: React.MouseEvent) => {
+    // Optional: You could add tracking or logging here
+    try {
+      // Trigger download
+      const link = document.createElement('a');
+      link.href = `/terms&Conditions/${i18n.language === "en" ? "Terms & Conditions.pdf" : "Términos y Condiciones.pdf"}`;
+      link.download = i18n.language === "en" ? "Terms & Conditions.pdf" : "Términos y Condiciones.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error("Download failed", error);
+      // Optional: Show user-friendly error message
+    }
+  };
+
   return (
     <footer>
       <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableNewsLetter.message")} title={i18n.t("notAvailableCard.title")} />
       <section className="bg-dark-green px-8 pb-8 pt-2">
         <article className="flex justify-between">
-          <a
-            href={'../../assets/terms&Conditions' + i18n.language === 'es' ? 'Términos español.pdf' : 'Términos ingles.pdf'}
-            target='_blank'
-            download={i18n.language === 'es' ? "Terminos&Condiciones.pdf" : "Terms&Conditions.pdf"} rel="noreferrer"
+          <button
+            className="bg-green-darker"
+            onClick={handleDownloadTerms}
           >
             <label className="text-white cursor-pointer">{i18n.t("terms&Conditions")}</label>
-          </a>
+          </button>
         </article>
         <hr className="border-1 border-white mb-3 mt-1 opacity-75" />
         <article className="space-y-4">
