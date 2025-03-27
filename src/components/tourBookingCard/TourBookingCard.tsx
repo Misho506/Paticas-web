@@ -23,7 +23,7 @@ const TourBookingCard = () => {
 
   useEffect(() => {
     const newDate = new Date(date);
-    newDate.setDate(date.getDate() + selectedTour.days);
+    newDate.setDate(date.getDate() + (selectedTour.days - 1));
     setEndDate(newDate);
   }, [date]);
 
@@ -54,12 +54,16 @@ const TourBookingCard = () => {
   const changeSelect = (value: number, isPeopleSelector: boolean) => {
     let totalOfPeople = isPeopleSelector ? value + kids : value + people;
     if (totalOfPeople <= 6) {
-      setPricePerPerson(selectedTour.prices.find(({ numberOfPeople }) => people <= (numberOfPeople + 1))?.price || 0);
       isPeopleSelector ? setPeople(value) : setKibs(value);
     } else {
       setOpenModal(true);
     }
   }
+
+  useEffect(() => {
+    const foundPrice = selectedTour.prices.find(({ numberOfPeople }) => people === (numberOfPeople))?.price;
+    if (foundPrice) setPricePerPerson(foundPrice);
+  }, [people, selectedTour.prices]);
 
   const selector = (name: string, listOfPermitedNumbers: Array<number>) => {
     const isPeopleSelector = name === "people";
@@ -141,7 +145,7 @@ const TourBookingCard = () => {
           {people} {i18n.t("adults")} X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
         </h4>
         <h4 className="text-lg italic">
-          {kids} {i18n.t("kids")} X USD ${selectedTour.childsPrice}.00
+          {kids} {i18n.t("kids")} X USD ${selectedTour.childsPrice > 1000 ? addSymbolsToPrice(JSON.stringify(selectedTour.childsPrice)) : selectedTour.childsPrice}.00
         </h4>
 
         <div className="space-y-1">

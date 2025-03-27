@@ -8,12 +8,12 @@ const SectionWithTitle = ({ title, body, bgColor, img }: { title: string; body: 
   const insertStars = typeof body === 'string' && body.includes('*STARS*');
   const secondString =
     <span className="flex items-baseline justify-center">
-      <br />
+      {/* <br />
       <IoIosStar className="color-yellow" />
       <IoIosStar className="color-yellow" />
       <IoIosStar className="color-yellow" />
       <IoIosStar className="color-yellow" />
-      <IoIosStar className="color-yellow mr-1" />
+      <IoIosStar className="color-yellow mr-1" /> */}
       {i18n.t("sectionReviews.numberOf")}
     </span>
   return (

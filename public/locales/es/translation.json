@@ -4,7 +4,7 @@
     "description": "«Paticas pa´que las Quiero» Paticas es una agencia de viajes costarricense destinada a turistas nacionales y extranjeros que pretende promover el turismo nacional apoyando negocios locales y emprendimientos rurales. \nEn 2021, una familia de 3 mujeres (Yorlene, Karla y Yoely) cumple el sueño de inspirar y compartir la belleza y biodiversidad de un país que, como Costa Rica, ofrece disfrute, seguridad, amistad y alegría. ",
     "subDescription": "Paticas pa´que las Quiero, ",
     "title": "Nuestro viaje",
-    "weAre": "somos Paticas Paque' Las Quiero"
+    "weAre": "Somos Paticas Paque' Las Quiero"
   },
   "adults": "Adultos",
   "allTours": "Ver todos los tours",
@@ -79,7 +79,7 @@
   },
   "category4": {
     "body": "Explora los destinos más impresionantes de Costa Rica, desde los Top 10 más populares, como las aguas turquesas de Río Celeste, las playas paradisíacas de Santa Teresa, las aguas termales de La Fortuna y la cultura vibrante del Caribe, hasta lugares secretos que solo los locales conocen, como cataratas escondidas, caminatas entre volcanes y playas vírgenes. Vive experiencias inolvidables con la mejor agencia de viajes en Costa Rica.",
-    "title": "Destinos Inolvidables"
+    "title": "Nuestros Lugares Favoritos"
   },
   "childrensText": "Apartir de 2 Adultos son permitidos niños de 3-10 años ",
   "close": "Cerrar",
@@ -137,7 +137,7 @@
     "title": "Enfoque verde"
   },
   "includes": "Incluye",
-  "investment": "Inversión",
+  "investment": "Ver fechas y precios",
   "itinerary": "Itinerario",
   "kid": "Niño",
   "kids": "Niños",
@@ -150,8 +150,8 @@
   "moreThanFamily": "Somos más que una familia",
   "name": "Nombre",
   "newsletter": {
-    "description": "If you like staying up to date with tour options, travel tips, and more, don't hesitate to subscribe.",
-    "subscribe": "Subscribe to our newsletter"
+    "description": "Si le gustaria esta al día con opciones de giras, tips de viajes y más no dude en suscribirse",
+    "subscribe": "Suscribase a nuestro newsletter"
   },
   "next": "Siguiente",
   "notAvailableCard": {
@@ -219,8 +219,8 @@
     "title": "Nuestras Giras"
   },
   "sectionReviews": {
-    "body": "Nuestros clientes nos respaldan",
-    "numberOf": "5.0 calificación de 250 reseñas",
+    "body": "Lo que dicen nuestros viajeros",
+    "numberOf": "Explora sus opiniones",
     "title": "Reseñas"
   },
   "seeMore": "Ver más",
@@ -228,10 +228,10 @@
   "showLess": "Ver menos",
   "startDate": "Fecha de inicio",
   "statsInfo": [
-    "Clientes satisfechos",
-    "Destinos inolvidables",
     "Viajes realizados con éxito",
-    "Viviendo de nuestra pasión"
+    "Viviendo de nuestra pasión",
+    "Clientes satisfechos",
+    "Destinos inolvidables"
   ],
   "submit": "Enviar",
   "subscribe": "Suscríbase",
@@ -287,7 +287,8 @@
         }
       ],
       "places": [
-        "Caribe Norte y Pac. Central"
+        "Caribe Norte",
+        "Pac. Central"
       ],
       "title": "Taller de Fotografía de Vida Silvestre: Cocodrilos y Aves"
     },
@@ -840,14 +841,14 @@
         },
         {
           "description": "Este día está diseñado para su descanso y relajación. En La Fortuna, célebre por sus aguas termales naturales, disfrutará de un día en un spa rodeado de naturaleza, donde podrá desconectarse y recuperar energías. Sumérjase en las cálidas aguas mientras admira la vista del majestuoso Volcán Arenal. Una jornada perfecta para reconectar con su bienestar físico y mental, en un entorno tropical lleno de paz y belleza.",
-          "title": "Día 4 – Spa y aguas termales en La Fortuna 4 – Spa y aguas termales en La Fortuna"
+          "title": "Día 4 – Spa y aguas termales en La Fortuna"
         },
         {
           "description": "Exploraremos la impresionante Catarata Río Celeste, una maravilla natural reconocida por el tono azul celeste de sus aguas, resultado de la mezcla de minerales volcánicos como el sulfato de aluminio y el carbonato de calcio. Rodeada de exuberante vegetación tropical, esta zona alberga fauna única, incluyendo jaguares, tapires y diversas especies de aves.\nLuego, nos trasladaremos a la provincia de Alajuela, la tercera más grande de Costa Rica, celebrada por su riqueza cultural y su belleza natural.",
           "title": "Día 5 – Río Celeste y traslado a Alajuela"
         },
         {
-          "description": "Ubicada en el Golfo de Nicoya, la Isla Tortuga es famosa por sus aguas turquesas y playas de arena blanca, ideales para una experiencia oceánica tranquila y refrescante. Comenzaremos la mañana en Puntarenas, conocida como la Perla del Pacífico, donde abordaremos un catamarán rumbo a la isla. Prepárese para un día lleno de color y vida marina, con actividades como snorkel en aguas cristalinas y descanso en la playa, disfrutando de un entorno de sol, naturaleza y serenidad total.",
+          "description": "Visitaremos Sarchí, el cantón número doce de la provincia de Alajuela, anteriormente conocido como Valverde Vega, que significa “campo abierto” o “lugar para descansar”. Reconocido como el epicentro artístico de Costa Rica, Sarchí es famoso por su excepcional trabajo artesanal en muebles de madera y las emblemáticas carretas típicas costarricenses.\nAquí podrá admirar la carreta más grande del mundo, bellamente decorada con diseños ancestrales. Construida en 2006 con el objetivo de ser incluida en el Récord Guinness, esta obra representa el orgullo cultural y artístico de este encantador pueblo.",
           "title": "Día 6 - Isla Tortuga"
         },
         {
@@ -1053,7 +1054,7 @@
     "description": "Crear experiencias de viajes basados en las preferencias de nuestros clientes, cumpliendo con los más altos estándares de calidad, responsabilidad social y ambiental. Además, promover el turismo nacional, impulsando negocios locales y emprendimientos rurales.",
     "title": "Nuestra Visión"
   },
-  "weAre": "tenemos espiritu de viajeros",
+  "weAre": "Somos Patacalientes.",
   "whatsappMessage": "¡Hola! Mi nombre es [Your Name]. Estoy interesado en conocer más sobre sus tours y opciones de viaje. ¿Podrían ayudarme a encontrar la mejor experiencia según mis preferencias? Agradezco su ayuda. ¡Gracias!",
   "yearAgo": "hace un año",
   "years": "años",
