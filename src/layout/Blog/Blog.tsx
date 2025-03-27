@@ -7,7 +7,7 @@ const Blogs = () => {
   const { selectedBlog } = useBlog();
   const { title, listOfTexts, images, picture } = selectedBlog;
   return (
-    <section className="max-w-4xl m-4 flex flex-col justify-self-center">
+    <section className="max-w-4xl my-4 mx-auto flex flex-col justify-self-center">
       <h2 className="text-4xl pb-3 mx-2 text-center">{title}</h2>
       <img alt="Principal" className="h-96 object-cover rounded-xl w-full" src={picture} />
       <article className={'py-11 w-full max-w-4xl px-3 mx-auto flex flex-col justify-self-center'}>
@@ -17,7 +17,7 @@ const Blogs = () => {
       </article >
       <section className="grid grid-flow-col grid-rows-2 gap-3">
         {images.slice(0, 6).map((image) =>
-          <img alt="Principal" className="object-cover h-full rounded-xl" src={image} />
+          <img alt="Principal" className="object-cover rounded-xl" src={image} />
         )}
       </section>
       <article className={'py-11 w-full max-w-4xl px-3 mx-auto flex flex-col justify-self-center'}>
