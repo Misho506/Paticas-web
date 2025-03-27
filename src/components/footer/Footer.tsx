@@ -16,14 +16,15 @@ const Footer = () => {
     try {
       // Trigger download
       const link = document.createElement('a');
-      link.href = `/terms&Conditions/${i18n.language === "en" ? "Terms & Conditions.pdf" : "Términos y Condiciones.pdf"}`;
-      link.download = i18n.language === "en" ? "Terms & Conditions.pdf" : "Términos y Condiciones.pdf";
+      link.href = `/termsAndConditions/${i18n.language === "en" ? "Terms and Conditions.pdf" : "Términos y Condiciones.pdf"}`;
+      link.download = i18n.language === "en" ? "Terms and Conditions.pdf" : "Términos y Condiciones.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     } catch (error) {
       console.error("Download failed", error);
       // Optional: Show user-friendly error message
+      alert("Unable to download file. Please try again later.");
     }
   };
 
