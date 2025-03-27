@@ -16,7 +16,7 @@ const Reviews = () => {
       <div className="overflow-hidden">
         <div className="flex transition-transform duration-300 ease-in-out" style={{ transform: `translateX(-${activeReview * 100}%)` }}>
           {ReviewsHardCoded.map((review, index) => (
-            <div key={index} className="w-full  content-center flex-shrink-0">
+            <div key={index} className="w-full content-center flex-shrink-0">
               <article className="flex h-full justify-between mx-2 p-4 rounded-2xl border-2 border-black">
                 <label className="p-3 text-5xl h-16 w-16 flex items-center justify-center text-white bg-green rounded-full">{review.userName[0]}</label>
                 <article className="w-3/4">

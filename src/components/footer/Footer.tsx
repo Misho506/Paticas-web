@@ -64,7 +64,7 @@ const Footer = () => {
               <FaTiktok className="text-3xl text-black" />
             </div>
           </div>
-          <p className="text-gray-400 Italic mt-3">{i18n.t("followUs")}</p>
+          <p className="text-gray-400 Italic mt-3 text-center">{i18n.t("followUs")}</p>
         </article>
       </section >
       <article className="flex h-20 items-center justify-center rights-text text-white italic">
