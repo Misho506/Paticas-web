@@ -1,20 +1,127 @@
 import { ChangeEvent, ReactNode } from "react";
 
+interface PassengerInfo extends UserInfo {
+  passportID: string;
+}
+
+interface TourCardProps extends TourType {
+  showDescription?: boolean;
+}
+
 type BannerType = {
   image: string;
   title: string;
   description: string;
-}
+};
 
-type PriceType = {
+type BlogType = {
+  picture: string;
+  title: string;
+  date: string;
+  readingTime: string;
+  shortDescription: string;
+  images: Array<string>;
+  listOfTexts: Array<string>; //List of all the paragraph
+};
+
+type BookingFormProps = {
+  setStep(step: (prev: number) => number): void;
+  actions: ReactNode;
+};
+
+type BookingTourType = {
+  passengers: Array<PassengerInfo>;
+  kids: Array<PassengerInfo>;
+  startDate: Date;
+  endDate: Date;
   price: number;
-  numberOfPeople: number;
-}
+  pricePerPerson: number;
+  pricePerKid: number;
+  user: UserInfo;
+};
+
+type CategoryType = {
+  title: string;
+  image: string;
+  description: string;
+  tours: Array<TourType>;
+};
+
+type CompanyValues = {
+  title: string;
+  description: string;
+  icon: ReactNode;
+  img: string;
+};
+
+type FormError = {
+  id: string;
+  error: string;
+};
+
+type FormField = {
+  name: keyof UserInfo;
+  type: string;
+  title: string;
+};
+
+type FormFieldsType = {
+  name: string;
+  type: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  id: string;
+  placeholder: string;
+};
+
+type Founder = {
+  name: string;
+  title: string;
+  bio: string;
+  imageSrc: string;
+};
 
 type ItineraryType = {
   title: string;
   description: string;
-}
+};
+
+type PostCarrouselProps = {
+  listLength: number;
+  children: ReactNode;
+};
+
+type PriceType = {
+  price: number;
+  numberOfPeople: number;
+};
+
+type ReviewType = {
+  userName: string;
+  details: string;
+  date: Date;
+  from: string;
+};
+
+type Stat = {
+  icon: string;
+  number: string;
+  description: string;
+};
+
+type StepType = {
+  number: number;
+  label: string;
+};
+
+type StoredDataTypeContextTour = {
+  selectedCategory: CategoryType;
+  selectedTour: TourType;
+  booking: BookingTourType;
+};
+
+type StoredDataTypeContextBlog = {
+  selectedBlog: BlogType;
+};
 
 type TourType = {
   img: string;
@@ -29,72 +136,7 @@ type TourType = {
   itinerary: Array<ItineraryType>;
   prices: Array<PriceType>;
   childsPrice: number;
-}
-
-type ReviewType = {
-  userName: string;
-  details: string;
-  date: Date;
-  from: string;
-}
-
-type BlogsType = {
-  picture: string;
-  title: string;
-  date: string;
-  readingTime: string;
-  description: string;
-}
-
-type PostCarrouselProps = {
-  postList: Array<ReactNode>;
-}
-
-interface TourCardProps extends TourType {
-  showDescription?: boolean;
-}
-
-type CategoryType = {
-  title: string;
-  image: string;
-  description: string;
-  tours: Array<TourType>
-}
-
-type StoredDataType = {
-  selectedCategory: CategoryType;
-  selectedTour: TourType;
-  booking: BookingTourType;
-}
-
-type StepType = {
-  number: number;
-  label: string;
-}
-
-type BookingTourType = {
-  passengers: Array<PassengerInfo>;
-  kids: Array<PassengerInfo>;
-  startDate: Date;
-  endDate: Date;
-  price: number;
-  pricePerPerson: number;
-  pricePerKid: number;
-  user: UserInfo;
-}
-
-type FormFieldsType = {
-  name: string;
-  type: string;
-  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
-  id: string;
-  placeholder: string;
-}
-
-type FormError = {
-  id: string;
-  error: string;
-}
+};
 
 type UserInfo = {
   userName: string;
@@ -103,59 +145,27 @@ type UserInfo = {
   phoneNumber?: string;
 };
 
-interface PassengerInfo extends UserInfo {
-  passportID: string;
-}
-
-type FormField = {
-  name: keyof UserInfo;
-  type: string;
-  title: string;
-};
-
-type BookingFormProps = {
-  setStep(step: (prev: number) => number): void;
-  actions: ReactNode;
-}
-
-type Founder = {
-  name: string;
-  title: string;
-  bio: string;
-  imageSrc: string;
-}
-
-type CompanyValues = {
-  title: string;
-  description: string;
-  icon: ReactNode;
-  img: string;
-}
-
-type Stat = {
-  icon: string;
-  number: string;
-  description: string;
-}
-
 export type {
   BannerType,
-  TourType,
-  ReviewType,
-  BlogsType,
-  PostCarrouselProps,
-  TourCardProps,
-  CategoryType,
-  StoredDataType,
-  StepType,
-  BookingTourType,
-  FormError,
-  Founder,
-  CompanyValues,
-  Stat,
-  FormFieldsType,
-  UserInfo,
-  FormField,
+  BlogType,
   BookingFormProps,
-  PassengerInfo
-}
+  BookingTourType,
+  CategoryType,
+  CompanyValues,
+  FormError,
+  FormField,
+  FormFieldsType,
+  Founder,
+  ItineraryType,
+  PassengerInfo,
+  PostCarrouselProps,
+  PriceType,
+  ReviewType,
+  Stat,
+  StepType,
+  StoredDataTypeContextTour,
+  StoredDataTypeContextBlog,
+  TourCardProps,
+  TourType,
+  UserInfo
+};
