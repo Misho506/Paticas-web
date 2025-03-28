@@ -10,22 +10,15 @@ import { useState } from "react";
 const Footer = () => {
   const { i18n } = useTranslation();
   const [openModal, setOpenModal] = useState<boolean>(false);
+  const fileName = i18n.language === "en" ?
+    'TermsAndConditions.pdf'
+    :
+    'TérminosYCondiciones.pdf'
 
   const handleDownloadTerms = (e: React.MouseEvent) => {
-    // Optional: You could add tracking or logging here
-    try {
-      // Trigger download
-      const link = document.createElement('a');
-      link.href = `/termsAndConditions/${i18n.language === "en" ? "Terms and Conditions.pdf" : "Términos y Condiciones.pdf"}`;
-      link.download = i18n.language === "en" ? "Terms and Conditions.pdf" : "Términos y Condiciones.pdf";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } catch (error) {
-      console.error("Download failed", error);
-      // Optional: Show user-friendly error message
-      alert("Unable to download file. Please try again later.");
-    }
+
+    const pdfUrl = `${window.location.origin}/assets/${fileName}`;
+    window.open(pdfUrl, "_blank");
   };
 
   return (

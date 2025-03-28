@@ -7,5 +7,5 @@
 }
 
 .bg-green-darker:hover {
-  background-color: theme('colors.darkGreen');
+  background-color: theme('colors.darkGreen') !important;
 }
