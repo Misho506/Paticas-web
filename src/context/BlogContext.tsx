@@ -29,9 +29,9 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // Booking
   const [blogs] = useState(allBlogs(i18n.t));
   const [selectedBlog, setSelectedBlog] = useState<BlogType>(() => {
-    const storedData = localStorage.getItem('storedData');
-    if (storedData) {
-      const parsedData: StoredDataTypeContextBlog = JSON.parse(storedData);
+    const contextToursStoreData = localStorage.getItem('contextToursStoreData');
+    if (contextToursStoreData) {
+      const parsedData: StoredDataTypeContextBlog = JSON.parse(contextToursStoreData);
       return parsedData.selectedBlog || selectBlogInitialValue;
     }
     return selectBlogInitialValue;
@@ -43,7 +43,7 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       selectedBlog,
       blogs
     };
-    localStorage.setItem('storedData', JSON.stringify(dataToStore));
+    localStorage.setItem('contextToursStoreData', JSON.stringify(dataToStore));
   }, [selectedBlog, blogs]);
 
   return (
