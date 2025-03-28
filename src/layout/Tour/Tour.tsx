@@ -17,7 +17,7 @@ const Tour = () => {
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
 
-  const section = (children: JSX.Element | JSX.Element[], title: string) => {
+  const section = (children: React.ReactNode | React.ReactNode[], title: string) => {
     return (
       <section className="flex flex-col items-center justify-self-center max-w-4xl px-3 mx-auto">
         <h5 className="text-3xl font-bold">{title}</h5>
@@ -64,7 +64,7 @@ const Tour = () => {
         selectedTour.itinerary.map((activity, index) => (
           <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
             <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
-            <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out`}>{activity.description}</p>
+            <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out whitespace-pre-line`}>{activity.description}</p>
           </article>
         )),
         i18n.t("itinerary")
@@ -76,7 +76,7 @@ const Tour = () => {
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
-        <ToursCards tours={tours} />,
+        <ToursCards tours={tours} showDescription={true} />,
         i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />

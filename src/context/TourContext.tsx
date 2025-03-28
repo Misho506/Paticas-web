@@ -1,6 +1,6 @@
 import React, { createContext, useState, ReactNode, useContext, useEffect } from 'react';
 
-import { BookingTourType, CategoryType, StoredDataType, TourType } from '../utils/types';
+import { BookingTourType, CategoryType, StoredDataTypeContextTour, TourType } from '../utils/types';
 import { allTours } from "../utils/hardCodedData/categories/tours";
 import { getCategoriesData } from '../utils/hardCodedData/categories';
 import { useTranslation } from 'react-i18next';
@@ -31,8 +31,8 @@ const tourInitialValue = {
   title: "",
   places: [],
   description: "",
-  subTitle: "",
   daysAndNights: "",
+  days: 0,
   about: "",
   photos: [""],
   activities: [""],
@@ -44,9 +44,12 @@ const tourInitialValue = {
 
 const bookingInitialValue = {
   passengers: [],
-  date: new Date(),
+  kids: [],
+  startDate: new Date(),
+  endDate: new Date(),
   price: 0,
   pricePerPerson: 0,
+  pricePerKid: 0,
   user: {
     userName: "",
     lastName: "",
@@ -64,7 +67,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [selectedCategory, setSelectedCategory] = useState<CategoryType>(() => {
     const storedData = localStorage.getItem('storedData');
     if (storedData) {
-      const parsedData: StoredDataType = JSON.parse(storedData);
+      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
       return parsedData.selectedCategory || categoryInitialValue;
     }
     return categoryInitialValue;
@@ -75,7 +78,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [selectedTour, setSelectedTour] = useState<TourType>(() => {
     const storedData = localStorage.getItem('storedData');
     if (storedData) {
-      const parsedData: StoredDataType = JSON.parse(storedData);
+      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
       return parsedData.selectedTour || tourInitialValue;
     }
     return tourInitialValue;
@@ -85,7 +88,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [booking, setBooking] = useState<BookingTourType>(() => {
     const storedData = localStorage.getItem('storedData');
     if (storedData) {
-      const parsedData: StoredDataType = JSON.parse(storedData);
+      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
       return parsedData.booking || bookingInitialValue;
     }
     return bookingInitialValue;
@@ -93,7 +96,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // Update localStorage whenever selected values change
   useEffect(() => {
-    const dataToStore: StoredDataType = {
+    const dataToStore: StoredDataTypeContextTour = {
       selectedCategory,
       selectedTour,
       booking,

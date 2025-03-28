@@ -1,0 +1,7 @@
+.images-container {
+  height: 600px;
+
+  .height-2-images {
+    height: calc(50% - .5rem);
+  }
+}

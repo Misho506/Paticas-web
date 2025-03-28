@@ -3,6 +3,7 @@ import { GiBinoculars } from "react-icons/gi";
 import { BiSearchAlt } from "react-icons/bi";
 import { TbTargetArrow } from "react-icons/tb";
 import { TFunction } from "i18next";
+import i18n from "../../../i18n";
 
 const founders = (t: TFunction): Array<Founder> => [
   {
@@ -54,7 +55,7 @@ const statsInfo = (t: TFunction): Array<Stat> => [
   },
   {
     icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139096/Cuatro_xcjyft.png",
-    number: "4 años",
+    number: "4 " + i18n.t("years"),
     description: t("statsInfo.1")
   },
   {
@@ -77,13 +78,13 @@ const partners: Array<string> = [
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/maracuya_a9ehne.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/tesoro_escondido_a842zk.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/catarata_la_leona_dit81o.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/corcovado_cprmdh.jpg",
+  "https://res.cloudinary.com/drbdst7hg/image/upload/t_Thumbnail/v1741139082/corcovado_cprmdh.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/marino_ballena_kixifu.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153667/GIO_m19gct.png",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153518/Maquenque_Wildlife_Spots_2_qagtn5.png",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153517/nauyaca_gv5mww.png",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/rio_agrio_zoadte.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/arenal_g49wif.jpg",
+  "https://res.cloudinary.com/drbdst7hg/image/upload/t_Thumbnail/v1741139082/arenal_g49wif.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/maquique_cuxynb.jpg",
   "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/tuanis_bhsipm.jpg",
 ]

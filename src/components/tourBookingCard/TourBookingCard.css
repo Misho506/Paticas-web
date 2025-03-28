@@ -4,8 +4,15 @@
   .booking-button {
     background-color: theme('colors.yellow');
   }
+}
 
+.react-datepicker-popper {
+  z-index: 9999;
+}
 
+.people-amount {
+  border-radius: 50px !important;
+  padding-left: 40px !important;
 }
 
 .box-shadow-gray {

@@ -8,8 +8,8 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    supportedLngs: ['en', 'es'],
-    fallbackLng: ['en', 'es'], //change for 'es' "Español" and 'en' "english"
+    fallbackLng: (code: any) => (code.startsWith('es') ? 'es' : 'en'), // If language is Spanish, fallback to 'es', otherwise to 'en'
+    load: 'languageOnly',
     debug: true,
     interpolation: {
       escapeValue: false,

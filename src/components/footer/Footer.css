@@ -5,3 +5,7 @@
 .bg-yellow-icon {
   background-color: theme('colors.yellow');
 }
+
+.bg-green-darker:hover {
+  background-color: theme('colors.darkGreen') !important;
+}
