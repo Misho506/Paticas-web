@@ -40,10 +40,11 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // Update localStorage whenever selected values change
   useEffect(() => {
     const dataToStore: StoredDataTypeContextBlog = {
-      selectedBlog
+      selectedBlog,
+      blogs
     };
     localStorage.setItem('storedData', JSON.stringify(dataToStore));
-  }, [selectedBlog]);
+  }, [selectedBlog, blogs]);
 
   return (
     <BlogContext.Provider

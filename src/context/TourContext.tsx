@@ -98,7 +98,9 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   useEffect(() => {
     const dataToStore: StoredDataTypeContextTour = {
       selectedCategory,
+      categories,
       selectedTour,
+      tours,
       booking,
     };
     localStorage.setItem('storedData', JSON.stringify(dataToStore));
