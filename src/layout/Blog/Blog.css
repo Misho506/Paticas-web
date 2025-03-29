@@ -1,5 +1,9 @@
 .images-container {
-  height: 600px;
+  max-height: 600px;
+
+  .custom-width {
+    width: calc(61.75% - .5rem);
+  }
 
   .height-2-images {
     height: calc(50% - .5rem);

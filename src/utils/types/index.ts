@@ -115,12 +115,15 @@ type StepType = {
 
 type StoredDataTypeContextTour = {
   selectedCategory: CategoryType;
+  categories: Array<CategoryType>;
   selectedTour: TourType;
+  tours: Array<TourType>;
   booking: BookingTourType;
 };
 
 type StoredDataTypeContextBlog = {
   selectedBlog: BlogType;
+  blogs: Array<BlogType>
 };
 
 type TourType = {
