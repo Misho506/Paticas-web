@@ -10,14 +10,9 @@ import { useState } from "react";
 const Footer = () => {
   const { i18n } = useTranslation();
   const [openModal, setOpenModal] = useState<boolean>(false);
-  const fileName = i18n.language === "en" ?
-    'TermsAndConditions.pdf'
-    :
-    'TérminosYCondiciones.pdf'
 
   const handleDownloadTerms = (e: React.MouseEvent) => {
-
-    const pdfUrl = `${window.location.origin}/assets/${fileName}`;
+    const pdfUrl = `${window.location.origin}/assets/${i18n.t('terms&ConditionsFileName')}`;
     window.open(pdfUrl, "_blank");
   };
 
