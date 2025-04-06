@@ -4,10 +4,6 @@ interface PassengerInfo extends UserInfo {
   passportID: string;
 }
 
-interface TourCardProps extends TourType {
-  showDescription?: boolean;
-}
-
 type BannerType = {
   image: string;
   title: string;
@@ -165,7 +161,6 @@ export type {
   StepType,
   StoredDataTypeContextTour,
   StoredDataTypeContextBlog,
-  TourCardProps,
   TourType,
   UserInfo
 };

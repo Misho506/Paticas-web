@@ -57,7 +57,7 @@ const Main = () => {
     <section>
       <Carousel />
       <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
-      <ToursCards tours={tours} showDescription={false} />
+      <ToursCards tours={tours} showActionButton />
       <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
       <BlogsCarrousel />
       <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />

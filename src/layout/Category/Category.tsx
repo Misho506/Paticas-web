@@ -16,7 +16,7 @@ const Tour = () => {
     <>
       {createSectionWithTitle({ title, body: description, bgColor: "bg-white" })}
       {tours &&
-        <ToursCards tours={tours} showDescription={true} />
+        <ToursCards tours={tours} />
       }
       <button
         onClick={() => navigate('/categories')}
