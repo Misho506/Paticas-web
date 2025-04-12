@@ -31,7 +31,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <img src="https://res.cloudinary.com/drbdst7hg/image/upload/t_Banner 16:9/v1740782675/Somos_ma%CC%81s_que_una_familia_geion4.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
+      <img src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/somos-mas-que-una-familia-e1744306627265.jpeg" alt="family" className="brightness-75 w-full h-auto object-cover" />
       <SectionWithTitle title={i18n.t("aboutUs.title")} body={
         <>
           <span className="italic">{i18n.t("aboutUs.subDescription")}</span>
@@ -58,7 +58,7 @@ const AboutUs = () => {
       </section>
       <section className="max-w-4xl p-10 flex flex-col justify-self-center">
         <h3 className="text-3xl text-gray-800 mb-8 text-center">{i18n.t("greenFocus.title")}</h3>
-        <img className="w-full rounded-3xl" alt="green snake" src="https://res.cloudinary.com/drbdst7hg/image/upload/v1740782678/verde_vwjqbr.jpg" />
+        <img className="w-full rounded-3xl" alt="green snake" src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/verde.jpg" />
         <p className="mt-8 text-gray-500 italic text-lg text-center whitespace-pre-line" style={{ whiteSpace: "pre-wrap" }}>
           {i18n.t("greenFocus.description")}
         </p>

@@ -17,7 +17,7 @@ const Blogs = () => {
       </article >
       <section className="grid grid-flow-col grid-rows-2 gap-3">
         {images.slice(0, 6).map((image) =>
-          <img alt="Principal" className="object-cover rounded-xl" src={image} />
+          <img alt="Principal" className="object-cover h-full rounded-xl" src={image} />
         )}
       </section>
       <article className={'py-11 w-full max-w-4xl px-3 mx-auto flex flex-col justify-self-center'}>
@@ -26,8 +26,8 @@ const Blogs = () => {
         </p>
       </article >
       <section className="grid grid-cols-2 gap-3 mx-auto">
-        <img alt="Principal" className="sm:h-96 object-cover rounded-xl" src={images[6]} />
-        <img alt="Principal" className="sm:h-96 object-cover rounded-xl" src={images[7]} />
+        <img alt="Principal" className="sm:h-96 h-full object-cover rounded-xl" src={images[6]} />
+        <img alt="Principal" className="sm:h-96 h-full object-cover rounded-xl" src={images[7]} />
       </section>
 
       <article className={'py-11 max-w-4xl px-3 mx-auto flex flex-col justify-self-center'}>
@@ -55,7 +55,9 @@ const Blogs = () => {
           {listOfTexts[4]}
         </p>
       </article >
-      <BlogsCarrousel />
+      <section>
+        <BlogsCarrousel />
+      </section>
     </section>
   );
 }

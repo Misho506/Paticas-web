@@ -2,6 +2,7 @@ import { CCarousel, CCarouselItem } from '@coreui/react'
 import { BannerType } from '../../utils/types';
 import { NavLink } from "react-router";
 import { useTranslation } from 'react-i18next';
+import Banners from '../../assets/banners';
 
 import "./Carousel.css";
 
@@ -10,27 +11,27 @@ const Carousel = () => {
 
   const CarouselBanners: Array<BannerType> = [
     {
-      image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010424/Banner-1_kqbwsj.jpg",
+      image: Banners.Banner1,
       title: i18n.t("principalBanners.betweenVolcanoes.title"),
       description: i18n.t("principalBanners.betweenVolcanoes.description"),
     },
     {
-      image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010423/Banner-2_vmvmgr.jpg",
+      image: Banners.Banner2,
       title: i18n.t("principalBanners.fishingSport.title"),
       description: i18n.t("principalBanners.fishingSport.description"),
     },
     {
-      image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737010425/Banner-3_v9jjjz.jpg",
+      image: Banners.Banner3,
       title: i18n.t("principalBanners.caribeanSouthCaribean.title"),
       description: i18n.t("principalBanners.caribeanSouthCaribean.description"),
     },
     {
-      image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737004885/9._Tortugas_y_ballenas_PORTADA_afkrf3.jpg",
+      image: Banners.Banner4,
       title: i18n.t("principalBanners.manuelAntonio.title"),
       description: i18n.t("principalBanners.manuelAntonio.description"),
     },
     {
-      image: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737042454/16._Playa_montan%CC%83a_y_sol_vl6yqm.jpg",
+      image: Banners.Banner5,
       title: i18n.t("principalBanners.wildLife.title"),
       description: i18n.t("principalBanners.wildLife.description"),
     },

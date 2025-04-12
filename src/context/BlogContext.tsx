@@ -29,9 +29,9 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // Booking
   const [blogs] = useState(allBlogs(i18n.t));
   const [selectedBlog, setSelectedBlog] = useState<BlogType>(() => {
-    const storedData = localStorage.getItem('storedData');
-    if (storedData) {
-      const parsedData: StoredDataTypeContextBlog = JSON.parse(storedData);
+    const blogStoreData = localStorage.getItem('blogStoreData');
+    if (blogStoreData) {
+      const parsedData: StoredDataTypeContextBlog = JSON.parse(blogStoreData);
       return parsedData.selectedBlog || selectBlogInitialValue;
     }
     return selectBlogInitialValue;
@@ -39,10 +39,10 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // Update localStorage whenever selected values change
   useEffect(() => {
-    const dataToStore: StoredDataTypeContextBlog = {
+    const blogStoreData: StoredDataTypeContextBlog = {
       selectedBlog
     };
-    localStorage.setItem('storedData', JSON.stringify(dataToStore));
+    localStorage.setItem('blogStoreData', JSON.stringify(blogStoreData));
   }, [selectedBlog]);
 
   return (
