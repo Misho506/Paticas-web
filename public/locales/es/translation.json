@@ -136,6 +136,24 @@
     "description": "Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica.",
     "title": "Enfoque verde"
   },
+  "headers": [
+    {
+      "name": "Tours",
+      "link": "/tours"
+    },
+    {
+      "name": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "name": "Sobre nosotros",
+      "link": "/about-us"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
   "includes": "Incluye",
   "investment": "Ver fechas y precios",
   "itinerary": "Itinerario",

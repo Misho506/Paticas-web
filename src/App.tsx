@@ -13,6 +13,9 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import AboutUs from "./layout/AboutUs/AboutUs";
 import Blog from "./layout/Blog/Blog";
+import Blogs from "./layout/Blogs/Blogs";
+import Tours from "./layout/Tours/Tours";
+import Contact from "./layout/Contact/Contact";
 
 function App() {
   const { i18n } = useTranslation();
@@ -26,10 +29,13 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/categories" element={<OurTours />} />
           <Route path="/category/:title" element={<Category />} />
+          <Route path="/tours" element={<Tours />} />
           <Route path="/tour/detailed" element={<Tour />} />
           <Route path="/tour/booking" element={<BookingTour />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:title" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BlogProvider>

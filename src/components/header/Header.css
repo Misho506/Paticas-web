@@ -1,3 +1,11 @@
 .header-container {
   background-color: theme('colors.darkGreen');
+
+  button:hover {
+    background-color: theme('colors.green');
+  }
+
+  .navbar-links {
+    width: calc(100% - 222px);
+  }
 }

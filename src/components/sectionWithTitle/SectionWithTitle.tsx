@@ -1,4 +1,4 @@
-import { IoIosStar } from "react-icons/io";
+// import { IoIosStar } from "react-icons/io";
 import "./SectionWithTitle.css";
 import { useTranslation } from "react-i18next";
 import { ReactNode } from "react";

@@ -136,6 +136,24 @@
     "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage.",
     "title": "Our Green Approach"
   },
+  "headers": [
+    {
+      "name": "Tours",
+      "link": "/tours"
+    },
+    {
+      "name": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "name": "About us",
+      "link": "/about-us"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
   "includes": "Includes",
   "investment": "See Dates & Prices",
   "itinerary": "Itinerary",
