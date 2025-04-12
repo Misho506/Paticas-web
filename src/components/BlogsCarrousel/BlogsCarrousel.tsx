@@ -24,14 +24,14 @@ const BlogsCarrousel = () => {
       <button
         disabled={activeReview === 0}
         onClick={() => setActiveReview(activeReview - 1)}
-        className="absolute top-[13rem] left-[15px] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black"
+        className={`absolute top-[13rem] left-[15px] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black ${activeReview === 0 && 'hidden'}`}
       >
         <IoChevronBack className="text-xl" />
       </button>
       <button
         disabled={activeReview === allBlogs(i18n.t).length - 1}
         onClick={() => setActiveReview(activeReview + 1)}
-        className="absolute top-[13rem] right-[15px] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black"
+        className={`absolute top-[13rem] right-[15px] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black ${activeReview === allBlogs(i18n.t).length - 1 && 'hidden'} `}
       >
         <IoChevronForward className="text-xl" />
       </button>

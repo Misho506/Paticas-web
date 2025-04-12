@@ -38,14 +38,14 @@ const Reviews = () => {
       <button
         disabled={activeReview === 0}
         onClick={() => setActiveReview(activeReview - 1)}
-        className="absolute top-[45%] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black"
+        className={`absolute top-[45%] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black ${activeReview === 0 && 'hidden'}`}
       >
         <IoChevronBack className="text-xl" />
       </button>
       <button
         disabled={activeReview === ReviewsHardCoded.length - 1}
         onClick={() => setActiveReview(activeReview + 1)}
-        className="absolute right-0 top-[45%] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black"
+        className={`absolute right-0 top-[45%] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black ${activeReview === ReviewsHardCoded.length - 1 && 'hidden'} `}
       >
         <IoChevronForward className="text-xl" />
       </button>
