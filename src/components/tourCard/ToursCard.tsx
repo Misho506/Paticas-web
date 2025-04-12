@@ -5,8 +5,8 @@ import TourCard from "./TourCard";
 import { TourType } from "../../utils/types";
 import "./TourCard.css";
 
-const ToursCards = ({ tours, showActionButton = false }: { tours: Array<TourType>; showActionButton?: boolean }) => {
-  const [showAll, setShowAll] = useState<boolean>(false);
+const ToursCards = ({ tours, showActionButton = false, showAllTours = false }: { tours: Array<TourType>; showActionButton?: boolean; showAllTours?: boolean }) => {
+  const [showAll, setShowAll] = useState<boolean>(showAllTours);
   const { i18n } = useTranslation();
   return (
     <>

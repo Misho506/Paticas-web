@@ -4,13 +4,13 @@ import { BlogType, StoredDataTypeContextBlog } from '../utils/types';
 import { useTranslation } from 'react-i18next';
 import allBlogs from '../utils/hardCodedData/blogs';
 
-interface TourContextType {
+interface BlogContextType {
   selectedBlog: BlogType;
   setSelectedBlog: (blog: BlogType) => void;
   blogs: BlogType[];
 }
 
-const BlogContext = createContext<TourContextType | undefined>(undefined);
+const BlogContext = createContext<BlogContextType | undefined>(undefined);
 
 const selectBlogInitialValue: BlogType = {
   picture: "",
@@ -40,10 +40,11 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // Update localStorage whenever selected values change
   useEffect(() => {
     const blogStoreData: StoredDataTypeContextBlog = {
-      selectedBlog
+      selectedBlog,
+      blogs
     };
     localStorage.setItem('blogStoreData', JSON.stringify(blogStoreData));
-  }, [selectedBlog]);
+  }, [selectedBlog, blogs]);
 
   return (
     <BlogContext.Provider

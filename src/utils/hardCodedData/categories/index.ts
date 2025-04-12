@@ -13,6 +13,7 @@ import {
   volcanoes,
   southCaribean,
   tropicalTranquility,
+  
 } from './tours';
 import { TFunction } from "i18next";
 

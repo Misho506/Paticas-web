@@ -65,9 +65,9 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const categoriesData = getCategoriesData(i18n.t);
   const [categories] = useState(categoriesData);
   const [selectedCategory, setSelectedCategory] = useState<CategoryType>(() => {
-    const storedData = localStorage.getItem('storedData');
-    if (storedData) {
-      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
+    const contextBlogsStoreData = localStorage.getItem('contextBlogsStoreData');
+    if (contextBlogsStoreData) {
+      const parsedData: StoredDataTypeContextTour = JSON.parse(contextBlogsStoreData);
       return parsedData.selectedCategory || categoryInitialValue;
     }
     return categoryInitialValue;
@@ -76,9 +76,9 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // TOUR
   const [tours] = useState(allTours(i18n.t));
   const [selectedTour, setSelectedTour] = useState<TourType>(() => {
-    const storedData = localStorage.getItem('storedData');
-    if (storedData) {
-      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
+    const contextBlogsStoreData = localStorage.getItem('contextBlogsStoreData');
+    if (contextBlogsStoreData) {
+      const parsedData: StoredDataTypeContextTour = JSON.parse(contextBlogsStoreData);
       return parsedData.selectedTour || tourInitialValue;
     }
     return tourInitialValue;
@@ -86,9 +86,9 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // Booking
   const [booking, setBooking] = useState<BookingTourType>(() => {
-    const storedData = localStorage.getItem('storedData');
-    if (storedData) {
-      const parsedData: StoredDataTypeContextTour = JSON.parse(storedData);
+    const contextBlogsStoreData = localStorage.getItem('contextBlogsStoreData');
+    if (contextBlogsStoreData) {
+      const parsedData: StoredDataTypeContextTour = JSON.parse(contextBlogsStoreData);
       return parsedData.booking || bookingInitialValue;
     }
     return bookingInitialValue;
@@ -98,10 +98,12 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   useEffect(() => {
     const dataToStore: StoredDataTypeContextTour = {
       selectedCategory,
+      categories,
       selectedTour,
+      tours,
       booking,
     };
-    localStorage.setItem('storedData', JSON.stringify(dataToStore));
+    localStorage.setItem('contextBlogsStoreData', JSON.stringify(dataToStore));
   }, [selectedCategory, selectedTour, booking]);
 
   return (
