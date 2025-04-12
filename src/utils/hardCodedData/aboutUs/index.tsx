@@ -4,25 +4,26 @@ import { BiSearchAlt } from "react-icons/bi";
 import { TbTargetArrow } from "react-icons/tb";
 import { TFunction } from "i18next";
 import i18n from "../../../i18n";
+import { ClientsIcon, FourIcon, DestinyIcon, TravelsIcon } from "../../../assets/icons";
 
 const founders = (t: TFunction): Array<Founder> => [
   {
     name: t("foundersInfo.karla.name"),
     title: t("foundersInfo.karla.title"),
     bio: t("foundersInfo.karla.bio"),
-    imageSrc: "https://res.cloudinary.com/drbdst7hg/image/upload/t_Profile/v1740782680/Karla_zpq9mz.png"
+    imageSrc: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/karla_zpq9mz.png"
   },
   {
     name: t("foundersInfo.yoely.name"),
     title: t("foundersInfo.yoely.title"),
     bio: t("foundersInfo.yoely.bio"),
-    imageSrc: "https://res.cloudinary.com/drbdst7hg/image/upload/t_Profile/v1740782678/Yoely_usqlm3.jpg"
+    imageSrc: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/yoely_usqlm3.png"
   },
   {
     name: t("foundersInfo.yorlene.name"),
     title: t("foundersInfo.yorlene.title"),
     bio: t("foundersInfo.yorlene.bio"),
-    imageSrc: "https://res.cloudinary.com/drbdst7hg/image/upload/t_Profile/v1740782678/Yorlene_p5u4b0.jpg"
+    imageSrc: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/yorlene_p5u4b0.png"
   },
 ];
 
@@ -31,62 +32,62 @@ const misionAndVision = (t: TFunction): Array<CompanyValues> => [
     title: t("mission.title"),
     description: t("mission.description"),
     icon: <TbTargetArrow size={150} color="white" />,
-    img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741154152/Misio%CC%81n_2_cuxn3q.jpg"
+    img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/mision-2.jpg"
   },
   {
     title: t("vision.title"),
     description: t("vision.description"),
     icon: <GiBinoculars size={150} color="white" />,
-    img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1738734499/8_a4zvfl.jpg"
+    img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/caribean-00009.jpg"
   },
   {
     title: t("values.title"),
     description: t("values.description"),
     icon: <BiSearchAlt size={150} color="white" />,
-    img: "https://res.cloudinary.com/drbdst7hg/image/upload/v1737472393/18_l23a5x.jpg"
+    img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/observacion-de-cocodrilos-y-aves-00018.jpg"
   },
 ]
 
 const statsInfo = (t: TFunction): Array<Stat> => [
   {
-    icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139097/Viajes_zouy9q.png",
+    icon: TravelsIcon,
     number: "+200",
     description: t("statsInfo.0")
   },
   {
-    icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139096/Cuatro_xcjyft.png",
+    icon: FourIcon,
     number: "4 " + i18n.t("years"),
     description: t("statsInfo.1")
   },
   {
-    icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139096/Clientes_z8e13k.png",
+    icon: ClientsIcon,
     number: "+6000",
     description: t("statsInfo.2")
   },
   {
-    icon: "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139097/Destinos_ys4avk.png",
+    icon: DestinyIcon,
     number: "+170",
     description: t("statsInfo.3")
   },
 ]
 
 const partners: Array<string> = [
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153518/logo_1_carreta_fraijanes_2_ctmkcv.png",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/Dolphin_tours_ei5qsm.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/tortuguero_yrggkc.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/Rancho_naturalista_zzazir.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/maracuya_a9ehne.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/tesoro_escondido_a842zk.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/catarata_la_leona_dit81o.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/t_Thumbnail/v1741139082/corcovado_cprmdh.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/marino_ballena_kixifu.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153667/GIO_m19gct.png",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153518/Maquenque_Wildlife_Spots_2_qagtn5.png",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741153517/nauyaca_gv5mww.png",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/rio_agrio_zoadte.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/t_Thumbnail/v1741139082/arenal_g49wif.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139082/maquique_cuxynb.jpg",
-  "https://res.cloudinary.com/drbdst7hg/image/upload/v1741139083/tuanis_bhsipm.jpg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/logo-1-carreta-fraijanes-2.png",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/dolphin-tours.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/tortuguero.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/rancho-naturalista.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/maracuya.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/tesoro-escondido.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/catarata-la-leona.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/corcovado_cprmdh_thumbnail.jpg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/marino-ballena.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/gio.png",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/maquenque-wildlife-spots-2.png",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/nauyaca.png",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/rio-agrio.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/arenal_g49wif_thumbnail.jpg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/maquique.jpeg",
+  "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/tuanis.jpeg",
 ]
 
 export { founders, misionAndVision, statsInfo, partners };

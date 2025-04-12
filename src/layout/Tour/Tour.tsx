@@ -76,7 +76,7 @@ const Tour = () => {
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
-        <ToursCards tours={tours} showDescription={true} />,
+        <ToursCards tours={tours} />,
         i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />

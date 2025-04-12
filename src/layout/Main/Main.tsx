@@ -57,12 +57,12 @@ const Main = () => {
     <section>
       <Carousel />
       <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
-      <ToursCards tours={tours} showDescription={false} />
+      <ToursCards tours={tours} showActionButton />
       <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
       <BlogsCarrousel />
       <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
       <section className="relative">
-        <img src="https://res.cloudinary.com/drbdst7hg/image/upload/v1737010459/Las_3_yzrxgl.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
+        <img src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/las-3.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
           <h2 className="text-3xl text-center bold">
             {i18n.t("moreThanFamily")}

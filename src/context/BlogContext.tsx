@@ -4,13 +4,13 @@ import { BlogType, StoredDataTypeContextBlog } from '../utils/types';
 import { useTranslation } from 'react-i18next';
 import allBlogs from '../utils/hardCodedData/blogs';
 
-interface TourContextType {
+interface BlogContextType {
   selectedBlog: BlogType;
   setSelectedBlog: (blog: BlogType) => void;
   blogs: BlogType[];
 }
 
-const BlogContext = createContext<TourContextType | undefined>(undefined);
+const BlogContext = createContext<BlogContextType | undefined>(undefined);
 
 const selectBlogInitialValue: BlogType = {
   picture: "",
@@ -29,9 +29,9 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   // Booking
   const [blogs] = useState(allBlogs(i18n.t));
   const [selectedBlog, setSelectedBlog] = useState<BlogType>(() => {
-    const contextToursStoreData = localStorage.getItem('contextToursStoreData');
-    if (contextToursStoreData) {
-      const parsedData: StoredDataTypeContextBlog = JSON.parse(contextToursStoreData);
+    const blogStoreData = localStorage.getItem('blogStoreData');
+    if (blogStoreData) {
+      const parsedData: StoredDataTypeContextBlog = JSON.parse(blogStoreData);
       return parsedData.selectedBlog || selectBlogInitialValue;
     }
     return selectBlogInitialValue;
@@ -39,11 +39,11 @@ export const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // Update localStorage whenever selected values change
   useEffect(() => {
-    const dataToStore: StoredDataTypeContextBlog = {
+    const blogStoreData: StoredDataTypeContextBlog = {
       selectedBlog,
       blogs
     };
-    localStorage.setItem('contextToursStoreData', JSON.stringify(dataToStore));
+    localStorage.setItem('blogStoreData', JSON.stringify(blogStoreData));
   }, [selectedBlog, blogs]);
 
   return (

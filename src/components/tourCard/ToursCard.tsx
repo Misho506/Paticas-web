@@ -5,25 +5,24 @@ import TourCard from "./TourCard";
 import { TourType } from "../../utils/types";
 import "./TourCard.css";
 
-const ToursCards = ({ tours, showDescription }: { tours: Array<TourType>; showDescription: boolean }) => {
-  const [showAll, setShowAll] = useState<boolean>(false);
+const ToursCards = ({ tours, showActionButton = false, showAllTours = false }: { tours: Array<TourType>; showActionButton?: boolean; showAllTours?: boolean }) => {
+  const [showAll, setShowAll] = useState<boolean>(showAllTours);
   const { i18n } = useTranslation();
   return (
     <>
-      <section className={`flex flex-wrap mx-10 justify-center ${showDescription && 'mb-9'}`}>
+      <section className="flex flex-wrap mx-10 justify-center">
         {
-          (showDescription || showAll ? tours : tours.slice(0, 4)).map((tour, index) => {
+          (showAll ? tours : tours.slice(0, 4)).map((tour, index) => {
             return (
               <TourCard
                 key={index}
                 tour={tour}
-                showDescription={showDescription}
               />
             )
           })
         }
       </section>
-      {!showDescription &&
+      {showActionButton &&
         <button
           onClick={() => setShowAll(!showAll)}
           className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl mx-auto rounded-full border-1 border-black"
