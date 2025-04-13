@@ -46,7 +46,7 @@ const Header = () => {
           style={{ fontSize: 40 }}
           className="p-1"
         />
-        <IoIosMenu style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
+        <IoIosMenu onClick={() => setOpenModal(true)} style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
       </section>
     </header>
   )
