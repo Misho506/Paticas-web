@@ -139,7 +139,7 @@
   "headers": [
     {
       "name": "Tours",
-      "link": "/tours"
+      "link": "/categories"
     },
     {
       "name": "Blogs",
@@ -161,7 +161,7 @@
   "kids": "Kids",
   "lastName": "Last name",
   "mission": {
-    "description": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica.",
+    "description": "To create private, luxury travel experiences tailored to each client’s preferences, while maintaining the highest standards of quality, sustainability, and social responsibility. We’re also committed to promoting domestic tourism by supporting local businesses and rural entrepreneurs across Costa Rica.",
     "title": "Our Mission"
   },
   "mission&Vision": "Mission and Vision",
@@ -216,6 +216,7 @@
       "title": "Wildlife Photography in Corcovado"
     }
   },
+  "recentBlogs": "Our most recent blogs",
   "readLess": "Read Less",
   "readMore": "Read More",
   "reserve": "Reserve",
@@ -234,7 +235,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes.",
+    "body": "Explore our private luxury tours in Costa Rica—whether you're into adventure, photography, or relaxing beach escapes, each experience is fully customizable to fit your travel style. Discover the country's incredible biodiversity and vibrant culture surrounded by beautiful natural landscapes.",
     "title": "Our Tours"
   },
   "sectionReviews": {

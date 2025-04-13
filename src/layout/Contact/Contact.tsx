@@ -32,10 +32,10 @@ const Contact = () => {
           <>
             <h5 className="font-light text-md">E-mail</h5>
             <a
-              href={`mailto:info@paticascr.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
+              href={`mailto:info@paticastravel.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
               className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
             >
-              info@paticascr.com
+              info@paticastravel.com
             </a>
           </>
         )}

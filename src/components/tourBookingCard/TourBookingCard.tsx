@@ -101,10 +101,10 @@ const TourBookingCard = () => {
   }
 
   const email = <a
-    href={`mailto:info@paticascr.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
+    href={`mailto:info@paticastravel.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
     className="text-gray-600 text-m hover:text-gray-800 transition-colors"
   >
-    info@paticascr.com
+    info@paticastravel.com
   </a>
 
   return (

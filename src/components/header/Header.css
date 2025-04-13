@@ -5,7 +5,12 @@
     background-color: theme('colors.green');
   }
 
+  .mobile-links {
+    background-color: theme('colors.darkGreen');
+  }
+
   .navbar-links {
-    width: calc(100% - 222px);
+    width: calc(100% - 325px);
+    /* Cart Icon + Paticas Logo*/
   }
 }
