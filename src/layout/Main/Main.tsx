@@ -1,66 +1,29 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import { ReactNode } from 'react';
-
 import Carousel from "../../components/carousel/Carousel";
 import Reviews from "../../components/reviews/Reviews";
 import { useTour } from "../../context/TourContext";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import ToursCards from "../../components/tourCard/ToursCard";
-import "./Main.css";
 import { useNavigate } from "react-router";
 import { useTranslation } from 'react-i18next';
+import "./Main.css";
 import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
+import { sectionOurTour, sectionBlogs, sectionAboutUs, sectionReviews } from "../../utils/hardCodedData/sections";
+import Contact from "../Contact/Contact";
 
 const Main = () => {
   const { i18n } = useTranslation();
   const { tours } = useTour();
   const navigate = useNavigate();
 
-
-  const sectionOurTours = {
-    title: i18n.t('sectionOurTour.title'),
-    body: i18n.t('sectionOurTour.body')
-  }
-  const sectionBlogs = {
-    title: i18n.t('sectionBlogs.title'),
-    body: i18n.t('sectionBlogs.body'),
-  }
-  const sectionAboutUs = {
-    title: i18n.t('sectionAboutUs.title'),
-    body: i18n.t('sectionAboutUs.body')
-  }
-  const sectionReviews = {
-    title: i18n.t('sectionReviews.title'),
-    body: `${i18n.t('sectionReviews.body')}
-          *STARS*`
-  }
-  const sectionContact = {
-    title: i18n.t('sectionContact.title'),
-    body: i18n.t('sectionContact.body'),
-    bgColor: "bg-neutral-300"
-  }
-
-  const circularContainerWithInfo = (icon: ReactNode, children: ReactNode) => (
-    <div className="border-black circular-container bg-white rounded-full border-2 flex flex-col items-center justify-center shadow-sm">
-      <article className="w-10 h-10 bg-yellow rounded-full flex flex-col items-center justify-center">
-        {icon}
-      </article>
-      <article className="mt-2 text-center">
-        {children}
-      </article>
-    </div>
-  )
-
   return (
     <section>
       <Carousel />
-      <SectionWithTitle title={sectionOurTours.title} body={sectionOurTours.body} />
+      <SectionWithTitle title={sectionOurTour(i18n.t).title} body={sectionOurTour(i18n.t).body} />
       <ToursCards tours={tours} showActionButton />
-      <SectionWithTitle title={sectionBlogs.title} body={sectionBlogs.body} />
+      <SectionWithTitle title={sectionBlogs(i18n.t).title} body={sectionBlogs(i18n.t).body} />
       <BlogsCarrousel />
-      <SectionWithTitle title={sectionAboutUs.title} body={sectionAboutUs.body} />
+      <SectionWithTitle title={sectionAboutUs(i18n.t).title} body={sectionAboutUs(i18n.t).body} />
       <section className="relative">
         <img src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/las-3.jpg" alt="family" className="brightness-75 w-full h-auto object-cover" />
         <article className="absolute inset-0 flex flex-column items-center justify-center text-white  ">
@@ -74,44 +37,14 @@ const Main = () => {
           </button>
         </article>
       </section>
-      <SectionWithTitle title={sectionReviews.title} body={sectionReviews.body} />
+      <SectionWithTitle title={sectionReviews(i18n.t).title} body={sectionReviews(i18n.t).body} />
       <Reviews />
       <button className="bg-yellow text-black border-full py-2 px-3 mt-3  mx-auto rounded-full flex justify-self-center">
         {i18n.t("shareExperience")}
         <IoIosArrowRoundForward className="mx-1 flex justify-self-center text-2xl" />
       </button>
-      <section className="bg-neutral-300 pt-7 mt-4">
-        <SectionWithTitle title={sectionContact.title} body={sectionContact.body} bgColor={sectionContact.bgColor} />
-        <div className="flex items-center justify-center gap-8 px-6 pb-6 max-sm:flex-col">
-          {circularContainerWithInfo(
-            <FaWhatsapp className="text-black text-xl" />,
-            <>
-              <h5 className="font-light text-md">Whatsapp</h5>
-              <a
-                href={`https://api.whatsapp.com/send?phone=+50687758884&text=${i18n.t("whatsappMessage")}`}
-
-                className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
-              >
-                +506 8775 8884
-              </a>
-            </>
-          )}
-          <div className="h-14 w-px bg-neutral-900 mx-2 max-sm:hidden" />
-          {circularContainerWithInfo(
-            <MdOutlineEmail className="text-black text-xl" />,
-            <>
-              <h5 className="font-light text-md">E-mail</h5>
-              <a
-                href={`mailto:info@paticascr.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
-                className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
-              >
-                info@paticascr.com
-              </a>
-            </>
-          )}
-        </div>
-      </section>
-
+      <br />
+      <Contact />
     </section>
   )
 };

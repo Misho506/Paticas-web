@@ -7,7 +7,7 @@ const FounderProfile = ({ name, title, bio, imageSrc }: Founder) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <section className="flex flex-col md:flex-row items-center md:items-start gap-6 py-6 border-b border-gray-200">
+    <section key={name} className="flex flex-col md:flex-row items-center md:items-start gap-6 py-6 border-b border-gray-200">
       <article className="w-36 h-36">
         <img
           src={imageSrc}
