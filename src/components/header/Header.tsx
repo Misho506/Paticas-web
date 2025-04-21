@@ -53,7 +53,6 @@ const Header = () => {
       {/* Menu that slides from top to bottom */}
       <section className={`mobile-links absolute top-0 left-0 w-full h-full shadow-lg transform transition-transform duration-500 z-30 ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="flex flex-col w-full">
-          {/* Close button at the top */}
           <article className="flex justify-end p-4">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -63,26 +62,12 @@ const Header = () => {
               ✕
             </button>
           </article>
-
-          {/* Menu buttons */}
           <article className="flex flex-col">
             {navButtons.map((navButton, index) => <button key={index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>)}
 
-            {/* <button className="py-4 hover:bg-gray-100 text-lg border-b">Home</button>
-            <button className="py-4 hover:bg-gray-100 text-lg border-b">About</button>
-            <button className="py-4 hover:bg-gray-100 text-lg border-b">Services</button>
-            <button className="py-4 hover:bg-gray-100 text-lg">Contact</button> */}
           </article>
         </div>
       </section>
-
-      {/* Overlay that appears when menu is open */}
-      {isOpen && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-0"
-          onClick={() => setIsOpen(!isOpen)}
-        />
-      )}
     </header>
   )
 }

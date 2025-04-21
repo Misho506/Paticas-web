@@ -25,7 +25,7 @@ const Blogs = () => {
           className="max-w-4xl"
           style={{
             position: 'absolute',
-            top: '13rem',
+            top: '16rem',
             left: '10%',
             transform: 'translateY(-50%)',
           }}
