@@ -63,7 +63,9 @@ const Blogs = () => {
           </p>
         </article >
       </section>
-      <BlogsCarrousel />
+      <section>
+        <BlogsCarrousel />
+      </section>
     </section>
   );
 }

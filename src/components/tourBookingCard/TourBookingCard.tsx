@@ -10,6 +10,10 @@ import { useTour } from "../../context/TourContext";
 import { useNavigate } from "react-router";
 import Modal from "../modal/Modal";
 
+// For the Whales Tour
+const minDate = new Date(new Date().getFullYear(), 7, 25); // August 25
+const maxDate = new Date(new Date().getFullYear(), 8, 23); // September 23
+
 const TourBookingCard = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
@@ -97,10 +101,10 @@ const TourBookingCard = () => {
   }
 
   const email = <a
-    href={`mailto:info@paticascr.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
+    href={`mailto:info@paticastravel.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
     className="text-gray-600 text-m hover:text-gray-800 transition-colors"
   >
-    info@paticascr.com
+    info@paticastravel.com
   </a>
 
   return (
@@ -118,7 +122,11 @@ const TourBookingCard = () => {
           </h3>
           <article className="flex-1 relative border rounded-full basis-2/3">
             <LuCalendarClock className="z-10 absolute h-5 w-5 top-2.5 left-3" />
-            <DatePicker className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
+            {selectedTour.title === i18n.t("tours.turtlesAndWhales.title") ?
+              <DatePicker minDate={minDate} maxDate={maxDate} className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
+              :
+              <DatePicker className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
+            }
           </article>
         </div>
         <div className="flex items-end space-x-3">

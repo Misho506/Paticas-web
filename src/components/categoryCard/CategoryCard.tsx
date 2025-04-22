@@ -16,7 +16,7 @@ const CategoryCard = (category: CategoryType) => {
   };
 
   return (
-    <section className="relative overflow-hidden rounded-2xl h-72 mb-4 group cursor-pointer">
+    <section onClick={goToSelectedTour} className="relative overflow-hidden rounded-2xl h-72 mb-4 group cursor-pointer">
       <img
         src={image}
         alt={title}
@@ -25,9 +25,9 @@ const CategoryCard = (category: CategoryType) => {
       <section className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent">
         <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center">
           <h3 className="text-xl font-medium text-white">{title}</h3>
-          <button onClick={goToSelectedTour} className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
+          {/* <button className="next-button rounded-full flex p-1 ml-2 mt-2 h-fit text-2xl">
             <IoIosArrowRoundForward />
-          </button>
+          </button> */}
         </div>
       </section>
     </section>
