@@ -1,4 +1,3 @@
-import { IoIosStar } from "react-icons/io";
 import "./SectionWithTitle.css";
 import { useTranslation } from "react-i18next";
 import { ReactNode } from "react";
@@ -8,12 +7,6 @@ const SectionWithTitle = ({ title, body, bgColor, img }: { title: string; body: 
   const insertStars = typeof body === 'string' && body.includes('*STARS*');
   const secondString =
     <span className="flex items-baseline justify-center">
-      {/* <br />
-      <IoIosStar className="color-yellow" />
-      <IoIosStar className="color-yellow" />
-      <IoIosStar className="color-yellow" />
-      <IoIosStar className="color-yellow" />
-      <IoIosStar className="color-yellow mr-1" /> */}
       {i18n.t("sectionReviews.numberOf")}
     </span>
   return (

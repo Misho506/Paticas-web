@@ -136,6 +136,24 @@
     "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage.",
     "title": "Our Green Approach"
   },
+  "headers": [
+    {
+      "name": "Tours",
+      "link": "/categories"
+    },
+    {
+      "name": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "name": "About us",
+      "link": "/about-us"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
   "includes": "Includes",
   "investment": "See Dates & Prices",
   "itinerary": "Itinerary",
@@ -143,7 +161,7 @@
   "kids": "Kids",
   "lastName": "Last name",
   "mission": {
-    "description": "To create personalized travel experiences based on our clients' preferences while upholding the highest standards of quality, social responsibility, and environmental sustainability. We also aim to promote domestic tourism by supporting local businesses and rural entrepreneurs in Costa Rica.",
+    "description": "To create private, luxury travel experiences tailored to each client’s preferences, while maintaining the highest standards of quality, sustainability, and social responsibility. We’re also committed to promoting domestic tourism by supporting local businesses and rural entrepreneurs across Costa Rica.",
     "title": "Our Mission"
   },
   "mission&Vision": "Mission and Vision",
@@ -155,7 +173,7 @@
   },
   "next": "Next",
   "notAvailableCard": {
-    "message": "Sorry! It's not available right now, but it will be very soon. Stay tuned!",
+    "message": "Sorry! Online booking is not available right now, but it will be very soon. Stay tuned!",
     "title": "Not available"
   },
   "notAvailableNewsLetter": {
@@ -165,7 +183,7 @@
   "noTaxes": "No additional taxes or booking fees",
   "otherExp": "Other experiences",
   "ourTours": {
-    "description": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes.",
+    "description": "Explore Costa Rica through our private, luxury tours—fully customizable to your travel style. From iconic destinations like Manuel Antonio and Arenal to hidden gems like Bajos del Toro, our experiences blend adventure, nature, and culture. Whether you're looking for wildlife photography, adrenaline-filled activities, or serene beach escapes, we tailor each journey just for you.",
     "title": "Our Tours"
   },
   "partners": "Partners",
@@ -198,6 +216,7 @@
       "title": "Wildlife Photography in Corcovado"
     }
   },
+  "recentBlogs": "Our most recent blogs",
   "readLess": "Read Less",
   "readMore": "Read More",
   "reserve": "Reserve",
@@ -216,7 +235,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Discover the diverse range of Costa Rica tours, from adventure activities and photography workshops to relaxing beach getaways on white-sand beaches. Experience the country's biodiversity and rich culture in lush green landscapes.",
+    "body": "Explore our private luxury tours in Costa Rica—whether you're into adventure, photography, or relaxing beach escapes, each experience is fully customizable to fit your travel style. Discover the country's incredible biodiversity and vibrant culture surrounded by beautiful natural landscapes.",
     "title": "Our Tours"
   },
   "sectionReviews": {

@@ -10,7 +10,7 @@ const OurTours = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto px-4 py-8 my-4">
+    <div className="max-w-4xl mx-auto px-4 py-8 my-4">
       <h2 className="text-3xl font-medium text-center text-green-800 mb-2">
         {i18n.t("ourTours.title")}
       </h2>

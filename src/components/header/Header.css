@@ -1,3 +1,16 @@
 .header-container {
   background-color: theme('colors.darkGreen');
+
+  button:hover {
+    background-color: theme('colors.green');
+  }
+
+  .mobile-links {
+    background-color: theme('colors.darkGreen');
+  }
+
+  .navbar-links {
+    width: calc(100% - 325px);
+    /* Cart Icon + Paticas Logo*/
+  }
 }

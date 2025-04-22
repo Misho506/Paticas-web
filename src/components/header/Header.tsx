@@ -11,20 +11,62 @@ const Header = () => {
   const navigate = useNavigate();
   const { i18n } = useTranslation();
   const [openModal, setOpenModal] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navButtons = [
+    {
+      name: i18n.t('headers.0.name'),
+      link: i18n.t('headers.0.link')
+    },
+    {
+      name: i18n.t('headers.1.name'),
+      link: i18n.t('headers.1.link')
+    },
+    {
+      name: i18n.t('headers.2.name'),
+      link: i18n.t('headers.2.link')
+    },
+    {
+      name: i18n.t('headers.3.name'),
+      link: i18n.t('headers.3.link')
+    },
+  ]
 
   return (
     <header className="flex h-20 flex-row items-center justify-between header-container">
       <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableCard.message")} title={i18n.t("notAvailableCard.title")} />
       <section className="flex flex-row items-center" onClick={() => navigate('/')}>
-        <img alt="icon background green" src={IconWithName} className="h-16 pl-4" />
+        <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
       </section>
-      <section className="pr-4 text-white mb-1 flex">
+      <section className="hidden sm:flex navbar-links justify-around">
+        {navButtons.map((navButton, index) => <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>)}
+      </section>
+      <section className="pr-4 sm:pr-16 text-white mb-1 flex">
         <MdOutlineShoppingCart
           onClick={() => setOpenModal(true)}
           style={{ fontSize: 40 }}
           className="p-1"
         />
-        <IoIosMenu style={{ fontSize: 40 }} className="p-1 menu-icon" />
+        <IoIosMenu onClick={() => setIsOpen(true)} style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
+      </section>
+
+      {/* Menu that slides from top to bottom */}
+      <section className={`mobile-links absolute top-0 left-0 w-full h-full shadow-lg transform transition-transform duration-500 z-30 ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+        <div className="flex flex-col w-full">
+          <article className="flex justify-end p-4">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white hover:text-gray-900 rounded-lg text-xl font-light w-8 h-8 flex items-center justify-center"
+              aria-label="Close menu"
+            >
+              ✕
+            </button>
+          </article>
+          <article className="flex flex-col">
+            {navButtons.map((navButton, index) => <button key={index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>)}
+
+          </article>
+        </div>
       </section>
     </header>
   )

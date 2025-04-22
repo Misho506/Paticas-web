@@ -136,6 +136,24 @@
     "description": "Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica.",
     "title": "Enfoque verde"
   },
+  "headers": [
+    {
+      "name": "Tours",
+      "link": "/categories"
+    },
+    {
+      "name": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "name": "Sobre nosotros",
+      "link": "/about-us"
+    },
+    {
+      "name": "Contáctenos",
+      "link": "/contact"
+    }
+  ],
   "includes": "Incluye",
   "investment": "Ver fechas y precios",
   "itinerary": "Itinerario",
@@ -143,7 +161,7 @@
   "kids": "Niños",
   "lastName": "Apellido",
   "mission": {
-    "description": "Crear experiencias de viajes basados en las preferencias de nuestros clientes, cumpliendo con los más altos estándares de calidad, responsabilidad social y ambiental. Además, promover el turismo nacional, impulsando negocios locales y emprendimientos rurales.",
+    "description": "Ofrecer tours privados y de lujo personalizados según las preferencias de cada cliente, bajo los más altos estándares de calidad, sostenibilidad e impacto social positivo. Impulsamos el turismo nacional apoyando negocios locales y emprendimientos rurales.",
     "title": "Nuestra Misión"
   },
   "mission&Vision": "Misión and Visión",
@@ -165,7 +183,7 @@
   "noTaxes": "Sin impuestos adicionales ni tarifas de reserva",
   "otherExp": "Otras experiencias",
   "ourTours": {
-    "description": "Descubra la amplia variedad de tours en Costa Rica, desde actividades de aventura y talleres de fotografía hasta escapadas de relajación en playas de arena blanca. Viva la biodiversidad y la riqueza cultural del país en impresionantes paisajes tropicales y selvas exuberantes.",
+    "description": "Descubre Costa Rica a través de nuestros tours privados de lujo, completamente personalizables según tu estilo de viaje. Desde destinos icónicos como Manuel Antonio, Arenal y Monteverde hasta joyas escondidas como Bajos del Toro, nuestras experiencias combinan aventura, naturaleza y cultura. Ya sea fotografía de vida silvestre, actividades de adrenalina o escapadas tranquilas en la playa, diseñamos cada recorrido especialmente para ti.",
     "title": "Nuestros Tours"
   },
   "partners": "Patrocinadores",
@@ -198,6 +216,7 @@
       "title": "Expedición Fotográfica: Vida Silvestre en Corcovado"
     }
   },
+  "recentBlogs": "Nuestros mas recientes Blogs",
   "readLess": "Leer menos",
   "readMore": "Leer más",
   "reserve": "Reserva",
@@ -216,7 +235,7 @@
     "title": "Contáctenos"
   },
   "sectionOurTour": {
-    "body": "Escenarios naturales sorprendentes, paisajes que cuentan historias y biodiverdiad única que inspiran y capturan momentos únicos.",
+    "body": "Descubre nuestros tours privados de lujo en Costa Rica: aventura, fotografía y escapadas a la playa, todos personalizables según tu estilo de viaje. Vive la biodiversidad y la cultura costarricense en paisajes naturales espectaculares.",
     "title": "Nuestras Giras"
   },
   "sectionReviews": {
@@ -1048,11 +1067,11 @@
   "traveler": "Viajero",
   "travelers": "Viajeros",
   "values": {
-    "description": "Integridad: Promovemos el turismo nacional ayudando a otros emprendimientos turísticos y locales. Responsabilidad: Nos comprometemos a actuar de manera responsable en todas nuestras operaciones y decisiones. Implementando protocolos y medidas para garantizar viajes seguros.Inclusión: Nos dedicamos a hacer que los viajes sean accesibles para todos, eliminando barreras físicas, comunicativas y cognitivas. Nuestro personal está capacitado para ofrecer asistencia adicional y contamos con una amplia gama de destinos para adaptarnos a las necesidades e intereses de todos los clientes.Innovación: Nos esforzamos por ser innovadores en la creación de experiencias de viaje únicas y personalizadas. Buscamos constantemente nuevas formas de sorprender a nuestros clientes y adaptarnos a las tendencias del mercado.Pasión: Nos apasiona viajar y queremos compartir esa pasión con nuestros clientes. Nos esforzamos por brindar experiencias extraordinarias que dejan recuerdos duraderos. Nuestro enfoque verde:Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica.",
+    "description": "En Paticas, nuestros valores guían cada paso que damos en la industria del turismo. Promovemos el turismo nacional apoyando a negocios locales y actuando con integridad. Nos enfocamos en la seguridad y responsabilidad, implementando protocolos que garantizan experiencias de viaje seguras. Creemos en la inclusión, eliminando barreras y ofreciendo destinos diversos y personalizados. Innovamos constantemente para crear experiencias únicas, impulsados por una pasión por los viajes que nos inspira a generar recuerdos inolvidables.",
     "title": "Nuestros valores"
   },
   "vision": {
-    "description": "Crear experiencias de viajes basados en las preferencias de nuestros clientes, cumpliendo con los más altos estándares de calidad, responsabilidad social y ambiental. Además, promover el turismo nacional, impulsando negocios locales y emprendimientos rurales.",
+    "description": "Ser una agencia líder en Costa Rica, reconocida por sus experiencias exclusivas, su enfoque centrado en el cliente y su compromiso con la excelencia, la seguridad y la diversidad turística.",
     "title": "Nuestra Visión"
   },
   "weAre": "Somos Patacalientes.",
