@@ -20,7 +20,6 @@ import {
   TaxesIcon,
   ToursIcon
 } from "../../assets/icons/index";
-import { useMemo } from "react";
 
 const Main = () => {
   const { i18n } = useTranslation();
