@@ -10,16 +10,50 @@ import "./Main.css";
 import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
 import { sectionOurTour, sectionBlogs, sectionAboutUs, sectionReviews } from "../../utils/hardCodedData/sections";
 import Contact from "../Contact/Contact";
+import {
+  AirportTransferIcon,
+  MealsIncludedIcon,
+  FreeWifiIcon,
+  LuxuryHotelIcon,
+  TourGuideIcon,
+  TransportationIcon,
+  TaxesIcon,
+  ToursIcon
+} from "../../assets/icons/index";
+import { useMemo } from "react";
 
 const Main = () => {
   const { i18n } = useTranslation();
   const { tours } = useTour();
   const navigate = useNavigate();
+  const toursIncludesIcons = [
+    AirportTransferIcon,
+    TransportationIcon,
+    FreeWifiIcon,
+    LuxuryHotelIcon,
+    MealsIncludedIcon,
+    ToursIcon,
+    TaxesIcon,
+    TourGuideIcon,
+  ]
 
   return (
     <section>
       <Carousel />
       <SectionWithTitle title={sectionOurTour(i18n.t).title} body={sectionOurTour(i18n.t).body} />
+      <article className="py-11 max-w-4xl px-3 mx-auto flex flex-col justify-self-center">
+        <h4>{i18n.t('ourTours.includesTitle')}</h4>
+        <div className="flex flex-wrap items-center">
+          {toursIncludesIcons.map((icon, index) =>
+            <div key={index} className="flex items-center">
+              <img src={icon} alt="family" className="w-10 object-cover" />
+              <span className="mr-4 text-gray-500 italic text-lg">
+                {i18n.t(`ourTours.includes.${index}`)}
+              </span>
+            </div>
+          )}
+        </div>
+      </article>
       <ToursCards tours={tours} showActionButton />
       <SectionWithTitle title={sectionBlogs(i18n.t).title} body={sectionBlogs(i18n.t).body} />
       <BlogsCarrousel />

@@ -184,7 +184,18 @@
   "otherExp": "Otras experiencias",
   "ourTours": {
     "description": "Descubre Costa Rica a través de nuestros tours privados de lujo, completamente personalizables según tu estilo de viaje. Desde destinos icónicos como Manuel Antonio, Arenal y Monteverde hasta joyas escondidas como Bajos del Toro, nuestras experiencias combinan aventura, naturaleza y cultura. Ya sea fotografía de vida silvestre, actividades de adrenalina o escapadas tranquilas en la playa, diseñamos cada recorrido especialmente para ti.",
-    "title": "Nuestros Tours"
+    "title": "Nuestros Tours",
+    "includesTitle": "Todos nuestros tours incluyen:",
+    "includes": [
+      "Traslado aeropuerto",
+      "Transporte privado con chofer",
+      "Wi-Fi gratis",
+      "Hotel de lujo",
+      "Desayuno y almuerzo",
+      "Tours",
+      "Impuestos incluidos",
+      "Guía turístico privado durante toda tu estadía"
+    ]
   },
   "partners": "Patrocinadores",
   "passportId": "Número de Pasaporte",
