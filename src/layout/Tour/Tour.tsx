@@ -10,6 +10,7 @@ import { useState } from "react";
 import ToursCards from "../../components/tourCard/ToursCard";
 import TourBookingCard from "../../components/tourBookingCard/TourBookingCard";
 import TourImages from "../../components/tourImages/TourImages";
+import { LuxuryHotelIcon, MealsIncludedIcon } from "../../assets/icons";
 
 const Tour = () => {
   const { i18n } = useTranslation();
@@ -64,7 +65,21 @@ const Tour = () => {
         selectedTour.itinerary.map((activity, index) => (
           <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
             <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
-            <p className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} text-gray-500 italic text-lg transition-all duration-400 ease-in-out whitespace-pre-line`}>{activity.description}</p>
+            <div key={index} className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} flex flex-col items-center transition-all duration-400 ease-in-out`}>
+              <p className="text-gray-500 italic text-lg  whitespace-pre-line">{activity.description}</p>
+              <div className="flex items-center w-100">
+                <img src={MealsIncludedIcon} alt="family" className="w-10 object-cover" />
+                <span className="ml-2 text-gray-500 italic text-lg">
+                  {i18n.t(`ourTours.includes.4`)}
+                </span>
+              </div>
+              {activity.hotelName && <div className="flex items-center w-100">
+                <img src={LuxuryHotelIcon} alt="family" className="w-10 object-cover" />
+                <a className="hiper-link ml-2 text-gray-500 italic text-lg" href={activity.hotelLink} target="_blank" rel="noreferrer">
+                  {activity.hotelName + i18n.t('orSimilar')}
+                </a>
+              </div>}
+            </div>
           </article>
         )),
         i18n.t("itinerary")

@@ -79,6 +79,8 @@ type Founder = {
 type ItineraryType = {
   title: string;
   description: string;
+  hotelName?: string;
+  hotelLink?: string;
 };
 
 type PostCarrouselProps = {

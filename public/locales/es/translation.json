@@ -181,6 +181,7 @@
     "title": "Not available"
   },
   "noTaxes": "Sin impuestos adicionales ni tarifas de reserva",
+  "orSimilar": " o similar",
   "otherExp": "Otras experiencias",
   "ourTours": {
     "description": "Descubre Costa Rica a través de nuestros tours privados de lujo, completamente personalizables según tu estilo de viaje. Desde destinos icónicos como Manuel Antonio, Arenal y Monteverde hasta joyas escondidas como Bajos del Toro, nuestras experiencias combinan aventura, naturaleza y cultura. Ya sea fotografía de vida silvestre, actividades de adrenalina o escapadas tranquilas en la playa, diseñamos cada recorrido especialmente para ti.",
@@ -277,7 +278,8 @@
         "Traslado desde y hacia el Aeropuerto Internacional Juan Santamaría.",
         "Transporte privado con chofer.",
         "Conexión a internet durante su estancia en Costa Rica.",
-        "6 noches de alojamiento con desayunos, almuerzos y cenas incluidas.",
+        "6 noches de alojamiento con desayunos y almuerzos incluidos.",
+        "3 cenas incluidas.",
         "Tour fotografía nocturna en Rancho Naturalista.",
         "Tour de colibríes y aves en Rancho Naturalista.",
         "Tour de café y día de Spa en Rancho Naturalista.",
@@ -305,8 +307,8 @@
           "title": "Día 4 - Tour de café y día de spa en Rancho Naturalista"
         },
         {
-          "description": "Después de una mañana relajada, nos embarcaremos en un tour en bote por el río Tárcoles, famoso por su gran población de cocodrilos americanos y biodiversidad. Durante la tarde, buscaremos las mejores fotografías de fauna silvestre, incluyendo aves exóticas y las impresionantes vistas al atardecer, un espectáculo único desde el río.",
-          "title": "Día 5 - Río Tárcoles"
+          "description": "Después de una mañana relajada, viajaremos hacia la capital para prepararnos para la aventura del día siguiente. Tendremos la tarde libre para descansar o disfrutar del entorno natural, con la posibilidad de captar algunas fotografías de aves y paisajes.",
+          "title": "Día 5 - Rumbo al Río Tárcoles"
         },
         {
           "description": "Iniciaremos el día con una emocionante expedición en bote por el río Tárcoles, un santuario natural donde habita una de las mayores poblaciones de cocodrilos americanos. También avistaremos más de 60 especies de aves, incluyendo la Garza Grande (Great Egret) y la Garza Tigre Cuellinuda (Bare-throated Tiger-Heron). Luego, exploraremos el Canal de Guacalillo, un hábitat esencial para la Guacamaya Roja (Scarlet Macaw). Finalizaremos el día regresando a San José, disfrutando de los espectaculares paisajes en el camino.",
@@ -332,6 +334,7 @@
         "Transporte privado con chofer.",
         "Conexión a internet durante su estancia en Costa Rica.",
         "8 noches de alojamiento con desayunos y almuerzos incluidos.",
+        "Aguas Termales",
         "Rafting en el Río Pacuare.",
         "Rappel en Maquique Adventures.",
         "Tour ATV en La Fortuna.",
@@ -345,8 +348,8 @@
       ],
       "itinerary": [
         {
-          "description": "¡Bienvenidos a Costa Rica! A su llegada al Aeropuerto Internacional Juan Santamaría, nuestro equipo los recibirá con una cálida bienvenida. Un transporte privado los llevará a su hotel en San José, donde podrán comenzar a explorar la vibrante cultura costarricense. La ciudad ofrece una gran variedad de experiencias gastronómicas, culturales y de entretenimiento. Disfruten de sus museos, la cocina local y la animada vida nocturna, o simplemente relájense en su alojamiento para iniciar con energía esta inolvidable aventura. ",
-          "title": "Día 1 - ¡Bienvenidos a la exuberante Costa Rica! "
+          "description": "Al llegar al Aeropuerto Internacional Juan Santamaría, serán recibidos por nuestro equipo y trasladados en transporte privado hacia su hotel ecológico en Pacuaré. Este destino, inmerso en la exuberante selva tropical, ofrece un entorno sereno rodeado de árboles centenarios, ríos cristalinos y abundante vida silvestre. Es el lugar perfecto para relajarse tras el viaje y comenzar su aventura con una profunda conexión con la naturaleza. Prepárense para una experiencia única en Costa Rica, donde la tranquilidad y la biodiversidad los rodearán desde el primer momento.",
+          "title": "Día 1 - ¡Bienvenidos a Costa Rica!"
         },
         {
           "description": "¡Aventura extrema en el Río Pacuare! Nos dirigimos a este impresionante río, uno de los mejores del mundo para el rafting, rodeado de exuberante selva tropical y emocionantes rápidos. Con equipo especializado y guías expertos, recorreremos sus aguas cristalinas, desafiando la corriente en una experiencia llena de adrenalina y diversión. Además del emocionante descenso, disfrutaremos de la espectacular biodiversidad de Costa Rica, convirtiendo este día en una aventura inolvidable.",
@@ -394,7 +397,7 @@
         "Traslado desde y hacia el Aeropuerto Internacional Juan Santamaría.",
         "Transporte privado con chofer.",
         "Conexión a internet durante tu estancia en Costa Rica.",
-        "6 noches de alojamiento con desayunos, almuerzos y cenas incluidas.",
+        "6 noches de alojamiento con desayunos y almuerzos incluidos.",
         "Tour de observación quetzal.",
         "Tour de observación zopilote rey en Boca Tapada.",
         "Tour de colibríes y aves.",
@@ -846,6 +849,7 @@
         "Transporte privado con chofer.",
         "Conexión a internet durante su estancia en Costa Rica.",
         "7 noches de alojamiento con desayunos y almuerzos incluidos.",
+        "Aguas Termales",
         "Entrada al Parque Nacional Volcán Poas.",
         "Entrada a la Catarata Río Celeste.",
         "Tour en yate privado con vista al Volcán Arenal (stand-up paddle, wakeboarding o pesca).",
@@ -899,7 +903,7 @@
     "turtlesAndWhales": {
       "about": "Para los amantes de la naturaleza y la conservación, nuestro exclusivo tour “Desove de tortuga verde en Tortuguero” ofrece una oportunidad única de presenciar el desove de tortugas marinas verdes de noche en su hábitat natural. El Parque Nacional Tortuguero, famoso por su biodiversidad y paisajes impresionantes, es uno de los principales sitios de anidación de tortugas en Costa Rica.\nVive el asombroso espectáculo de estas majestuosas criaturas mientras ponen sus huevos bajo la luz de la luna. Este tour especial solo está disponible en septiembre, cuando coincide la temporada alta de desove con el mejor momento para el avistamiento de ballenas y delfines.\n¿Qué es el desove de tortuga?\nLa anidación de tortugas es un proceso natural en el que las tortugas verdes hembras salen a la playa durante la noche para depositar sus huevos en la arena. Una vez finalizado, regresan al océano, dejando sus nidos protegidos. Los machos permanecen en el mar durante todo el proceso.\nImportancia de Tortuguero\nTortuguero es un santuario reconocido a nivel mundial para el desove de la tortuga verde, protegido del desarrollo urbano y la contaminación lumínica. Estas tortugas regresan fielmente a la misma playa donde nacieron cada dos o tres años, lo que convierte a Tortuguero en un sitio clave para su conservación.\nPara proteger a las tortugas y su entorno, el parque establece las siguientes normas:\nLas fotografías, cámaras y el uso de celulares no están permitidos.\nEl contacto directo con las tortugas o sus huevos también está prohibido por las directrices del parque nacional.\nDespués de vivir la magia del desove, continuamos hacia Uvita, en la costa del Pacífico, para una experiencia inolvidable de avistamiento de ballenas.\nDurante la temporada de migración (diciembre–marzo y julio–octubre), podrás ver ballenas jorobadas, ballenas de Bryde, calderones y delfines, con una probabilidad de avistamiento del 95%.",
       "daysAndNights": "7 días y 6 noches",
-      "description": "layas paradisíacas, avistamiento de ballenas y anidación de tortugas bajo la luz de la luna",
+      "description": "Playas paradisíacas, avistamiento de ballenas y anidación de tortugas bajo la luz de la luna",
       "includes": [
         "Traslado desde y hacia el Aeropuerto Internacional Juan Santamaría",
         "Transporte privado con chofer",
@@ -924,7 +928,7 @@
           "title": "Día 1 - Bienvenidos a Costa Rica"
         },
         {
-          "description": "Iniciaremos el día con un fascinante tour en canoa por los canales de Tortuguero donde podremos observar la abundante vida silvestre en su hábitat natural. Posteriormente, realizaremos un city tour por la localidad y tendremos la tarde libre para descansar en el hotel.\nPor la noche, nos prepararemos para el espectacular evento del desove de la tortuga verde. El tour de desove se organiza mediante un sorteo electrónico todos los días a las 5 p.m. El Parque Nacional Tortuguero determina el horario, orden y sector donde se realizará la observación. \nLos horarios disponibles son:\nHorario 1: 8: 00 p.m. - 10: 00 p.m.\nHorario 2: 10: 00 p.m. - 12: 00 a.m.\nLa playa está patrullada por rastreadores voluntarios de una empresa privada que proporciona el servicio. Los turistas se reúnen en una base de espera hasta que los rastreadores indiquen la ubicación de una tortuga. El proceso completo de una tortuga (entrada a la playa, desove, tapar el nido, camuflar el nido y regresar al océano) dura aproximadamente dos horas.\nFases del desove permitidas para la observación:\nProceso de desove: cuando la tortuga pone los huevos.\nProceso de tapar: cuando la tortuga tapa el nido.\nProceso de camuflar: cuando la tortuga camufla el nido para prevenir la depredación.\nProceso de descender: cuando la tortuga regresa al mar.",
+          "description": "Iniciaremos el día con un fascinante tour en canoa por los canales de Tortuguero donde podremos observar la abundante vida silvestre en su hábitat natural. Posteriormente, realizaremos un city tour por la localidad y tendremos la tarde libre para descansar en el hotel.\nPor la noche, nos prepararemos para el espectacular evento del desove de la tortuga verde. El tour de desove se organiza mediante un sorteo electrónico todos los días a las 5 p.m. El Parque Nacional Tortuguero determina el horario, orden y sector donde se realizará la observación. \n\nLos horarios disponibles son:\nHorario 1: 8: 00 p.m. - 10: 00 p.m.\nHorario 2: 10: 00 p.m. - 12: 00 a.m.\n\nLa playa está patrullada por rastreadores voluntarios de una empresa privada que proporciona el servicio. Los turistas se reúnen en una base de espera hasta que los rastreadores indiquen la ubicación de una tortuga. El proceso completo de una tortuga (entrada a la playa, desove, tapar el nido, camuflar el nido y regresar al océano) dura aproximadamente dos horas.\n\nFases del desove permitidas para la observación:\nProceso de desove: cuando la tortuga pone los huevos.\nProceso de tapar: cuando la tortuga tapa el nido.\nProceso de camuflar: cuando la tortuga camufla el nido para prevenir la depredación.\nProceso de descender: cuando la tortuga regresa al mar.",
           "title": "Día 2 - Tour en canoa por los canales de Tortuguero y desove de tortuga"
         },
         {
@@ -963,6 +967,7 @@
         "Transporte privado con chofer.",
         "Conexión a internet durante su estancia en Costa Rica.",
         "7 noches de alojamiento con desayunos y almuerzos incluidos.",
+        "Aguas Termales",
         "Entrada al Parque Nacional Volcán Poas.",
         "Entrada al Mirador Mano de Arenal.",
         "Tour de café y chocolate en Don Juan.",
