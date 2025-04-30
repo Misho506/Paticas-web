@@ -181,10 +181,23 @@
     "title": "Not available"
   },
   "noTaxes": "No additional taxes or booking fees",
+  "orSimilar": " or similar",
   "otherExp": "Other experiences",
   "ourTours": {
     "description": "Explore Costa Rica through our private, luxury tours—fully customizable to your travel style. From iconic destinations like Manuel Antonio and Arenal to hidden gems like Bajos del Toro, our experiences blend adventure, nature, and culture. Whether you're looking for wildlife photography, adrenaline-filled activities, or serene beach escapes, we tailor each journey just for you.",
-    "title": "Our Tours"
+    "title": "Our Tours",
+    "includesTitle": "All our tours include:",
+    "includes": [
+      "Airport transfer",
+      "Private transportation with a driver",
+      "Free Wi-Fi",
+      "Luxury hotel",
+      "Breakfast and lunch",
+      "Tours",
+      "Taxes included",
+      "Private tour guide throughout your stay"
+    ],
+    "dinnerIncludes": "Breakfast, lunch and dinner"
   },
   "partners": "Partners",
   "passportId": "Passport ID",
@@ -267,6 +280,7 @@
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
         "6 nights of accommodation with breakfast and lunch included.",
+        "3 dinners included.",
         "Night photography tour at Rancho Naturalista.",
         "Hummingbird and bird tour at Rancho Naturalista.",
         "Coffee tour and spa day at Rancho Naturalista.",
@@ -294,8 +308,8 @@
           "title": "Day 4 - Coffee Tour and Spa Day at Rancho Naturalista"
         },
         {
-          "description": "After a leisurely morning, our boat will be waiting for us to embark on a tour of the Tárcoles River. Renowned for its rich biodiversity, we will spend the afternoon searching out photographs of the many crocodiles and bird species along the river corridor. Sunset will provide us with many beautiful photo opportunities only available from a boat gliding gently along the breathtaking river banks.",
-          "title": "Day 5 - Tárcoles River Adventure"
+          "description": "After a relaxing morning, we’ll travel back to San José to get ready for the next day’s adventure. The afternoon will be free to rest or enjoy the city’s surroundings, with the chance to capture some bird and sunset photography if time and location allow.",
+          "title": "Day 5 - Heading to the Tárcoles River"
         },
         {
           "description": "We will begin our day with an early start on an exhilarating boat expedition again on the Tárcoles River. As home to one of the largest crocodile populations, we'll photograph and observe these magnificent reptiles along with over 60 bird species, including the Great Egret and Bare-throated Tiger-Heron. Then we're off to explore the Guacalillo Canal, a crucial habitat for the endangered Scarlet Macaw. Afterward, return to San José, enjoying the stunning landscapes along the way.",
@@ -321,6 +335,7 @@
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
         "8 nights of accommodation with breakfast and lunch included.",
+        "Hot Springs",
         "White-water rafting on the Pacuare River.",
         "Waterfall rappelling at Maquique Adventures.",
         "ATV tour in La Fortuna.",
@@ -334,8 +349,8 @@
       ],
       "itinerary": [
         {
-          "description": "Your adventure starts with a warm welcome at Juan Santamaría International Airport, where our team will greet you and provide private transportation to your hotel in San José. Take the day to explore the vibrant city, discover its rich culture, indulge in local cuisine, or simply relax before the adrenaline-packed days ahead.",
-          "title": "Day 1 - Arrival in San José"
+          "description": "Upon arrival at Juan Santamaría International Airport, our team will greet you and provide a private transfer to your eco-lodge in Pacuare. Nestled in the heart of the tropical rainforest, this peaceful retreat is surrounded by towering trees, crystal-clear rivers, and abundant wildlife. It’s the perfect setting to relax after your journey and begin your Costa Rican adventure fully immersed in nature. Get ready for a unique travel experience, where tranquility and biodiversity welcome you from day one.",
+          "title": "Day 1 - Welcome to Costa Rica!"
         },
         {
           "description": "Get ready for an unforgettable experience on the world-famous Pacuare River. This thrilling white-water rafting adventure takes you through lush tropical rainforest, rushing rapids, and breathtaking scenery. With expert guides ensuring your safety, you’ll navigate exhilarating Class III-IV rapids while immersing yourself in Costa Rica’s stunning biodiversity.",
@@ -834,6 +849,7 @@
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
         "7 nights of accommodation with breakfast and lunch included.",
+        "Hot Springs",
         "Entrance fee included to Poás Volcano National Park.",
         "Entrance fee included to Río Celeste Waterfall.",
         "Private yacht tour with views of Arenal Volcano (stand-up paddleboarding, wakeboarding, or fishing).",
@@ -912,7 +928,7 @@
           "title": "Day 1 - Welcome to Costa Rica"
         },
         {
-          "description": "We’ll start the day with a fascinating canoe tour through the Tortuguero canals, where we’ll observe abundant wildlife in its natural habitat. Following this, we’ll embark on a guided city tour of Tortuguero, with the afternoon free to explore local restaurants and shops, or simply relax at the hotel.\n\nIn the evening, we’ll prepare for the spectacular event of green turtle nesting. The nesting tour is organized through a daily electronic lottery at 5 p.m. The Tortuguero National Park determines the timing, order, and sector for observation.\n\nAvailable Time Slots:\n\nTime Slot 1: 8:00 p.m. - 10:00 p.m.\n\nTime Slot 2: 10:00 p.m. - 12:00 a.m.\n\nThe beach is patrolled by volunteers from a private company providing the service. Tourists gather at a waiting base until trackers indicate the location of a turtle. The entire process for a turtle (coming onto the beach, nesting, covering the nest, camouflaging the nest, and returning to the ocean) takes about two hours.\n\nNesting Phases Allowed for Observation:\nNesting Process: When the turtle lays its eggs.\nCovering Process: When the turtle covers the nest.\n\nCamouflaging Process: When the turtle camouflages the nest to prevent predation.\nDescending Process: When the turtle returns to the sea.",
+          "description": "We’ll start the day with a fascinating canoe tour through the Tortuguero canals, where we’ll observe abundant wildlife in its natural habitat. Following this, we’ll embark on a guided city tour of Tortuguero, with the afternoon free to explore local restaurants and shops, or simply relax at the hotel.\n\nIn the evening, we’ll prepare for the spectacular event of green turtle nesting. The nesting tour is organized through a daily electronic lottery at 5 p.m. The Tortuguero National Park determines the timing, order, and sector for observation.\n\nAvailable Time Slots:\nTime Slot 1: 8:00 p.m. - 10:00 p.m.\nTime Slot 2: 10:00 p.m. - 12:00 a.m.\n\nThe beach is patrolled by volunteers from a private company providing the service. Tourists gather at a waiting base until trackers indicate the location of a turtle. The entire process for a turtle (coming onto the beach, nesting, covering the nest, camouflaging the nest, and returning to the ocean) takes about two hours.\n\nNesting Phases Allowed for Observation:\nNesting Process: When the turtle lays its eggs.\nCovering Process: When the turtle covers the nest.\n\nCamouflaging Process: When the turtle camouflages the nest to prevent predation.\nDescending Process: When the turtle returns to the sea.",
           "title": "Day 2 - Canoe Tour in Tortuguero Canals and Turtle Nesting"
         },
         {
@@ -951,6 +967,7 @@
         "Private transportation with a driver.",
         "Internet connection during your stay in Costa Rica.",
         "7 nights of accommodation with breakfast and lunch included.",
+        "Hot Springs",
         "Entrance fee included to Poás Volcano National Park.",
         "Entrance fee included to Mano de Arenal Viewpoint.",
         "Coffee and chocolate tour at Don Juan.",

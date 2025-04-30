@@ -1,5 +1,10 @@
 .tours-container {
 
+  .hiper-link {
+    color: theme('colors.green');
+    font-weight: bold;
+  }
+
   .carousel-img {
     object-fit: contain;
     object-position: center;

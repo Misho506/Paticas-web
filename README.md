@@ -2,6 +2,36 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## 📦 Environment Variables Setup
+To run this project locally and enable Google Analytics tracking, follow these steps:
+
+### 1. Create a .env file
+At the root of the project (same directory as package.json), create a file named:
+
+bash
+Copy
+Edit
+`.env`
+### 2. Add the following environment variable:
+env
+Copy
+Edit
+`REACT_APP_GA_ID=<real_value>`
+🔔 Note:
+The REACT_APP_ prefix is required by Create React App for environment variables to be accessible in the frontend code.
+
+### 3. Restart your local server
+After creating or editing the .env file, you must restart the development server:
+
+bash
+Copy
+Edit
+  `npm start`
+# or
+  `yarn start`
+
+
 ## Available Scripts
 
 In the project directory, you can run:

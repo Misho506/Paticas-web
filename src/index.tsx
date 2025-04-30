@@ -10,6 +10,23 @@ import '@coreui/coreui/dist/css/coreui.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './i18n';
 
+// Load GA script dynamically
+if (process.env.REACT_APP_GA_ID) {
+  const script1 = document.createElement('script');
+  script1.setAttribute('async', '');
+  script1.src = `https://www.googletagmanager.com/gtag/js?id=${process.env.REACT_APP_GA_ID}`;
+  document.head.appendChild(script1);
+
+  const script2 = document.createElement('script');
+  script2.innerHTML = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.REACT_APP_GA_ID}');
+  `;
+  document.head.appendChild(script2);
+}
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

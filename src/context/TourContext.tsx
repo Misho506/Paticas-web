@@ -37,7 +37,7 @@ const tourInitialValue = {
   photos: [""],
   activities: [""],
   includes: [""],
-  itinerary: [{ title: "", description: "" }],
+  itinerary: [{ title: "", description: "", hotelName: "", hotelLink: "" }],
   prices: [{ price: 0, numberOfPeople: 0 }],
   childsPrice: 0
 }
