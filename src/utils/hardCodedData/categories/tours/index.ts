@@ -1,330 +1,6 @@
 import { TFunction } from 'i18next';
 import { TourType } from '../../../types';
 
-const followingQuetzal = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
-  title: t("tours.followingQuetzal.title"),
-  places: [t("tours.followingQuetzal.places.0")],
-  daysAndNights: t("tours.followingQuetzal.daysAndNights"),
-  description: t("tours.followingQuetzal.description"),
-  about: t("tours.followingQuetzal.about"),
-  days: 7,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
-  ],
-  includes: [
-    t("tours.followingQuetzal.includes.0"),
-    t("tours.followingQuetzal.includes.1"),
-    t("tours.followingQuetzal.includes.2"),
-    t("tours.followingQuetzal.includes.3"),
-    t("tours.followingQuetzal.includes.4"),
-    t("tours.followingQuetzal.includes.5"),
-    t("tours.followingQuetzal.includes.6"),
-    t("tours.followingQuetzal.includes.7"),
-    t("tours.followingQuetzal.includes.8"),
-    t("tours.followingQuetzal.includes.9"),
-    t("tours.followingQuetzal.includes.10"),
-    t("tours.followingQuetzal.includes.11"),
-    t("tours.followingQuetzal.includes.12"),
-    t("tours.followingQuetzal.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.followingQuetzal.itinerary.0.title"),
-      description: t("tours.followingQuetzal.itinerary.0.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.1.title"),
-      description: t("tours.followingQuetzal.itinerary.1.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.2.title"),
-      description: t("tours.followingQuetzal.itinerary.2.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.3.title"),
-      description: t("tours.followingQuetzal.itinerary.3.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.4.title"),
-      description: t("tours.followingQuetzal.itinerary.4.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.5.title"),
-      description: t("tours.followingQuetzal.itinerary.5.description")
-    }, {
-      title: t("tours.followingQuetzal.itinerary.6.title"),
-      description: t("tours.followingQuetzal.itinerary.6.description")
-    },
-  ],
-  prices: [
-    { price: 3256, numberOfPeople: 2 },
-    { price: 2372, numberOfPeople: 4 },
-    { price: 2076, numberOfPeople: 6 },
-  ],
-  childsPrice: 495,
-});
-
-const sunAndSand = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
-  title: t("tours.sunAndSand.title"),
-  places: [t("tours.sunAndSand.places.0")],
-  daysAndNights: t("tours.sunAndSand.daysAndNights"),
-  description: t("tours.sunAndSand.description"),
-  about: t("tours.sunAndSand.about"),
-  days: 8,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
-  ],
-  includes: [
-    t("tours.sunAndSand.includes.0"),
-    t("tours.sunAndSand.includes.1"),
-    t("tours.sunAndSand.includes.2"),
-    t("tours.sunAndSand.includes.3"),
-    t("tours.sunAndSand.includes.4"),
-    t("tours.sunAndSand.includes.5"),
-    t("tours.sunAndSand.includes.6"),
-    t("tours.sunAndSand.includes.7"),
-    t("tours.sunAndSand.includes.8"),
-    t("tours.sunAndSand.includes.9"),
-    t("tours.sunAndSand.includes.10"),
-    t("tours.sunAndSand.includes.11"),
-    t("tours.sunAndSand.includes.12"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.sunAndSand.itinerary.0.title"),
-      description: t("tours.sunAndSand.itinerary.0.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.1.title"),
-      description: t("tours.sunAndSand.itinerary.1.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.2.title"),
-      description: t("tours.sunAndSand.itinerary.2.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.3.title"),
-      description: t("tours.sunAndSand.itinerary.3.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.4.title"),
-      description: t("tours.sunAndSand.itinerary.4.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.5.title"),
-      description: t("tours.sunAndSand.itinerary.5.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.6.title"),
-      description: t("tours.sunAndSand.itinerary.6.description")
-    },
-    {
-      title: t("tours.sunAndSand.itinerary.7.title"),
-      description: t("tours.sunAndSand.itinerary.7.description")
-    },
-  ],
-  prices: [
-    { price: 3558, numberOfPeople: 2 },
-    { price: 2383, numberOfPeople: 4 },
-    { price: 2069, numberOfPeople: 6 },
-  ],
-  childsPrice: 696,
-});
-
-const volcanoes = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
-  title: t("tours.volcanoes.title"),
-  places: [t("tours.volcanoes.places.0")],
-  daysAndNights: t("tours.volcanoes.daysAndNights"),
-  description: t("tours.volcanoes.description"),
-  about: t("tours.volcanoes.about"),
-  days: 8,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00001.jpg",
-  ],
-  includes: [
-    t("tours.volcanoes.includes.0"),
-    t("tours.volcanoes.includes.1"),
-    t("tours.volcanoes.includes.2"),
-    t("tours.volcanoes.includes.3"),
-    t("tours.volcanoes.includes.4"),
-    t("tours.volcanoes.includes.5"),
-    t("tours.volcanoes.includes.6"),
-    t("tours.volcanoes.includes.7"),
-    t("tours.volcanoes.includes.8"),
-    t("tours.volcanoes.includes.9"),
-    t("tours.volcanoes.includes.10"),
-    t("tours.volcanoes.includes.11"),
-    t("tours.volcanoes.includes.12"),
-    t("tours.volcanoes.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.volcanoes.itinerary.0.title"),
-      description: t("tours.volcanoes.itinerary.0.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.1.title"),
-      description: t("tours.volcanoes.itinerary.1.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.2.title"),
-      description: t("tours.volcanoes.itinerary.2.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.3.title"),
-      description: t("tours.volcanoes.itinerary.3.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.4.title"),
-      description: t("tours.volcanoes.itinerary.4.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.5.title"),
-      description: t("tours.volcanoes.itinerary.5.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.6.title"),
-      description: t("tours.volcanoes.itinerary.6.description")
-    },
-    {
-      title: t("tours.volcanoes.itinerary.7.title"),
-      description: t("tours.volcanoes.itinerary.7.description")
-    },
-  ],
-  prices: [
-    { price: 3129, numberOfPeople: 2 },
-    { price: 2148, numberOfPeople: 4 },
-    { price: 1853, numberOfPeople: 6 },
-  ],
-  childsPrice: 667,
-});
-
-const manuelAntonio = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
-  title: t("tours.manuelAntonio.title"),
-  places: [t("tours.manuelAntonio.places.0")],
-  daysAndNights: t("tours.manuelAntonio.daysAndNights"),
-  description: t("tours.manuelAntonio.description"),
-  about: t("tours.manuelAntonio.about"),
-  days: 6,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00001.jpg",
-  ],
-  includes: [
-    t("tours.manuelAntonio.includes.0"),
-    t("tours.manuelAntonio.includes.1"),
-    t("tours.manuelAntonio.includes.2"),
-    t("tours.manuelAntonio.includes.3"),
-    t("tours.manuelAntonio.includes.4"),
-    t("tours.manuelAntonio.includes.5"),
-    t("tours.manuelAntonio.includes.6"),
-    t("tours.manuelAntonio.includes.7"),
-    t("tours.manuelAntonio.includes.8"),
-    t("tours.manuelAntonio.includes.9"),
-    t("tours.manuelAntonio.includes.10"),
-    t("tours.manuelAntonio.includes.11"),
-    t("tours.manuelAntonio.includes.12"),
-    t("tours.manuelAntonio.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.manuelAntonio.itinerary.0.title"),
-      description: t("tours.manuelAntonio.itinerary.0.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.1.title"),
-      description: t("tours.manuelAntonio.itinerary.1.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.2.title"),
-      description: t("tours.manuelAntonio.itinerary.2.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.3.title"),
-      description: t("tours.manuelAntonio.itinerary.3.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.4.title"),
-      description: t("tours.manuelAntonio.itinerary.4.description")
-    },
-    {
-      title: t("tours.manuelAntonio.itinerary.5.title"),
-      description: t("tours.manuelAntonio.itinerary.5.description")
-    },
-  ],
-  prices: [
-    { price: 2418, numberOfPeople: 2 },
-    { price: 1709, numberOfPeople: 4 },
-    { price: 1474, numberOfPeople: 6 },
-  ],
-  childsPrice: 319,
-});
 
 const wildLife = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/3._vida_silvestre_en_corcovado_y_osa-2_ndct01.jpg",
@@ -375,43 +51,158 @@ const wildLife = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.wildLife.itinerary.0.title"),
-      description: t("tours.wildLife.itinerary.0.description")
+      description: t("tours.wildLife.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.1.title"),
-      description: t("tours.wildLife.itinerary.1.description")
+      description: t("tours.wildLife.itinerary.1.description"),
+      hotelName: "Lapa Rios Lodge",
+      hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.2.title"),
-      description: t("tours.wildLife.itinerary.2.description")
+      description: t("tours.wildLife.itinerary.2.description"),
+      hotelName: "Lapa Rios Lodge",
+      hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.3.title"),
-      description: t("tours.wildLife.itinerary.3.description")
+      description: t("tours.wildLife.itinerary.3.description"),
+      hotelName: "Lapa Rios Lodge",
+      hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.4.title"),
-      description: t("tours.wildLife.itinerary.4.description")
+      description: t("tours.wildLife.itinerary.4.description"),
+      hotelName: "Lapa Rios Lodge",
+      hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.5.title"),
-      description: t("tours.wildLife.itinerary.5.description")
+      description: t("tours.wildLife.itinerary.5.description"),
+      hotelName: "Lapa Rios Lodge",
+      hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.6.title"),
-      description: t("tours.wildLife.itinerary.6.description")
+      description: t("tours.wildLife.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.7.title"),
-      description: t("tours.wildLife.itinerary.7.description")
+      description: t("tours.wildLife.itinerary.7.description"),
     },
   ],
   prices: [
-    { price: 4357, numberOfPeople: 2 },
-    { price: 3251, numberOfPeople: 4 },
-    { price: 2889, numberOfPeople: 6 }
+    { price: 4857, numberOfPeople: 2 },
+    { price: 3751, numberOfPeople: 4 },
+    { price: 3389, numberOfPeople: 6 }
   ],
-  childsPrice: 1365,
+  childsPrice: 1525,
+});
+
+const followingQuetzal = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
+  title: t("tours.followingQuetzal.title"),
+  places: [t("tours.followingQuetzal.places.0")],
+  daysAndNights: t("tours.followingQuetzal.daysAndNights"),
+  description: t("tours.followingQuetzal.description"),
+  about: t("tours.followingQuetzal.about"),
+  days: 7,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
+  ],
+  includes: [
+    t("tours.followingQuetzal.includes.0"),
+    t("tours.followingQuetzal.includes.1"),
+    t("tours.followingQuetzal.includes.2"),
+    t("tours.followingQuetzal.includes.3"),
+    t("tours.followingQuetzal.includes.4"),
+    t("tours.followingQuetzal.includes.5"),
+    t("tours.followingQuetzal.includes.6"),
+    t("tours.followingQuetzal.includes.7"),
+    t("tours.followingQuetzal.includes.8"),
+    t("tours.followingQuetzal.includes.9"),
+    t("tours.followingQuetzal.includes.10"),
+    t("tours.followingQuetzal.includes.11"),
+    t("tours.followingQuetzal.includes.12"),
+    t("tours.followingQuetzal.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.followingQuetzal.itinerary.0.title"),
+      description: t("tours.followingQuetzal.itinerary.0.description"),
+      hotelName: "Paraíso Quetzal Lodge",
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.1.title"),
+      description: t("tours.followingQuetzal.itinerary.1.description"),
+      hotelName: "Paraíso Quetzal Lodge",
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.2.title"),
+      description: t("tours.followingQuetzal.itinerary.2.description"),
+      hotelName: "Paraíso Quetzal Lodge",
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.3.title"),
+      description: t("tours.followingQuetzal.itinerary.3.description"),
+      hotelName: "Maquenque Ecolodge",
+      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.4.title"),
+      description: t("tours.followingQuetzal.itinerary.4.description"),
+      hotelName: "Maquenque Ecolodge",
+      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.5.title"),
+      description: t("tours.followingQuetzal.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    }, {
+      title: t("tours.followingQuetzal.itinerary.6.title"),
+      description: t("tours.followingQuetzal.itinerary.6.description"),
+    },
+  ],
+  prices: [
+    { price: 3631, numberOfPeople: 2 },
+    { price: 2747, numberOfPeople: 4 },
+    { price: 2451, numberOfPeople: 6 },
+  ],
+  childsPrice: 495,
 });
 
 const crocodilesAndBirds = (t: TFunction): TourType => ({
@@ -460,27 +251,45 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.crocodilesAndBirds.itinerary.0.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.0.description")
+      description: t("tours.crocodilesAndBirds.itinerary.0.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.1.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.1.description")
+      description: t("tours.crocodilesAndBirds.itinerary.1.description"),
+      hotelName: "Rancho Naturalista",
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.2.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.2.description")
+      description: t("tours.crocodilesAndBirds.itinerary.2.description"),
+      hotelName: "Rancho Naturalista",
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.3.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.3.description")
+      description: t("tours.crocodilesAndBirds.itinerary.3.description"),
+      hotelName: "Rancho Naturalista",
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.4.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.4.description")
+      description: t("tours.crocodilesAndBirds.itinerary.4.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.5.title"),
-      description: t("tours.crocodilesAndBirds.itinerary.5.description")
+      description: t("tours.crocodilesAndBirds.itinerary.5.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.6.title"),
@@ -488,221 +297,11 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 3167, numberOfPeople: 2 },
-    { price: 2355, numberOfPeople: 4 },
-    { price: 2090, numberOfPeople: 6 },
+    { price: 3492, numberOfPeople: 2 },
+    { price: 2680, numberOfPeople: 4 },
+    { price: 2415, numberOfPeople: 6 },
   ],
-  childsPrice: 1005,
-});
-
-const secretsOfCostaRica = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
-  title: t("tours.secretsOfCostaRica.title"),
-  places: [t("tours.secretsOfCostaRica.places.0")],
-  daysAndNights: t("tours.secretsOfCostaRica.daysAndNights"),
-  description: t("tours.secretsOfCostaRica.description"),
-  about: t("tours.secretsOfCostaRica.about"),
-  days: 8,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00001.jpg",
-  ],
-  includes: [
-    t("tours.secretsOfCostaRica.includes.0"),
-    t("tours.secretsOfCostaRica.includes.1"),
-    t("tours.secretsOfCostaRica.includes.2"),
-    t("tours.secretsOfCostaRica.includes.3"),
-    t("tours.secretsOfCostaRica.includes.4"),
-    t("tours.secretsOfCostaRica.includes.5"),
-    t("tours.secretsOfCostaRica.includes.6"),
-    t("tours.secretsOfCostaRica.includes.7"),
-    t("tours.secretsOfCostaRica.includes.8"),
-    t("tours.secretsOfCostaRica.includes.9"),
-    t("tours.secretsOfCostaRica.includes.10"),
-    t("tours.secretsOfCostaRica.includes.11"),
-    t("tours.secretsOfCostaRica.includes.12"),
-    t("tours.secretsOfCostaRica.includes.13"),
-    t("tours.secretsOfCostaRica.includes.14"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.0.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.0.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.1.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.1.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.2.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.2.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.3.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.3.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.4.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.4.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.5.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.5.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.6.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.6.description")
-    },
-    {
-      title: t("tours.secretsOfCostaRica.itinerary.7.title"),
-      description: t("tours.secretsOfCostaRica.itinerary.7.description")
-    },
-
-  ],
-  prices: [
-    { price: 2993, numberOfPeople: 2 },
-    { price: 2042, numberOfPeople: 4 },
-    { price: 1727, numberOfPeople: 6 },
-  ],
-  childsPrice: 371,
-});
-
-const mostPopularInCostaRica = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
-  title: t("tours.mostPopularInCostaRica.title"),
-  places: [t("tours.mostPopularInCostaRica.places.0"), t("tours.mostPopularInCostaRica.places.1"), t("tours.mostPopularInCostaRica.places.2")],
-  daysAndNights: t("tours.mostPopularInCostaRica.daysAndNights"),
-  description: t("tours.mostPopularInCostaRica.description"),
-  about: t("tours.mostPopularInCostaRica.about"),
-  days: 17,
-  photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00001.jpg",
-  ],
-  includes: [
-    t("tours.mostPopularInCostaRica.includes.0"),
-    t("tours.mostPopularInCostaRica.includes.1"),
-    t("tours.mostPopularInCostaRica.includes.2"),
-    t("tours.mostPopularInCostaRica.includes.3"),
-    t("tours.mostPopularInCostaRica.includes.4"),
-    t("tours.mostPopularInCostaRica.includes.5"),
-    t("tours.mostPopularInCostaRica.includes.6"),
-    t("tours.mostPopularInCostaRica.includes.7"),
-    t("tours.mostPopularInCostaRica.includes.8"),
-    t("tours.mostPopularInCostaRica.includes.9"),
-    t("tours.mostPopularInCostaRica.includes.10"),
-    t("tours.mostPopularInCostaRica.includes.11"),
-    t("tours.mostPopularInCostaRica.includes.12"),
-    t("tours.mostPopularInCostaRica.includes.13"),
-  ],
-  itinerary: [
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.0.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.0.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.1.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.1.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.2.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.2.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.3.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.3.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.4.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.4.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.5.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.5.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.6.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.6.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.7.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.7.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.8.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.8.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.9.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.9.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.10.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.10.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.11.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.11.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.12.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.12.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.13.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.13.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.14.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.14.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.15.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.15.description")
-    },
-    {
-      title: t("tours.mostPopularInCostaRica.itinerary.16.title"),
-      description: t("tours.mostPopularInCostaRica.itinerary.16.description")
-    },
-  ],
-  prices: [
-    { price: 6793, numberOfPeople: 2 },
-    { price: 4663, numberOfPeople: 4 },
-    { price: 4070, numberOfPeople: 6 },
-  ],
-  childsPrice: 1007,
+  childsPrice: 460,
 });
 
 const sportFishing = (t: TFunction): TourType => ({
@@ -753,27 +352,45 @@ const sportFishing = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.sportFishing.itinerary.0.title"),
-      description: t("tours.sportFishing.itinerary.0.description")
+      description: t("tours.sportFishing.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.1.title"),
-      description: t("tours.sportFishing.itinerary.1.description")
+      description: t("tours.sportFishing.itinerary.1.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.2.title"),
-      description: t("tours.sportFishing.itinerary.2.description")
+      description: t("tours.sportFishing.itinerary.2.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.3.title"),
-      description: t("tours.sportFishing.itinerary.3.description")
+      description: t("tours.sportFishing.itinerary.3.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.4.title"),
-      description: t("tours.sportFishing.itinerary.4.description")
+      description: t("tours.sportFishing.itinerary.4.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.5.title"),
-      description: t("tours.sportFishing.itinerary.5.description")
+      description: t("tours.sportFishing.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel ",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.6.title"),
@@ -781,9 +398,9 @@ const sportFishing = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 4204, numberOfPeople: 2 },
-    { price: 2569, numberOfPeople: 4 },
-    { price: 2063, numberOfPeople: 6 },
+    { price: 4939, numberOfPeople: 2 },
+    { price: 3251, numberOfPeople: 4 },
+    { price: 2728, numberOfPeople: 6 },
   ],
   childsPrice: 869,
 });
@@ -835,35 +452,59 @@ const ecoExplor = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.ecoExplor.itinerary.0.title"),
-      description: t("tours.ecoExplor.itinerary.0.description")
+      description: t("tours.ecoExplor.itinerary.0.description"),
+      hotelName: "Pacuare Lodge",
+      hotelLink: "https://www.pacuarelodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.1.title"),
-      description: t("tours.ecoExplor.itinerary.1.description")
+      description: t("tours.ecoExplor.itinerary.1.description"),
+      hotelName: "Pacuare Lodge",
+      hotelLink: "https://www.pacuarelodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.2.title"),
-      description: t("tours.ecoExplor.itinerary.2.description")
+      description: t("tours.ecoExplor.itinerary.2.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.3.title"),
-      description: t("tours.ecoExplor.itinerary.3.description")
+      description: t("tours.ecoExplor.itinerary.3.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.4.title"),
-      description: t("tours.ecoExplor.itinerary.4.description")
+      description: t("tours.ecoExplor.itinerary.4.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.5.title"),
-      description: t("tours.ecoExplor.itinerary.5.description")
+      description: t("tours.ecoExplor.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.6.title"),
-      description: t("tours.ecoExplor.itinerary.6.description")
+      description: t("tours.ecoExplor.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.7.title"),
-      description: t("tours.ecoExplor.itinerary.7.description")
+      description: t("tours.ecoExplor.itinerary.7.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.8.title"),
@@ -871,11 +512,210 @@ const ecoExplor = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 3644, numberOfPeople: 2 },
-    { price: 2538, numberOfPeople: 4 },
-    { price: 2183, numberOfPeople: 6 },
+    { price: 4938, numberOfPeople: 2 },
+    { price: 3832, numberOfPeople: 4 },
+    { price: 3477, numberOfPeople: 6 },
   ],
-  childsPrice: 670,
+  childsPrice: 910,
+});
+
+const sunAndSand = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
+  title: t("tours.sunAndSand.title"),
+  places: [t("tours.sunAndSand.places.0")],
+  daysAndNights: t("tours.sunAndSand.daysAndNights"),
+  description: t("tours.sunAndSand.description"),
+  about: t("tours.sunAndSand.about"),
+  days: 8,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
+  ],
+  includes: [
+    t("tours.sunAndSand.includes.0"),
+    t("tours.sunAndSand.includes.1"),
+    t("tours.sunAndSand.includes.2"),
+    t("tours.sunAndSand.includes.3"),
+    t("tours.sunAndSand.includes.4"),
+    t("tours.sunAndSand.includes.5"),
+    t("tours.sunAndSand.includes.6"),
+    t("tours.sunAndSand.includes.7"),
+    t("tours.sunAndSand.includes.8"),
+    t("tours.sunAndSand.includes.9"),
+    t("tours.sunAndSand.includes.10"),
+    t("tours.sunAndSand.includes.11"),
+    t("tours.sunAndSand.includes.12"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.sunAndSand.itinerary.0.title"),
+      description: t("tours.sunAndSand.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.1.title"),
+      description: t("tours.sunAndSand.itinerary.1.description"),
+      hotelName: "Occidental Tamarindo - All Inclusive",
+      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.2.title"),
+      description: t("tours.sunAndSand.itinerary.2.description"),
+      hotelName: "Occidental Tamarindo - All Inclusive",
+      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.3.title"),
+      description: t("tours.sunAndSand.itinerary.3.description"),
+      hotelName: "The Green House",
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.4.title"),
+      description: t("tours.sunAndSand.itinerary.4.description"),
+      hotelName: "The Green House",
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.5.title"),
+      description: t("tours.sunAndSand.itinerary.5.description"),
+      hotelName: "The Green House",
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.6.title"),
+      description: t("tours.sunAndSand.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.sunAndSand.itinerary.7.title"),
+      description: t("tours.sunAndSand.itinerary.7.description")
+    },
+  ],
+  prices: [
+    { price: 4308, numberOfPeople: 2 },
+    { price: 3133, numberOfPeople: 4 },
+    { price: 2819, numberOfPeople: 6 },
+  ],
+  childsPrice: 696,
+});
+
+const manuelAntonio = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
+  title: t("tours.manuelAntonio.title"),
+  places: [t("tours.manuelAntonio.places.0")],
+  daysAndNights: t("tours.manuelAntonio.daysAndNights"),
+  description: t("tours.manuelAntonio.description"),
+  about: t("tours.manuelAntonio.about"),
+  days: 6,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00001.jpg",
+  ],
+  includes: [
+    t("tours.manuelAntonio.includes.0"),
+    t("tours.manuelAntonio.includes.1"),
+    t("tours.manuelAntonio.includes.2"),
+    t("tours.manuelAntonio.includes.3"),
+    t("tours.manuelAntonio.includes.4"),
+    t("tours.manuelAntonio.includes.5"),
+    t("tours.manuelAntonio.includes.6"),
+    t("tours.manuelAntonio.includes.7"),
+    t("tours.manuelAntonio.includes.8"),
+    t("tours.manuelAntonio.includes.9"),
+    t("tours.manuelAntonio.includes.10"),
+    t("tours.manuelAntonio.includes.11"),
+    t("tours.manuelAntonio.includes.12"),
+    t("tours.manuelAntonio.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.manuelAntonio.itinerary.0.title"),
+      description: t("tours.manuelAntonio.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.1.title"),
+      description: t("tours.manuelAntonio.itinerary.1.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.2.title"),
+      description: t("tours.manuelAntonio.itinerary.2.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.3.title"),
+      description: t("tours.manuelAntonio.itinerary.3.description"),
+      hotelName: "Parador Nature Resort and Spa",
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.4.title"),
+      description: t("tours.manuelAntonio.itinerary.4.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.manuelAntonio.itinerary.5.title"),
+      description: t("tours.manuelAntonio.itinerary.5.description")
+    },
+  ],
+  prices: [
+    { price: 2968, numberOfPeople: 2 },
+    { price: 2259, numberOfPeople: 4 },
+    { price: 2024, numberOfPeople: 6 },
+  ],
+  childsPrice: 420,
 });
 
 const turtlesAndWhales = (t: TFunction): TourType => ({
@@ -927,27 +767,45 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.turtlesAndWhales.itinerary.0.title"),
-      description: t("tours.turtlesAndWhales.itinerary.0.description")
+      description: t("tours.turtlesAndWhales.itinerary.0.description"),
+      hotelName: "Aninga Lodge",
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.1.title"),
-      description: t("tours.turtlesAndWhales.itinerary.1.description")
+      description: t("tours.turtlesAndWhales.itinerary.1.description"),
+      hotelName: "Aninga Lodge",
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.2.title"),
-      description: t("tours.turtlesAndWhales.itinerary.2.description")
+      description: t("tours.turtlesAndWhales.itinerary.2.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.3.title"),
-      description: t("tours.turtlesAndWhales.itinerary.3.description")
+      description: t("tours.turtlesAndWhales.itinerary.3.description"),
+      hotelName: "La Cusinga Lodge",
+      hotelLink: "https://www.lacusingalodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.4.title"),
-      description: t("tours.turtlesAndWhales.itinerary.4.description")
+      description: t("tours.turtlesAndWhales.itinerary.4.description"),
+      hotelName: "La Cusinga Lodge",
+      hotelLink: "https://www.lacusingalodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.5.title"),
-      description: t("tours.turtlesAndWhales.itinerary.5.description")
+      description: t("tours.turtlesAndWhales.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.6.title"),
@@ -955,11 +813,118 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 2830, numberOfPeople: 2 },
-    { price: 1977, numberOfPeople: 4 },
-    { price: 1688, numberOfPeople: 6 },
+    { price: 3355, numberOfPeople: 2 },
+    { price: 2502, numberOfPeople: 4 },
+    { price: 2213, numberOfPeople: 6 },
   ],
   childsPrice: 389,
+});
+
+const volcanoes = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
+  title: t("tours.volcanoes.title"),
+  places: [t("tours.volcanoes.places.0")],
+  daysAndNights: t("tours.volcanoes.daysAndNights"),
+  description: t("tours.volcanoes.description"),
+  about: t("tours.volcanoes.about"),
+  days: 8,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00001.jpg",
+  ],
+  includes: [
+    t("tours.volcanoes.includes.0"),
+    t("tours.volcanoes.includes.1"),
+    t("tours.volcanoes.includes.2"),
+    t("tours.volcanoes.includes.3"),
+    t("tours.volcanoes.includes.4"),
+    t("tours.volcanoes.includes.5"),
+    t("tours.volcanoes.includes.6"),
+    t("tours.volcanoes.includes.7"),
+    t("tours.volcanoes.includes.8"),
+    t("tours.volcanoes.includes.9"),
+    t("tours.volcanoes.includes.10"),
+    t("tours.volcanoes.includes.11"),
+    t("tours.volcanoes.includes.12"),
+    t("tours.volcanoes.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.volcanoes.itinerary.0.title"),
+      description: t("tours.volcanoes.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.1.title"),
+      description: t("tours.volcanoes.itinerary.1.description"),
+      hotelName: "Casas del Toro",
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.2.title"),
+      description: t("tours.volcanoes.itinerary.2.description"),
+      hotelName: "Casas del Toro",
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.3.title"),
+      description: t("tours.volcanoes.itinerary.3.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.4.title"),
+      description: t("tours.volcanoes.itinerary.4.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.5.title"),
+      description: t("tours.volcanoes.itinerary.5.description"),
+      hotelName: "Baldi Hot Springs",
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.6.title"),
+      description: t("tours.volcanoes.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.volcanoes.itinerary.7.title"),
+      description: t("tours.volcanoes.itinerary.7.description")
+    },
+  ],
+  prices: [
+    { price: 4263, numberOfPeople: 2 },
+    { price: 3282, numberOfPeople: 4 },
+    { price: 2987, numberOfPeople: 6 },
+  ],
+  childsPrice: 667,
 });
 
 const southCaribean = (t: TFunction): TourType => ({
@@ -1013,27 +978,45 @@ const southCaribean = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.southCaribean.itinerary.0.title"),
-      description: t("tours.southCaribean.itinerary.0.description")
+      description: t("tours.southCaribean.itinerary.0.description"),
+      hotelName: "Hotel Grano de Oro",
+      hotelLink: "https://www.hotelgranodeoro.com/index.html",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.1.title"),
-      description: t("tours.southCaribean.itinerary.1.description")
+      description: t("tours.southCaribean.itinerary.1.description"),
+      hotelName: "Hotel Aguas Claras",
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.2.title"),
-      description: t("tours.southCaribean.itinerary.2.description")
+      description: t("tours.southCaribean.itinerary.2.description"),
+      hotelName: "Hotel Aguas Claras",
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.3.title"),
-      description: t("tours.southCaribean.itinerary.3.description")
+      description: t("tours.southCaribean.itinerary.3.description"),
+      hotelName: "Hotel Aguas Claras",
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.4.title"),
-      description: t("tours.southCaribean.itinerary.4.description")
+      description: t("tours.southCaribean.itinerary.4.description"),
+      hotelName: "Aninga Lodge",
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.5.title"),
-      description: t("tours.southCaribean.itinerary.5.description")
+      description: t("tours.southCaribean.itinerary.5.description"),
+      hotelName: "Hotel Grano de Oro",
+      hotelLink: "https://www.hotelgranodeoro.com/index.html",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.6.title"),
@@ -1041,9 +1024,9 @@ const southCaribean = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 2694, numberOfPeople: 2 },
-    { price: 1849, numberOfPeople: 4 },
-    { price: 1476, numberOfPeople: 6 },
+    { price: 3344, numberOfPeople: 2 },
+    { price: 2499, numberOfPeople: 4 },
+    { price: 2126, numberOfPeople: 6 },
   ],
   childsPrice: 423,
 });
@@ -1095,31 +1078,52 @@ const tropicalTranquility = (t: TFunction): TourType => ({
   itinerary: [
     {
       title: t("tours.tropicalTranquility.itinerary.0.title"),
-      description: t("tours.tropicalTranquility.itinerary.0.description")
+      description: t("tours.tropicalTranquility.itinerary.0.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.1.title"),
-      description: t("tours.tropicalTranquility.itinerary.1.description")
+      description: t("tours.tropicalTranquility.itinerary.1.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.2.title"),
-      description: t("tours.tropicalTranquility.itinerary.2.description")
+      description: t("tours.tropicalTranquility.itinerary.2.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.3.title"),
-      description: t("tours.tropicalTranquility.itinerary.3.description")
+      description: t("tours.tropicalTranquility.itinerary.3.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.4.title"),
-      description: t("tours.tropicalTranquility.itinerary.4.description")
+      description: t("tours.tropicalTranquility.itinerary.4.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.5.title"),
-      description: t("tours.tropicalTranquility.itinerary.5.description")
+      description: t("tours.tropicalTranquility.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.6.title"),
-      description: t("tours.tropicalTranquility.itinerary.6.description")
+      description: t("tours.tropicalTranquility.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.7.title"),
@@ -1127,12 +1131,296 @@ const tropicalTranquility = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 3353, numberOfPeople: 2 },
-    { price: 2372, numberOfPeople: 4 },
-    { price: 2057, numberOfPeople: 6 },
+    { price: 4417, numberOfPeople: 2 },
+    { price: 3436, numberOfPeople: 4 },
+    { price: 3121, numberOfPeople: 6 },
   ],
-  childsPrice: 551,
+  childsPrice: 641,
 });
+
+const secretsOfCostaRica = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
+  title: t("tours.secretsOfCostaRica.title"),
+  places: [t("tours.secretsOfCostaRica.places.0")],
+  daysAndNights: t("tours.secretsOfCostaRica.daysAndNights"),
+  description: t("tours.secretsOfCostaRica.description"),
+  about: t("tours.secretsOfCostaRica.about"),
+  days: 8,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00001.jpg",
+  ],
+  includes: [
+    t("tours.secretsOfCostaRica.includes.0"),
+    t("tours.secretsOfCostaRica.includes.1"),
+    t("tours.secretsOfCostaRica.includes.2"),
+    t("tours.secretsOfCostaRica.includes.3"),
+    t("tours.secretsOfCostaRica.includes.4"),
+    t("tours.secretsOfCostaRica.includes.5"),
+    t("tours.secretsOfCostaRica.includes.6"),
+    t("tours.secretsOfCostaRica.includes.7"),
+    t("tours.secretsOfCostaRica.includes.8"),
+    t("tours.secretsOfCostaRica.includes.9"),
+    t("tours.secretsOfCostaRica.includes.10"),
+    t("tours.secretsOfCostaRica.includes.11"),
+    t("tours.secretsOfCostaRica.includes.12"),
+    t("tours.secretsOfCostaRica.includes.13"),
+    t("tours.secretsOfCostaRica.includes.14"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.0.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.0.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.1.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.1.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.2.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.2.description"),
+      hotelName: "El Silencio Lodge & Spa",
+      hotelLink: "https://www.elsilenciolodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.3.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.3.description"),
+      hotelName: "El Silencio Lodge & Spa",
+      hotelLink: "https://www.elsilenciolodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.4.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.4.description"),
+      hotelName: "Hotel Cayuga",
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.5.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.5.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.6.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.6.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.secretsOfCostaRica.itinerary.7.title"),
+      description: t("tours.secretsOfCostaRica.itinerary.7.description")
+    },
+
+  ],
+  prices: [
+    { price: 4153, numberOfPeople: 2 },
+    { price: 3192, numberOfPeople: 4 },
+    { price: 2887, numberOfPeople: 6 },
+  ],
+  childsPrice: 400,
+});
+
+const mostPopularInCostaRica = (t: TFunction): TourType => ({
+  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
+  title: t("tours.mostPopularInCostaRica.title"),
+  places: [t("tours.mostPopularInCostaRica.places.0"), t("tours.mostPopularInCostaRica.places.1"), t("tours.mostPopularInCostaRica.places.2")],
+  daysAndNights: t("tours.mostPopularInCostaRica.daysAndNights"),
+  description: t("tours.mostPopularInCostaRica.description"),
+  about: t("tours.mostPopularInCostaRica.about"),
+  days: 17,
+  photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00001.jpg",
+  ],
+  includes: [
+    t("tours.mostPopularInCostaRica.includes.0"),
+    t("tours.mostPopularInCostaRica.includes.1"),
+    t("tours.mostPopularInCostaRica.includes.2"),
+    t("tours.mostPopularInCostaRica.includes.3"),
+    t("tours.mostPopularInCostaRica.includes.4"),
+    t("tours.mostPopularInCostaRica.includes.5"),
+    t("tours.mostPopularInCostaRica.includes.6"),
+    t("tours.mostPopularInCostaRica.includes.7"),
+    t("tours.mostPopularInCostaRica.includes.8"),
+    t("tours.mostPopularInCostaRica.includes.9"),
+    t("tours.mostPopularInCostaRica.includes.10"),
+    t("tours.mostPopularInCostaRica.includes.11"),
+    t("tours.mostPopularInCostaRica.includes.12"),
+    t("tours.mostPopularInCostaRica.includes.13"),
+  ],
+  itinerary: [
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.0.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.0.description"),
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.1.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.1.description"),
+      hotelName: "Hotel Aguas Claras",
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.2.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.2.description"),
+      hotelName: "Hotel Aguas Claras",
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.3.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.3.description"),
+      hotelName: "Aninga Lodge",
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.4.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.4.description"),
+      hotelName: "Aninga Lodge",
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.5.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.5.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.6.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.6.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.7.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.7.description"),
+      hotelName: "Tabacón Grand Spa Thermal Resort",
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.8.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.8.description"),
+      hotelName: "Casas del Toro",
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.9.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.9.description"),
+      hotelName: "Casas del Toro",
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.10.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.10.description"),
+      hotelName: "Hotel Cayuga",
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.11.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.11.description"),
+      hotelName: "Hotel Cayuga",
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.12.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.12.description"),
+      hotelName: "The Green House",
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.13.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.13.description"),
+      hotelName: "The Green House",
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.14.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.14.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.15.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.15.description"),
+      hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
+    },
+    {
+      title: t("tours.mostPopularInCostaRica.itinerary.16.title"),
+      description: t("tours.mostPopularInCostaRica.itinerary.16.description")
+    },
+  ],
+  prices: [
+    { price: 8857, numberOfPeople: 2 },
+    { price: 6727, numberOfPeople: 4 },
+    { price: 6134, numberOfPeople: 6 },
+  ],
+  childsPrice: 1040,
+});
+
+
+
+
+
 
 const allTours = (t: TFunction): Array<TourType> => [
   followingQuetzal(t),
