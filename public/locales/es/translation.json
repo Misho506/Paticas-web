@@ -196,7 +196,8 @@
       "Tours",
       "Impuestos incluidos",
       "Guía turístico privado durante toda tu estadía"
-    ]
+    ],
+    "dinnerIncludes": "Desayuno, almuerzo y cena"
   },
   "partners": "Patrocinadores",
   "passportId": "Número de Pasaporte",

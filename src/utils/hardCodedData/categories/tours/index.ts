@@ -54,42 +54,49 @@ const wildLife = (t: TFunction): TourType => ({
       description: t("tours.wildLife.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
       hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.1.title"),
       description: t("tours.wildLife.itinerary.1.description"),
       hotelName: "Lapa Rios Lodge",
       hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.2.title"),
       description: t("tours.wildLife.itinerary.2.description"),
       hotelName: "Lapa Rios Lodge",
       hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.3.title"),
       description: t("tours.wildLife.itinerary.3.description"),
       hotelName: "Lapa Rios Lodge",
       hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.4.title"),
       description: t("tours.wildLife.itinerary.4.description"),
       hotelName: "Lapa Rios Lodge",
       hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.5.title"),
       description: t("tours.wildLife.itinerary.5.description"),
       hotelName: "Lapa Rios Lodge",
       hotelLink: "https://www.laparios.com/lapa-villas/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.6.title"),
       description: t("tours.wildLife.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
       hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.wildLife.itinerary.7.title"),
@@ -153,32 +160,38 @@ const followingQuetzal = (t: TFunction): TourType => ({
       title: t("tours.followingQuetzal.itinerary.0.title"),
       description: t("tours.followingQuetzal.itinerary.0.description"),
       hotelName: "Paraíso Quetzal Lodge",
-      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php"
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.1.title"),
       description: t("tours.followingQuetzal.itinerary.1.description"),
       hotelName: "Paraíso Quetzal Lodge",
-      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php"
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.2.title"),
       description: t("tours.followingQuetzal.itinerary.2.description"),
       hotelName: "Paraíso Quetzal Lodge",
-      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php"
+      hotelLink: "https://www.paraisoquetzal.com/en/hotel.php",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.3.title"),
       description: t("tours.followingQuetzal.itinerary.3.description"),
       hotelName: "Maquenque Ecolodge",
-      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1"
+      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.4.title"),
       description: t("tours.followingQuetzal.itinerary.4.description"),
       hotelName: "Maquenque Ecolodge",
-      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1"
+      hotelLink: "https://maquenqueecolodge.com/?gdp=affilired&_affclk=adn%3A3817%3A%3Ae60043b31fa01c3650732bb4f97dd725%3A8002y1",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.5.title"),
       description: t("tours.followingQuetzal.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     }, {
       title: t("tours.followingQuetzal.itinerary.6.title"),
       description: t("tours.followingQuetzal.itinerary.6.description"),
@@ -240,37 +253,43 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
       title: t("tours.crocodilesAndBirds.itinerary.0.title"),
       description: t("tours.crocodilesAndBirds.itinerary.0.description"),
       hotelName: "InterContinental Costa Rica at Multiplaza Mall",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.1.title"),
       description: t("tours.crocodilesAndBirds.itinerary.1.description"),
       hotelName: "Rancho Naturalista",
-      hotelLink: "https://ranchonaturalista.com/"
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.2.title"),
       description: t("tours.crocodilesAndBirds.itinerary.2.description"),
       hotelName: "Rancho Naturalista",
-      hotelLink: "https://ranchonaturalista.com/"
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.3.title"),
       description: t("tours.crocodilesAndBirds.itinerary.3.description"),
       hotelName: "Rancho Naturalista",
-      hotelLink: "https://ranchonaturalista.com/"
+      hotelLink: "https://ranchonaturalista.com/",
+      mealsIncluded: t("ourTours.dinnerIncludes")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.4.title"),
       description: t("tours.crocodilesAndBirds.itinerary.4.description"),
-      hotelName: "InterContinental Costa Rica at Multiplaza Mall o similar",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelName: "InterContinental Costa Rica at Multiplaza Mall",
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.5.title"),
       description: t("tours.crocodilesAndBirds.itinerary.5.description"),
       hotelName: "InterContinental Costa Rica at Multiplaza Mall",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.crocodilesAndBirds.itinerary.6.title"),
@@ -335,37 +354,43 @@ const sportFishing = (t: TFunction): TourType => ({
       title: t("tours.sportFishing.itinerary.0.title"),
       description: t("tours.sportFishing.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.1.title"),
       description: t("tours.sportFishing.itinerary.1.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.2.title"),
       description: t("tours.sportFishing.itinerary.2.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.3.title"),
       description: t("tours.sportFishing.itinerary.3.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.4.title"),
       description: t("tours.sportFishing.itinerary.4.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.5.title"),
       description: t("tours.sportFishing.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel ",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sportFishing.itinerary.6.title"),
@@ -429,49 +454,57 @@ const ecoExplor = (t: TFunction): TourType => ({
       title: t("tours.ecoExplor.itinerary.0.title"),
       description: t("tours.ecoExplor.itinerary.0.description"),
       hotelName: "Pacuare Lodge",
-      hotelLink: "https://www.pacuarelodge.com/"
+      hotelLink: "https://www.pacuarelodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.1.title"),
       description: t("tours.ecoExplor.itinerary.1.description"),
       hotelName: "Pacuare Lodge",
-      hotelLink: "https://www.pacuarelodge.com/"
+      hotelLink: "https://www.pacuarelodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.2.title"),
       description: t("tours.ecoExplor.itinerary.2.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.3.title"),
       description: t("tours.ecoExplor.itinerary.3.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.4.title"),
       description: t("tours.ecoExplor.itinerary.4.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.5.title"),
       description: t("tours.ecoExplor.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.6.title"),
       description: t("tours.ecoExplor.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.7.title"),
       description: t("tours.ecoExplor.itinerary.7.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.ecoExplor.itinerary.8.title"),
@@ -534,43 +567,50 @@ const sunAndSand = (t: TFunction): TourType => ({
       title: t("tours.sunAndSand.itinerary.0.title"),
       description: t("tours.sunAndSand.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.1.title"),
       description: t("tours.sunAndSand.itinerary.1.description"),
       hotelName: "Occidental Tamarindo - All Inclusive",
-      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/"
+      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.2.title"),
       description: t("tours.sunAndSand.itinerary.2.description"),
       hotelName: "Occidental Tamarindo - All Inclusive",
-      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/"
+      hotelLink: "https://www.barcelo.com/en-us/occidental-tamarindo/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.3.title"),
       description: t("tours.sunAndSand.itinerary.3.description"),
       hotelName: "The Green House",
-      hotelLink: "https://www.thegreenhouse.cr/"
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.4.title"),
       description: t("tours.sunAndSand.itinerary.4.description"),
       hotelName: "The Green House",
-      hotelLink: "https://www.thegreenhouse.cr/"
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.5.title"),
       description: t("tours.sunAndSand.itinerary.5.description"),
       hotelName: "The Green House",
-      hotelLink: "https://www.thegreenhouse.cr/"
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.6.title"),
       description: t("tours.sunAndSand.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.sunAndSand.itinerary.7.title"),
@@ -634,31 +674,36 @@ const manuelAntonio = (t: TFunction): TourType => ({
       title: t("tours.manuelAntonio.itinerary.0.title"),
       description: t("tours.manuelAntonio.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.manuelAntonio.itinerary.1.title"),
       description: t("tours.manuelAntonio.itinerary.1.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.manuelAntonio.itinerary.2.title"),
       description: t("tours.manuelAntonio.itinerary.2.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.manuelAntonio.itinerary.3.title"),
       description: t("tours.manuelAntonio.itinerary.3.description"),
       hotelName: "Parador Nature Resort and Spa",
-      hotelLink: "https://hotelparador.com/"
+      hotelLink: "https://hotelparador.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.manuelAntonio.itinerary.4.title"),
       description: t("tours.manuelAntonio.itinerary.4.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.manuelAntonio.itinerary.5.title"),
@@ -724,37 +769,43 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
       title: t("tours.turtlesAndWhales.itinerary.0.title"),
       description: t("tours.turtlesAndWhales.itinerary.0.description"),
       hotelName: "Aninga Lodge",
-      hotelLink: "https://www.aningalodgetortuguero.com/"
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.1.title"),
       description: t("tours.turtlesAndWhales.itinerary.1.description"),
       hotelName: "Aninga Lodge",
-      hotelLink: "https://www.aningalodgetortuguero.com/"
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.2.title"),
       description: t("tours.turtlesAndWhales.itinerary.2.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.3.title"),
       description: t("tours.turtlesAndWhales.itinerary.3.description"),
       hotelName: "La Cusinga Lodge",
-      hotelLink: "https://www.lacusingalodge.com/"
+      hotelLink: "https://www.lacusingalodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.4.title"),
       description: t("tours.turtlesAndWhales.itinerary.4.description"),
       hotelName: "La Cusinga Lodge",
-      hotelLink: "https://www.lacusingalodge.com/"
+      hotelLink: "https://www.lacusingalodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.5.title"),
       description: t("tours.turtlesAndWhales.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.turtlesAndWhales.itinerary.6.title"),
@@ -818,43 +869,50 @@ const volcanoes = (t: TFunction): TourType => ({
       title: t("tours.volcanoes.itinerary.0.title"),
       description: t("tours.volcanoes.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.1.title"),
       description: t("tours.volcanoes.itinerary.1.description"),
       hotelName: "Casas del Toro",
-      hotelLink: "https://www.casasdeltoro.com/monteverde"
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.2.title"),
       description: t("tours.volcanoes.itinerary.2.description"),
       hotelName: "Casas del Toro",
-      hotelLink: "https://www.casasdeltoro.com/monteverde"
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.3.title"),
       description: t("tours.volcanoes.itinerary.3.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.4.title"),
       description: t("tours.volcanoes.itinerary.4.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.5.title"),
       description: t("tours.volcanoes.itinerary.5.description"),
       hotelName: "Baldi Hot Springs",
-      hotelLink: "https://baldihotsprings.cr/"
+      hotelLink: "https://baldihotsprings.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.6.title"),
       description: t("tours.volcanoes.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.volcanoes.itinerary.7.title"),
@@ -922,37 +980,43 @@ const southCaribean = (t: TFunction): TourType => ({
       title: t("tours.southCaribean.itinerary.0.title"),
       description: t("tours.southCaribean.itinerary.0.description"),
       hotelName: "Hotel Grano de Oro",
-      hotelLink: "https://www.hotelgranodeoro.com/index.html"
+      hotelLink: "https://www.hotelgranodeoro.com/index.html",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.1.title"),
       description: t("tours.southCaribean.itinerary.1.description"),
       hotelName: "Hotel Aguas Claras",
-      hotelLink: "https://hotelaguasclaras.com/"
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.2.title"),
       description: t("tours.southCaribean.itinerary.2.description"),
       hotelName: "Hotel Aguas Claras",
-      hotelLink: "https://hotelaguasclaras.com/"
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.3.title"),
       description: t("tours.southCaribean.itinerary.3.description"),
       hotelName: "Hotel Aguas Claras",
-      hotelLink: "https://hotelaguasclaras.com/"
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.4.title"),
       description: t("tours.southCaribean.itinerary.4.description"),
       hotelName: "Aninga Lodge",
-      hotelLink: "https://www.aningalodgetortuguero.com/"
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.5.title"),
       description: t("tours.southCaribean.itinerary.5.description"),
       hotelName: "Hotel Grano de Oro",
-      hotelLink: "https://www.hotelgranodeoro.com/index.html"
+      hotelLink: "https://www.hotelgranodeoro.com/index.html",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.southCaribean.itinerary.6.title"),
@@ -1016,43 +1080,50 @@ const tropicalTranquility = (t: TFunction): TourType => ({
       title: t("tours.tropicalTranquility.itinerary.0.title"),
       description: t("tours.tropicalTranquility.itinerary.0.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.1.title"),
       description: t("tours.tropicalTranquility.itinerary.1.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.2.title"),
       description: t("tours.tropicalTranquility.itinerary.2.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.3.title"),
       description: t("tours.tropicalTranquility.itinerary.3.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.4.title"),
       description: t("tours.tropicalTranquility.itinerary.4.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.5.title"),
       description: t("tours.tropicalTranquility.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.6.title"),
       description: t("tours.tropicalTranquility.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.tropicalTranquility.itinerary.7.title"),
@@ -1117,43 +1188,50 @@ const secretsOfCostaRica = (t: TFunction): TourType => ({
       title: t("tours.secretsOfCostaRica.itinerary.0.title"),
       description: t("tours.secretsOfCostaRica.itinerary.0.description"),
       hotelName: "InterContinental Costa Rica at Multiplaza Mall",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.1.title"),
       description: t("tours.secretsOfCostaRica.itinerary.1.description"),
       hotelName: "InterContinental Costa Rica at Multiplaza Mall",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.2.title"),
       description: t("tours.secretsOfCostaRica.itinerary.2.description"),
       hotelName: "El Silencio Lodge & Spa",
-      hotelLink: "https://www.elsilenciolodge.com/"
+      hotelLink: "https://www.elsilenciolodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.3.title"),
       description: t("tours.secretsOfCostaRica.itinerary.3.description"),
       hotelName: "El Silencio Lodge & Spa",
-      hotelLink: "https://www.elsilenciolodge.com/"
+      hotelLink: "https://www.elsilenciolodge.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.4.title"),
       description: t("tours.secretsOfCostaRica.itinerary.4.description"),
       hotelName: "Hotel Cayuga",
-      hotelLink: "https://hotelcayuga.com/"
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.5.title"),
       description: t("tours.secretsOfCostaRica.itinerary.5.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.6.title"),
       description: t("tours.secretsOfCostaRica.itinerary.6.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.secretsOfCostaRica.itinerary.7.title"),
@@ -1218,97 +1296,113 @@ const mostPopularInCostaRica = (t: TFunction): TourType => ({
       title: t("tours.mostPopularInCostaRica.itinerary.0.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.0.description"),
       hotelName: "InterContinental Costa Rica at Multiplaza Mall",
-      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f"
+      hotelLink: "https://www.ihg.com/intercontinental/hotels/us/en/san-jose/sjoha/hoteldetail/rooms?msockid=237b4a4cfd546bc30831582afc4e6a7f",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.1.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.1.description"),
       hotelName: "Hotel Aguas Claras",
-      hotelLink: "https://hotelaguasclaras.com/"
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.2.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.2.description"),
       hotelName: "Hotel Aguas Claras",
-      hotelLink: "https://hotelaguasclaras.com/"
+      hotelLink: "https://hotelaguasclaras.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.3.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.3.description"),
       hotelName: "Aninga Lodge",
-      hotelLink: "https://www.aningalodgetortuguero.com/"
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.4.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.4.description"),
       hotelName: "Aninga Lodge",
-      hotelLink: "https://www.aningalodgetortuguero.com/"
+      hotelLink: "https://www.aningalodgetortuguero.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.5.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.5.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.6.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.6.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.7.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.7.description"),
       hotelName: "Tabacón Grand Spa Thermal Resort",
-      hotelLink: "https://www.tabacon.com/"
+      hotelLink: "https://www.tabacon.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.8.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.8.description"),
       hotelName: "Casas del Toro",
-      hotelLink: "https://www.casasdeltoro.com/monteverde"
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.9.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.9.description"),
       hotelName: "Casas del Toro",
-      hotelLink: "https://www.casasdeltoro.com/monteverde"
+      hotelLink: "https://www.casasdeltoro.com/monteverde",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.10.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.10.description"),
       hotelName: "Hotel Cayuga",
-      hotelLink: "https://hotelcayuga.com/"
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.11.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.11.description"),
       hotelName: "Hotel Cayuga",
-      hotelLink: "https://hotelcayuga.com/"
+      hotelLink: "https://hotelcayuga.com/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.12.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.12.description"),
       hotelName: "The Green House",
-      hotelLink: "https://www.thegreenhouse.cr/"
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.13.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.13.description"),
       hotelName: "The Green House",
-      hotelLink: "https://www.thegreenhouse.cr/"
+      hotelLink: "https://www.thegreenhouse.cr/",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.14.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.14.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.15.title"),
       description: t("tours.mostPopularInCostaRica.itinerary.15.description"),
       hotelName: "Holiday Inn Express San Jose Costa Rica Airport Hotel",
-      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi"
+      hotelLink: "https://www.ihg.com/holidayinnexpress/hotels/us/es/san-jose/sjoap/hoteldetail/rooms?fromRedirect=true&qSrt=sBR&qDest=San%20Jose,%20Costa%20Rica&setPMCookies=true&dp=true&showApp=false&cm_mmc=PDSEA-_-M_F-AMER_FS-MLAC_H-AMER_HS-CRI_EX_BSF_EXM_HOTEL-SJOIN_ES&msclkid=1062d53645c51374b06bbd319a649944&srb_u=1&qRad=30&qRdU=mi",
+      mealsIncluded: t("ourTours.includes.4")
     },
     {
       title: t("tours.mostPopularInCostaRica.itinerary.16.title"),
@@ -1316,11 +1410,11 @@ const mostPopularInCostaRica = (t: TFunction): TourType => ({
     },
   ],
   prices: [
-    { price: 6793, numberOfPeople: 2 },
-    { price: 4663, numberOfPeople: 4 },
-    { price: 4070, numberOfPeople: 6 },
+    { price: 8857, numberOfPeople: 2 },
+    { price: 6727, numberOfPeople: 4 },
+    { price: 6134, numberOfPeople: 6 },
   ],
-  childsPrice: 1007,
+  childsPrice: 1040,
 });
 
 

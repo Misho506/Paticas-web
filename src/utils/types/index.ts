@@ -81,6 +81,7 @@ type ItineraryType = {
   description: string;
   hotelName?: string;
   hotelLink?: string;
+  mealsIncluded?: string;
 };
 
 type PostCarrouselProps = {
