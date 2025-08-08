@@ -5,13 +5,15 @@ import Modal from "../modal/Modal";
 import { useTranslation } from "react-i18next";
 import IconWithName from "../../assets/icons/Fondo Verde Oscuro@2x.png";
 import "./Header.css";
-import { useState } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
 
 const Header = () => {
   const navigate = useNavigate();
   const { i18n } = useTranslation();
   const [openModal, setOpenModal] = useState<boolean>(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isToursOpen, setIsToursOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const navButtons = [
     {
@@ -29,8 +31,37 @@ const Header = () => {
     {
       name: i18n.t('headers.3.name'),
       link: i18n.t('headers.3.link')
-    },
+    }
   ]
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsToursOpen(false);
+        setIsOpen(false);
+      }
+    };
+
+    if (isToursOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isToursOpen]);
+
+  const toursMenu = (children: ReactNode) => (
+    <div className="relative text-center content-center" ref={menuRef}>
+      {children}
+      {isToursOpen && (
+        <div className="absolute flex flex-col text-justify-left left-0 text-white mt-2 mobile-links w-max rounded-md z-50 border-1 border-black">
+          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
+          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
+        </div>
+      )}
+    </div>
+  );
 
   return (
     <header className="flex h-20 flex-row items-center justify-between header-container">
@@ -39,7 +70,14 @@ const Header = () => {
         <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
       </section>
       <section className="hidden sm:flex navbar-links justify-around">
-        {navButtons.map((navButton, index) => <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>)}
+        {navButtons.map((navButton, index) => (
+          index === 0 ? (
+            toursMenu(
+              <button key={index} className="p-3 text-white hover:rounded" onClick={() => setIsToursOpen((prev) => !prev)}>{i18n.t('toursLabel')}</button>
+            )
+          ) : (
+            <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>
+          )))}
       </section>
       <section className="pr-4 sm:pr-16 text-white mb-1 flex">
         <MdOutlineShoppingCart
@@ -63,13 +101,15 @@ const Header = () => {
             </button>
           </article>
           <article className="flex flex-col">
-            {navButtons.map((navButton, index) => <button key={index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>)}
-
+            <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
+            <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
+            {navButtons.map((navButton, index) => (
+              index > 0 && <button key={index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>
+            ))}
           </article>
         </div>
       </section>
     </header>
   )
 }
-
 export default Header;

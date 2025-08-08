@@ -152,6 +152,10 @@
     {
       "name": "Contact",
       "link": "/contact"
+    },
+    {
+      "name": "One day Tours",
+      "link": "/one-day-tours"
     }
   ],
   "includes": "Includes",
@@ -270,6 +274,7 @@
   "subscribe": "Subscribe",
   "totalPrice": "Total price",
   "tour": "Tour",
+  "toursLabel": "Tours",
   "tours": {
     "crocodilesAndBirds": {
       "about": "Join our Photography Expedition designed for nature and wildlife photographers. Experience the breathtaking biodiversity of Costa Rica, from lush rainforests to the Tárcoles River. Capture stunning images of exotic fauna and flora. Rancho Naturalista, located in Turrialba, is a top birdwatching destination in Central America, offering views of over 450 bird species, including hummingbirds and rare birds like the Black-Throated Wren and Lovely Cotinga. Photographers and nature lovers will enjoy the unparalleled views of Turrialba Volcano. Explore the Tárcoles River, home to American crocodiles, iguanas, and howler monkeys. With over 320 bird species, including the yellow-billed cotinga and jabiru, this river is a paradise for wildlife photographers.",

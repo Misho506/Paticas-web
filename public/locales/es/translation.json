@@ -138,7 +138,7 @@
   },
   "headers": [
     {
-      "name": "Tours",
+      "name": "Tours de varios días",
       "link": "/categories"
     },
     {
@@ -152,6 +152,10 @@
     {
       "name": "Contáctenos",
       "link": "/contact"
+    },
+    {
+      "name": "Tours de un día",
+      "link": "/one-day-tours"
     }
   ],
   "includes": "Incluye",
@@ -270,6 +274,7 @@
   "subscribe": "Suscríbase",
   "totalPrice": "Precio total",
   "tour": "Tour",
+  "toursLabel": "Tours",
   "tours": {
     "crocodilesAndBirds": {
       "about": "Este tour de fotografía de vida silvestre en Costa Rica está diseñado para fotógrafos y amantes de la naturaleza, ofreciendo una inmersión única en la biodiversidad del país. Desde la selva tropical hasta el río Tárcoles, captura imágenes espectaculares de la fauna exótica costarricense en su hábitat natural.\nUbicado en Turrialba, Costa Rica, Rancho Naturalista es uno de los mejores destinos de avistamiento de aves en Centroamérica, con más de 450 especies registradas. Desde su balcón panorámico, podrás fotografiar colibríes, el Lovely Cotinga, Black-Throated Wren y otras aves raras, además de disfrutar vistas del Volcán Turrialba y la rica vida silvestre del área.\nExplora el río Tárcoles, famoso por su población de cocodrilos americanos, y descubre más de 320 especies de aves, incluyendo el jabirú, la cotinga de pico amarillo y la garza tigre. Un recorrido imprescindible para los amantes de la fotografía de naturaleza y birdwatching en Costa Rica.",
