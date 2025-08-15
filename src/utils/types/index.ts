@@ -128,7 +128,7 @@ type StoredDataTypeContextBlog = {
 type TourType = {
   img: string;
   title: string;
-  places: Array<string>;
+  places?: Array<string>;
   daysAndNights: string;
   days: number;
   description: string;

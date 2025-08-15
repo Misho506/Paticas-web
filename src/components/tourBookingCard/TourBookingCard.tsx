@@ -71,33 +71,34 @@ const TourBookingCard = () => {
 
   const selector = (name: string, listOfPermitedNumbers: Array<number>) => {
     const isPeopleSelector = name === "people";
-    return (<div className="inline-flex items-end mr-4">
-      <h3 className="text-lg font-semibold text-gray-900 basis-1/3">{i18n.t(isPeopleSelector ? "adults" : "kids")}:</h3>
-      <div className="relative">
-        <select
-          name={isPeopleSelector ? "people" : "kids"}
-          id={isPeopleSelector ? "people" : "kids"}
-          disabled={isPeopleSelector && people <= 1}
-          value={isPeopleSelector ? people : kids}
-          onChange={(event) => changeSelect(parseInt(event.target.value), isPeopleSelector)}
-          className="ml-1 appearance-none bg-white border border-black border-gray-300 rounded-full py-2 px-10 w-32 text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300"
-        >
-          {listOfPermitedNumbers.map(num => (
-            <option key={num} value={num}>
-              {num}
-            </option>
-          ))}
-        </select>
-        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-600">
-          <PiUsersBold className="z-10 absolute h-5 w-5 top-2.5 left-3" />
+    return (
+      <div className="inline-flex items-end mr-4 py-3">
+        <h3 className="text-lg font-semibold text-gray-900 basis-1/3">{i18n.t(isPeopleSelector ? "adults" : "kids")}:</h3>
+        <div className="relative">
+          <select
+            name={isPeopleSelector ? "people" : "kids"}
+            id={isPeopleSelector ? "people" : "kids"}
+            disabled={isPeopleSelector && people <= 1}
+            value={isPeopleSelector ? people : kids}
+            onChange={(event) => changeSelect(parseInt(event.target.value), isPeopleSelector)}
+            className="ml-1 appearance-none bg-white border border-black border-gray-300 rounded-full py-2 px-10 w-32 text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300"
+          >
+            {listOfPermitedNumbers.map(num => (
+              <option key={num} value={num}>
+                {num}
+              </option>
+            ))}
+          </select>
+          <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-600">
+            <PiUsersBold className="z-10 absolute h-5 w-5 top-2.5 left-3" />
+          </div>
+          <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+            <svg className="h-4 w-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
         </div>
-        <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-          <svg className="h-4 w-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </div>
-      </div>
-    </div>)
+      </div>)
   }
 
   const email = <a
@@ -139,7 +140,7 @@ const TourBookingCard = () => {
           </article>
         </div>
       </section>
-      <section className="w-96 flex mx-auto mb-5 justify-self-center">
+      <section className="w-96 flex flex-col mx-auto mb-5 justify-self-center">
         {selector("people", [2, 3, 4, 5, 6])}
         {selector("kids", [0, 1, 2, 3, 4])}
       </section>

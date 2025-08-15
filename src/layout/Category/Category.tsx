@@ -6,7 +6,7 @@ import { useTour } from "../../context/TourContext";
 import createSectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import { useTranslation } from "react-i18next";
 
-const Tour = () => {
+const Category = () => {
   const { i18n } = useTranslation();
   const { selectedCategory } = useTour();
   const { title, description, tours } = selectedCategory;
@@ -16,7 +16,7 @@ const Tour = () => {
     <>
       {createSectionWithTitle({ title, body: description, bgColor: "bg-white" })}
       {tours &&
-        <ToursCards showAllTours={true} tours={tours} />
+        <ToursCards tours={tours} />
       }
       <button
         onClick={() => navigate('/categories')}
@@ -29,4 +29,4 @@ const Tour = () => {
   )
 };
 
-export default Tour;
+export default Category;

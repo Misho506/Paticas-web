@@ -23,7 +23,7 @@ import {
 
 const Main = () => {
   const { i18n } = useTranslation();
-  const { tours } = useTour();
+  const { tours, oneDayTours } = useTour();
   const navigate = useNavigate();
   const toursIncludesIcons = [
     AirportTransferIcon,
@@ -53,6 +53,9 @@ const Main = () => {
           )}
         </div>
       </article>
+      <h2 className="mx-auto text-center">{i18n.t("oneDayTour.title")}</h2>
+      <ToursCards tours={oneDayTours} showActionButton redirectTo="/one-day-tours" />
+      <h2 className="mx-auto text-center">{i18n.t("multiDayTourTitle")}</h2>
       <ToursCards tours={tours} showActionButton />
       <SectionWithTitle title={sectionBlogs(i18n.t).title} body={sectionBlogs(i18n.t).body} />
       <BlogsCarrousel />

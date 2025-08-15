@@ -17,6 +17,8 @@ const Tour = () => {
   const { selectedTour, selectedCategory, tours } = useTour();
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
+  const tabs = [i18n.t("overview"), i18n.t("details"), i18n.t("itinerary"), i18n.t("gallery")];
+  const [activeTab, setActiveTab] = useState(i18n.t("overview"));
 
   const section = (children: React.ReactNode | React.ReactNode[], title: string) => {
     return (
@@ -45,12 +47,26 @@ const Tour = () => {
           </CCarouselItem>
         ))}
       </CCarousel>
-      {section(
+      <div className="flex justify-center mb-4">
+        {tabs.map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            className={`px-4 py-2 font-medium text-sm md:text-base text-green-900 ${activeTab === tab
+              ? "border-b-2 border-green-900"
+              : "hover:text-green-700"
+              }`}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+      <hr className="w-4/5 mx-auto mb-6" />
+      {activeTab === i18n.t("overview") && section(
         <p className="py-11 flex flex-col justify-self-center text-gray-500 italic text-lg text-center" > {selectedTour.about}</p >,
         i18n.t("aboutTour")
       )}
-      <hr className="w-4/5 mx-auto mb-6" />
-      {section(
+      {activeTab === i18n.t("details") && section(
         <ul>
           {selectedTour.includes.map((activity, index) => (
             <li key={index} className="py-2 text-gray-500 italic text-lg">{activity}</li>
@@ -59,11 +75,11 @@ const Tour = () => {
         i18n.t("includes")
       )}
       <br />
-      <TourImages />
+      {activeTab === i18n.t("gallery") && <TourImages />}
       <br />
-      {section(
+      {activeTab === i18n.t("itinerary") && section(
         selectedTour.itinerary.map((activity, index) => (
-          <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
+          <article key={index} className={`activity justify-items-center mt-6 mb-4 ${openSections.includes(index) && 'mb-6'}`}>
             <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
             <div key={index} className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} flex flex-col items-center transition-all duration-400 ease-in-out`}>
               <p className="text-gray-500 italic text-lg  whitespace-pre-line">{activity.description}</p>

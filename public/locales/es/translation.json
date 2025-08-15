@@ -9,6 +9,7 @@
   "adults": "Adultos",
   "allTours": "Ver todos los tours",
   "booking": "Reservar",
+  "details": "Detalles",
   "bookingInfo": "Información de la reservación",
   "bookingNote": "Por favor confirmar la información de la reservación antes de enviar el correo",
   "blogs": [
@@ -136,6 +137,7 @@
     "description": "Estamos comprometidos con la conciencia verde y la conservación del medio ambiente. Promovemos el turismo sostenible, respetando los ecosistemas y minimizando nuestro impacto en la naturaleza. Apoyamos prácticas que preservan la biodiversidad, colaboramos con emprendimientos locales responsables y educamos a nuestros clientes sobre la importancia de cuidar los recursos naturales. Cada uno de nuestros viajes busca generar un impacto positivo en el entorno, fomentando la protección y valoración de la riqueza natural de Costa Rica.",
     "title": "Enfoque verde"
   },
+  "gallery": "Galería",
   "headers": [
     {
       "name": "Tours de varios días",
@@ -170,6 +172,8 @@
   },
   "mission&Vision": "Misión and Visión",
   "moreThanFamily": "Somos más que una familia",
+  "moreThan": "más que",
+  "multiDayTourTitle": "Tours de varios días",
   "name": "Nombre",
   "newsletter": {
     "description": "Si le gustaria esta al día con opciones de giras, tips de viajes y más no dude en suscribirse",
@@ -185,8 +189,358 @@
     "title": "Not available"
   },
   "noTaxes": "Sin impuestos adicionales ni tarifas de reserva",
+  "oneDayTour": {
+    "title": "Tours por un día",
+    "description": "Experimenta lo mejor de Costa Rica en solo un día con nuestros exclusivos tours de un día. Perfecto para aquellos que tienen poco tiempo pero desean explorar.",
+    "birdewatching": {
+      "about": "Descubra el Parque Nacional Corcovado, uno de los lugares con mayor biodiversidad del planeta, ideal para los amantes de la fotografía de vida silvestre. Ubicado en la Península de Osa, este paraíso natural representa el 2.5% de la flora y fauna mundial, con selvas tropicales, playas vírgenes y cascadas impresionantes.\nCapture imágenes únicas de perezosos, dantas, tucanes y felinos como pumas y ocelotes en su hábitat natural. Reconocido por National Geographic como “el lugar más intenso del planeta en términos de biodiversidad,” Corcovado ofrece actividades como recorridos en lancha, avistamiento de ballenas y delfines, y caminatas nocturnas.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Visita guiada a un sitio activo de anidación del quetzal",
+        "Entrada a un jardín escénico de colibríes",
+        "Agua embotellada y refrigerio de fruta fresca",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 3:30 y 4:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado de Avistamiento de Aves: Quetzales y Colibríes – Desde San José",
+      "initDate": "Octubre",
+      "endDate": "Mayo",
+      "note": "Este tour opera los 7 días de la semana, Reserva antelación para asegurar tu lugar "
+    },
+    "blueFalls": {
+      "about": "Sal de lo típico y explora una de las verdaderas joyas ocultas de Costa Rica. Esta aventura privada y todo incluido te lleva al corazón del bosque nuboso para descubrir las impresionantes Blue Falls — una serie de cascadas de agua cristalina rodeadas de naturaleza intacta. Camina por la selva, nada en pozas turquesa y descubre rincones secretos que solo los locales conocen. Perfecto para viajeros que buscan serenidad, autenticidad y una cara de Costa Rica que pocos llegan a conocer.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Caminata guiada de 7 km (4.5 millas) por cascadas en el bosque nuboso",
+        "Visita y parada para fotos en la Catarata La Paz",
+        "Agua embotellada y refrigerio de fruta fresca",
+        "Tiempo para nadar en las pozas naturales de Blue Falls",
+        "Botella de agua y snack de frutas frescas durante el tour",
+        "Fotografías profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en cualquier hotel o dirección dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro cercano. Las salidas se programan entre 6:00 a.m. y 7:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, incluye los datos de tu hospedaje al reservar y prepárate con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado a Blue Falls desde San José – Escapada a Cascadas Escondidas",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana, Reserva antelación para asegurar tu lugar "
+    },
+    "dinoLand": {
+      "about": "Escapa de la ciudad y explora un tesoro escondido que pocos turistas conocen. Visita Dinoland, un parque temático jurásico con dinosaurios a escala real y el tobogán seco más grande de Centroamérica. Luego disfruta de vistas panorámicas desde el Mirador Las Alas y contempla la fuerza de la catarata del Río Agrio. Una aventura privada, todo incluido, ideal para familias y viajeros curiosos que desean experimentar Costa Rica como un local.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Entrada al parque temático Dinoland",
+        "Acceso al tobogán seco más grande de Centroamérica",
+        "Parada escénica en el Mirador Las Alas",
+        "Visita guiada a la catarata del Río Agrio",
+        "Agua embotellada y refrigerio de frutas frescas",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 6:30 y 7:30 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Aventura Jurásica Privada – Catarata, Dinoland y Tobogán desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Nuestro servicio opera los siete días de la semana."
+    },
+    "arenalLake": {
+      "about": "Navega por el impresionante Lago Arenal en un tour privado y todo incluido, con vistas inigualables al majestuoso Volcán Arenal. Vive una experiencia única que combina aventura, naturaleza y cultura local. Comienza el día con una tranquila sesión de kayak o paddle board sobre aguas serenas, visita un encantador café rural con vista a una cascada y conoce las raíces culturales de la región. Este tour es ideal para quienes buscan una escapada auténtica, cómoda y personalizada en medio de la belleza natural de Costa Rica.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Tour privado en kayak o stand up paddle board por el Lago Arenal",
+        "Equipos completos: kayaks, tablas SUP, chalecos salvavidas, bolsas secas",
+        "Parada para fotos en la famosa Catarata La Paz",
+        "Café en un pintoresco restaurante con vista a la cascada",
+        "Agua embotellada y snack de frutas frescas",
+        "Fotos profesionales y videos con dron disponibles"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en cualquier hotel o dirección dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro cercano. Las salidas se programan entre 5:30 a.m. y 6:30 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, incluye los datos de tu hospedaje al reservar y prepárate con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado en Kayak o Paddle Board en el Lago Arenal – Todo Incluido desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Nuestro servicio opera los siete días de la semana."
+    },
+    "manuelAntonio": {
+      "about": "Descubre senderos escénicos, miradores impresionantes y playas de arena blanca en un recorrido privado a Manuel Antonio. Con un guía dedicado a tu lado, podrás observar monos, perezosos y una vibrante vida silvestre, mientras viajas con comodidad y apoyas a las comunidades locales en cada paso de la experiencia.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Entrada al Parque Nacional Manuel Antonio",
+        "Tiempo libre en Playa Espadilla Norte (playa pública fuera del parque)",
+        "Botella de agua y snack de frutas frescas",
+        "Fotografías profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en cualquier hotel o dirección dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro cercano. Las salidas se programan entre 5:00 a.m. y 6:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, incluye los datos de tu hospedaje al reservar y prepárate con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado al Parque Nacional Manuel Antonio desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "poasVolcano": {
+      "about": "Escapa de las multitudes con este tour privado y todo incluido al Volcán Poás y a una finca familiar de fresas en las tierras altas. Explora el cráter y la Laguna Botos junto a un guía personal, luego recolecta tus propias fresas y disfruta de una cata artesanal con vino, sangría, rompope y delicias locales. Esta experiencia apoya directamente a pequeños negocios rurales y ofrece una forma auténtica y significativa de conectar con Costa Rica, con atención personalizada, comidas deliciosas y transporte privado incluido.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Entrada al Parque Nacional Volcán Poás",
+        "Visita guiada al cráter principal y la Laguna Botos",
+        "Tour guiado en una finca de fresas",
+        "Recolección de fresas (½ kilo por persona incluido)",
+        "Degustación de productos artesanales de fresa (vino, sangría y rompope)",
+        "Parada breve en la Catarata La Paz",
+        "Agua embotellada y snack de frutas frescas",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en cualquier hotel o dirección dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro cercano. Las salidas se programan entre 6:00 a.m. y 7:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, incluye los datos de tu hospedaje al reservar y prepárate con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado al Volcán Poás con Cosecha y Degustación de Fresas Locales",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "caribbeanTour": {
+      "about": "Descubre la vibrante cultura caribeña de Costa Rica en este tour privado todo incluido. Desde la música y la danza hasta la deliciosa gastronomía, sumérgete en la rica herencia afrocaribeña de la región.Vive la esencia de la costa caribeña de Costa Rica en un tour privado lleno de color, ritmo y tradición. Descubre la energía vibrante de Puerto Viejo, disfruta de la exquisita gastronomía afrocaribeña y explora la exuberante naturaleza de Manzanillo de la mano de un guía local. Este tour todo incluido te ofrece mucho más que sol y playa: es una inmersión cultural auténtica que apoya a familias locales y te invita a sentir el alma del Caribe en cada paso, cada sabor y cada paisaje.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Visita al Refugio de Vida Silvestre Gandoca-Manzanillo (entrada incluida)",
+        "Parada en un mirador escénico en Manzanillo",
+        "Tiempo libre para disfrutar la playa o comprar recuerdos en Puerto Viejo",
+        "Agua embotellada y refrigerio de fruta fresca",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 4:00 y 5:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado al Caribe Sur: Puerto Viejo y Manzanillo–Todo Incluido desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "queseraBeach": {
+      "about": "Descubre uno de los secretos mejor guardados de Costa Rica en esta aventura privada y todo incluido hacia Playa Quesera — un paraíso escondido de aguas turquesa y arena blanca, conocido solo por locales. Cruza el Golfo de Nicoya en ferry y bote, explora el exuberante Refugio de Vida Silvestre Curú y disfruta de sabores auténticos de la costa durante el camino. Esta experiencia combina belleza natural, inmersión cultural y servicio personalizado para un día de playa verdaderamente exclusivo — lejos de las multitudes y cerca del verdadero espíritu de Costa Rica.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Entrada al Refugio de Vida Silvestre Curú",
+        "Acceso a Playa Quesera",
+        "Traslado privado en bote hacia y desde Playa Quesera",
+        "Boletos de ferry para cruzar el Golfo de Nicoya",
+        "Tiempo para disfrutar del atardecer en Puntarenas antes del regreso",
+        "Botella de agua y snack de frutas frescas",
+        "Fotografías profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en cualquier hotel o dirección dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro cercano. Las salidas se programan entre 4:00 a.m. y 5:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, incluye los datos de tu hospedaje al reservar y prepárate con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado a Playa Quesera – Todo Incluido desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "sarchiCity": {
+      "about": "Adéntrate en la capital artesanal de Costa Rica y descubre el colorido pueblo de Sarchí, cuna de carretas pintadas a mano y de generaciones de talentosos artesanos de la madera. Visita la histórica fábrica de carretas, admira la carreta más grande del mundo, degusta comida tradicional costarricense y aprende cómo los artistas locales mantienen viva la cultura a través del color, la creatividad y el trabajo en comunidad.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Tour por la ciudad de Sarchí",
+        "Visita a la fábrica de carretas con demostraciones en vivo de los artesanos",
+        "Parada en la carreta más grande del mundo",
+        "Agua embotellada y refrigerio de frutas frescas",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 7:00 y 7:30 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado a Sarchí – Cultura Artesanal desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "santaTeresaSurf": {
+      "about": "Siente la energía del Pacífico en cada ola con esta experiencia privada de surf en Santa Teresa. Aprende (o mejora) con instructores locales en una de las playas más icónicas de Costa Rica. Conecta con la vibra relajada del lugar, apoya proyectos comunitarios y disfruta paisajes que solo el mar puede regalar. Surf, sol y alma pura — todo en un solo día.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Boleto de ferry ida y vuelta a la Península de Nicoya",
+        "Clase de surf de 2 horas con instructores certificados y bilingües",
+        "Tabla de surf y todo el equipo necesario",
+        "Agua embotellada y refrigerio de frutas frescas",
+        "Tiempo libre para explorar Santa Teresa y caminata opcional al atardecer",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 3:30 y 4:00 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Lecciones de Surf en Santa Teresa con Transporte desde San José ",
+      "initDate": "Octubre",
+      "endDate": "Mayo",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "tortugueroCanoe": {
+      "about": "Explora los canales remotos y la selva tropical de Tortuguero en una travesía privada en canoa, navegando por aguas ricas en vida silvestre donde podrás avistar monos, tucanes, cocodrilos y mucho más. Realiza una caminata guiada al Cerro Tortuguero para disfrutar de vistas impresionantes y visita el pueblo local para conectarte con la cultura y el ritmo de vida en la jungla. Esta experiencia apoya directamente a comunidades rurales y ofrece una conexión auténtica con uno de los ecosistemas más asombrosos de Costa Rica.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte terrestre privado desde San José",
+        "Traslado privado en bote desde La Pavona a Tortuguero",
+        "Tour por el pueblo de Tortuguero",
+        "Caminata guiada al Cerro Tortuguero (entrada incluida)",
+        "Tour privado en canoa por los canales de Tortuguero (no motorizada, silenciosa, ideal para observar fauna)",
+        "Agua embotellada y refrigerio de frutas frescas",
+        "Fotos profesionales y videos con dron"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 4:00 y 4:30 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Tour Privado en Canoa y Selva por Tortuguero – Todo Incluido desde San José",
+      "initDate": "Enero",
+      "endDate": "Diciembre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    },
+    "whaleWatching": {
+      "about": "Vive una aventura privada por la costa pacífica de Costa Rica en busca de ballenas jorobadas, delfines y tortugas marinas en su hábitat natural. Guiado por expertos locales y respaldado por pequeños negocios comunitarios, este tour de lujo combina comodidad, conocimiento y encuentros inolvidables con la vida silvestre. Si la marea lo permite, también podrás caminar sobre la famosa formación arenosa Cola de Ballena, visible solo en marea baja. Ideal entre julio y octubre, esta experiencia ofrece una conexión profunda con la naturaleza en una de las regiones más biodiversas del país.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Desayuno",
+        "Almuerzo",
+        "Transporte privado desde San José",
+        "Entradas al Parque Nacional Marino Ballena",
+        "Tour privado en bote de 4 horas para avistamiento de ballenas en Uvita",
+        "Visita a la formación arenosa Cola de Ballena (si el clima lo permite)",
+        "Parada en el puente del río Tárcoles para observar cocodrilos",
+        "Agua embotellada y refrigerio de frutas frescas durante el tour",
+        "Fotos profesionales y videos con dron incluidos"
+      ],
+      "itinerary": [
+        {
+          "description": "Ofrecemos recogida en hoteles o ubicaciones dentro del Gran Área Metropolitana (San José, Heredia y Alajuela). Si estás fuera de estas zonas, coordinamos un punto de encuentro conveniente. Las recogidas se realizan entre las 5:00 y 6:30 a.m., y confirmamos la hora exacta por WhatsApp o correo electrónico dos días antes del tour. Por favor, indica tu hospedaje al hacer la reserva y está listo/a con 10 minutos de anticipación.",
+          "title": "Recogida y Logística"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Avistamiento Privado de Ballenas en Uvita y Caminata por la Cola de Ballena",
+      "initDate": "Julio",
+      "endDate": "Octubre",
+      "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
+    }
+  },
   "orSimilar": " o similar",
   "otherExp": "Otras experiencias",
+  "overview": "Descripción general",
   "ourTours": {
     "description": "Descubre Costa Rica a través de nuestros tours privados de lujo, completamente personalizables según tu estilo de viaje. Desde destinos icónicos como Manuel Antonio, Arenal y Monteverde hasta joyas escondidas como Bajos del Toro, nuestras experiencias combinan aventura, naturaleza y cultura. Ya sea fotografía de vida silvestre, actividades de adrenalina o escapadas tranquilas en la playa, diseñamos cada recorrido especialmente para ti.",
     "title": "Nuestros Tours",
@@ -206,6 +560,7 @@
   "partners": "Patrocinadores",
   "passportId": "Número de Pasaporte",
   "phoneNumber": "Número de teléfono",
+  "people": "personas:",
   "terms&Conditions": "Términos y Condiciones",
   "terms&ConditionsFileName": "es/TérminosYCondiciones.pdf",
   "pricePerKid": "Precio por niño",
