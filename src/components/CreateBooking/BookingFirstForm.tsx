@@ -85,9 +85,9 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
 
 
     return (
-      CustomInputWithErrorMessage(
-        title,
-        <input
+      <CustomInputWithErrorMessage
+        inputTitle={title}
+        input={<input
           type={type}
           name={name}
           className={`${hasError ? "border-error" : "border border-gray-300"} w-full px-4 py-2 rounded-lg focus:ring-2 focus:ring-blue-500`}
@@ -98,11 +98,11 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
             const fieldError = validateField(name, formField as string);
             setErrors({ ...errors, [name]: fieldError });
           }}
-        />,
-        true,
-        hasError && <label className="text-red-600">{fieldError}</label>,
-        index
-      )
+        />}
+        required
+        error={hasError && <label className="text-red-600">{fieldError}</label>}
+        key={index}
+      />
     )
   }
 
@@ -148,19 +148,19 @@ const BookingFirstForm = ({ setStep, actions }: BookingFormProps) => {
     <form onSubmit={submitForm} className="space-y-6">
       {formFields.map((field, index) => createFormFields(field, index))}
       {
-        CustomInputWithErrorMessage(
-          i18n.t("phoneNumber"),
-          <PhoneInput
+        <CustomInputWithErrorMessage
+          inputTitle={i18n.t("phoneNumber")}
+          input={<PhoneInput
             defaultCountry="US"
             id="phoneNumber"
             className={`${wasSubmitted && errors.phoneNumber ? "border-error" : "border border-gray-300"} flex-1 px-4 py-2 border-l-0 rounded-r-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
             value={userInfo.phoneNumber}
             onChange={(value) => phoneNumberChange(value as string)}
             onBlur={onBlurPhoneInput}
-          />,
-          true,
-          wasSubmitted && errors.phoneNumber && <label className="text-red-600">{errors.phoneNumber}</label>,
-        )
+          />}
+          required
+          error={wasSubmitted && errors.phoneNumber && <label className="text-red-600">{errors.phoneNumber}</label>}
+        />
       }
       {actions}
     </form>

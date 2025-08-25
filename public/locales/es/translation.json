@@ -10,6 +10,7 @@
   "allTours": "Ver todos los tours",
   "booking": "Reservar",
   "details": "Detalles",
+  "description": "Descripción",
   "bookingInfo": "Información de la reservación",
   "bookingNote": "Por favor confirmar la información de la reservación antes de enviar el correo",
   "blogs": [
@@ -87,6 +88,7 @@
   "completeName": "Nombre completo",
   "contact": "Contacto",
   "discoverMore": "Descubrir más",
+  "disclaimerText": "*Tarifas con descuento para reservas en grupo.*",
   "email": "Correo",
   "endDate": "Fecha de regreso",
   "exploreMore": "Explorar más",
@@ -108,6 +110,9 @@
     },
     "userName": {
       "required": "El nombre es requerido"
+    },
+    "description": {
+      "required": "La descripción es requerida"
     }
   },
   "founders": "Nuestras Fundadoras",

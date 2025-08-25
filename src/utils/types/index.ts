@@ -61,6 +61,12 @@ type FormField = {
   title: string;
 };
 
+type MessageFormField = {
+  name: 'userName' | 'email' | 'description';
+  type: string;
+  title: string;
+};
+
 type FormFieldsType = {
   name: string;
   type: string;
@@ -162,6 +168,7 @@ export type {
   PassengerInfo,
   PostCarrouselProps,
   PriceType,
+  MessageFormField,
   ReviewType,
   Stat,
   StepType,

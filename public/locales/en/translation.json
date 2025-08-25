@@ -9,6 +9,7 @@
   "adults": "Adults",
   "allTours": "See All Tours",
   "details": "Details",
+  "description": "Description",
   "booking": "Booking",
   "bookingInfo": "Reservation Information",
   "bookingNote": "Please confirm the reservation information before sending the email.",
@@ -87,6 +88,7 @@
   "completeName": "Full name",
   "contact": "Contact",
   "discoverMore": "Discover More",
+  "disclaimerText": "*Group booking discounts available.*",
   "email": "Email",
   "endDate": "End date",
   "exploreMore": "Explore More",
@@ -108,6 +110,9 @@
     },
     "userName": {
       "required": "The name is required"
+    },
+    "description": {
+      "required": "The description is required"
     }
   },
   "founders": " Our Founders",
@@ -608,7 +613,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Explore our private luxury tours in Costa Rica—whether you're into adventure, photography, or relaxing beach escapes, each experience is fully customizable to fit your travel style. Discover the country's incredible biodiversity and vibrant culture surrounded by beautiful natural landscapes.",
+    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours. Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. By choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
     "title": "Our Tours"
   },
   "sectionReviews": {

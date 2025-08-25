@@ -52,7 +52,7 @@ const Tour = () => {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-4 py-2 font-medium text-sm md:text-base text-green-900 ${activeTab === tab
+            className={`px-3 sm:px-5 py-2 font-medium text-sm md:text-base text-green-900 ${activeTab === tab
               ? "border-b-2 border-green-900"
               : "hover:text-green-700"
               }`}

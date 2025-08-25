@@ -43,10 +43,11 @@ const TourCard = ({ tour }: { tour: TourType }) => {
         <h3 className="text-lg text-gray-800 ">
           {title}
         </h3>
+        <span className="italic text-sm text-[#6b7785d1]">{i18n.t("disclaimerText")}</span>
+        <hr />
         <section className="flex flex-col relative">
           {places && places.length > 0 && places.map((place, index) => (
             <div key={index}>
-              <hr />
               <article key={index} className="flex items-center text-sm text-gray-500 mt-2">
                 <CiLocationOn className="yellow-icon text-xl" />
                 <span className="italic ml-1">{place}</span>

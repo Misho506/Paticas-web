@@ -56,7 +56,7 @@ const Header = () => {
       {children}
       {isToursOpen && (
         <div className="absolute flex flex-col text-justify-left left-0 text-white mt-2 mobile-links w-max rounded-md z-50 border-1 border-black">
-          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
+          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('multiDayTourTitle')}</button>
           <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
         </div>
       )}

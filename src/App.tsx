@@ -37,7 +37,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:title" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact showForm />} />
         </Routes>
         <Footer />
       </BlogProvider>
