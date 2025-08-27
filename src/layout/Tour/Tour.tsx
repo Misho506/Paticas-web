@@ -101,10 +101,10 @@ const Tour = () => {
         i18n.t("itinerary")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
-      {section(
-        <TourBookingCard />,
-        i18n.t("investment")
-      )}
+      <section className="flex flex-col items-center justify-self-center px-3 w-11/12">
+        <h5 className="text-3xl font-bold">{i18n.t("investment")}</h5>
+        <TourBookingCard />
+      </section>
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
         <ToursCards tours={tours} />,

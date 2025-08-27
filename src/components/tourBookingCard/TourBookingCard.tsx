@@ -109,71 +109,72 @@ const TourBookingCard = () => {
   </a>
 
   return (
-    <div className="tour-booking-card-container">
-      <Modal open={openModal} onClose={setOpenModal} message={<>Sorry! The maximum number of people for online booking is 6. For larger groups, please contact us at {email}</>} title="Hello!" />
+    <div className="tour-booking-card-container w-full">
+      {selectedTour.peekLink ?
+        (<a href={selectedTour.peekLink} className="peek-container" data-embed="true" data-button-text="Book Now">Book</a>)
+        : (
+          <>
+            <Modal open={openModal} onClose={setOpenModal} message={<>Sorry! The maximum number of people for online booking is 6. For larger groups, please contact us at {email}</>} title="Hello!" />
+            <section className="w-96 flex flex-col mx-auto items-center mb-3 justify-self-center">
+              <div className="flex items-end space-x-3 mb-3">
+                <h3 className="text-lg font-semibold text-gray-900 basis-1/3">
+                  {i18n.t("startDate")}:
+                </h3>
+                <article className="flex-1 relative border rounded-full basis-2/3">
+                  <LuCalendarClock className="z-10 absolute h-5 w-5 top-2.5 left-3" />
+                  {selectedTour.title === i18n.t("tours.turtlesAndWhales.title") ?
+                    <DatePicker minDate={minDate} maxDate={maxDate} className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
+                    :
+                    <DatePicker className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
+                  }
+                </article>
+              </div>
+              <div className="flex items-end space-x-3">
+                <h3 className="text-lg font-semibold text-gray-900 basis-1/3">
+                  {i18n.t("endDate")}:
+                </h3>
+                <article className="flex-1 relative border rounded-full basis-2/3">
+                  <LuCalendarClock className="z-10 absolute h-5 w-5 top-2.5 left-3" />
+                  <DatePicker disabled className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={endDate} />
+                </article>
+              </div>
+            </section>
+            <section className="w-96 flex flex-col mx-auto mb-5 justify-self-center">
+              {selector("people", [2, 3, 4, 5, 6])}
+              {selector("kids", [0, 1, 2, 3, 4])}
+            </section>
 
-      {/* Title of the selected Category */}
-      {/* <h2 className="text-xl font-semibold text-gray-900 self-start">
-        {selectedCategory.title}
-      </h2> */}
-      <section className="w-96 flex flex-col mx-auto items-center mb-3 justify-self-center">
-        <div className="flex items-end space-x-3 mb-3">
-          <h3 className="text-lg font-semibold text-gray-900 basis-1/3">
-            {i18n.t("startDate")}:
-          </h3>
-          <article className="flex-1 relative border rounded-full basis-2/3">
-            <LuCalendarClock className="z-10 absolute h-5 w-5 top-2.5 left-3" />
-            {selectedTour.title === i18n.t("tours.turtlesAndWhales.title") ?
-              <DatePicker minDate={minDate} maxDate={maxDate} className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
-              :
-              <DatePicker className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={date} onChange={(date) => setDate(date as Date)} />
-            }
-          </article>
-        </div>
-        <div className="flex items-end space-x-3">
-          <h3 className="text-lg font-semibold text-gray-900 basis-1/3">
-            {i18n.t("endDate")}:
-          </h3>
-          <article className="flex-1 relative border rounded-full basis-2/3">
-            <LuCalendarClock className="z-10 absolute h-5 w-5 top-2.5 left-3" />
-            <DatePicker disabled className="w-full rounded-full pl-9 pr-4 py-2 border border-black" selected={endDate} />
-          </article>
-        </div>
-      </section>
-      <section className="w-96 flex flex-col mx-auto mb-5 justify-self-center">
-        {selector("people", [2, 3, 4, 5, 6])}
-        {selector("kids", [0, 1, 2, 3, 4])}
-      </section>
+            <div className="box-shadow-gray p-4 rounded-3xl space-y-3 border-1 border-black">
+              <h4 className="font-medium">
+                {selectedTour.title}
+              </h4>
 
-      <div className="box-shadow-gray p-4 rounded-3xl space-y-3 border-1 border-black">
-        <h4 className="font-medium">
-          {selectedTour.title}
-        </h4>
+              <h4 className="text-lg italic">
+                {people} {i18n.t("adults")} X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
+              </h4>
+              <h4 className="text-lg italic">
+                {kids} {i18n.t("kids")} X USD ${selectedTour.childsPrice > 1000 ? addSymbolsToPrice(JSON.stringify(selectedTour.childsPrice)) : selectedTour.childsPrice}.00
+              </h4>
 
-        <h4 className="text-lg italic">
-          {people} {i18n.t("adults")} X USD ${addSymbolsToPrice(JSON.stringify(pricePerPerson))}.00
-        </h4>
-        <h4 className="text-lg italic">
-          {kids} {i18n.t("kids")} X USD ${selectedTour.childsPrice > 1000 ? addSymbolsToPrice(JSON.stringify(selectedTour.childsPrice)) : selectedTour.childsPrice}.00
-        </h4>
+              <div className="space-y-1">
+                <h4 className="text-lg text-gray-600">
+                  Total ${addSymbolsToPrice(JSON.stringify((pricePerPerson * people) + (selectedTour.childsPrice * kids)))}.00
+                </h4>
+                <span className="text-xs">
+                  ${selectedTour.childsPrice} {i18n.t("childrensText")}
+                </span>
+                <span className="text-xs">
+                  ({i18n.t("noTaxes")})
+                </span>
+              </div>
+            </div>
 
-        <div className="space-y-1">
-          <h4 className="text-lg text-gray-600">
-            Total ${addSymbolsToPrice(JSON.stringify((pricePerPerson * people) + (selectedTour.childsPrice * kids)))}.00
-          </h4>
-          <span className="text-xs">
-            ${selectedTour.childsPrice} {i18n.t("childrensText")}
-          </span>
-          <span className="text-xs">
-            ({i18n.t("noTaxes")})
-          </span>
-        </div>
-      </div>
-
-      {/* Book Now Button */}
-      <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 mx-auto text-xl rounded-full border-1 border-black">
-        {i18n.t("reserveNow")}
-      </button>
+            {/* Book Now Button */}
+            <button onClick={goToBooking} className="booking-button flex justify-self-center items-center my-5 px-3 py-2 mx-auto text-xl rounded-full border-1 border-black">
+              {i18n.t("reserveNow")}
+            </button>
+          </>
+        )}
     </div>
   );
 };

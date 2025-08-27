@@ -1417,11 +1417,6 @@ const mostPopularInCostaRica = (t: TFunction): TourType => ({
   childsPrice: 1040,
 });
 
-
-
-
-
-
 const allTours = (t: TFunction): Array<TourType> => [
   followingQuetzal(t),
   sunAndSand(t),

@@ -3,6 +3,7 @@ import { TourType } from '../../../types';
 
 const birdewatching = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00001.jpg",
+  peekLink: t("oneDayTour.birdewatching.peekLink"),
   title: t("oneDayTour.birdewatching.title"),
   // places: [t("oneDayTour.birdewatching.places.0")],
   daysAndNights: t("oneDayTour.birdewatching.daysAndNights"),
@@ -42,6 +43,7 @@ const birdewatching = (t: TFunction): TourType => ({
 
 const blueFalls = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/blue-falls-00009.jpg",
+  peekLink: t("oneDayTour.blueFalls.peekLink"),
   title: t("oneDayTour.blueFalls.title"),
   // places: [t("oneDayTour.blueFalls.places.0")],
   daysAndNights: t("oneDayTour.blueFalls.daysAndNights"),
@@ -87,6 +89,7 @@ const blueFalls = (t: TFunction): TourType => ({
 
 const dinoLand = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/dino-land-00009.jpg",
+  peekLink: t("oneDayTour.dinoLand.peekLink"),
   title: t("oneDayTour.dinoLand.title"),
   // places: [t("oneDayTour.dinoLand.places.0")],
   daysAndNights: t("oneDayTour.dinoLand.daysAndNights"),
@@ -133,6 +136,7 @@ const dinoLand = (t: TFunction): TourType => ({
 
 const arenalLake = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/lake-arenal-00004.jpg",
+  peekLink: t("oneDayTour.arenalLake.peekLink"),
   title: t("oneDayTour.arenalLake.title"),
   // places: [t("oneDayTour.arenalLake.places.0")],
   daysAndNights: t("oneDayTour.arenalLake.daysAndNights"),
@@ -174,6 +178,7 @@ const arenalLake = (t: TFunction): TourType => ({
 
 const manuelAntonio = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/manuel-antonio-00001.jpg",
+  peekLink: t("oneDayTour.manuelAntonio.peekLink"),
   title: t("oneDayTour.manuelAntonio.title"),
   // places: [t("oneDayTour.manuelAntonio.places.0")],
   daysAndNights: t("oneDayTour.manuelAntonio.daysAndNights"),
@@ -215,6 +220,7 @@ const manuelAntonio = (t: TFunction): TourType => ({
 
 const poasVolcano = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/volcan-poas-00007.jpg",
+  peekLink: t("oneDayTour.poasVolcano.peekLink"),
   title: t("oneDayTour.poasVolcano.title"),
   // places: [t("oneDayTour.poasVolcano.places.0")],
   daysAndNights: t("oneDayTour.poasVolcano.daysAndNights"),
@@ -256,6 +262,7 @@ const poasVolcano = (t: TFunction): TourType => ({
 
 const carribeanTour = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/caribean-00007.jpg",
+  peekLink: t("oneDayTour.caribbeanTour.peekLink"),
   title: t("oneDayTour.caribbeanTour.title"),
   // places: [t("oneDayTour.caribbeanTour.places.0")],
   daysAndNights: t("oneDayTour.caribbeanTour.daysAndNights"),
@@ -301,6 +308,7 @@ const carribeanTour = (t: TFunction): TourType => ({
 
 const queseraBeach = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/quesera-beach-00010.jpg",
+  peekLink: t("oneDayTour.queseraBeach.peekLink"),
   title: t("oneDayTour.queseraBeach.title"),
   // places: [t("oneDayTour.queseraBeach.places.0")],
   daysAndNights: t("oneDayTour.queseraBeach.daysAndNights"),
@@ -348,6 +356,7 @@ const queseraBeach = (t: TFunction): TourType => ({
 
 const sarchiCity = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/sarchi-city-00010.jpg",
+  peekLink: t("oneDayTour.sarchiCity.peekLink"),
   title: t("oneDayTour.sarchiCity.title"),
   // places: [t("oneDayTour.sarchiCity.places.0")],
   daysAndNights: t("oneDayTour.sarchiCity.daysAndNights"),
@@ -392,6 +401,7 @@ const sarchiCity = (t: TFunction): TourType => ({
 
 const santaTeresaSurf = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/santa-teresa-surf-00011.jpg",
+  peekLink: t("oneDayTour.santaTeresaSurf.peekLink"),
   title: t("oneDayTour.santaTeresaSurf.title"),
   // places: [t("oneDayTour.santaTeresaSurf.places.0")],
   daysAndNights: t("oneDayTour.santaTeresaSurf.daysAndNights"),
@@ -440,6 +450,7 @@ const santaTeresaSurf = (t: TFunction): TourType => ({
 
 const tortugueroCanoe = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/tortuguero-canoe-00001.jpg",
+  peekLink: t("oneDayTour.tortugueroCanoe.peekLink"),
   title: t("oneDayTour.tortugueroCanoe.title"),
   // places: [t("oneDayTour.tortugueroCanoe.places.0")],
   daysAndNights: t("oneDayTour.tortugueroCanoe.daysAndNights"),
@@ -483,6 +494,7 @@ const tortugueroCanoe = (t: TFunction): TourType => ({
 
 const whaleWatching = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/whale-watching-00008.jpg",
+  peekLink: t("oneDayTour.whaleWatching.peekLink"),
   title: t("oneDayTour.whaleWatching.title"),
   // places: [t("oneDayTour.whaleWatching.places.0")],
   daysAndNights: t("oneDayTour.whaleWatching.daysAndNights"),

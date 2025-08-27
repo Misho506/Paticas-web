@@ -51,9 +51,9 @@ const Header = () => {
     };
   }, [isToursOpen]);
 
-  const toursMenu = (children: ReactNode) => (
-    <div className="relative text-center content-center" ref={menuRef}>
-      {children}
+  const toursMenu = (key: number) => (
+    <div key={key} className="relative text-center content-center" ref={menuRef}>
+      <button className="p-3 text-white hover:rounded" onClick={() => setIsToursOpen((prev) => !prev)}>{i18n.t('toursLabel')}</button>
       {isToursOpen && (
         <div className="absolute flex flex-col text-justify-left left-0 text-white mt-2 mobile-links w-max rounded-md z-50 border-1 border-black">
           <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('multiDayTourTitle')}</button>
@@ -72,9 +72,7 @@ const Header = () => {
       <section className="hidden sm:flex navbar-links justify-around">
         {navButtons.map((navButton, index) => (
           index === 0 ? (
-            toursMenu(
-              <button key={index} className="p-3 text-white hover:rounded" onClick={() => setIsToursOpen((prev) => !prev)}>{i18n.t('toursLabel')}</button>
-            )
+            toursMenu(index)
           ) : (
             <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>
           )))}
@@ -104,7 +102,7 @@ const Header = () => {
             <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
             <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
             {navButtons.map((navButton, index) => (
-              index > 0 && <button key={index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>
+              index > 0 && <button key={"nav-buttons" + index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>
             ))}
           </article>
         </div>

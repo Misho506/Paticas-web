@@ -196,11 +196,12 @@
   "noTaxes": "No additional taxes or booking fees",
   "oneDayTour": {
     "title": "One Day Tours",
-    "description": "Experience the best of Costa Rica in just one day with our exclusive one-day tours. Perfect for those short on time but eager to explore.",
+    "description": "Experience the best of Costa Rica in just one day with our exclusive private luxury tours. Discover breathtaking nature, vibrant culture, and paradise beaches with all-inclusive comfort—perfect for an unforgettable Costa Rica day trip.",
     "birdewatching": {
-      "about": "",
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/lewpE",
+      "about": "Step into Costa Rica’s cloud forest on a private birdwatching experience to witness the Resplendent Quetzal during nesting season. Visit an active nest, explore a vibrant hummingbird garden, and enjoy a rare connection with nature — all while supporting local conservation and rural communities.",
       "daysAndNights": "",
-      "description": "Step into Costa Rica’s cloud forest on a private birdwatching experience to witness the Resplendent Quetzal during nesting season. Visit an active nest, explore a vibrant hummingbird garden, and enjoy a rare connection with nature — all while supporting local conservation and rural communities.",
+      "description": "",
       "includes": [
         "Breakfast",
         "Lunch",
@@ -225,6 +226,7 @@
       "note": "Our service runs seven days a week."
     },
     "blueFalls": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/N3WLw",
       "about": "Step off the tourist trail and explore one of Costa Rica’s true hidden gems. This private, all-inclusive adventure takes you deep into the cloud forest to discover the stunning Blue Falls — a series of crystal-clear waterfalls surrounded by untouched nature. Hike through the jungle, swim in turquoise pools, and uncover secret spots only locals know. Perfect for travelers seeking serenity, authenticity, and a side of Costa Rica few ever see.",
       "daysAndNights": "",
       "description": "",
@@ -254,6 +256,7 @@
       "note": "Our service runs seven days a week."
     },
     "dinoLand": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/qjL3b",
       "about": "Escape the city and explore a hidden local favorite rarely visited by tourists. Visit Dinoland — a Jurassic-themed park with life-sized dinosaurs and the largest dry slide in Central America — then enjoy panoramic views from Mirador Las Alas and admire the power of Río Agrio Waterfall. A private, all-inclusive adventure for families and curious travelers looking to experience Costa Rica like a local.",
       "daysAndNights": "",
       "description": "",
@@ -283,6 +286,7 @@
       "note": "Our service runs seven days a week."
     },
     "arenalLake": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/637oV",
       "about": "Paddle across Costa Rica’s largest lake with front-row views of the majestic Arenal Volcano. This private, all-inclusive tour blends outdoor adventure with local flavor — enjoy a calm morning on the water, visit a rural café with a waterfall view, and learn about the region’s cultural roots along the way. With gourmet meals, personalized guidance, and full comfort throughout, this experience offers a peaceful yet enriching escape into Costa Rica’s natural beauty.",
       "daysAndNights": "",
       "description": "",
@@ -312,6 +316,7 @@
       "note": "Our service runs seven days a week."
     },
     "manuelAntonio": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/by0Xk",
       "about": "Discover scenic trails, stunning lookouts, and white-sand beaches on a private journey to Manuel Antonio. With a dedicated guide by your side, you’ll spot monkeys, sloths, and vibrant wildlife—while traveling in comfort and supporting local communities through every step of the experience.",
       "daysAndNights": "",
       "description": "",
@@ -339,6 +344,7 @@
       "note": "Our service runs seven days a week."
     },
     "poasVolcano": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/8WelV",
       "about": "Escape the crowds on this all-inclusive private tour to Poás Volcano and a family-owned strawberry farm in the highlands. Explore the crater and Botos Lagoon with your personal guide, then hand-pick strawberries and taste homemade wine, sangria, and local treats. This experience directly supports small rural businesses and offers a unique, meaningful way to connect with Costa Rica — all with personalized service, delicious meals, and private transportation included.",
       "daysAndNights": "",
       "description": "",
@@ -370,6 +376,7 @@
       "note": "Our service runs seven days a week."
     },
     "caribbeanTour": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/A0b1B",
       "about": "Experience the heart of Costa Rica’s Caribbean coast on a private journey filled with color, rhythm, and tradition. Explore vibrant Puerto Viejo, taste Afro-Caribbean cuisine, and wander through the lush beauty of Manzanillo with a local guide by your side. This all-inclusive tour offers more than sun and sand — it’s a cultural immersion that supports local families and invites you to feel the soul of the Caribbean in every step, bite, and view.",
       "daysAndNights": "",
       "description": "",
@@ -398,6 +405,7 @@
       "note": "Our service runs seven days a week."
     },
     "queseraBeach": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/eBLR3",
       "about": "Discover one of Costa Rica’s best-kept secrets on this private, all-inclusive journey to Playa Quesera — a secluded paradise of turquoise waters and white sand, known only to locals. Cross the Gulf of Nicoya by ferry and boat, explore the lush Curú Wildlife Refuge, and enjoy authentic coastal flavors along the way. This experience blends natural beauty, cultural insight, and personalized service for a truly exclusive day at the beach — far from the crowds, close to the real Costa Rica.",
       "daysAndNights": "",
       "description": "",
@@ -428,6 +436,7 @@
       "note": "Our service runs seven days a week."
     },
     "sarchiCity": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/XWj8q",
       "about": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.",
       "daysAndNights": "",
       "description": "",
@@ -456,6 +465,7 @@
       "note": "Our service runs seven days a week."
     },
     "santaTeresaSurf": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/0b78r",
       "about": "Ride the waves in Santa Teresa with a private surf experience made for curious, conscious travelers. Enjoy a day of sun, sea, and connection — with stops that support local communities and views that last a lifetime. A laid-back yet luxurious escape to the Pacific coast.",
       "daysAndNights": "",
       "description": "",
@@ -485,6 +495,7 @@
       "note": "Our service runs seven days a week."
     },
     "tortugueroCanoe": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/JRgvL",
       "about": "Explore Tortuguero’s remote canals and rainforest on a private canoe journey through wildlife-rich waters, where you may spot monkeys, toucans, crocodiles, and more. Hike to Cerro Tortuguero for stunning views, and visit the local village to connect with the culture and rhythms of jungle life — all while supporting rural communities.",
       "daysAndNights": "",
       "description": "",
@@ -514,6 +525,7 @@
       "note": "Our service runs seven days a week."
     },
     "whaleWatching": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/OvEmY",
       "about": "Set out on a private ocean adventure along Costa Rica’s Pacific coast in search of humpback whales, dolphins, and sea turtles — all in their natural habitat. Guided by local experts and supported by small community businesses, this luxury experience offers comfort, insight, and unforgettable wildlife encounters. If the tide allows, you’ll also walk the iconic Whale’s Tail sandbar, revealed only at low tide. Ideal from July to October, this is a meaningful way to witness nature’s wonders in one of the country’s most biodiverse regions.",
       "daysAndNights": "",
       "description": "",
@@ -578,7 +590,7 @@
       "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
     },
     "caribeanSouthCaribean": {
-      "description": "Explore white-sand beaches and Afro-Caribbean culture in Costa Rica",
+      "description": "Explore white-sand beaches and Afro-Caribbean culture in Puerto Viejo and Manzanillo, Costa Rica.",
       "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea"
     },
     "fishingSport": {
@@ -586,7 +598,7 @@
       "title": "Sport Fishing Adventures"
     },
     "manuelAntonio": {
-      "description": "Enjoy paradise beaches, whale watching, and turtle nesting under the moonlight",
+      "description": "Enjoy paradise beaches, whale watching in Uvita, and turtle nesting under the moonlight in Tortuguero.",
       "title": "Turtle Nesting & Whale Watching"
     },
     "wildLife": {
@@ -613,7 +625,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours. Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. By choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
+    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours.Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
     "title": "Our Tours"
   },
   "sectionReviews": {

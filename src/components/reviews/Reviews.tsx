@@ -1,20 +1,30 @@
-import { useState } from "react";
-import { IoIosStar } from "react-icons/io";
-import { FcGoogle } from "react-icons/fc";
-import ReviewsHardCoded from "../../utils/hardCodedData/review"
-import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
-import { useTranslation } from "react-i18next";
+// import { useState } from "react";
+// import { IoIosStar } from "react-icons/io";
+// import { FcGoogle } from "react-icons/fc";
+// import ReviewsHardCoded from "../../utils/hardCodedData/review"
+// import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
+// import { useTranslation } from "react-i18next";
+// import TextTruncator from "../TextTruncator/TextTruncator";
 
 import "./Reviews.css";
-import TextTruncator from "../TextTruncator/TextTruncator";
 
 const Reviews = () => {
-  const [activeReview, setActiveReview] = useState<number>(0);
-  const { i18n } = useTranslation();
+  // const [activeReview, setActiveReview] = useState<number>(0);
+  // const { i18n } = useTranslation();
 
   return (
-    <div className="max-w-2xl h-auto my-auto mx-auto relative">
-      <div className="overflow-hidden">
+    <div className="max-w-2xl h-auto mx-auto relative mb-16">
+      <div id="TA_selfserveprop753" className="TA_selfserveprop flex flex-col items-center justify-center">
+        <ul id="4LYBFukIMaq" className="TA_links V5wBEKX2QMB">
+          <li id="xnj3K6XbZA" className="O04DPosiPGXM">
+            <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g309293-d33097180-Reviews-Paticas_Travel-San_Jose_San_Jose_Metro_Province_of_San_Jose.html" rel="noreferrer">
+              <img src="https://www.tripadvisor.com/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" alt="TripAdvisor" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {/* <div className="overflow-hidden">
         <div className="flex transition-transform duration-300 ease-in-out" style={{ transform: `translateX(-${activeReview * 100}%)` }}>
           {ReviewsHardCoded.map((review, index) => (
             <div key={index} className="w-full content-center flex-shrink-0">
@@ -49,7 +59,7 @@ const Reviews = () => {
         className={`absolute right-0 top-[45%] w-8 h-8 bg-white rounded-full flex items-center justify-center z-10 border-1 border-black ${activeReview === ReviewsHardCoded.length - 1 && 'hidden'} `}
       >
         <IoChevronForward className="text-xl" />
-      </button>
+      </button> */}
     </div>
   )
 }

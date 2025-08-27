@@ -4,7 +4,6 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 
 import "./Footer.css";
-import QRCode from "../../assets/qrcode-instagram.png";
 import Modal from "../modal/Modal";
 import { useState } from "react";
 
@@ -42,16 +41,15 @@ const Footer = () => {
         </article>
       </section>
       <section>
-        <img src={QRCode} alt="Family" className="w-64 h-64 mx-auto" />
         <article className="flex flex-col justify-content-center items-center my-6">
           <div className="flex gap-4">
-            <div onClick={() => window.open('https://www.instagram.com/paticas_paque_las_quierocr/')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center">
+            <div onClick={() => window.open('https://www.instagram.com/paticas_paque_las_quierocr/')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center cursor-pointer">
               <FaInstagram className="text-3xl text-black" />
             </div>
-            <div onClick={() => window.open('https://www.facebook.com/Paticaspaquelasquiero')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center">
+            <div onClick={() => window.open('https://www.facebook.com/Paticaspaquelasquiero')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center cursor-pointer">
               <FaFacebookF className="text-4xl text-black" />
             </div>
-            <div onClick={() => window.open('https://www.tiktok.com/@paticaspaquelasquiero')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center">
+            <div onClick={() => window.open('https://www.tiktok.com/@paticastravelcr?_t=ZM-8zBhcPJlWKL&_r=1')} className="w-14 h-14 rounded-full bg-yellow-icon flex items-center justify-content-center cursor-pointer">
               <FaTiktok className="text-3xl text-black" />
             </div>
           </div>

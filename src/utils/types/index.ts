@@ -144,6 +144,7 @@ type TourType = {
   itinerary: Array<ItineraryType>;
   prices: Array<PriceType>;
   childsPrice: number;
+  peekLink?: string;
 };
 
 type UserInfo = {

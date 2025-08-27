@@ -196,8 +196,9 @@
   "noTaxes": "Sin impuestos adicionales ni tarifas de reserva",
   "oneDayTour": {
     "title": "Tours por un día",
-    "description": "Experimenta lo mejor de Costa Rica en solo un día con nuestros exclusivos tours de un día. Perfecto para aquellos que tienen poco tiempo pero desean explorar.",
+    "description": "Vive lo mejor de Costa Rica en un solo día con nuestros exclusivos tours privados de lujo—una experiencia todo incluido que combina naturaleza, cultura y confort.",
     "birdewatching": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/LR1jz",
       "about": "Descubra el Parque Nacional Corcovado, uno de los lugares con mayor biodiversidad del planeta, ideal para los amantes de la fotografía de vida silvestre. Ubicado en la Península de Osa, este paraíso natural representa el 2.5% de la flora y fauna mundial, con selvas tropicales, playas vírgenes y cascadas impresionantes.\nCapture imágenes únicas de perezosos, dantas, tucanes y felinos como pumas y ocelotes en su hábitat natural. Reconocido por National Geographic como “el lugar más intenso del planeta en términos de biodiversidad,” Corcovado ofrece actividades como recorridos en lancha, avistamiento de ballenas y delfines, y caminatas nocturnas.",
       "daysAndNights": "",
       "description": "",
@@ -225,6 +226,7 @@
       "note": "Este tour opera los 7 días de la semana, Reserva antelación para asegurar tu lugar "
     },
     "blueFalls": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/vzyvM",
       "about": "Sal de lo típico y explora una de las verdaderas joyas ocultas de Costa Rica. Esta aventura privada y todo incluido te lleva al corazón del bosque nuboso para descubrir las impresionantes Blue Falls — una serie de cascadas de agua cristalina rodeadas de naturaleza intacta. Camina por la selva, nada en pozas turquesa y descubre rincones secretos que solo los locales conocen. Perfecto para viajeros que buscan serenidad, autenticidad y una cara de Costa Rica que pocos llegan a conocer.",
       "daysAndNights": "",
       "description": "",
@@ -254,6 +256,7 @@
       "note": "Este tour opera los 7 días de la semana, Reserva antelación para asegurar tu lugar "
     },
     "dinoLand": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/2jlYj",
       "about": "Escapa de la ciudad y explora un tesoro escondido que pocos turistas conocen. Visita Dinoland, un parque temático jurásico con dinosaurios a escala real y el tobogán seco más grande de Centroamérica. Luego disfruta de vistas panorámicas desde el Mirador Las Alas y contempla la fuerza de la catarata del Río Agrio. Una aventura privada, todo incluido, ideal para familias y viajeros curiosos que desean experimentar Costa Rica como un local.",
       "daysAndNights": "",
       "description": "",
@@ -283,6 +286,7 @@
       "note": "Nuestro servicio opera los siete días de la semana."
     },
     "arenalLake": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/rle4W",
       "about": "Navega por el impresionante Lago Arenal en un tour privado y todo incluido, con vistas inigualables al majestuoso Volcán Arenal. Vive una experiencia única que combina aventura, naturaleza y cultura local. Comienza el día con una tranquila sesión de kayak o paddle board sobre aguas serenas, visita un encantador café rural con vista a una cascada y conoce las raíces culturales de la región. Este tour es ideal para quienes buscan una escapada auténtica, cómoda y personalizada en medio de la belleza natural de Costa Rica.",
       "daysAndNights": "",
       "description": "",
@@ -312,6 +316,7 @@
       "note": "Nuestro servicio opera los siete días de la semana."
     },
     "manuelAntonio": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/wa7dN",
       "about": "Descubre senderos escénicos, miradores impresionantes y playas de arena blanca en un recorrido privado a Manuel Antonio. Con un guía dedicado a tu lado, podrás observar monos, perezosos y una vibrante vida silvestre, mientras viajas con comodidad y apoyas a las comunidades locales en cada paso de la experiencia.",
       "daysAndNights": "",
       "description": "",
@@ -339,6 +344,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "poasVolcano": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/Zyd1l",
       "about": "Escapa de las multitudes con este tour privado y todo incluido al Volcán Poás y a una finca familiar de fresas en las tierras altas. Explora el cráter y la Laguna Botos junto a un guía personal, luego recolecta tus propias fresas y disfruta de una cata artesanal con vino, sangría, rompope y delicias locales. Esta experiencia apoya directamente a pequeños negocios rurales y ofrece una forma auténtica y significativa de conectar con Costa Rica, con atención personalizada, comidas deliciosas y transporte privado incluido.",
       "daysAndNights": "",
       "description": "",
@@ -370,6 +376,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "caribbeanTour": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/zlqYw",
       "about": "Descubre la vibrante cultura caribeña de Costa Rica en este tour privado todo incluido. Desde la música y la danza hasta la deliciosa gastronomía, sumérgete en la rica herencia afrocaribeña de la región.Vive la esencia de la costa caribeña de Costa Rica en un tour privado lleno de color, ritmo y tradición. Descubre la energía vibrante de Puerto Viejo, disfruta de la exquisita gastronomía afrocaribeña y explora la exuberante naturaleza de Manzanillo de la mano de un guía local. Este tour todo incluido te ofrece mucho más que sol y playa: es una inmersión cultural auténtica que apoya a familias locales y te invita a sentir el alma del Caribe en cada paso, cada sabor y cada paisaje.",
       "daysAndNights": "",
       "description": "",
@@ -398,6 +405,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "queseraBeach": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/XWDXg",
       "about": "Descubre uno de los secretos mejor guardados de Costa Rica en esta aventura privada y todo incluido hacia Playa Quesera — un paraíso escondido de aguas turquesa y arena blanca, conocido solo por locales. Cruza el Golfo de Nicoya en ferry y bote, explora el exuberante Refugio de Vida Silvestre Curú y disfruta de sabores auténticos de la costa durante el camino. Esta experiencia combina belleza natural, inmersión cultural y servicio personalizado para un día de playa verdaderamente exclusivo — lejos de las multitudes y cerca del verdadero espíritu de Costa Rica.",
       "daysAndNights": "",
       "description": "",
@@ -428,6 +436,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "sarchiCity": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/0b3KX",
       "about": "Adéntrate en la capital artesanal de Costa Rica y descubre el colorido pueblo de Sarchí, cuna de carretas pintadas a mano y de generaciones de talentosos artesanos de la madera. Visita la histórica fábrica de carretas, admira la carreta más grande del mundo, degusta comida tradicional costarricense y aprende cómo los artistas locales mantienen viva la cultura a través del color, la creatividad y el trabajo en comunidad.",
       "daysAndNights": "",
       "description": "",
@@ -456,6 +465,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "santaTeresaSurf": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/yo0pe",
       "about": "Siente la energía del Pacífico en cada ola con esta experiencia privada de surf en Santa Teresa. Aprende (o mejora) con instructores locales en una de las playas más icónicas de Costa Rica. Conecta con la vibra relajada del lugar, apoya proyectos comunitarios y disfruta paisajes que solo el mar puede regalar. Surf, sol y alma pura — todo en un solo día.",
       "daysAndNights": "",
       "description": "",
@@ -485,6 +495,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "tortugueroCanoe": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/63mpj",
       "about": "Explora los canales remotos y la selva tropical de Tortuguero en una travesía privada en canoa, navegando por aguas ricas en vida silvestre donde podrás avistar monos, tucanes, cocodrilos y mucho más. Realiza una caminata guiada al Cerro Tortuguero para disfrutar de vistas impresionantes y visita el pueblo local para conectarte con la cultura y el ritmo de vida en la jungla. Esta experiencia apoya directamente a comunidades rurales y ofrece una conexión auténtica con uno de los ecosistemas más asombrosos de Costa Rica.",
       "daysAndNights": "",
       "description": "",
@@ -514,6 +525,7 @@
       "note": "Este tour opera los 7 días de la semana. Reserva con antelación para asegurar tu lugar."
     },
     "whaleWatching": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/OvEmY",
       "about": "Vive una aventura privada por la costa pacífica de Costa Rica en busca de ballenas jorobadas, delfines y tortugas marinas en su hábitat natural. Guiado por expertos locales y respaldado por pequeños negocios comunitarios, este tour de lujo combina comodidad, conocimiento y encuentros inolvidables con la vida silvestre. Si la marea lo permite, también podrás caminar sobre la famosa formación arenosa Cola de Ballena, visible solo en marea baja. Ideal entre julio y octubre, esta experiencia ofrece una conexión profunda con la naturaleza en una de las regiones más biodiversas del país.",
       "daysAndNights": "",
       "description": "",
@@ -573,23 +585,23 @@
   "principal": "Principal",
   "principalBanners": {
     "betweenVolcanoes": {
-      "description": "Descubra el impresionante volcan Arenal y la enorme biodiverdodad de Monteverde",
+      "description": "Descubra el impresionante volcan Arenal y la enorme biodiversidad de Monteverde.",
       "title": "Entre volcanes y naturaleza exhuberante"
     },
     "caribeanSouthCaribean": {
-      "description": "La riqueza cultural y la biodiversidad del Caribe le espera",
+      "description": "Explora playas de arena blanca y la cultura afrocaribeña en Puerto Viejo y Manzanillo, Costa Rica.",
       "title": "Descubra el Caribe Sur Costarricensen"
     },
     "fishingSport": {
-      "description": "Explore la belleza marina de Costa Rica",
-      "title": "Pesca deportiva en el Pacífico Sur y Costarricensedn"
+      "description": "Vive la pesca en altamar en Quepos e Isla del Caño y atrapa peces trofeo.",
+      "title": "Pesca deportiva en el Pacífico Sur y Costarricense"
     },
     "manuelAntonio": {
-      "description": "Playas paradisiacas y avistamiento de ballenas",
+      "description": "Disfruta de playas paradisíacas, avistamiento de ballenas en Uvita y desove de tortugas bajo la luz de la luna en Tortuguero.",
       "title": "Disfrute de Manuel Antonio y Bahia Ballena"
     },
     "wildLife": {
-      "description": "Capture la belleza natural de nuestro pais",
+      "description": "Captura impresionantes fotografías de vida silvestre en Corcovado, uno de los lugares más biodiversos del planeta.",
       "title": "Expedición Fotográfica: Vida Silvestre en Corcovado"
     }
   },
@@ -612,7 +624,7 @@
     "title": "Contáctenos"
   },
   "sectionOurTour": {
-    "body": "Descubre nuestros tours privados de lujo en Costa Rica: aventura, fotografía y escapadas a la playa, todos personalizables según tu estilo de viaje. Vive la biodiversidad y la cultura costarricense en paisajes naturales espectaculares.",
+    "body": "Descubre nuestros tours privados de lujo en Costa Rica — no son tours grupales, son tus tours. Vive Costa Rica a través de viajes hechos a tu medida. Ya sea aventura, fotografía de vida silvestre o escapadas tranquilas a la playa, cada tour se personaliza según tu estilo y ritmo.\n\nAl elegir nuestros tours, también apoyas a negocios y comunidades locales de alta calidad, asegurando que tu viaje tenga un impacto positivo en las personas y lugares que visitas.",
     "title": "Nuestras Giras"
   },
   "sectionReviews": {
