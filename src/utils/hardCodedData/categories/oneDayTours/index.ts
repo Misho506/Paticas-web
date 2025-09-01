@@ -31,6 +31,22 @@ const birdewatching = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.birdewatching.itinerary.0.title"),
       description: t("oneDayTour.birdewatching.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.birdewatching.itinerary.0.title"),
+      description: t("oneDayTour.birdewatching.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.birdewatching.itinerary.1.title"),
+      description: t("oneDayTour.birdewatching.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.birdewatching.itinerary.2.title"),
+      description: t("oneDayTour.birdewatching.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.birdewatching.itinerary.3.title"),
+      description: t("oneDayTour.birdewatching.itinerary.3.description"),
     }
   ],
   prices: [
@@ -77,6 +93,14 @@ const blueFalls = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.blueFalls.itinerary.0.title"),
       description: t("oneDayTour.blueFalls.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.blueFalls.itinerary.1.title"),
+      description: t("oneDayTour.blueFalls.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.blueFalls.itinerary.2.title"),
+      description: t("oneDayTour.blueFalls.itinerary.2.description"),
     }
   ],
   prices: [
@@ -124,6 +148,14 @@ const dinoLand = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.dinoLand.itinerary.0.title"),
       description: t("oneDayTour.dinoLand.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.dinoLand.itinerary.1.title"),
+      description: t("oneDayTour.dinoLand.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.dinoLand.itinerary.2.title"),
+      description: t("oneDayTour.dinoLand.itinerary.2.description"),
     }
   ],
   prices: [
@@ -166,6 +198,18 @@ const arenalLake = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.arenalLake.itinerary.0.title"),
       description: t("oneDayTour.arenalLake.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.arenalLake.itinerary.1.title"),
+      description: t("oneDayTour.arenalLake.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.arenalLake.itinerary.2.title"),
+      description: t("oneDayTour.arenalLake.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.arenalLake.itinerary.3.title"),
+      description: t("oneDayTour.arenalLake.itinerary.3.description"),
     }
   ],
   prices: [
@@ -208,6 +252,18 @@ const manuelAntonio = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.manuelAntonio.itinerary.0.title"),
       description: t("oneDayTour.manuelAntonio.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.manuelAntonio.itinerary.1.title"),
+      description: t("oneDayTour.manuelAntonio.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.manuelAntonio.itinerary.2.title"),
+      description: t("oneDayTour.manuelAntonio.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.manuelAntonio.itinerary.3.title"),
+      description: t("oneDayTour.manuelAntonio.itinerary.3.description"),
     }
   ],
   prices: [
@@ -250,6 +306,22 @@ const poasVolcano = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.poasVolcano.itinerary.0.title"),
       description: t("oneDayTour.poasVolcano.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.poasVolcano.itinerary.1.title"),
+      description: t("oneDayTour.poasVolcano.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.poasVolcano.itinerary.2.title"),
+      description: t("oneDayTour.poasVolcano.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.poasVolcano.itinerary.3.title"),
+      description: t("oneDayTour.poasVolcano.itinerary.3.description"),
+    },
+    {
+      title: t("oneDayTour.poasVolcano.itinerary.4.title"),
+      description: t("oneDayTour.poasVolcano.itinerary.4.description"),
     }
   ],
   prices: [
@@ -296,6 +368,22 @@ const carribeanTour = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.caribbeanTour.itinerary.0.title"),
       description: t("oneDayTour.caribbeanTour.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.caribbeanTour.itinerary.1.title"),
+      description: t("oneDayTour.caribbeanTour.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.caribbeanTour.itinerary.2.title"),
+      description: t("oneDayTour.caribbeanTour.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.caribbeanTour.itinerary.3.title"),
+      description: t("oneDayTour.caribbeanTour.itinerary.3.description"),
+    },
+    {
+      title: t("oneDayTour.caribbeanTour.itinerary.4.title"),
+      description: t("oneDayTour.caribbeanTour.itinerary.4.description"),
     }
   ],
   prices: [
@@ -344,6 +432,18 @@ const queseraBeach = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.queseraBeach.itinerary.0.title"),
       description: t("oneDayTour.queseraBeach.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.queseraBeach.itinerary.1.title"),
+      description: t("oneDayTour.queseraBeach.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.queseraBeach.itinerary.2.title"),
+      description: t("oneDayTour.queseraBeach.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.queseraBeach.itinerary.3.title"),
+      description: t("oneDayTour.queseraBeach.itinerary.3.description"),
     }
   ],
   prices: [
@@ -389,6 +489,10 @@ const sarchiCity = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.sarchiCity.itinerary.0.title"),
       description: t("oneDayTour.sarchiCity.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.sarchiCity.itinerary.1.title"),
+      description: t("oneDayTour.sarchiCity.itinerary.1.description"),
     }
   ],
   prices: [
@@ -438,6 +542,14 @@ const santaTeresaSurf = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.santaTeresaSurf.itinerary.0.title"),
       description: t("oneDayTour.santaTeresaSurf.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.santaTeresaSurf.itinerary.1.title"),
+      description: t("oneDayTour.santaTeresaSurf.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.santaTeresaSurf.itinerary.2.title"),
+      description: t("oneDayTour.santaTeresaSurf.itinerary.2.description"),
     }
   ],
   prices: [
@@ -482,6 +594,22 @@ const tortugueroCanoe = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.tortugueroCanoe.itinerary.0.title"),
       description: t("oneDayTour.tortugueroCanoe.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.tortugueroCanoe.itinerary.1.title"),
+      description: t("oneDayTour.tortugueroCanoe.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.tortugueroCanoe.itinerary.2.title"),
+      description: t("oneDayTour.tortugueroCanoe.itinerary.2.description"),
+    },
+    {
+      title: t("oneDayTour.tortugueroCanoe.itinerary.3.title"),
+      description: t("oneDayTour.tortugueroCanoe.itinerary.3.description"),
+    },
+    {
+      title: t("oneDayTour.tortugueroCanoe.itinerary.4.title"),
+      description: t("oneDayTour.tortugueroCanoe.itinerary.4.description"),
     }
   ],
   prices: [
@@ -533,6 +661,14 @@ const whaleWatching = (t: TFunction): TourType => ({
     {
       title: t("oneDayTour.whaleWatching.itinerary.0.title"),
       description: t("oneDayTour.whaleWatching.itinerary.0.description"),
+    },
+    {
+      title: t("oneDayTour.whaleWatching.itinerary.1.title"),
+      description: t("oneDayTour.whaleWatching.itinerary.1.description"),
+    },
+    {
+      title: t("oneDayTour.whaleWatching.itinerary.2.title"),
+      description: t("oneDayTour.whaleWatching.itinerary.2.description"),
     }
   ],
   prices: [

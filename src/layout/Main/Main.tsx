@@ -75,10 +75,6 @@ const Main = () => {
       </section>
       <SectionWithTitle title={sectionReviews(i18n.t).title} body={sectionReviews(i18n.t).body} />
       <Reviews />
-      <button className="bg-yellow text-black border-full py-2 px-3 mt-3  mx-auto rounded-full flex justify-self-center">
-        {i18n.t("shareExperience")}
-        <IoIosArrowRoundForward className="mx-1 flex justify-self-center text-2xl" />
-      </button>
       <br />
       <Contact />
     </section>

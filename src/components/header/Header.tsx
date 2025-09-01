@@ -72,17 +72,13 @@ const Header = () => {
       <section className="hidden sm:flex navbar-links justify-around">
         {navButtons.map((navButton, index) => (
           index === 0 ? (
-            toursMenu(index)
+            toursMenu(index) // Pass the index to the function
           ) : (
             <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>
-          )))}
+          )
+        ))}
       </section>
       <section className="pr-4 sm:pr-16 text-white mb-1 flex">
-        <MdOutlineShoppingCart
-          onClick={() => setOpenModal(true)}
-          style={{ fontSize: 40 }}
-          className="p-1"
-        />
         <IoIosMenu onClick={() => setIsOpen(true)} style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
       </section>
 
