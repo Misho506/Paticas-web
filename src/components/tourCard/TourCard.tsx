@@ -1,16 +1,18 @@
 import { useState } from "react";
 import { FaRegCalendarCheck, FaRegMoneyBillAlt } from "react-icons/fa";
 import { CiCircleInfo, CiLocationOn } from "react-icons/ci";
+import { IoMdTime } from "react-icons/io";
 import { useNavigate } from "react-router";
 
 import "./TourCard.css";
 import { TourType } from "../../utils/types";
 import { useTour } from "../../context/TourContext";
 import { useTranslation } from "react-i18next";
+const formatter = new Intl.NumberFormat("en-US"); // puedes usar "es-CR" si prefieres formato de Costa Rica
 
 const TourCard = ({ tour }: { tour: TourType }) => {
   const [showTooltip, setShowTooltip] = useState(false);
-  const { img, title, places, daysAndNights, prices } = tour;
+  const { img, title, places, daysAndNights, prices, aproxHours } = tour;
   const { i18n } = useTranslation();
   const { setSelectedTour } = useTour();
   const navigate = useNavigate();
@@ -34,7 +36,7 @@ const TourCard = ({ tour }: { tour: TourType }) => {
       {showTooltip &&
         <div className="absolute mb-2 grid right-3 -top-8 -translate-y-1/2 bg-white text-gray-800 text-sm rounded-lg shadow-md border border-gray-200 p-2 z-10">
           {prices && prices.map((price, index) => (
-            <span className="w-full" key={index}>{i18n.t("moreThan")} {price.numberOfPeople} {i18n.t("people")} ${price.price}</span>
+            <span className="w-full" key={index}>{price.numberOfPeople} pax: ${formatter.format(price.price)}/{i18n.t("perPerson")}</span>
           ))}
         </div>
       }
@@ -67,6 +69,11 @@ const TourCard = ({ tour }: { tour: TourType }) => {
               <span className="italic text-xs ml-1"> per person</span>
             </article>
           }
+          {aproxHours &&
+            <article className="flex items-center text-sm text-gray-500 mt-3">
+              <IoMdTime className="yellow-icon text-xl" />
+              <span className="italic ml-1">{aproxHours} {i18n.t("hoursAprox")}</span>
+            </article>}
         </section>
       </article >
     </section >

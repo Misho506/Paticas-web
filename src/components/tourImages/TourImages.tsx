@@ -13,7 +13,7 @@ const TourImages = () => {
 
   return (
     <section className="tour-images-container py-6 ">
-      <article className="px-3 grid grid-rows-3 grid-cols-3 gap-3">
+      <article className={`px-3 grid ${selectedTour.photos.length <= 6 ? 'grid-rows-2' : 'grid-rows-3'} grid-cols-3 gap-3`}>
         {
           selectedTour.photos.map((photo, index) =>
             (showsAll || index < 9) &&
@@ -21,12 +21,12 @@ const TourImages = () => {
           )
         }
       </article>
-      <button
+      {selectedTour.photos.length > 9 && <button
         onClick={() => setShowsAll(!showsAll)}
         className="show-all-button flex justify-self-center my-5 px-3 py-2 text-xl rounded-full border-1 border-black  mx-auto"
       >
         {showsAll ? i18n.t("showLess") : i18n.t("seeMore")}
-      </button>
+      </button>}
       {selectedImage && (
         <div
           className="fixed inset-0 img-modal bg-black z-50 flex items-center justify-center p-4"

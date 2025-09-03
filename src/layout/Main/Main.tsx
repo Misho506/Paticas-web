@@ -54,9 +54,9 @@ const Main = () => {
         </div>
       </article>
       <h2 className="mx-auto text-center">{i18n.t("oneDayTour.title")}</h2>
-      <ToursCards tours={oneDayTours} showActionButton redirectTo="/one-day-tours" />
+      <ToursCards tours={oneDayTours.slice(0, 4)} showActionButton redirectTo="/one-day-tours" />
       <h2 className="mx-auto text-center">{i18n.t("multiDayTourTitle")}</h2>
-      <ToursCards tours={tours} showActionButton />
+      <ToursCards tours={tours.slice(0, 4)} showActionButton />
       <SectionWithTitle title={sectionBlogs(i18n.t).title} body={sectionBlogs(i18n.t).body} />
       <BlogsCarrousel />
       <SectionWithTitle title={sectionAboutUs(i18n.t).title} body={sectionAboutUs(i18n.t).body} />

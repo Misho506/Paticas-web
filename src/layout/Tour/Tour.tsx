@@ -6,15 +6,16 @@ import { useTour } from "../../context/TourContext";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import "./Tour.css";
 import { IoMdArrowBack } from "react-icons/io";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import ToursCards from "../../components/tourCard/ToursCard";
 import TourBookingCard from "../../components/tourBookingCard/TourBookingCard";
 import TourImages from "../../components/tourImages/TourImages";
 import { LuxuryHotelIcon, MealsIncludedIcon } from "../../assets/icons";
+import { TourType } from "../../utils/types";
 
 const Tour = () => {
   const { i18n } = useTranslation();
-  const { selectedTour, selectedCategory, tours } = useTour();
+  const { selectedTour, selectedCategory, tours, oneDayTours } = useTour();
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
   const tabs = [i18n.t("overview"), i18n.t("details"), i18n.t("itinerary"), i18n.t("gallery")];
@@ -36,6 +37,20 @@ const Tour = () => {
       setOpenSections([...openSections, index]);
     }
   };
+  const isOneDayTour = useMemo(() => !!selectedTour.aproxHours, [selectedTour]);
+
+  const showSuggestedTours = useMemo(() => {
+    console.log(selectedTour);
+    const indexForToursToShow = Math.floor(Math.random() * (tours.length - 4));
+    let toursToShow: Array<TourType> = [];
+
+    if (selectedTour.suggestedTours && selectedTour.suggestedTours.length > 0) {
+      toursToShow = (isOneDayTour ? oneDayTours : tours).filter(tour => selectedTour.suggestedTours?.includes(tour.id));
+    }
+    console.log(toursToShow);
+    return <ToursCards tours={toursToShow.length > 0 ? toursToShow : tours.slice(indexForToursToShow, indexForToursToShow + 4)} />
+  }, [oneDayTours, selectedTour, tours])
+
 
   return (
     <div className="tours-container">
@@ -107,12 +122,12 @@ const Tour = () => {
       </section>
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
-        <ToursCards tours={tours} />,
+        showSuggestedTours,
         i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       <button
-        onClick={() => navigate(`/category/:${selectedCategory.title}`)}
+        onClick={() => navigate(isOneDayTour ? '/' : `/category/:${selectedCategory.title}`)}
         className="show-all-button flex justify-self-center items-center mx-auto my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
         <IoMdArrowBack />

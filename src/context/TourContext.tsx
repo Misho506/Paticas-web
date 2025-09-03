@@ -29,6 +29,7 @@ const categoryInitialValue = {
   tours: [],
 };
 const tourInitialValue = {
+  id: "",
   img: "",
   title: "",
   places: [],

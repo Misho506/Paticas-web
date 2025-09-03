@@ -13,25 +13,19 @@ type ToursCardsProps =
     redirectTo?: string;
   }
 
-const ToursCards = ({ tours, showActionButton = false, oneDayTours = false, redirectTo = "/categories" }: ToursCardsProps) => {
+const ToursCards = ({ tours, showActionButton = false, redirectTo = "/categories" }: ToursCardsProps) => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
+
   return (
     <>
       <section className="flex flex-wrap mx-10 justify-center">
-        {
-          oneDayTours ? tours.map((tour, index) => (
-            <TourCard
-              key={index}
-              tour={tour}
-            />
-          )) : tours.slice(0, 4).map((tour, index) => (
-            <TourCard
-              key={index}
-              tour={tour}
-            />
-          ))
-        }
+        {tours.map((tour, index) => (
+          <TourCard
+            key={index}
+            tour={tour}
+          />
+        ))}
       </section>
       {showActionButton &&
         <button

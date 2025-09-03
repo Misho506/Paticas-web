@@ -3,6 +3,7 @@ import { TourType } from '../../../types';
 
 
 const wildLife = (t: TFunction): TourType => ({
+  id: "wildLife",
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/3._vida_silvestre_en_corcovado_y_osa-2_ndct01.jpg",
   title: t("tours.wildLife.title"),
   places: [t("tours.wildLife.places.0")],
@@ -112,6 +113,7 @@ const wildLife = (t: TFunction): TourType => ({
 });
 
 const followingQuetzal = (t: TFunction): TourType => ({
+  id: "followingQuetzal",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
   title: t("tours.followingQuetzal.title"),
   places: [t("tours.followingQuetzal.places.0")],
@@ -120,6 +122,9 @@ const followingQuetzal = (t: TFunction): TourType => ({
   about: t("tours.followingQuetzal.about"),
   days: 7,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00010.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00017.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00016.jpg",
@@ -128,15 +133,12 @@ const followingQuetzal = (t: TFunction): TourType => ({
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00013.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00010.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00009.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00008.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00007.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00006.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00005.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00003.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00002.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
   ],
   includes: [
@@ -206,7 +208,8 @@ const followingQuetzal = (t: TFunction): TourType => ({
 });
 
 const crocodilesAndBirds = (t: TFunction): TourType => ({
-  img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/observacion-de-cocodrilos-y-aves-00001.jpg",
+  id: "crocodilesAndBirds",
+  img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/observacion-de-cocodrilos-y-aves-00001.jpg",
   title: t("tours.crocodilesAndBirds.title"),
   places: [t("tours.crocodilesAndBirds.places.0"), t("tours.crocodilesAndBirds.places.1")],
   daysAndNights: t("tours.crocodilesAndBirds.daysAndNights"),
@@ -305,6 +308,7 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
 });
 
 const sportFishing = (t: TFunction): TourType => ({
+  id: "sportFishing",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00011.jpg",
   title: t("tours.sportFishing.title"),
   places: [t("tours.sportFishing.places.0")],
@@ -313,23 +317,23 @@ const sportFishing = (t: TFunction): TourType => ({
   about: t("tours.sportFishing.about"),
   days: 7,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00013.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00015.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00017.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00014.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00013.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00011.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00007.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00006.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00005.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00008.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00002.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00001.jpg",
   ],
   includes: [
@@ -406,6 +410,7 @@ const sportFishing = (t: TFunction): TourType => ({
 });
 
 const ecoExplor = (t: TFunction): TourType => ({
+  id: "ecoExplor",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00001.jpg",
   title: t("tours.ecoExplor.title"),
   places: [t("tours.ecoExplor.places.0")],
@@ -414,6 +419,13 @@ const ecoExplor = (t: TFunction): TourType => ({
   about: t("tours.ecoExplor.about"),
   days: 9,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00001.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00017.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00016.jpg",
@@ -422,16 +434,9 @@ const ecoExplor = (t: TFunction): TourType => ({
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00013.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00008.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00007.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00001.jpg",
   ],
   includes: [
     t("tours.ecoExplor.includes.0"),
@@ -520,6 +525,7 @@ const ecoExplor = (t: TFunction): TourType => ({
 });
 
 const sunAndSand = (t: TFunction): TourType => ({
+  id: "sunAndSand",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
   title: t("tours.sunAndSand.title"),
   places: [t("tours.sunAndSand.places.0")],
@@ -528,24 +534,24 @@ const sunAndSand = (t: TFunction): TourType => ({
   about: t("tours.sunAndSand.about"),
   days: 8,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00004.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00017.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00016.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00015.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00011.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00010.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00009.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00008.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00005.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00004.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
   ],
   includes: [
     t("tours.sunAndSand.includes.0"),
@@ -626,6 +632,7 @@ const sunAndSand = (t: TFunction): TourType => ({
 });
 
 const manuelAntonio = (t: TFunction): TourType => ({
+  id: "manuelAntonio",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
   title: t("tours.manuelAntonio.title"),
   places: [t("tours.manuelAntonio.places.0")],
@@ -719,6 +726,7 @@ const manuelAntonio = (t: TFunction): TourType => ({
 });
 
 const turtlesAndWhales = (t: TFunction): TourType => ({
+  id: "turtlesAndWhales",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00001.jpg",
   title: t("tours.turtlesAndWhales.title"),
   places: [t("tours.turtlesAndWhales.places.0"), t("tours.turtlesAndWhales.places.1")],
@@ -727,24 +735,24 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
   about: t("tours.turtlesAndWhales.about"),
   days: 7,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00001.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00003.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00017.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00016.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00013.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00010.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00007.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00005.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00004.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00001.jpg",
   ],
   includes: [
     t("tours.turtlesAndWhales.includes.0"),
@@ -821,6 +829,7 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
 });
 
 const volcanoes = (t: TFunction): TourType => ({
+  id: "volcanoes",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
   title: t("tours.volcanoes.title"),
   places: [t("tours.volcanoes.places.0")],
@@ -928,6 +937,7 @@ const volcanoes = (t: TFunction): TourType => ({
 });
 
 const southCaribean = (t: TFunction): TourType => ({
+  id: "southCaribean",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/caribean-00001.jpg",
   title: t("tours.southCaribean.title"),
   places: [t("tours.southCaribean.places.0")],
@@ -1032,6 +1042,7 @@ const southCaribean = (t: TFunction): TourType => ({
 });
 
 const tropicalTranquility = (t: TFunction): TourType => ({
+  id: "tropicalTranquility",
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/13._tranquilidad_tropical_portada_qseneu.jpg",
   title: t("tours.tropicalTranquility.title"),
   places: [t("tours.tropicalTranquility.places.0")],
@@ -1139,6 +1150,7 @@ const tropicalTranquility = (t: TFunction): TourType => ({
 });
 
 const secretsOfCostaRica = (t: TFunction): TourType => ({
+  id: "secretsOfCostaRica",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
   title: t("tours.secretsOfCostaRica.title"),
   places: [t("tours.secretsOfCostaRica.places.0")],
@@ -1147,24 +1159,24 @@ const secretsOfCostaRica = (t: TFunction): TourType => ({
   about: t("tours.secretsOfCostaRica.about"),
   days: 8,
   photos: [
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00018.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00016.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00015.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00001.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00009.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00012.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00008.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00005.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00004.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00002.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00001.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00011.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00015.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00014.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00018.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00007.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00017.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00016.jpg",
   ],
   includes: [
     t("tours.secretsOfCostaRica.includes.0"),
@@ -1248,6 +1260,7 @@ const secretsOfCostaRica = (t: TFunction): TourType => ({
 });
 
 const mostPopularInCostaRica = (t: TFunction): TourType => ({
+  id: "mostPopularInCostaRica",
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
   title: t("tours.mostPopularInCostaRica.title"),
   places: [t("tours.mostPopularInCostaRica.places.0"), t("tours.mostPopularInCostaRica.places.1"), t("tours.mostPopularInCostaRica.places.2")],
@@ -1256,20 +1269,20 @@ const mostPopularInCostaRica = (t: TFunction): TourType => ({
   about: t("tours.mostPopularInCostaRica.about"),
   days: 17,
   photos: [
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00010.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00005.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00012.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00008.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00006.jpg",
+    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00011.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00018.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00017.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00015.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00014.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00013.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00012.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00011.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00010.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00009.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00008.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00007.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00006.jpg",
-    "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00005.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00004.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00003.jpg",
     "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00002.jpg",

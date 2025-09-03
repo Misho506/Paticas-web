@@ -165,6 +165,7 @@
       "link": "/one-day-tours"
     }
   ],
+  "hoursAprox": "hours aprox.",
   "includes": "Includes",
   "investment": "See Dates & Prices",
   "itinerary": "Itinerary",
@@ -217,15 +218,15 @@
           "title": "Pickup Information"
         },
         {
-          "description": "Your day begins with private transportation from San José into the heart of Costa Rica’s cloud forest. As you ascend into the cool mountain air, enjoy the scenic drive surrounded by lush landscapes before arriving at a local mountain lodge for a traditional Costa Rican breakfast.2 hours",
+          "description": "Your day begins with private transportation from San José into the heart of Costa Rica’s cloud forest. As you ascend into the cool mountain air, enjoy the scenic drive surrounded by lush landscapes before arriving at a local mountain lodge for a traditional Costa Rican breakfast.\n2 hours",
           "title": "Cloud Forest Mountains"
         },
         {
-          "description": "Guided by a local birdwatching expert, you’ll visit an active nesting site of the Resplendent Quetzal, one of the most iconic and elusive birds in the world. Learn about their behavior, ecology, and cultural significance while observing them in their natural habitat. Binoculars are provided for a closer look.3 hours",
+          "description": "Guided by a local birdwatching expert, you’ll visit an active nesting site of the Resplendent Quetzal, one of the most iconic and elusive birds in the world. Learn about their behavior, ecology, and cultural significance while observing them in their natural habitat. Binoculars are provided for a closer look.\n3 hours",
           "title": "Quetzal Nesting Site"
         },
         {
-          "description": " Next, step into a vibrant hummingbird garden where dozens of species zip past just inches away. This magical experience offers endless opportunities for photography, relaxation, and a deeper connection with Costa Rica’s biodiversity. A hearty traditional lunch with fresh fruit is included here before making your return trip to San José.2 hours",
+          "description": " Next, step into a vibrant hummingbird garden where dozens of species zip past just inches away. This magical experience offers endless opportunities for photography, relaxation, and a deeper connection with Costa Rica’s biodiversity. A hearty traditional lunch with fresh fruit is included here before making your return trip to San José.\n2 hours",
           "title": "Hummingbird Garden & Lunch"
         }
       ],
@@ -552,7 +553,7 @@
           "title": "Pickup Information"
         },
         {
-          "description": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.\ns",
+          "description": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.\n3 hours",
           "title": "Sarchí"
         }
       ],
@@ -708,7 +709,8 @@
     "dinnerIncludes": "Breakfast, lunch and dinner"
   },
   "partners": "Partners",
-  "people": "people:",
+  "people": "people",
+  "perPerson": "per person",
   "passportId": "Passport ID",
   "phoneNumber": "Phone Number",
   "terms&Conditions": "Terms and Conditions",

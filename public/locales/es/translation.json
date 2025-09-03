@@ -165,6 +165,7 @@
       "link": "/one-day-tours"
     }
   ],
+  "hoursAprox": "horas aprox.",
   "includes": "Incluye",
   "investment": "Ver fechas y precios",
   "itinerary": "Itinerario",
@@ -709,7 +710,8 @@
   "partners": "Patrocinadores",
   "passportId": "Número de Pasaporte",
   "phoneNumber": "Número de teléfono",
-  "people": "personas:",
+  "people": "personas",
+  "perPerson": "por persona",
   "terms&Conditions": "Términos y Condiciones",
   "terms&ConditionsFileName": "es/TérminosYCondiciones.pdf",
   "pricePerKid": "Precio por niño",

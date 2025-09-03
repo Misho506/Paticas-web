@@ -132,6 +132,7 @@ type StoredDataTypeContextBlog = {
 };
 
 type TourType = {
+  id: string;
   img: string;
   title: string;
   places?: Array<string>;
@@ -145,6 +146,8 @@ type TourType = {
   prices: Array<PriceType>;
   childsPrice: number;
   peekLink?: string;
+  aproxHours?: string;
+  suggestedTours?: Array<string>;
 };
 
 type UserInfo = {
