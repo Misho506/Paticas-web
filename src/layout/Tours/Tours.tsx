@@ -10,7 +10,7 @@ const Tours = () => {
       <h1 className="text-4xl text-center bold my-4">
         {i18n.t("allTours")}
       </h1>
-      <ToursCards tours={tours} showAllTours />
+      <ToursCards tours={tours} />
     </section>
   );
 }

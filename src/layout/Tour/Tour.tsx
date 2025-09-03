@@ -6,17 +6,20 @@ import { useTour } from "../../context/TourContext";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import "./Tour.css";
 import { IoMdArrowBack } from "react-icons/io";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import ToursCards from "../../components/tourCard/ToursCard";
 import TourBookingCard from "../../components/tourBookingCard/TourBookingCard";
 import TourImages from "../../components/tourImages/TourImages";
 import { LuxuryHotelIcon, MealsIncludedIcon } from "../../assets/icons";
+import { TourType } from "../../utils/types";
 
 const Tour = () => {
   const { i18n } = useTranslation();
-  const { selectedTour, selectedCategory, tours } = useTour();
+  const { selectedTour, selectedCategory, tours, oneDayTours } = useTour();
   const [openSections, setOpenSections] = useState<Array<number>>([]);
   const navigate = useNavigate();
+  const tabs = [i18n.t("overview"), i18n.t("details"), i18n.t("itinerary"), i18n.t("gallery")];
+  const [activeTab, setActiveTab] = useState(i18n.t("overview"));
 
   const section = (children: React.ReactNode | React.ReactNode[], title: string) => {
     return (
@@ -34,6 +37,20 @@ const Tour = () => {
       setOpenSections([...openSections, index]);
     }
   };
+  const isOneDayTour = useMemo(() => !!selectedTour.aproxHours, [selectedTour]);
+
+  const showSuggestedTours = useMemo(() => {
+    console.log(selectedTour);
+    const indexForToursToShow = Math.floor(Math.random() * (tours.length - 4));
+    let toursToShow: Array<TourType> = [];
+
+    if (selectedTour.suggestedTours && selectedTour.suggestedTours.length > 0) {
+      toursToShow = (isOneDayTour ? oneDayTours : tours).filter(tour => selectedTour.suggestedTours?.includes(tour.id));
+    }
+    console.log(toursToShow);
+    return <ToursCards tours={toursToShow.length > 0 ? toursToShow : tours.slice(indexForToursToShow, indexForToursToShow + 4)} />
+  }, [oneDayTours, selectedTour, tours])
+
 
   return (
     <div className="tours-container">
@@ -45,12 +62,26 @@ const Tour = () => {
           </CCarouselItem>
         ))}
       </CCarousel>
-      {section(
+      <div className="flex justify-center mb-4">
+        {tabs.map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            className={`px-3 sm:px-5 py-2 font-medium text-sm md:text-base text-green-900 ${activeTab === tab
+              ? "border-b-2 border-green-900"
+              : "hover:text-green-700"
+              }`}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+      <hr className="w-4/5 mx-auto mb-6" />
+      {activeTab === i18n.t("overview") && section(
         <p className="py-11 flex flex-col justify-self-center text-gray-500 italic text-lg text-center" > {selectedTour.about}</p >,
         i18n.t("aboutTour")
       )}
-      <hr className="w-4/5 mx-auto mb-6" />
-      {section(
+      {activeTab === i18n.t("details") && section(
         <ul>
           {selectedTour.includes.map((activity, index) => (
             <li key={index} className="py-2 text-gray-500 italic text-lg">{activity}</li>
@@ -59,11 +90,11 @@ const Tour = () => {
         i18n.t("includes")
       )}
       <br />
-      <TourImages />
+      {activeTab === i18n.t("gallery") && <TourImages />}
       <br />
-      {section(
+      {activeTab === i18n.t("itinerary") && section(
         selectedTour.itinerary.map((activity, index) => (
-          <article key={index} className={`activity justify-items-center mt-6 ${openSections.includes(index) && 'mb-6'}`}>
+          <article key={index} className={`activity justify-items-center mt-6 mb-4 ${openSections.includes(index) && 'mb-6'}`}>
             <h5 key={index} className="activity-title w-full py-3 px-28 mx-auto rounded-full border-1 text-center" onClick={() => showHideSection(index)}>{activity.title}</h5>
             <div key={index} className={`${openSections.includes(index) ? 'max-h-screen mt-4' : 'm-0 h-0 overflow-hidden'} flex flex-col items-center transition-all duration-400 ease-in-out`}>
               <p className="text-gray-500 italic text-lg  whitespace-pre-line">{activity.description}</p>
@@ -85,18 +116,18 @@ const Tour = () => {
         i18n.t("itinerary")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
-      {section(
-        <TourBookingCard />,
-        i18n.t("investment")
-      )}
+      <section className="flex flex-col items-center justify-self-center px-3 w-11/12">
+        <h5 className="text-3xl font-bold">{i18n.t("investment")}</h5>
+        <TourBookingCard />
+      </section>
       <hr className="w-4/5 mx-auto mb-6" />
       {section(
-        <ToursCards tours={tours} />,
+        showSuggestedTours,
         i18n.t("otherExp")
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       <button
-        onClick={() => navigate(`/category/:${selectedCategory.title}`)}
+        onClick={() => navigate(isOneDayTour ? '/' : `/category/:${selectedCategory.title}`)}
         className="show-all-button flex justify-self-center items-center mx-auto my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
         <IoMdArrowBack />

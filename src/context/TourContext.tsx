@@ -4,6 +4,7 @@ import { BookingTourType, CategoryType, StoredDataTypeContextTour, TourType } fr
 import { allTours } from "../utils/hardCodedData/categories/tours";
 import { getCategoriesData } from '../utils/hardCodedData/categories';
 import { useTranslation } from 'react-i18next';
+import { allOneDayTours } from '../utils/hardCodedData/categories/oneDayTours';
 
 interface TourContextType {
   selectedCategory: CategoryType;
@@ -13,6 +14,7 @@ interface TourContextType {
   selectedTour: TourType;
   setSelectedTour: (tour: TourType) => void;
   tours: Array<TourType>;
+  oneDayTours: Array<TourType>;
   // Booking
   booking: BookingTourType;
   setBooking: (booking: BookingTourType) => void;
@@ -27,6 +29,7 @@ const categoryInitialValue = {
   tours: [],
 };
 const tourInitialValue = {
+  id: "",
   img: "",
   title: "",
   places: [],
@@ -75,6 +78,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // TOUR
   const [tours] = useState(allTours(i18n.t));
+  const [oneDayTours] = useState(allOneDayTours(i18n.t));
   const [selectedTour, setSelectedTour] = useState<TourType>(() => {
     const contextBlogsStoreData = localStorage.getItem('contextBlogsStoreData');
     if (contextBlogsStoreData) {
@@ -104,7 +108,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       booking,
     };
     localStorage.setItem('contextBlogsStoreData', JSON.stringify(dataToStore));
-  }, [selectedCategory, selectedTour, booking]);
+  }, [selectedCategory, selectedTour, booking, oneDayTours]);
 
   return (
     <TourContext.Provider
@@ -115,6 +119,7 @@ export const TourProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         selectedTour,
         setSelectedTour,
         tours,
+        oneDayTours,
         booking,
         setBooking
       }}>

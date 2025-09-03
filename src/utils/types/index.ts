@@ -61,6 +61,12 @@ type FormField = {
   title: string;
 };
 
+type MessageFormField = {
+  name: 'userName' | 'email' | 'description';
+  type: string;
+  title: string;
+};
+
 type FormFieldsType = {
   name: string;
   type: string;
@@ -126,9 +132,10 @@ type StoredDataTypeContextBlog = {
 };
 
 type TourType = {
+  id: string;
   img: string;
   title: string;
-  places: Array<string>;
+  places?: Array<string>;
   daysAndNights: string;
   days: number;
   description: string;
@@ -138,6 +145,9 @@ type TourType = {
   itinerary: Array<ItineraryType>;
   prices: Array<PriceType>;
   childsPrice: number;
+  peekLink?: string;
+  aproxHours?: string;
+  suggestedTours?: Array<string>;
 };
 
 type UserInfo = {
@@ -162,6 +172,7 @@ export type {
   PassengerInfo,
   PostCarrouselProps,
   PriceType,
+  MessageFormField,
   ReviewType,
   Stat,
   StepType,

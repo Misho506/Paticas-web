@@ -8,6 +8,8 @@
   },
   "adults": "Adults",
   "allTours": "See All Tours",
+  "details": "Details",
+  "description": "Description",
   "booking": "Booking",
   "bookingInfo": "Reservation Information",
   "bookingNote": "Please confirm the reservation information before sending the email.",
@@ -86,6 +88,7 @@
   "completeName": "Full name",
   "contact": "Contact",
   "discoverMore": "Discover More",
+  "disclaimerText": "*Group booking discounts available.*",
   "email": "Email",
   "endDate": "End date",
   "exploreMore": "Explore More",
@@ -107,6 +110,9 @@
     },
     "userName": {
       "required": "The name is required"
+    },
+    "description": {
+      "required": "The description is required"
     }
   },
   "founders": " Our Founders",
@@ -136,6 +142,7 @@
     "description": "At Paticas, we are committed to environmental awareness and conservation. We promote sustainable tourism by respecting ecosystems and minimizing our impact on nature. We support practices that preserve biodiversity, collaborate with responsible local enterprises, and educate our clients on the importance of protecting natural resources. Each of our trips aims to create a positive impact, fostering the appreciation and protection of Costa Rica's rich natural heritage.",
     "title": "Our Green Approach"
   },
+  "gallery": "Gallery",
   "headers": [
     {
       "name": "Tours",
@@ -152,8 +159,13 @@
     {
       "name": "Contact",
       "link": "/contact"
+    },
+    {
+      "name": "One day Tours",
+      "link": "/one-day-tours"
     }
   ],
+  "hoursAprox": "hours aprox.",
   "includes": "Includes",
   "investment": "See Dates & Prices",
   "itinerary": "Itinerary",
@@ -166,6 +178,8 @@
   },
   "mission&Vision": "Mission and Vision",
   "moreThanFamily": "We're more than just a family",
+  "moreThan": "more than",
+  "multiDayTourTitle": "Multi-Day Tours",
   "name": "Name",
   "newsletter": {
     "description": "If you like staying up to date with tour options, travel tips, and more, don't hesitate to subscribe.",
@@ -181,8 +195,503 @@
     "title": "Not available"
   },
   "noTaxes": "No additional taxes or booking fees",
+  "oneDayTour": {
+    "title": "One Day Tours",
+    "description": "Experience the best of Costa Rica in just one day with our exclusive private luxury tours. Discover breathtaking nature, vibrant culture, and paradise beaches with all-inclusive comfort—perfect for an unforgettable Costa Rica day trip.",
+    "birdewatching": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/lewpE",
+      "about": "Step into Costa Rica’s cloud forest on a private birdwatching experience to witness the Resplendent Quetzal during nesting season. Visit an active nest, explore a vibrant hummingbird garden, and enjoy a rare connection with nature — all while supporting local conservation and rural communities.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Visit to active quetzal nesting site (guided)",
+        "Entry to a scenic hummingbird garden",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 3:30 and 4:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Your day begins with private transportation from San José into the heart of Costa Rica’s cloud forest. As you ascend into the cool mountain air, enjoy the scenic drive surrounded by lush landscapes before arriving at a local mountain lodge for a traditional Costa Rican breakfast.\n2 hours",
+          "title": "Cloud Forest Mountains"
+        },
+        {
+          "description": "Guided by a local birdwatching expert, you’ll visit an active nesting site of the Resplendent Quetzal, one of the most iconic and elusive birds in the world. Learn about their behavior, ecology, and cultural significance while observing them in their natural habitat. Binoculars are provided for a closer look.\n3 hours",
+          "title": "Quetzal Nesting Site"
+        },
+        {
+          "description": " Next, step into a vibrant hummingbird garden where dozens of species zip past just inches away. This magical experience offers endless opportunities for photography, relaxation, and a deeper connection with Costa Rica’s biodiversity. A hearty traditional lunch with fresh fruit is included here before making your return trip to San José.\n2 hours",
+          "title": "Hummingbird Garden & Lunch"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Birdwatching Tour – Quetzal & Hummingbirds from San José",
+      "initDate": "October",
+      "endDate": "May",
+      "note": "Our service runs seven days a week."
+    },
+    "blueFalls": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/N3WLw",
+      "about": "Step off the tourist trail and explore one of Costa Rica’s true hidden gems. This private, all-inclusive adventure takes you deep into the cloud forest to discover the stunning Blue Falls — a series of crystal-clear waterfalls surrounded by untouched nature. Hike through the jungle, swim in turquoise pools, and uncover secret spots only locals know. Perfect for travelers seeking serenity, authenticity, and a side of Costa Rica few ever see.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Entrance fees to Blue Falls",
+        "Guided 7 km (4.5-mile) waterfall hike through cloud forest",
+        "Visit and photo stop at La Paz Waterfall",
+        "Time to swim in Blue Falls natural pools",
+        "Bottled water and fresh fruit snack during the tour",
+        "Professional photos and drone videos available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 6:00 and 7:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "A lush cloud forest region known for its stunning waterfalls, deep canyons, and vibrant greenery. Travelers will experience a scenic drive through the mountains, observing rural Costa Rican life before arriving at the trailhead for Blue Falls. Here, they will embark on a moderate 7 km (4.3-mile) hike through pristine cloud forest, crossing hanging bridges and discovering eight hidden waterfalls with crystal-clear blue pools, perfect for swimming and photography. The area offers panoramic viewpoints, rich biodiversity, and a tranquil escape into nature.\n5 hours",
+          "title": "Bajos del Toro"
+        },
+        {
+          "description": "La Paz Waterfall is one of Costa Rica’s most iconic and photographed waterfalls, surrounded by lush cloud forest and cascading 120 feet (37 meters) into a scenic gorge. During your tour, we will make a quick stop at a viewpoint for La Paz Waterfall, allowing you to take in its breathtaking beauty and capture stunning photos as a memorable part of your day’s adventure.\n20 minutes",
+          "title": "La Paz Waterfall"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Blue Falls Tour from San José – Hidden Waterfall Escape",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "dinoLand": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/qjL3b",
+      "about": "Escape the city and explore a hidden local favorite rarely visited by tourists. Visit Dinoland — a Jurassic-themed park with life-sized dinosaurs and the largest dry slide in Central America — then enjoy panoramic views from Mirador Las Alas and admire the power of Río Agrio Waterfall. A private, all-inclusive adventure for families and curious travelers looking to experience Costa Rica like a local.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Admission to Dinoland Jurassic Park",
+        "Ride the largest dry slide in Central America",
+        "Scenic stop at Mirador Las Alas",
+        "Guided visit to Río Agrio Waterfall",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 6:30 and 7:30 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "We'll start at Dino Land, a Jurassic-themed park featuring over 25 life-sized animatronic dinosaurs that move and roar — perfect for an immersive prehistoric adventure. Next, we’ll visit the stunning Río Agrio Waterfall, known for its acidic waters caused by volcanic minerals from nearby Poás Volcano. Its low pH gives the river its unique 'sour' name and character. Then, enjoy breathtaking views at the Las Alas viewpoint, followed by a fun ride down the largest dry slide in Central America — a thrilling way to end the day.\n4 hours",
+          "title": "Catarata Rio Agrio"
+        },
+        {
+          "description": "On the way, we’ll make a short stop at La Paz Waterfall to take photos and shop for local products.\n15 minutes",
+          "title": "La Paz Waterfall Gardens"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Jurassic Adventure – Waterfall, Dinoland & Slide from San José",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "arenalLake": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/637oV",
+      "about": "Paddle across Costa Rica’s largest lake with front-row views of the majestic Arenal Volcano. This private, all-inclusive tour blends outdoor adventure with local flavor — enjoy a calm morning on the water, visit a rural café with a waterfall view, and learn about the region’s cultural roots along the way. With gourmet meals, personalized guidance, and full comfort throughout, this experience offers a peaceful yet enriching escape into Costa Rica’s natural beauty.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Private kayak or stand-up paddle board tour on Lake Arenal",
+        "All necessary equipment (kayaks, SUP boards, life jackets, dry bags)",
+        "Stop at La Paz Waterfall for photos",
+        "Guided visit to Río Agrio Waterfall",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 5:30 and 6:30 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "At Lake Arenal, you will enjoy a private kayaking or stand-up paddle boarding experience on calm waters surrounded by lush rainforest. This is Costa Rica’s largest artificial lake, created for hydroelectric power, and your certified guide will share the history of the lake and the local town while you paddle. You will explore hidden corners of the lake, spot wildlife, and take in the peaceful atmosphere at your own pace, making it a relaxing and enriching adventure for all experience levels.\n3 hours",
+          "title": "Lake Arenal"
+        },
+        {
+          "description": "At La Paz Waterfall, you will make a brief stop to view and photograph this well-known waterfall located in Costa Rica’s central highlands, surrounded by lush cloud forest, before continuing your journey.\n15 minutes",
+          "title": "La Paz Waterfall Gardens"
+        },
+        {
+          "description": "We will make an additional stop at a local café located in Costa Rica’s central highlands, where we can enjoy a fresh Costa Rican coffee while taking in the view of a nearby waterfall and the surrounding forest before returning to San José.\n30 minutes",
+          "title": "Vara Blanca"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Lake Arenal Private Kayak/SUP Tour – All-Inclusive from San José ",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "manuelAntonio": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/by0Xk",
+      "about": "Discover scenic trails, stunning lookouts, and white-sand beaches on a private journey to Manuel Antonio. With a dedicated guide by your side, you’ll spot monkeys, sloths, and vibrant wildlife—while traveling in comfort and supporting local communities through every step of the experience.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Entrance ticket to Manuel Antonio National Park",
+        "Free time at Playa Espadilla Norte (public beach outside the park)",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 5:00 and 6:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Your private, certified naturalist guide will accompany you from the moment you're picked up at your hotel, offering insights about Costa Rica’s landscapes and wildlife along the scenic drive to Manuel Antonio. Upon arrival at the national park, your guide will lead you on a personalized nature walk through the rainforest, pointing out sloths, monkeys, iguanas, toucans, and more. After the guided walk, you’ll have free time to enjoy the park’s beautiful white-sand beaches.\n3 hours",
+          "title": "Manuel Antonio National Park"
+        },
+        {
+          "description": "After exploring the national park, enjoy approximately two hours of free time at Playa Espadilla Norte — a scenic public beach just outside the park entrance. You can relax on the soft sand, swim in the Pacific Ocean, or have lunch at one of the many local beachfront restaurants. Your guide will be available to assist or offer recommendations, but this portion of the tour is self-paced and perfect for unwinding before heading back to San José.\n2 hours",
+          "title": "Playa Espadilla Norte"
+        },
+        {
+          "description": "We'll make a quick stop at the famous Tárcoles Bridge to spot American crocodiles from above as they bask or swim in the river below. The Tárcoles River is home to one of the largest populations of American crocodiles in the world — some grow over 5 meters (16 feet) long!\n40 minutes",
+          "title": "Tarcoles Bridge"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Manuel Antonio National Park Tour from San José ",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "poasVolcano": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/8WelV",
+      "about": "Escape the crowds on this all-inclusive private tour to Poás Volcano and a family-owned strawberry farm in the highlands. Explore the crater and Botos Lagoon with your personal guide, then hand-pick strawberries and taste homemade wine, sangria, and local treats. This experience directly supports small rural businesses and offers a unique, meaningful way to connect with Costa Rica — all with personalized service, delicious meals, and private transportation included.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Entrance fee to Poás Volcano National Park",
+        "Guided visit to the main crater and Botos Lagoon",
+        "Guided tour of a strawberry farm",
+        "Strawberry picking (½ kilo per person included)",
+        "Tasting of homemade strawberry products (wine, sangria, eggnog)",
+        "Quick stop at La Paz Waterfall",
+        "Bottle of water and fresh fruit snack",
+        "Professional photos & drone videos available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 6:00 and 7:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Upon arrival at Poás Volcano National Park, your private guide will lead you on a scenic and easy walk (300 meters / 984 feet) through a lush cloud forest trail to the main crater viewpoint. Along the way, you'll learn about the unique volcanic ecosystem, local flora, and the park’s geological history. At the viewpoint, you’ll stand before one of the largest active craters in the world, often steaming with volcanic gases. On clear days, the view is spectacular—perfect for photos and an unforgettable moment in nature. Your guide will explain the volcano’s activity, conservation efforts, and cultural importance.\n1 hour",
+          "title": "Poas Volcano National Park"
+        },
+        {
+          "description": "After visiting the main crater, you'll continue along a scenic trail through the cloud forest to reach Laguna de Botos, a beautiful extinct volcanic crater filled with turquoise rainwater. Nestled among lush vegetation and cool mist, this serene spot offers a peaceful contrast to the active crater. Your private guide will share local legends, geological insights, and point out native flora and birdlife. It’s a perfect place to slow down, enjoy the natural beauty, and take memorable photos in a truly tranquil setting.\n45 minutes",
+          "title": "Botos Lake - Poas"
+        },
+        {
+          "description": "Get ready for a sweet rural experience! Upon arrival, you'll be welcomed with a fresh strawberry smoothie and introduced to the farm by a local guide who will explain the strawberry production process. Enjoy a guided walk through the strawberry fields, home to 35,000+ plants, and hand-pick your own strawberries—half a kilo per person included. Don’t miss the giant strawberry—a fun photo spot! You’ll also enjoy strawberry-based tastings like wine, sangria, and rompope, plus fresh strawberries with condensed milk or chocolate—a local favorite. The guided portion lasts about 1 hour, but you're welcome to stay longer to relax and enjoy the peaceful atmosphere. This experience supports local rural families and offers a genuine taste of Costa Rica’s countryside.\n1 hour",
+          "title": "Poasito"
+        },
+        {
+          "description": "On the way back, we’ll make a quick stop at the scenic La Paz Waterfall, one of Costa Rica’s most iconic roadside cascades. You’ll have time to take photos from the viewpoint and browse a small local market where you can buy regional products and souvenirs. It’s a short but refreshing stop, perfect for capturing memories and supporting local artisans.\n20 minutes",
+          "title": "La Paz Waterfall"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Tour to Poás Volcano with Local Strawberry Tasting",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "caribbeanTour": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/A0b1B",
+      "about": "Experience the heart of Costa Rica’s Caribbean coast on a private journey filled with color, rhythm, and tradition. Explore vibrant Puerto Viejo, taste Afro-Caribbean cuisine, and wander through the lush beauty of Manzanillo with a local guide by your side. This all-inclusive tour offers more than sun and sand — it’s a cultural immersion that supports local families and invites you to feel the soul of the Caribbean in every step, bite, and view.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Visit to Gandoca-Manzanillo Wildlife Refuge (entrance included)",
+        "Visit to a scenic viewpoint in Manzanillo",
+        "Free time to visit the beach or shop for souvenirs in Puerto Viejo",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 4:00 and 5:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Travelers will visit the Manzanillo Wildlife Refuge, known for its beautiful white-sand beaches, lush coastal jungle, and vibrant Caribbean wildlife. You will walk along palm-lined beaches, explore easy coastal trails where you might see sloths, howler monkeys, colorful birds, and tropical plants, and swim in the warm Caribbean sea. It’s the perfect place to relax, enjoy nature, and experience the authentic, laid-back Caribbean vibe of Costa Rica.\n4 hours",
+          "title": "Manzanillo"
+        },
+        {
+          "description": "At the Gandoca-Manzanillo Wildlife Refuge, travelers will enjoy a light hike through lush coastal jungle, leading to a hidden viewpoint with breathtaking views of the Caribbean coastline. This stop focuses on taking in the beauty of the ocean from above while listening to the sounds of the forest and feeling the fresh sea breeze. It’s a unique opportunity to experience the Caribbean from a higher perspective, ideal for photography and a quiet moment to appreciate the natural beauty of Costa Rica’s coast.\n30 minutes",
+          "title": "Gandoca - Manzanillo Wildlife Refuge"
+        },
+        {
+          "description": "In Puerto Viejo, travelers will enjoy a Caribbean city tour, exploring the colorful streets, local shops, and the relaxed beach-town vibe. You will have the chance to taste traditional Caribbean dishes, rich in local flavors and spices. During your free time, you can choose to visit the nearby beach for a swim or simply stroll through town, discovering local crafts and souvenirs to take home. This stop offers a perfect blend of culture, food, and the authentic Caribbean spirit of Costa Rica.\n2 hours",
+          "title": "Puerto Viejo de Talamanca"
+        },
+        {
+          "description": "On the way to the Caribbean, travelers will make a quick stop near the Zurquí Tunnel, located in the mountains outside San José. This stop offers a chance to stretch, enjoy the fresh mountain air, and take in the lush green scenery of the Braulio Carrillo National Park area before continuing the journey to the coast.\n15 minutes",
+          "title": "Cerro Zurquí"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Caribbean Tour: Puerto Viejo & Manzanillo from San José",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "queseraBeach": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/eBLR3",
+      "about": "Discover one of Costa Rica’s best-kept secrets on this private, all-inclusive journey to Playa Quesera — a secluded paradise of turquoise waters and white sand, known only to locals. Cross the Gulf of Nicoya by ferry and boat, explore the lush Curú Wildlife Refuge, and enjoy authentic coastal flavors along the way. This experience blends natural beauty, cultural insight, and personalized service for a truly exclusive day at the beach — far from the crowds, close to the real Costa Rica.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Entrance fee to Curú Wildlife Refuge",
+        "Access to Playa Quesera",
+        "Private boat transfer to and from Playa Quesera",
+        "Ferry tickets across the Gulf of Nicoya",
+        "Time to enjoy the sunset in Puntarenas before returning",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 4:00 and 5:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "At Curu Wildlife Refuge, travelers can take an optional light walk through tropical dry forest trails before or after their beach time at Playa Quesera. This refuge is home to a variety of wildlife, including white-faced monkeys, howler monkeys, raccoons, coatis, deer, iguanas, and colorful tropical birds. It’s a great opportunity to connect with Costa Rica’s nature, learn about the local ecosystem, and observe animals in their natural habitat while surrounded by the sounds of the forest and ocean.\n1 hour",
+          "title": "Curu National Wildlife Refuge"
+        },
+        {
+          "description": "At Playa Quesera, travelers will discover a hidden white-sand beach with crystal-clear turquoise waters, surrounded by lush nature and calm waves, perfect for swimming and relaxing. This exclusive beach, accessible by a short boat ride, offers a peaceful escape away from crowds. Visitors can walk along the shoreline, swim, take beautiful photos, or simply enjoy the serene atmosphere of one of Costa Rica’s most beautiful and secluded beaches.\n4 hours",
+          "title": "Playa Quesera"
+        },
+        {
+          "description": "Travelers will arrive at Puntarenas Port to board the ferry across the Gulf of Nicoya. During the ferry ride, you can step out onto the open deck to enjoy fresh ocean breezes, scenic views of the surrounding islands, and the calm waters of the gulf. It’s a relaxing and picturesque part of your journey, perfect for taking photos and enjoying a Costa Rican coffee or snack on board.\n2 hours",
+          "title": "Puntarenas"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Tour to Quesera Beach – All-Inclusive from San José ",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "sarchiCity": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/XWj8q",
+      "about": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Sarchí city tour",
+        "Visit to the oxcart factory with live artisan demonstrations",
+        "Stop at the world’s largest oxcart",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 7:00 and 7:30 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.\n3 hours",
+          "title": "Sarchí"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Sarchí City Tour – Artisan Culture Experience from San José",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "santaTeresaSurf": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/0b78r",
+      "about": "Ride the waves in Santa Teresa with a private surf experience made for curious, conscious travelers. Enjoy a day of sun, sea, and connection — with stops that support local communities and views that last a lifetime. A laid-back yet luxurious escape to the Pacific coast.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Round-trip ferry tickets to and from the Nicoya Peninsula",
+        "2‑hour surf lesson with certified bilingual instructors",
+        "Surfboard and all necessary equipment",
+        "Bottle of water and Fresh fruit snack",
+        "Free time to explore Santa Teresa and optional sunset beach walk",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 3:30 and 4:00 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Travelers will arrive at Playa Santa Teresa, one of Costa Rica’s most famous surfing beaches. Here, certified bilingual instructors will provide a 2-hour surf lesson tailored to each participant’s skill level. After the lesson, guests can enjoy free time to relax on the white-sand beach, swim in the ocean, or explore the surrounding beach town vibe.\n4 hours",
+          "title": "Surf Lessons, Santa Teresa North, Costa Rica"
+        },
+        {
+          "description": "After the surf lesson, travelers will have free time to explore the laid-back beach town of Santa Teresa. The town is known for its surf culture, organic cafés, local restaurants, boutique shops, and a welcoming international vibe. It's the perfect place to relax, enjoy a meal, or shop for handmade souvenirs before heading back.\n2 hours",
+          "title": "Santa Teresa"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Surf Lessons in Santa Teresa with Transport from San José",
+      "initDate": "October",
+      "endDate": "May",
+      "note": "Our service runs seven days a week."
+    },
+    "tortugueroCanoe": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/JRgvL",
+      "about": "Explore Tortuguero’s remote canals and rainforest on a private canoe journey through wildlife-rich waters, where you may spot monkeys, toucans, crocodiles, and more. Hike to Cerro Tortuguero for stunning views, and visit the local village to connect with the culture and rhythms of jungle life — all while supporting rural communities.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private ground transportation from San José",
+        "Private boat transfer from La Pavona to Tortuguero",
+        "Tortuguero city tour",
+        "Guided hike to Cerro Tortuguero (entrance included)",
+        "Private canoe tour through Tortuguero canals (non-motorized, quiet, ideal for wildlife)",
+        "Bottle of water and Fresh fruit snack",
+        "Professional Photos & Drone Videos Available"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 4:00 and 4:30 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "Your adventure begins with private transportation from San José to La Pavona, where you’ll board a boat for a scenic ride through the canals leading to Tortuguero. Upon arrival, enjoy a guided walking tour of Tortuguero Village, where you’ll explore its colorful streets, learn about the Afro-Caribbean culture, and discover the way of life in this remote town. A traditional Costa Rican breakfast in the village is included before continuing your adventure.\n3 hours",
+          "title": "City Tour Tortuguero"
+        },
+        {
+          "description": "Next, embark on a peaceful canoe journey through the lush canals of Tortuguero National Park. Glide silently across the water as your naturalist guide helps you spot wildlife such as monkeys, sloths, crocodiles, toucans, and colorful tropical birds. This private experience allows you to connect deeply with nature while avoiding the crowds. A fresh fruit snack is provided during this activity.\n3 hours",
+          "title": "Tortuguero National Park"
+        },
+        {
+          "description": "Conclude your adventure with a short hike up Cerro Tortuguero, the region’s highest viewpoint, rising about 119 meters (390 feet) above sea level. From the summit, enjoy sweeping views of the rainforest canopy, winding canals, and the vast Caribbean Sea stretching to the horizon. This easy hike is suitable for most travelers and offers one of the most breathtaking vistas in all of Tortuguero. A delicious local lunch awaits after your hike before your return trip to San José.\n45 minutes",
+          "title": "Sendero Cerro Tortuguero"
+        },
+        {
+          "description": "The only way to access Tortuguero is by boat, making the journey itself part of the adventure. Travel along jungle-fringed canals surrounded by lush vegetation and abundant wildlife. These scenic transfers — both on arrival and departure — offer a unique perspective of the region’s natural beauty and set the tone for an unforgettable day.\n2 hours",
+          "title": "Tortuguero"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Private Tortuguero Canoe & Jungle Tour from San José",
+      "initDate": "January",
+      "endDate": "December",
+      "note": "Our service runs seven days a week."
+    },
+    "whaleWatching": {
+      "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/OvEmY",
+      "about": "Set out on a private ocean adventure along Costa Rica’s Pacific coast in search of humpback whales, dolphins, and sea turtles — all in their natural habitat. Guided by local experts and supported by small community businesses, this luxury experience offers comfort, insight, and unforgettable wildlife encounters. If the tide allows, you’ll also walk the iconic Whale’s Tail sandbar, revealed only at low tide. Ideal from July to October, this is a meaningful way to witness nature’s wonders in one of the country’s most biodiverse regions.",
+      "daysAndNights": "",
+      "description": "",
+      "includes": [
+        "Breakfast",
+        "Lunch",
+        "Private transportation from San José",
+        "Entrance fees to Marino Ballena National Park",
+        "Private guided 4-hour whale watching boat tour in Uvita",
+        "Visit to Whale’s Tail sandbar (weather permitting)",
+        "Stop at Tárcoles River Bridge to view crocodiles",
+        "Bottled water and fresh fruit snack during the tour",
+        "Professional photos and drone videos"
+      ],
+      "itinerary": [
+        {
+          "description": "Pickup is available from any hotel or location within the Greater Metropolitan Area (San José, Heredia, and Alajuela). If you're staying outside these areas, we'll coordinate a convenient meeting point. Pickups usually occur between 5:00 and 6:30 a.m., and we'll confirm your exact time via WhatsApp or email two days before your tour. Please provide your accommodation details when booking and be ready 10 minutes early.",
+          "title": "Pickup Information"
+        },
+        {
+          "description": "At Parque Nacional Marino Ballena, you will board a boat with your private guide to explore the stunning Pacific waters of Costa Rica’s southern coast. During this whale watching tour, you will search for humpback whales, dolphins, and sea turtles in their natural habitat while learning about marine conservation in the area. You will also visit the famous Whale’s Tail sandbar and have the opportunity to admire the beautiful coastal scenery and pristine waters that make this park a must-see destination in Costa Rica.\n4 hours",
+          "title": "Parque Nacional Marino Ballena"
+        },
+        {
+          "description": "At Tárcoles River Bridge, you will stop for a short visit to observe the giant American crocodiles that gather along the riverbanks below. From the bridge, you will have a clear, safe vantage point to see these impressive reptiles in their natural habitat, often measuring up to 5 meters (16 feet) long. This is a unique wildlife experience and a perfect photo opportunity during your journey along Costa Rica’s Pacific coast.\n25 minutes",
+          "title": "Tarcoles Bridge"
+        }
+      ],
+      "places": [
+        ""
+      ],
+      "title": "Experience a Private Whale Watching Tour in Uvita from San José ",
+      "initDate": "July",
+      "endDate": "October",
+      "note": "Our service runs seven days a week."
+    }
+  },
   "orSimilar": " or similar",
   "otherExp": "Other experiences",
+  "oneDayToursTitle": "One Day Tours",
+  "overview": "Overview",
   "ourTours": {
     "description": "Explore Costa Rica through our private, luxury tours—fully customizable to your travel style. From iconic destinations like Manuel Antonio and Arenal to hidden gems like Bajos del Toro, our experiences blend adventure, nature, and culture. Whether you're looking for wildlife photography, adrenaline-filled activities, or serene beach escapes, we tailor each journey just for you.",
     "title": "Our Tours",
@@ -200,6 +709,8 @@
     "dinnerIncludes": "Breakfast, lunch and dinner"
   },
   "partners": "Partners",
+  "people": "people",
+  "perPerson": "per person",
   "passportId": "Passport ID",
   "phoneNumber": "Phone Number",
   "terms&Conditions": "Terms and Conditions",
@@ -213,7 +724,7 @@
       "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
     },
     "caribeanSouthCaribean": {
-      "description": "Explore white-sand beaches and Afro-Caribbean culture in Costa Rica",
+      "description": "Explore white-sand beaches and Afro-Caribbean culture in Puerto Viejo and Manzanillo, Costa Rica.",
       "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea"
     },
     "fishingSport": {
@@ -221,7 +732,7 @@
       "title": "Sport Fishing Adventures"
     },
     "manuelAntonio": {
-      "description": "Enjoy paradise beaches, whale watching, and turtle nesting under the moonlight",
+      "description": "Enjoy paradise beaches, whale watching in Uvita, and turtle nesting under the moonlight in Tortuguero.",
       "title": "Turtle Nesting & Whale Watching"
     },
     "wildLife": {
@@ -248,7 +759,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Explore our private luxury tours in Costa Rica—whether you're into adventure, photography, or relaxing beach escapes, each experience is fully customizable to fit your travel style. Discover the country's incredible biodiversity and vibrant culture surrounded by beautiful natural landscapes.",
+    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours.Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
     "title": "Our Tours"
   },
   "sectionReviews": {
@@ -270,6 +781,7 @@
   "subscribe": "Subscribe",
   "totalPrice": "Total price",
   "tour": "Tour",
+  "toursLabel": "Tours",
   "tours": {
     "crocodilesAndBirds": {
       "about": "Join our Photography Expedition designed for nature and wildlife photographers. Experience the breathtaking biodiversity of Costa Rica, from lush rainforests to the Tárcoles River. Capture stunning images of exotic fauna and flora. Rancho Naturalista, located in Turrialba, is a top birdwatching destination in Central America, offering views of over 450 bird species, including hummingbirds and rare birds like the Black-Throated Wren and Lovely Cotinga. Photographers and nature lovers will enjoy the unparalleled views of Turrialba Volcano. Explore the Tárcoles River, home to American crocodiles, iguanas, and howler monkeys. With over 320 bird species, including the yellow-billed cotinga and jabiru, this river is a paradise for wildlife photographers.",

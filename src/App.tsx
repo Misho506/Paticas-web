@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import { TourProvider } from "./context/TourContext";
 import { BlogProvider } from "./context/BlogContext";
 import Category from "./layout/Category/Category";
+import OneDayTour from "./layout/OneDayTour/OneDayTour";
 import Tour from "./layout/Tour/Tour";
 import ScrollTop from "./components/scrollTop/ScrollTop";
 import BookingTour from "./layout/Booking/BookingTour";
@@ -29,13 +30,14 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/categories" element={<OurTours />} />
           <Route path="/category/:title" element={<Category />} />
+          <Route path="/one-day-tours" element={<OneDayTour />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/tour/detailed" element={<Tour />} />
           <Route path="/tour/booking" element={<BookingTour />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:title" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact showForm />} />
         </Routes>
         <Footer />
       </BlogProvider>

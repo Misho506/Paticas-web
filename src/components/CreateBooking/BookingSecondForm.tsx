@@ -122,19 +122,19 @@ const BookingSecondForm = ({ setStep, actions }: BookingFormProps) => {
     const errorForField = formErrors?.find((error) => error.id === id);
     const inputClassName = `${errorForField ? "border-error" : "border border-gray-300 mb-3"} w-full px-4 py-2 rounded-lg focus:ring-2 focus:ring-blue-500`;
 
-    return CustomInputWithErrorMessage(
-      title,
-      <input
+    return <CustomInputWithErrorMessage
+      inputTitle={title}
+      input={<input
         type="text"
         name={name}
         id={id}
         className={inputClassName}
         value={passenger[name as keyof PassengerInfo]}
         onChange={(e) => updateFormValues(e, id, index, isKid)}
-      />,
-      true,
-      errorForField?.error && <label className="text-red-600">{errorForField?.error}</label>
-    );
+      />}
+      required
+      error={errorForField?.error && <label className="text-red-600">{errorForField?.error}</label>}
+    />
   }
 
   return (
