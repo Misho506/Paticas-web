@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { FaRegCalendarCheck, FaRegMoneyBillAlt } from "react-icons/fa";
-import { CiCircleInfo, CiLocationOn } from "react-icons/ci";
+import { CiCircleInfo } from "react-icons/ci";
 import { IoMdTime } from "react-icons/io";
 import { useNavigate } from "react-router";
+import { IoLocationOutline } from "react-icons/io5";
 
 import "./TourCard.css";
 import { TourType } from "../../utils/types";
@@ -51,22 +52,23 @@ const TourCard = ({ tour }: { tour: TourType }) => {
           {places && places.length > 0 && places.map((place, index) => (
             <div key={index}>
               <article key={index} className="flex items-center text-sm text-gray-500 mt-2">
-                <CiLocationOn className="yellow-icon text-xl" />
+                <IoLocationOutline className="yellow-icon text-xl" />
                 <span className="italic ml-1">{place}</span>
               </article>
             </div>
           ))}
-          {daysAndNights ?
-            <article className="flex items-center text-sm text-gray-500 mt-2">
-              <FaRegCalendarCheck className="yellow-icon text-xl" />
-              <span className="italic ml-1">{daysAndNights}</span>
-            </article>
-            :
+          {prices && prices.length > 0 &&
             <article className="flex items-center text-sm text-gray-500 mt-2">
               <FaRegMoneyBillAlt className="yellow-icon text-xl" />
               <span className="italic text-xs ml-1">From</span>
               <span className="ml-1"> ${prices[0].price}</span>
               <span className="italic text-xs ml-1"> per person</span>
+            </article>
+          }
+          {daysAndNights &&
+            <article className="flex items-center text-sm text-gray-500 mt-2">
+              <FaRegCalendarCheck className="yellow-icon text-xl" />
+              <span className="italic ml-1">{daysAndNights}</span>
             </article>
           }
           {aproxHours &&
