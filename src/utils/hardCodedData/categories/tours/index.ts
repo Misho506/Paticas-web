@@ -4,6 +4,7 @@ import { TourType } from '../../../types';
 
 const wildLife = (t: TFunction): TourType => ({
   id: "wildLife",
+  peekLink: t("tours.wildLife.peekLink"),
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/3._vida_silvestre_en_corcovado_y_osa-2_ndct01.jpg",
   title: t("tours.wildLife.title"),
   places: [t("tours.wildLife.places.0")],
@@ -114,6 +115,7 @@ const wildLife = (t: TFunction): TourType => ({
 
 const followingQuetzal = (t: TFunction): TourType => ({
   id: "followingQuetzal",
+  peekLink: t("tours.followingQuetzal.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tras-las-huellas-00001.jpg",
   title: t("tours.followingQuetzal.title"),
   places: [t("tours.followingQuetzal.places.0")],
@@ -209,6 +211,7 @@ const followingQuetzal = (t: TFunction): TourType => ({
 
 const crocodilesAndBirds = (t: TFunction): TourType => ({
   id: "crocodilesAndBirds",
+  peekLink: t("tours.crocodilesAndBirds.peekLink"),
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/observacion-de-cocodrilos-y-aves-00001.jpg",
   title: t("tours.crocodilesAndBirds.title"),
   places: [t("tours.crocodilesAndBirds.places.0"), t("tours.crocodilesAndBirds.places.1")],
@@ -309,6 +312,7 @@ const crocodilesAndBirds = (t: TFunction): TourType => ({
 
 const sportFishing = (t: TFunction): TourType => ({
   id: "sportFishing",
+  peekLink: t("tours.sportFishing.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/pesca-deportiva-00011.jpg",
   title: t("tours.sportFishing.title"),
   places: [t("tours.sportFishing.places.0")],
@@ -411,6 +415,7 @@ const sportFishing = (t: TFunction): TourType => ({
 
 const ecoExplor = (t: TFunction): TourType => ({
   id: "ecoExplor",
+  peekLink: t("tours.ecoExplor.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/eco-explora-00001.jpg",
   title: t("tours.ecoExplor.title"),
   places: [t("tours.ecoExplor.places.0")],
@@ -526,6 +531,7 @@ const ecoExplor = (t: TFunction): TourType => ({
 
 const sunAndSand = (t: TFunction): TourType => ({
   id: "sunAndSand",
+  peekLink: t("tours.sunAndSand.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/sol-y-arena00001.jpg",
   title: t("tours.sunAndSand.title"),
   places: [t("tours.sunAndSand.places.0")],
@@ -633,6 +639,7 @@ const sunAndSand = (t: TFunction): TourType => ({
 
 const manuelAntonio = (t: TFunction): TourType => ({
   id: "manuelAntonio",
+  peekLink: t("tours.manuelAntonio.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/manuel-antonio-00005.jpg",
   title: t("tours.manuelAntonio.title"),
   places: [t("tours.manuelAntonio.places.0")],
@@ -727,6 +734,7 @@ const manuelAntonio = (t: TFunction): TourType => ({
 
 const turtlesAndWhales = (t: TFunction): TourType => ({
   id: "turtlesAndWhales",
+  peekLink: t("tours.turtlesAndWhales.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/tortugas-y-ballenas00001.jpg",
   title: t("tours.turtlesAndWhales.title"),
   places: [t("tours.turtlesAndWhales.places.0"), t("tours.turtlesAndWhales.places.1")],
@@ -830,6 +838,7 @@ const turtlesAndWhales = (t: TFunction): TourType => ({
 
 const volcanoes = (t: TFunction): TourType => ({
   id: "volcanoes",
+  peekLink: t("tours.volcanoes.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/volcanes00010.jpg",
   title: t("tours.volcanoes.title"),
   places: [t("tours.volcanoes.places.0")],
@@ -938,6 +947,7 @@ const volcanoes = (t: TFunction): TourType => ({
 
 const southCaribean = (t: TFunction): TourType => ({
   id: "southCaribean",
+  peekLink: t("tours.southCaribean.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/caribean-00001.jpg",
   title: t("tours.southCaribean.title"),
   places: [t("tours.southCaribean.places.0")],
@@ -1043,6 +1053,7 @@ const southCaribean = (t: TFunction): TourType => ({
 
 const tropicalTranquility = (t: TFunction): TourType => ({
   id: "tropicalTranquility",
+  peekLink: t("tours.tropicalTranquility.peekLink"),
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/13._tranquilidad_tropical_portada_qseneu.jpg",
   title: t("tours.tropicalTranquility.title"),
   places: [t("tours.tropicalTranquility.places.0")],
@@ -1151,6 +1162,7 @@ const tropicalTranquility = (t: TFunction): TourType => ({
 
 const secretsOfCostaRica = (t: TFunction): TourType => ({
   id: "secretsOfCostaRica",
+  peekLink: t("tours.secretsOfCostaRica.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/destinos-secretos-00013.jpg",
   title: t("tours.secretsOfCostaRica.title"),
   places: [t("tours.secretsOfCostaRica.places.0")],
@@ -1261,6 +1273,7 @@ const secretsOfCostaRica = (t: TFunction): TourType => ({
 
 const mostPopularInCostaRica = (t: TFunction): TourType => ({
   id: "mostPopularInCostaRica",
+  peekLink: t("tours.mostPopularInCostaRica.peekLink"),
   img: "https://misoinfo.data.blog/wp-content/uploads/2025/04/10-destinos-00016.jpg",
   title: t("tours.mostPopularInCostaRica.title"),
   places: [t("tours.mostPopularInCostaRica.places.0"), t("tours.mostPopularInCostaRica.places.1"), t("tours.mostPopularInCostaRica.places.2")],

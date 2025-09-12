@@ -30,6 +30,7 @@ const categoryInitialValue = {
 };
 const tourInitialValue = {
   id: "",
+  peekLink: "",
   img: "",
   title: "",
   places: [],
