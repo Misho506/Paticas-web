@@ -17,31 +17,35 @@ import Blog from "./layout/Blog/Blog";
 import Blogs from "./layout/Blogs/Blogs";
 import Tours from "./layout/Tours/Tours";
 import Contact from "./layout/Contact/Contact";
+import { RouteProvider } from "./context/RouteContext";
 
 function App() {
   const { i18n } = useTranslation();
   useEffect(() => { i18n.changeLanguage(window.navigator.language) }, [i18n]);
   return (
-    <TourProvider>
-      <BlogProvider>
-        <ScrollTop />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/categories" element={<OurTours />} />
-          <Route path="/category/:title" element={<Category />} />
-          <Route path="/one-day-tours" element={<OneDayTour />} />
-          <Route path="/tours" element={<Tours />} />
-          <Route path="/tour/detailed" element={<Tour />} />
-          <Route path="/tour/booking" element={<BookingTour />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blog/:title" element={<Blog />} />
-          <Route path="/contact" element={<Contact showForm />} />
-        </Routes>
-        <Footer />
-      </BlogProvider>
-    </TourProvider>
+    <RouteProvider>
+      <Header />
+      <TourProvider>
+        <BlogProvider>
+          <ScrollTop />
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/categories" element={<OurTours />} />
+            <Route path="/categories/:id" element={<Category />} />
+            <Route path="/one-day-tours" element={<OneDayTour />} />
+            <Route path="/one-day-tours/:tourId" element={<Tour />} />
+            <Route path="/multi-day-tours" element={<Tours />} />
+            <Route path="/categories/:categoryId/:tourId" element={<Tour />} />
+            <Route path="/categories/:categoryId/:tourId/booking" element={<BookingTour />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:id" element={<Blog />} />
+            <Route path="/contact" element={<Contact showForm />} />
+          </Routes>
+        </BlogProvider>
+      </TourProvider>
+      <Footer />
+    </RouteProvider>
   );
 }
 

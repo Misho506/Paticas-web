@@ -5,10 +5,12 @@ import { useNavigate } from 'react-router';
 import "./BookingTour.css";
 import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking';
 import { useTranslation } from 'react-i18next';
+import { useTour } from '../../context/TourContext';
 
 
 const BookingTour = () => {
   const { i18n } = useTranslation();
+  const { selectedTour, selectedCategory } = useTour();
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState<number>(1);
   const steps: Array<StepType> = [
@@ -19,7 +21,7 @@ const BookingTour = () => {
 
   const buttonBack = () => {
     if (currentStep === 1) {
-      navigate("/tour/detailed");
+      navigate(`/categories/${selectedCategory.id}/:${selectedTour.id}`);
     } else {
       setCurrentStep(currentStep - 1);
     }

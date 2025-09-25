@@ -1,11 +1,13 @@
 import { IoIosMenu } from "react-icons/io";
-import { MdOutlineShoppingCart } from "react-icons/md";
 import { useNavigate } from "react-router";
 import Modal from "../modal/Modal";
 import { useTranslation } from "react-i18next";
 import IconWithName from "../../assets/icons/Fondo Verde Oscuro@2x.png";
 import "./Header.css";
-import { ReactNode, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useRoute } from "../../context/RouteContext";
+import { PathObject } from "../../utils/types";
+import Breadcrumb from "../breadcrumb/Breadcrumb";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -14,6 +16,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isToursOpen, setIsToursOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const { path, setPath } = useRoute();
 
   const navButtons = [
     {
@@ -33,6 +36,25 @@ const Header = () => {
       link: i18n.t('headers.3.link')
     }
   ]
+
+  const GoTo = (route: string, nameRoute: string) => {
+    const newElement: PathObject = { name: nameRoute, link: route };
+
+    let updatedPath: PathObject[] = [];
+
+    const foundIndex = path.findIndex((segment) => segment.name === nameRoute);
+
+    if (foundIndex >= 0) {
+      // If the route already exists, slice up to that point
+      updatedPath = path.slice(0, foundIndex + 1);
+    } else {
+      // Otherwise, add to the breadcrumb path
+      updatedPath = [...path, newElement];
+    }
+
+    setPath(updatedPath);
+    navigate(route);
+  };
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -56,53 +78,59 @@ const Header = () => {
       <button className="p-3 text-white hover:rounded" onClick={() => setIsToursOpen((prev) => !prev)}>{i18n.t('toursLabel')}</button>
       {isToursOpen && (
         <div className="absolute flex flex-col text-justify-left left-0 text-white mt-2 mobile-links w-max rounded-md z-50 border-1 border-black">
-          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('multiDayTourTitle')}</button>
-          <button className="text-left p-2 rounded-md" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
+          <button className="text-left p-2 rounded-md" onClick={() => { GoTo(i18n.t('headers.0.link'), i18n.t('headers.0.name')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('multiDayTourTitle')}</button>
+          <button className="text-left p-2 rounded-md" onClick={() => { GoTo(i18n.t('headers.4.link'), i18n.t('headers.4.name')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
         </div>
       )}
     </div>
   );
 
   return (
-    <header className="flex h-20 flex-row items-center justify-between header-container">
-      <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableCard.message")} title={i18n.t("notAvailableCard.title")} />
-      <section className="flex flex-row items-center" onClick={() => navigate('/')}>
-        <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
-      </section>
-      <section className="hidden sm:flex navbar-links justify-around">
-        {navButtons.map((navButton, index) => (
-          index === 0 ? (
-            toursMenu(index) // Pass the index to the function
-          ) : (
-            <button key={index} className="text-white p-3 hover:rounded" onClick={() => navigate(navButton.link)}>{navButton.name}</button>
-          )
-        ))}
-      </section>
-      <section className="pr-4 sm:pr-16 text-white mb-1 flex">
-        <IoIosMenu onClick={() => setIsOpen(true)} style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
-      </section>
+    <header className="w-full shadow-md z-10 flex flex-col header-container">
+      <div className="flex h-20 flex-row items-center justify-between">
+        <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableCard.message")} title={i18n.t("notAvailableCard.title")} />
+        <section className="flex flex-row items-center" onClick={() => navigate('/')}>
+          <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
+        </section>
+        {/* Navbar Web Links */}
+        <section className="hidden sm:flex navbar-links justify-around">
+          {navButtons.map((navButton, index) => (
+            index === 0 ? (
+              toursMenu(index) // Pass the index to the function
+            ) : (
+              <button key={index} className="text-white p-3 hover:rounded" onClick={() => GoTo(navButton.link, navButton.name)}>{navButton.name}</button>
+            )
+          ))}
+        </section>
+        <section className="pr-4 sm:pr-16 text-white mb-1 flex">
+          <IoIosMenu onClick={() => setIsOpen(true)} style={{ fontSize: 40 }} className="p-1 menu-icon sm:hidden" />
+        </section>
 
-      {/* Menu that slides from top to bottom */}
-      <section className={`mobile-links absolute top-0 left-0 w-full h-full shadow-lg transform transition-transform duration-500 z-30 ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
-        <div className="flex flex-col w-full">
-          <article className="flex justify-end p-4">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-gray-900 rounded-lg text-xl font-light w-8 h-8 flex items-center justify-center"
-              aria-label="Close menu"
-            >
-              ✕
-            </button>
-          </article>
-          <article className="flex flex-col">
-            <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
-            <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
-            {navButtons.map((navButton, index) => (
-              index > 0 && <button key={"nav-buttons" + index} className="py-3 text-white" onClick={() => { navigate(navButton.link); setIsOpen(false) }}>{navButton.name}</button>
-            ))}
-          </article>
-        </div>
-      </section>
+        {/* Menu that slides from top to bottom */}
+        <section className={`mobile-links absolute top-0 left-0 w-full h-full shadow-lg transform transition-transform duration-500 z-30 ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+          <div className="flex flex-col w-full">
+            <article className="flex justify-end p-4">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-white hover:text-gray-900 rounded-lg text-xl font-light w-8 h-8 flex items-center justify-center"
+                aria-label="Close menu"
+              >
+                ✕
+              </button>
+            </article>
+            <article className="flex flex-col">
+              <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.0.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.0.name')}</button>
+              <button className="py-3 text-white" onClick={() => { navigate(i18n.t('headers.4.link')); setIsOpen(false); setIsToursOpen(false); }}>{i18n.t('headers.4.name')}</button>
+              {navButtons.map((navButton, index) => (
+                index > 0 && <button key={"nav-buttons" + index} className="py-3 text-white" onClick={() => { GoTo(navButton.link, navButton.name); setIsOpen(false) }}>{navButton.name}</button>
+              ))}
+            </article>
+          </div>
+        </section>
+      </div>
+      {path.length > 0 && window.location.pathname !== '/' &&
+        <Breadcrumb />
+      }
     </header>
   )
 }

@@ -20,7 +20,7 @@ const TourBookingCard = () => {
   const [date, setDate] = useState<Date>(new Date());
   const [people, setPeople] = useState(2);
   const [kids, setKibs] = useState(0);
-  const { selectedTour, setBooking } = useTour();
+  const { selectedTour, selectedCategory, setBooking } = useTour();
   const [pricePerPerson, setPricePerPerson] = useState<number>(selectedTour.prices[0].price);
   const [endDate, setEndDate] = useState<Date>(new Date());
   const [openModal, setOpenModal] = useState<boolean>(false);
@@ -47,7 +47,7 @@ const TourBookingCard = () => {
         phoneNumber: "",
       },
     });
-    navigate("/tour/booking");
+    navigate(`/categories/${selectedCategory.id}/${selectedTour.id}/booking`);
   }
 
   const addSymbolsToPrice = (num: string): string => {

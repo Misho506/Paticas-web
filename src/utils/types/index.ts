@@ -1,8 +1,6 @@
 import { ChangeEvent, ReactNode } from "react";
 
-interface PassengerInfo extends UserInfo {
-  passportID: string;
-}
+type ID = string | number;
 
 type BannerType = {
   image: string;
@@ -10,7 +8,14 @@ type BannerType = {
   description: string;
 };
 
+type BreadcrumbType = {
+  title: string;
+  id: string;
+  url: string;
+}
+
 type BlogType = {
+  id: ID;
   picture: string;
   title: string;
   date: string;
@@ -37,7 +42,9 @@ type BookingTourType = {
 };
 
 type CategoryType = {
+  id: ID;
   title: string;
+  shortTitle: string;
   image: string;
   description: string;
   tours: Array<TourType>;
@@ -51,18 +58,12 @@ type CompanyValues = {
 };
 
 type FormError = {
-  id: string;
+  id: ID;
   error: string;
 };
 
 type FormField = {
   name: keyof UserInfo;
-  type: string;
-  title: string;
-};
-
-type MessageFormField = {
-  name: 'userName' | 'email' | 'description';
   type: string;
   title: string;
 };
@@ -88,6 +89,21 @@ type ItineraryType = {
   hotelName?: string;
   hotelLink?: string;
   mealsIncluded?: string;
+};
+
+type MessageFormField = {
+  name: "userName" | "email" | "description";
+  type: string;
+  title: string;
+};
+
+interface PassengerInfo extends UserInfo {
+  passportID: string;
+}
+
+type PathObject = {
+  name: string;
+  link: string;
 };
 
 type PostCarrouselProps = {
@@ -118,6 +134,11 @@ type StepType = {
   label: string;
 };
 
+type StoredDataTypeContextBlog = {
+  selectedBlog: BlogType;
+  blogs: Array<BlogType>;
+};
+
 type StoredDataTypeContextTour = {
   selectedCategory: CategoryType;
   categories: Array<CategoryType>;
@@ -126,15 +147,11 @@ type StoredDataTypeContextTour = {
   booking: BookingTourType;
 };
 
-type StoredDataTypeContextBlog = {
-  selectedBlog: BlogType;
-  blogs: Array<BlogType>
-};
-
 type TourType = {
-  id: string;
+  id: ID;
   img: string;
   title: string;
+  shortTitle: string;
   places?: Array<string>;
   daysAndNights: string;
   days: number;
@@ -159,6 +176,7 @@ type UserInfo = {
 
 export type {
   BannerType,
+  BreadcrumbType,
   BlogType,
   BookingFormProps,
   BookingTourType,
@@ -169,15 +187,16 @@ export type {
   FormFieldsType,
   Founder,
   ItineraryType,
+  MessageFormField,
   PassengerInfo,
+  PathObject,
   PostCarrouselProps,
   PriceType,
-  MessageFormField,
   ReviewType,
   Stat,
   StepType,
-  StoredDataTypeContextTour,
   StoredDataTypeContextBlog,
+  StoredDataTypeContextTour,
   TourType,
-  UserInfo
+  UserInfo,
 };

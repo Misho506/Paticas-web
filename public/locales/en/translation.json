@@ -1,7 +1,7 @@
 {
   "aboutTour": "The Tour",
   "aboutUs": {
-    "description": "«Paticas pa´que las Quiero» Paticas is a Costa Rican travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. \nIn 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality.",
+    "description": "«Paticas pa´que las Quiero» Paticas is Costa Rican owned and operated. A travel agency dedicated to both local and international tourists, committed to promoting sustainable tourism while supporting local businesses and rural entrepreneurs. \n\nIn 2021, a family of three women (Yorlene, Karla, and Yoely) fulfilled their dream of inspiring others and sharing the stunning beauty and biodiversity of Costa Rica. Known for its breathtaking landscapes, diverse wildlife, and commitment to sustainable tourism, Costa Rica offers an unparalleled travel experience filled with adventure, safety, and warm hospitality. Que quede así ese texto por favor.",
     "subDescription": "Paticas pa´que las Quiero, ",
     "title": "Our Journey",
     "weAre": "We are Paticas Paque' Las Quiero"
@@ -198,7 +198,8 @@
   "oneDayTour": {
     "title": "One Day Tours",
     "description": "Experience the best of Costa Rica in just one day with our exclusive private luxury tours. Discover breathtaking nature, vibrant culture, and paradise beaches with all-inclusive comfort—perfect for an unforgettable Costa Rica day trip.",
-    "birdewatching": {
+    "birdwatching": {
+      "shortTitle": "Tour – Quetzal & Hummingbirds",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/lewpE",
       "about": "Step into Costa Rica’s cloud forest on a private birdwatching experience to witness the Resplendent Quetzal during nesting season. Visit an active nest, explore a vibrant hummingbird garden, and enjoy a rare connection with nature — all while supporting local conservation and rural communities.",
       "daysAndNights": "",
@@ -239,6 +240,7 @@
       "note": "Our service runs seven days a week."
     },
     "blueFalls": {
+      "shortTitle": "Tour – Blue Falls",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/N3WLw",
       "about": "Step off the tourist trail and explore one of Costa Rica’s true hidden gems. This private, all-inclusive adventure takes you deep into the cloud forest to discover the stunning Blue Falls — a series of crystal-clear waterfalls surrounded by untouched nature. Hike through the jungle, swim in turquoise pools, and uncover secret spots only locals know. Perfect for travelers seeking serenity, authenticity, and a side of Costa Rica few ever see.",
       "daysAndNights": "",
@@ -277,6 +279,7 @@
       "note": "Our service runs seven days a week."
     },
     "dinoLand": {
+      "shortTitle": "Dinoland",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/qjL3b",
       "about": "Escape the city and explore a hidden local favorite rarely visited by tourists. Visit Dinoland — a Jurassic-themed park with life-sized dinosaurs and the largest dry slide in Central America — then enjoy panoramic views from Mirador Las Alas and admire the power of Río Agrio Waterfall. A private, all-inclusive adventure for families and curious travelers looking to experience Costa Rica like a local.",
       "daysAndNights": "",
@@ -315,6 +318,7 @@
       "note": "Our service runs seven days a week."
     },
     "arenalLake": {
+      "shortTitle": "Lake Arenal Private Kayak/SUP Tour",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/637oV",
       "about": "Paddle across Costa Rica’s largest lake with front-row views of the majestic Arenal Volcano. This private, all-inclusive tour blends outdoor adventure with local flavor — enjoy a calm morning on the water, visit a rural café with a waterfall view, and learn about the region’s cultural roots along the way. With gourmet meals, personalized guidance, and full comfort throughout, this experience offers a peaceful yet enriching escape into Costa Rica’s natural beauty.",
       "daysAndNights": "",
@@ -357,6 +361,7 @@
       "note": "Our service runs seven days a week."
     },
     "manuelAntonio": {
+      "shortTitle": "Manuel Antonio National Park Tour",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/by0Xk",
       "about": "Discover scenic trails, stunning lookouts, and white-sand beaches on a private journey to Manuel Antonio. With a dedicated guide by your side, you’ll spot monkeys, sloths, and vibrant wildlife—while traveling in comfort and supporting local communities through every step of the experience.",
       "daysAndNights": "",
@@ -397,6 +402,7 @@
       "note": "Our service runs seven days a week."
     },
     "poasVolcano": {
+      "shortTitle": "Private Tour to Poás Volcano",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/8WelV",
       "about": "Escape the crowds on this all-inclusive private tour to Poás Volcano and a family-owned strawberry farm in the highlands. Explore the crater and Botos Lagoon with your personal guide, then hand-pick strawberries and taste homemade wine, sangria, and local treats. This experience directly supports small rural businesses and offers a unique, meaningful way to connect with Costa Rica — all with personalized service, delicious meals, and private transportation included.",
       "daysAndNights": "",
@@ -445,6 +451,7 @@
       "note": "Our service runs seven days a week."
     },
     "caribbeanTour": {
+      "shortTitle": "Puerto Viejo & Manzanillo",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/A0b1B",
       "about": "Experience the heart of Costa Rica’s Caribbean coast on a private journey filled with color, rhythm, and tradition. Explore vibrant Puerto Viejo, taste Afro-Caribbean cuisine, and wander through the lush beauty of Manzanillo with a local guide by your side. This all-inclusive tour offers more than sun and sand — it’s a cultural immersion that supports local families and invites you to feel the soul of the Caribbean in every step, bite, and view.",
       "daysAndNights": "",
@@ -490,6 +497,7 @@
       "note": "Our service runs seven days a week."
     },
     "queseraBeach": {
+      "shortTitle": "Quesera Beach Private Tour",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/eBLR3",
       "about": "Discover one of Costa Rica’s best-kept secrets on this private, all-inclusive journey to Playa Quesera — a secluded paradise of turquoise waters and white sand, known only to locals. Cross the Gulf of Nicoya by ferry and boat, explore the lush Curú Wildlife Refuge, and enjoy authentic coastal flavors along the way. This experience blends natural beauty, cultural insight, and personalized service for a truly exclusive day at the beach — far from the crowds, close to the real Costa Rica.",
       "daysAndNights": "",
@@ -533,6 +541,7 @@
       "note": "Our service runs seven days a week."
     },
     "sarchiCity": {
+      "shortTitle": "Sarchí City Tour",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/XWj8q",
       "about": "Step into Costa Rica’s artisan capital and explore the vibrant town of Sarchí, home to hand-painted oxcarts and generations of skilled woodworkers. Visit the historic oxcart factory, admire the world’s largest oxcart, sample traditional Costa Rican food, and learn how local artisans keep culture alive through color, craft, and community.",
       "daysAndNights": "",
@@ -566,6 +575,7 @@
       "note": "Our service runs seven days a week."
     },
     "santaTeresaSurf": {
+      "shortTitle": "Surf Lessons in Santa Teresa",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/0b78r",
       "about": "Ride the waves in Santa Teresa with a private surf experience made for curious, conscious travelers. Enjoy a day of sun, sea, and connection — with stops that support local communities and views that last a lifetime. A laid-back yet luxurious escape to the Pacific coast.",
       "daysAndNights": "",
@@ -604,6 +614,7 @@
       "note": "Our service runs seven days a week."
     },
     "tortugueroCanoe": {
+      "shortTitle": "Tortuguero Canoe & Jungle Tour",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/JRgvL",
       "about": "Explore Tortuguero’s remote canals and rainforest on a private canoe journey through wildlife-rich waters, where you may spot monkeys, toucans, crocodiles, and more. Hike to Cerro Tortuguero for stunning views, and visit the local village to connect with the culture and rhythms of jungle life — all while supporting rural communities.",
       "daysAndNights": "",
@@ -650,6 +661,7 @@
       "note": "Our service runs seven days a week."
     },
     "whaleWatching": {
+      "shortTitle": "Whale Watching in Uvita",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/OvEmY",
       "about": "Set out on a private ocean adventure along Costa Rica’s Pacific coast in search of humpback whales, dolphins, and sea turtles — all in their natural habitat. Guided by local experts and supported by small community businesses, this luxury experience offers comfort, insight, and unforgettable wildlife encounters. If the tide allows, you’ll also walk the iconic Whale’s Tail sandbar, revealed only at low tide. Ideal from July to October, this is a meaningful way to witness nature’s wonders in one of the country’s most biodiverse regions.",
       "daysAndNights": "",
@@ -759,7 +771,7 @@
     "title": "Contact us"
   },
   "sectionOurTour": {
-    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours.Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
+    "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours. Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
     "title": "Our Tours"
   },
   "sectionReviews": {
@@ -784,6 +796,7 @@
   "toursLabel": "Tours",
   "tours": {
     "crocodilesAndBirds": {
+      "shortTitle": "Birds & Crocodiles",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/okxb0",
       "about": "Join our Photography Expedition designed for nature and wildlife photographers. Experience the breathtaking biodiversity of Costa Rica, from lush rainforests to the Tárcoles River. Capture stunning images of exotic fauna and flora. Rancho Naturalista, located in Turrialba, is a top birdwatching destination in Central America, offering views of over 450 bird species, including hummingbirds and rare birds like the Black-Throated Wren and Lovely Cotinga. Photographers and nature lovers will enjoy the unparalleled views of Turrialba Volcano. Explore the Tárcoles River, home to American crocodiles, iguanas, and howler monkeys. With over 320 bird species, including the yellow-billed cotinga and jabiru, this river is a paradise for wildlife photographers.",
       "daysAndNights": "7 days and 6 nights",
@@ -840,6 +853,7 @@
       "title": "Wildlife Photography Workshop: Crocodiles and Birds"
     },
     "ecoExplor": {
+      "shortTitle": "EcoExplora",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/mYyAL",
       "about": "EcoExplora is designed for thrill-seekers looking to experience Costa Rica’s most exhilarating outdoor adventures. From white-water rafting on the Pacuare River and waterfall rappelling in the rainforest to ATV jungle expeditions in La Fortuna, every moment is packed with excitement. Glide across Lake Arenal on a wakeboard or stand-up paddleboard, snorkel in crystal-clear waters at the stunning Tortuga Island, and immerse yourself in Costa Rica’s rich culture with a visit to the traditional artisan town of Sarchí.",
       "daysAndNights": "9 days and 8 nights",
@@ -905,6 +919,7 @@
       "title": "EcoExplora Adventure: Rafting, ATV & Jungle Expeditions"
     },
     "followingQuetzal": {
+      "shortTitle": "Quetzals and King Vultures",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/KRMeO",
       "about": "Embark on a 7-day photographic adventure in the lush forests of Cerro La Muerte, home to the quetzal, where you'll capture stunning images of this iconic bird. Next, we will travel to Sarapiquí, renowned for its biodiversity, where you can photograph species like the yellow bocaracá, the venomous parrot, and various toucans.\nWe will then proceed to Boca Tapada, Pital, San Carlos, known for the king vulture. During this stage, you will enjoy a specialized tour of hummingbirds equipped with multiple flash devices to capture every detail. You will also have the opportunity to join a nighttime tour to observe bats in their natural habitat.\nGet ready for an unforgettable adventure aboard our boat ride as we travel through a spectacular and biodiverse landscape. We'll be searching for herons, lizards, iguanas, monkeys, tanagers, and more, trying to capture that once-in-a-lifetime photograph we've all been dreaming about.",
       "daysAndNights": "7 days and 6 nights",
@@ -961,6 +976,7 @@
       "title": "Wildlife Photography Workshop: Quetzals and King Vultures"
     },
     "manuelAntonio": {
+      "shortTitle": "Manuel Antonio & Uvita",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/3bkXm",
       "about": "Discover the breathtaking beauty of Manuel Antonio National Park and Uvita, a premier eco-tourism destination on Costa Rica's southern Pacific coast. Established in 1972, Manuel Antonio is one of the country's most visited parks. Recognized by Forbes as one of the 12 most beautiful parks in the world, it boasts stunning white sandy beaches, clear waters, vibrant biodiversity, and abundant wildlife, including monkeys, sloths, dolphins, and various tropical species. Relax in this serene environment, perfect for unwinding in nature.\nUvita, part of Marino Ballena National Park, is renowned for its unique whale tail formation and is a premier destination for whale watching, thanks to its rich marine life. This haven for exotic fauna serves as a sanctuary for dolphins and turtles. Explore Isla del Caño, a biological reserve celebrated for its pristine coral reefs and diverse marine species.",
       "daysAndNights": "6 days and 5 nights",
@@ -1013,6 +1029,7 @@
       "title": "Manuel Antonio and Uvita: A Pacific South Escape into Nature"
     },
     "mostPopularInCostaRica": {
+      "shortTitle": "Top 10 Costa Rica",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/aDEBR",
       "about": "Discover Costa Rica with our 17-day all-inclusive tour, designed for travelers seeking the country’s most breathtaking destinations. Explore white-sand beaches with crystal-clear waters, ride the waves at top surfing spots, and wander through national parks where ancient trees embrace the sea. Witness exotic wildlife like sloths, monkeys, and toucans, marvel at active volcanoes, soak in natural hot springs, and chase turquoise waterfalls hidden deep in the rainforest. From the lush jungles of Tortuguero and Monteverde to the stunning coastlines of the Caribbean and Pacific, this adventure offers the perfect mix of relaxation and excitement in one of the world’s most beautiful travel destinations.",
       "daysAndNights": "17 days and 16 nights",
@@ -1121,6 +1138,7 @@
       "title": "Top 10 Paticas: Best Places to Visit in Costa Rica"
     },
     "secretsOfCostaRica": {
+      "shortTitle": "Hidden Gems of Costa Rica",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/B0La2",
       "about": "'The Hidden Gems of Costa Rica' is an exclusive tour that unveils the magical and hidden essence of this lush paradise. Join us on an adventure and immerse yourself in a unique experience in this beautiful Central American country, exploring mysterious and captivating destinations. Discover imposing volcanoes, pristine beaches, hidden waterfalls, serene lakes, dense forests, and charming little towns that will take your breath away. 'The Hidden Gems of Costa Rica' is the journey that will lead us through rarely visited paradises, rich in almost unreal beauty. Join us on a trip we guarantee will be unforgettable and discover the authentic secret Costa Rica.",
       "daysAndNights": "8 days and 7 nights",
@@ -1186,6 +1204,7 @@
       "title": "The Hidden gems of Costa Rica"
     },
     "southCaribean": {
+      "shortTitle": "Caribbean Bliss",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/EPqgg",
       "about": "Discover Costa Rica’s South Caribbean, a tropical paradise with white-sand beaches, crystal-clear waters, and lush rainforests. This region, influenced by Afro-Caribbean culture and the indigenous Bribri and Cabécar communities, offers an authentic experience full of vibrant colors, flavors, and rhythms.\nExplore Cahuita National Park, home to incredible marine and terrestrial biodiversity, or relax on the pristine beaches of Manzanillo. Immerse yourself in the laid-back vibe of Puerto Viejo, where reggae beats and Caribbean cuisine create a unique atmosphere. Don’t miss a boat tour through the Tortuguero Canals, a wildlife haven for sea turtles, monkeys, and exotic birds.\nExperience unforgettable activities like traditional chocolate-making, scenic boat rides through the jungle, and walks through medicinal gardens. Costa Rica’s South Caribbean is a must-visit destination for nature lovers, culture seekers, and adventure enthusiasts",
       "daysAndNights": "7 días y 6 noches",
@@ -1246,6 +1265,7 @@
       "title": "Caribbean Bliss: Where the Rainforest Embraces the Sea"
     },
     "sportFishing": {
+      "shortTitle": "Sport Fishing Adventures",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/LR1Oa",
       "about": "Experience world-class sport fishing in Costa Rica, one of the best destinations for deep-sea fishing and sustainable tourism. This guided tour takes you to Quepos and Caño Island, two top fishing spots known for their rich marine biodiversity and stunning landscapes. Quepos is a premier fishing hub, offering the chance to catch Marlin, Sailfish, Dorado, and Yellowfin Tuna. Close to Manuel Antonio National Park, it combines sport fishing with breathtaking nature. Caño Island Biological Reserve, located near Corcovado National Park, is a marine sanctuary teeming with marine life. Besides offshore fishing, visitors can enjoy snorkeling, diving, and whale watching in crystal-clear waters.",
       "daysAndNights": "7 days and 6 nights",
@@ -1303,6 +1323,7 @@
       "title": "Sport Fishing Adventures – Explore Costa Rica's Pacific Coast"
     },
     "sunAndSand": {
+      "shortTitle": "Sun & Sand Escapes",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/4xXqL",
       "about": "Experience the best of Guanacaste, Costa Rica, where stunning beaches, lush tropical forests, and relaxing water activities await. Explore Tamarindo and Conchal, two of the most popular Costa Rica beach destinations, perfect for snorkeling, sunset walks, and luxury getaways. With over 100 km of coastline, this region offers world-class resorts, wellness retreats, and breathtaking landscapes. Whether you're seeking tranquility and comfort, a trip to Guanacaste promises unforgettable memories and the true Pura Vida experience.",
       "daysAndNights": "8 days and 7 nights",
@@ -1362,6 +1383,7 @@
       "title": "Sun & Sand Escapes: Relaxing Retreat in the North Pacific"
     },
     "tropicalTranquility": {
+      "shortTitle": "Tropical Serenity",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/dmdPW",
       "about": "Peace, tranquility, and relaxation: the 'Tropical Serenity' tour is designed for those seeking a lush journey through the hidden gems of Costa Rica. Over the course of eight days, indulge in stunning landscapes, unique scenery, and majestic volcanoes. Marvel at endemic flora and fauna while exploring the breathtaking Pacific Ocean with its crystal-clear waters teeming with vibrant marine life, inviting you to unwind on pristine white-sand beaches with gentle breezes.\nSay goodbye to stress! Experience serenity in a tropical paradise!",
       "daysAndNights": "8 days and 7 nights",
@@ -1423,6 +1445,7 @@
       "title": "Tropical Serenity: Relaxation Retreat in Paradise"
     },
     "turtlesAndWhales": {
+      "shortTitle": "Turtle Nesting & Whale Watching",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/vzyRe",
       "about": "For nature and conservation enthusiasts, our exclusive 'Green Turtle Nesting in Tortuguero' tour offers a unique opportunity to witness green sea turtles nesting in their natural habitat at night. Tortuguero National Park, renowned for its rich biodiversity and stunning landscapes, is one of the most important marine turtle nesting sites in Costa Rica. Experience the awe-inspiring sight of these magnificent creatures laying their eggs under the moonlight. This limited-time tour is available only in September, coinciding with the peak nesting season for green turtles and the best time for whale watching. \nWhat is Turtle Nesting?\nTurtle nesting is a natural process where female green turtles come ashore at night to lay their eggs in the sand. After laying the eggs, they return to the ocean, leaving their nests behind. Males remain in the sea during this process.\nTortuguero's Importance\nTortuguero is one of the world's top sites for green turtle nesting, protected from development and light pollution. These turtles are highly loyal to their nesting beaches, ensuring Tortuguero remains a key sanctuary for their preservation.\nPark Guidelines for Turtle Nesting:\nPhotography, cameras, and cell phone use are not allowed.\nDirect contact with the turtles or their eggs is prohibited.\nAfter the magic of turtle nesting, we'll continue to Uvita for an incredible whale watching experience. During the whale migration season (December-March and July-October), you may encounter humpback whales, Bryde’s whales, pilot whales, and Dolphins.",
       "daysAndNights": "7 days and 6 nights",
@@ -1482,6 +1505,7 @@
       "title": "Turtle Nesting & Whale Watching"
     },
     "volcanoes": {
+      "shortTitle": "Arenal & Monteverde",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/WoRzN",
       "about": "Explore the breathtaking landscapes of Costa Rica, where biodiversity and adventure come together. Our journey begins in Monteverde, home to the famous Monteverde Cloud Forest Reserve, a sanctuary for 120 species of amphibians and reptiles, nearly 100 species of mammals, and 400 species of birds. This biological paradise is part of the Arenal-Monteverde Cloud Forest Complex, a vital corridor connecting Monteverde with Arenal Volcano National Park, where trails and lush rainforests provide an unforgettable experience for wildlife lovers and photographers.\nNext, we head to La Fortuna, home to the majestic Arenal Volcano. This region offers adventure and cultural experiences, including a coffee and chocolate tour, zip-lining, and a guided night tour to explore nocturnal wildlife. Relax on a private yacht tour on Lake Arenal, taking in stunning volcano views, or enjoy a peaceful nature hike. Immerse yourself in Costa Rica’s natural wonders, where volcanoes, cloud forests, and wildlife create an unforgettable experience.",
       "daysAndNights": "8 days and 7 nights",
@@ -1543,6 +1567,7 @@
       "title": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
     },
     "wildLife": {
+      "shortTitle": "Corcovado Expedition",
       "peekLink": "https://book.peek.com/s/1ec132d2-8f86-4640-828d-6f5d0f8aaf8c/7vBax",
       "about": "Explore Corcovado National Park, one of the most biologically diverse places on Earth, perfect for wildlife photography enthusiasts. Located on Costa Rica’s Osa Peninsula, this natural wonder represents 2.5% of the world’s biodiversity, blending tropical rainforests, pristine beaches, and waterfalls. \nCapture incredible images of sloths, tapirs, toucans, and even elusive wild cats like pumas and ocelots in their natural habitat. Recognized by National Geographic as “the most biologically intense place on Earth,” Corcovado offers activities like boat tours, whale and dolphin watching, and nighttime hikes.",
       "daysAndNights": "8 days and 7 nights",
@@ -1637,5 +1662,20 @@
     "tourEndDate": "Tour End Date",
     "closingMessage": "Please let me know the next steps to confirm the reservation. Should you require any additional information, do not hesitate to ask. I appreciate your assistance and look forward to your confirmation.",
     "signature": "Best,"
+  },
+  "routesName": {
+    "home": "Home",
+    "categories": "Categories",
+    "category": "Category",
+    "multiDayTours": "Multi Day Tours",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "oneDayTours": "One Day Tours",
+    "tour": "Tour",
+    "title": "Title",
+    "detailed": "Detailed",
+    "booking": "Booking",
+    "blog": "Blog",
+    "blogs": "Bogs"
   }
 }

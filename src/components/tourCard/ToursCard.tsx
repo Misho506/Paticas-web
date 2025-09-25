@@ -9,7 +9,6 @@ type ToursCardsProps =
   {
     tours: Array<TourType>;
     showActionButton?: boolean;
-    oneDayTours?: boolean;
     redirectTo?: string;
   }
 

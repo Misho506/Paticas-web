@@ -45,7 +45,7 @@ const Tour = () => {
     let toursToShow: Array<TourType> = [];
 
     if (selectedTour.suggestedTours && selectedTour.suggestedTours.length > 0) {
-      toursToShow = (isOneDayTour ? oneDayTours : tours).filter(tour => selectedTour.suggestedTours?.includes(tour.id));
+      toursToShow = (isOneDayTour ? oneDayTours : tours).filter(tour => selectedTour.suggestedTours?.includes(tour.id as string));
     }
     console.log(toursToShow);
     return <ToursCards tours={toursToShow.length > 0 ? toursToShow : tours.slice(indexForToursToShow, indexForToursToShow + 4)} />
@@ -127,7 +127,7 @@ const Tour = () => {
       )}
       <hr className="w-4/5 mx-auto mb-6" />
       <button
-        onClick={() => navigate(isOneDayTour ? '/' : `/category/:${selectedCategory.title}`)}
+        onClick={() => navigate(isOneDayTour ? '/' : `/categories/?${selectedCategory.id}`)}
         className="show-all-button flex justify-self-center items-center mx-auto my-5 px-3 py-2 text-xl rounded-full border-1 border-black"
       >
         <IoMdArrowBack />

@@ -26,7 +26,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
       .min(1, { message: i18n.t("formErrors.email.required") })
       .email({ message: i18n.t("formErrors.email.invalidType") }),
     description: z.string({
-      invalid_type_error: i18n.t("formErrors.description.invalidType"),
+      invalid_type_error: i18n.t("formErrors.description.required"),
     }).min(1, { message: i18n.t("formErrors.description.required") })
   });
   const [messageInfo, setMessageInfo] = useState<typeof initValues>(initValues);

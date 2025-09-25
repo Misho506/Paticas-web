@@ -23,7 +23,9 @@ interface TourContextType {
 const TourContext = createContext<TourContextType | undefined>(undefined);
 
 const categoryInitialValue = {
+  id: "",
   title: "",
+  shortTitle: "",
   image: "",
   description: "",
   tours: [],
@@ -33,6 +35,7 @@ const tourInitialValue = {
   peekLink: "",
   img: "",
   title: "",
+  shortTitle: "",
   places: [],
   description: "",
   daysAndNights: "",

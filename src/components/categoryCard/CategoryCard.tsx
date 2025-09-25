@@ -1,4 +1,3 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { useNavigate } from "react-router";
 
 import { CategoryType } from "../../utils/types";
@@ -6,13 +5,13 @@ import { useTour } from "../../context/TourContext";
 import "./CategoryCard.css"
 
 const CategoryCard = (category: CategoryType) => {
-  const { image, title } = category;
+  const { image, title, id } = category;
   let navigate = useNavigate();
   const { setSelectedCategory } = useTour();
 
   const goToSelectedTour = () => {
     setSelectedCategory(category);
-    navigate(`/category/:${title}`);
+    navigate(`/categories/:${id}`);
   };
 
   return (

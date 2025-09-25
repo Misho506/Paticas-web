@@ -14,7 +14,7 @@ const OneDayTour = () => {
     <>
       {createSectionWithTitle({ title: i18n.t("oneDayTour.title"), body: i18n.t("oneDayTour.description"), bgColor: "bg-white" })}
       {allOneDayTours(i18n.t) &&
-        <ToursCards oneDayTours={true} tours={allOneDayTours(i18n.t)} />
+        <ToursCards redirectTo="/one-day-tours" tours={allOneDayTours(i18n.t)} />
       }
       <button
         onClick={() => navigate('/')}

@@ -15,13 +15,13 @@ const TourCard = ({ tour }: { tour: TourType }) => {
   const [showTooltip, setShowTooltip] = useState(false);
   const { img, title, places, daysAndNights, prices, aproxHours } = tour;
   const { i18n } = useTranslation();
-  const { setSelectedTour } = useTour();
+  const { setSelectedTour, selectedCategory } = useTour();
   const navigate = useNavigate();
 
   const goToDetailedTour = () => {
     setSelectedTour(tour);
     window.scrollTo(0, 0);
-    navigate("/tour/detailed");
+    navigate(tour.daysAndNights ? `/categories/${selectedCategory.id}/:${tour.id}` : `/one-day-tours/:${tour.id}`);
   }
 
   return (
