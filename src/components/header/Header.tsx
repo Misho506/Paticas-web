@@ -5,9 +5,6 @@ import { useTranslation } from "react-i18next";
 import IconWithName from "../../assets/icons/Fondo Verde Oscuro@2x.png";
 import "./Header.css";
 import { useEffect, useRef, useState } from "react";
-import { useRoute } from "../../context/RouteContext";
-import { PathObject } from "../../utils/types";
-import Breadcrumb from "../breadcrumb/Breadcrumb";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -16,7 +13,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isToursOpen, setIsToursOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
-  const { path, setPath } = useRoute();
 
   const navButtons = [
     {
@@ -38,21 +34,6 @@ const Header = () => {
   ]
 
   const GoTo = (route: string, nameRoute: string) => {
-    const newElement: PathObject = { name: nameRoute, link: route };
-
-    let updatedPath: PathObject[] = [];
-
-    const foundIndex = path.findIndex((segment) => segment.name === nameRoute);
-
-    if (foundIndex >= 0) {
-      // If the route already exists, slice up to that point
-      updatedPath = path.slice(0, foundIndex + 1);
-    } else {
-      // Otherwise, add to the breadcrumb path
-      updatedPath = [...path, newElement];
-    }
-
-    setPath(updatedPath);
     navigate(route);
   };
 
@@ -86,8 +67,8 @@ const Header = () => {
   );
 
   return (
-    <header className="w-full shadow-md z-10 flex flex-col header-container">
-      <div className="flex h-20 flex-row items-center justify-between">
+    <header className="w-full z-10 flex flex-col header-container">
+      <div className="flex h-20 shadow-md flex-row items-center justify-between">
         <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableCard.message")} title={i18n.t("notAvailableCard.title")} />
         <section className="flex flex-row items-center" onClick={() => navigate('/')}>
           <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
@@ -128,9 +109,6 @@ const Header = () => {
           </div>
         </section>
       </div>
-      {path.length > 0 && window.location.pathname !== '/' &&
-        <Breadcrumb />
-      }
     </header>
   )
 }

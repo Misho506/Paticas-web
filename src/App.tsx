@@ -17,14 +17,17 @@ import Blog from "./layout/Blog/Blog";
 import Blogs from "./layout/Blogs/Blogs";
 import Tours from "./layout/Tours/Tours";
 import Contact from "./layout/Contact/Contact";
-import { RouteProvider } from "./context/RouteContext";
+import Breadcrumb from "./components/breadcrumb/Breadcrumb";
+import { useLocation } from "react-router";
 
 function App() {
   const { i18n } = useTranslation();
+  const location = useLocation();
   useEffect(() => { i18n.changeLanguage(window.navigator.language) }, [i18n]);
   return (
-    <RouteProvider>
+    <>
       <Header />
+      {window.location.pathname !== '/' && <Breadcrumb path={location.pathname} />}
       <TourProvider>
         <BlogProvider>
           <ScrollTop />
@@ -45,7 +48,7 @@ function App() {
         </BlogProvider>
       </TourProvider>
       <Footer />
-    </RouteProvider>
+    </>
   );
 }
 
