@@ -13,7 +13,7 @@ const Category = () => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className="mt-2">
       {createSectionWithTitle({ title, body: description, bgColor: "bg-white" })}
       {tours &&
         <ToursCards tours={tours} />
@@ -25,7 +25,7 @@ const Category = () => {
         <IoMdArrowBack />
         {i18n.t("goBack")}
       </button>
-    </>
+    </div>
   )
 };
 

@@ -53,7 +53,7 @@ const Tour = () => {
 
 
   return (
-    <div className="tours-container">
+    <div className="tours-container mt-2">
       <SectionWithTitle title={selectedTour.title} body={selectedTour.description} />
       <CCarousel controls transition="slide" interval={false} className="w-full mb-16">
         {selectedTour.photos.map((photo, index) => (

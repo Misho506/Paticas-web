@@ -2,7 +2,7 @@ import { TFunction } from 'i18next';
 import { TourType } from '../../../types';
 
 const birdwatching = (t: TFunction): TourType => ({
-  img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00001.jpg",
+  img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00001.jpg",
   id: "birdwatching",
   suggestedTours: ["whaleWatching", "manuelAntonio", "tortugueroCanoe"],
   aproxHours: "8",
@@ -15,12 +15,12 @@ const birdwatching = (t: TFunction): TourType => ({
   about: t("oneDayTour.birdwatching.about"),
   days: 0,
   photos: [
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00001.jpg",
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00002.jpg",
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00003.jpg",
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00004.jpg",
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00005.jpg",
-    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdwatching-tour-00006.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00001.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00002.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00003.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00004.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00005.jpg",
+    "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/birdewatching-tour-00006.jpg",
   ],
   includes: [
     t("oneDayTour.birdwatching.includes.0"),

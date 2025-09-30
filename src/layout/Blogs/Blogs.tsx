@@ -14,7 +14,7 @@ const Blogs = () => {
   }
 
   return (
-    <section className="mb-4 mx-auto flex flex-col justify-self-center">
+    <section className="mb-4 mx-auto flex flex-col justify-self-center pt-10">
       <section style={{ position: 'relative', textAlign: 'left', color: '#fff' }}>
         <img
           src={blogs[0].picture}

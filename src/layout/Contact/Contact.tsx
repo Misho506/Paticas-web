@@ -164,7 +164,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
 
   // Removed unused phoneNumberChange function as phoneNumber is not part of the schema or form fields.
   return (
-    <section className="">
+    <section className="mt-2">
       <SectionWithTitle title={sectionContact(i18n.t).title} body={sectionContact(i18n.t).body} />
       {showForm && <div className="grid grid-cols-1 md:grid-cols-2">
         <form onSubmit={submitForm} className="space-y-6 justify-center flex flex-col p-6 sm:w-9/12 w-full h-5/6 max-w-lg m-auto">

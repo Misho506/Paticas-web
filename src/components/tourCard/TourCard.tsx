@@ -61,7 +61,7 @@ const TourCard = ({ tour }: { tour: TourType }) => {
             <article className="flex items-center text-sm text-gray-500 mt-2">
               <FaRegMoneyBillAlt className="yellow-icon text-xl" />
               <span className="italic text-xs ml-1">From</span>
-              <span className="ml-1"> ${prices[0].price}</span>
+              <span className="ml-1"> ${formatter.format(prices[0].price)}</span>
               <span className="italic text-xs ml-1"> per person</span>
             </article>
           }

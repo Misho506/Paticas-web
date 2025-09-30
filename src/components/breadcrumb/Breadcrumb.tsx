@@ -21,15 +21,13 @@ const Breadcrumb = ({ path }: { path: string }) => {
   const fullBreadcrumbs = [{ name: i18n.t("routesName.home"), link: "/" }, ...breadcrumbs];
 
   return (
-    <nav className="w-full bg-white h-5 pl-2">
+    <nav className="w-full h-5 pl-[5rem] pt-2 absolute z-10">
       {fullBreadcrumbs.map((crumb, index) => (
         <span key={crumb.link}>
           <Link
             to={crumb.link}
-            style={{
-              color: index === fullBreadcrumbs.length - 1 ? "black" : "blue",
-              textDecoration: "none",
-            }}
+            className={`px-1 text-sm ${index === fullBreadcrumbs.length - 1 ? "text-black no-underline" : "text-[#65a603]"}`}
+
           >
             {crumb.name}
           </Link>

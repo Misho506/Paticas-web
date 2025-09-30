@@ -2,7 +2,7 @@ import { CCarousel, CCarouselItem } from '@coreui/react'
 import { BannerType } from '../../utils/types';
 import { NavLink } from "react-router";
 import { useTranslation } from 'react-i18next';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Banners from '../../assets/banners';
 
 import "./Carousel.css";
