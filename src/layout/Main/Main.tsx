@@ -9,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 import "./Main.css";
 import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
 import { sectionOurTour, sectionBlogs, sectionAboutUs, sectionReviews } from "../../utils/hardCodedData/sections";
-import Contact from "../Contact/Contact";
 import {
   AirportTransferIcon,
   MealsIncludedIcon,
@@ -75,8 +74,6 @@ const Main = () => {
       </section>
       <SectionWithTitle title={sectionReviews(i18n.t).title} body={sectionReviews(i18n.t).body} />
       <Reviews />
-      <br />
-      <Contact />
     </section>
   )
 };

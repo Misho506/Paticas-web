@@ -174,7 +174,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
           </button>
         </form>
         <img src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/carribean-tour00004.jpg" alt="family" className="object-fill w-11/12 h-[85%] m-auto rounded" />      </div>}
-      <div className="flex items-center justify-center gap-8 px-6 p-8 max-sm:flex-col">
+      {/* <div className="flex items-center justify-center gap-8 px-6 p-8 max-sm:flex-col">
         {CircularContainerWithInfo(
           <FaWhatsapp className="text-black text-xl" />,
           <>
@@ -201,7 +201,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
             </a>
           </>
         )}
-      </div>
+      </div> */}
     </section>
   )
 };

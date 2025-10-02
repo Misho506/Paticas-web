@@ -92,6 +92,55 @@
   "email": "Email",
   "endDate": "End date",
   "exploreMore": "Explore More",
+  "footer": {
+    "company": {
+      "title": "Paticas Travel",
+      "description": "Private and Luxury Tours in Costa Rica.\n\nTailor-made experiences that connect you with nature, culture, and the communities of Costa Rica."
+    },
+    "explore": {
+      "title": "Explore",
+      "tours": "Tours",
+      "blog": "Blog",
+      "about": "About Us",
+      "contact": "Contact",
+      "faqs": "FAQs"
+    },
+    "support": {
+      "title": "Customer Support",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "cancel": "Cancellation Policy",
+      "payment": "Payment Methods",
+      "community": "Community Impact"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "location": "San José, Costa Rica (near Juan Santamaría Airport)",
+      "email": "reservas@paticastravel.com",
+      "phone": "+506 8691-8432"
+    },
+    "certifications": {
+      "tripadvisor": "Tripadvisor Travelers’ Choice",
+      "ict": "ICT – Costa Rican Tourism Institute",
+      "nta": "NTA – National Tour Association",
+      "essential": "Essential Costa Rica"
+    },
+    "newsletter": {
+      "text": "Get travel tips, exclusive offers, and inspiration for your next experience in Costa Rica",
+      "placeholder": "Enter your email address",
+      "subscribe": "Subscribe"
+    },
+    "bottom": {
+      "rights": "© 2025 Paticas Travel S.A. All rights reserved.",
+      "motto": "Because traveling and living are the same."
+    },
+    "notAvailableCard": {
+      "title": "Feature not available yet"
+    },
+    "notAvailableNewsLetter": {
+      "message": "The newsletter will be available soon."
+    }
+  },
   "followUs": "Stay connected for travel updates!",
   "formErrors": {
     "email": {
