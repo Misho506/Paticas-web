@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaRegCalendarCheck, FaRegMoneyBillAlt } from "react-icons/fa";
 import { CiCircleInfo } from "react-icons/ci";
 import { IoMdTime } from "react-icons/io";
@@ -12,11 +12,34 @@ import { useTranslation } from "react-i18next";
 const formatter = new Intl.NumberFormat("en-US"); // puedes usar "es-CR" si prefieres formato de Costa Rica
 
 const TourCard = ({ tour }: { tour: TourType }) => {
-  const [showTooltip, setShowTooltip] = useState(false);
   const { img, title, places, daysAndNights, prices, aproxHours } = tour;
   const { i18n } = useTranslation();
   const { setSelectedTour, selectedCategory } = useTour();
   const navigate = useNavigate();
+  const [showTooltip, setShowTooltip] = useState(false);
+  const tooltipRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement | null>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node | null;
+      if (!target) return;
+
+      const clickedInTooltip = tooltipRef.current?.contains(target);
+      const clickedOnButton = buttonRef.current?.contains(target);
+
+      if (!clickedInTooltip && !clickedOnButton) {
+        setShowTooltip(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
 
   const goToDetailedTour = () => {
     setSelectedTour(tour);
@@ -25,19 +48,45 @@ const TourCard = ({ tour }: { tour: TourType }) => {
   }
 
   return (
-    <section className="relative shadow-[0px_0px_10px_0_#2B462A] flex-1 rounded-lg border-1 border-black card-width m-3 cursor-pointer" onClick={goToDetailedTour}>
-      <button className="absolute top-1 p-1 right-1 rounded-md hover:bg-[#F0B500]" onClick={goToDetailedTour}>
+    <section
+      className="relative shadow-[0px_0px_10px_0_#2B462A] flex-1 rounded-lg border-1 border-black card-width m-3 cursor-pointer"
+      onClick={goToDetailedTour}
+    >
+      <button
+        ref={buttonRef}
+        type="button"
+        aria-expanded={showTooltip}
+        aria-controls={`tooltip-${tour.id}`}
+        className="absolute top-1 p-1 right-1 rounded-md hover:bg-[#F0B500] z-20"
+        onClick={(e) => {
+          e.stopPropagation();               // IMPORTANT: prevent parent onClick
+          setShowTooltip((s) => !s);
+        }}
+        onTouchStart={(e) => {
+          e.stopPropagation();               // IMPORTANT: prevent parent onClick
+          e.preventDefault();                // prevent the native click from also firing
+          setShowTooltip((s) => !s);
+        }}
+        onMouseEnter={() => setShowTooltip(true)}
+        onMouseLeave={() => setShowTooltip(false)}
+      >
         <CiCircleInfo
           className="bg-gray-500 text-white rounded-full"
           size={32}
-          onMouseEnter={() => setShowTooltip(true)}
-          onMouseLeave={() => setShowTooltip(false)}
+          aria-hidden="true"
         />
       </button>
       {showTooltip &&
-        <div className="absolute mb-2 grid right-3 -top-8 -translate-y-1/2 bg-white text-gray-800 text-sm rounded-lg shadow-md border border-gray-200 p-2 z-10">
+        <div
+          className="absolute mb-2 grid right-3 -top-8 -translate-y-1/2 bg-white text-gray-800 text-sm rounded-lg shadow-md border border-gray-200 p-2 z-30"
+          id={`tooltip-${tour.id}`}
+          ref={tooltipRef}
+          role="status"
+        >
           {prices && prices.map((price, index) => (
-            <span className="w-full" key={index}>{price.numberOfPeople} pax: ${formatter.format(price.price)}/{i18n.t("perPerson")}</span>
+            <span className="w-full" key={index}>
+              {price.numberOfPeople} pax: ${formatter.format(price.price)}/{i18n.t("perPerson")}
+            </span>
           ))}
         </div>
       }

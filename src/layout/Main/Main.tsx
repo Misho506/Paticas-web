@@ -7,7 +7,7 @@ import ToursCards from "../../components/tourCard/ToursCard";
 import { useNavigate } from "react-router";
 import { useTranslation } from 'react-i18next';
 import "./Main.css";
-import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
+import BlogsCarrousel from "../../components/blogsCarrousel/BlogsCarrousel";
 import { sectionOurTour, sectionBlogs, sectionAboutUs, sectionReviews } from "../../utils/hardCodedData/sections";
 import {
   AirportTransferIcon,
