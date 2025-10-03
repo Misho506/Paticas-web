@@ -15,6 +15,7 @@
   "bookingNote": "Please confirm the reservation information before sending the email.",
   "blogs": [
     {
+      "shortTitle": "Ticos & Ticas",
       "title": "Why Are Costa Ricans Called “Ticos and Ticas”? A Cultural Insight",
       "date": "October 4, 2024",
       "readingTime": "5 min read",
@@ -28,6 +29,7 @@
       ]
     },
     {
+      "shortTitle": "Discover Music, Food & Traditions in Limón",
       "title": "Costa Rica Caribbean Culture: Discover Music, Food & Traditions in Limón",
       "date": "January 21, 2025",
       "readingTime": "5 min read",
@@ -41,6 +43,7 @@
       ]
     },
     {
+      "shortTitle": "Costa Rica’s Blue Zone",
       "title": "Nicoya: Costa Rica’s Blue Zone and the Secret to Longevity",
       "date": "February 28, 2025",
       "readingTime": "5 min read",
@@ -54,6 +57,7 @@
       ]
     },
     {
+      "shortTitle": "6% of the World’s Biodiversity",
       "title": "Costa Rica: Home to 6% of the World’s Biodiversity",
       "date": "March 15, 2025",
       "readingTime": "5 min read",
@@ -69,19 +73,23 @@
   ],
   "category1": {
     "body": "We are professional wildlife photographers and local experts. With in-depth knowledge of rainforest photography, we take you to the best locations at the perfect time, ensuring optimal natural light and access to incredible wildlife encounters. Our expertise helps you capture the breathtaking nature shots you’ve always dreamed of.",
-    "title": "Wildlife Photography Expedition"
+    "title": "Wildlife Photography Expedition",
+    "shortTitle": "Wildlife Photography Expedition"
   },
   "category2": {
     "body": "Experience adrenaline-filled adventures in Costa Rica with rafting, zip-lining, ATV rides, wakeboarding, and waterfall rappelling. Explore the rainforest, rivers, and mountains with expert guides. Whether you're a thrill-seeker or nature lover, our Costa Rica travel agency offers the best adventure tours for an unforgettable journey in paradise.",
-    "title": "Adventure"
+    "title": "Adventure",
+    "shortTitle": "Adventure"
   },
   "category3": {
     "body": "Unwind on Costa Rica’s best beaches, mountain retreats, and natural hot springs. Enjoy the sound of the ocean, explore breathtaking landscapes, and escape to a tropical paradise. Our relaxation-focused tours offer the perfect getaway for travelers seeking peace, comfort, and nature with the best Costa Rica travel agency for beach and wellness tourism.",
-    "title": "Beach, Mountain, and Sun"
+    "title": "Beach, Mountain, and Sun",
+    "shortTitle": "Beach, Mountain, and Sun"
   },
   "category4": {
     "body": "Explore Costa Rica’s most breathtaking destinations, from the Top 10 most popular spots, like La Fortuna’s hot springs, Rio Celeste’s turquoise waters, Santa Teresa’s paradise beaches, and the vibrant Caribbean coast, to hidden gems only locals know, including secluded waterfalls, volcanic hikes, and untouched beaches. Travel with the best Costa Rica travel agency for exclusive adventures.",
-    "title": "Our Favorite Spots"
+    "title": "Our Favorite Spots",
+    "shortTitle": "Our Favorite Spots"
   },
   "childrensText": "per child aged 3-10 years, only allowed with a minimum of 2 adults.",
   "close": "Close",

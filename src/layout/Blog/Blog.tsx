@@ -9,8 +9,9 @@ const Blogs = () => {
   const { selectedBlog } = useBlog();
   const { title, listOfTexts, images, picture } = selectedBlog;
   const isTucanBlog = title === i18n.t("blogs.3.title");
+
   return (
-    <section className="mx-3">
+    <section className="mx-3 pt-4">
       <section className="max-w-4xl my-4 mx-auto flex flex-col justify-self-center">
         <h2 className="text-4xl pb-3 mx-2 text-center">{title}</h2>
         <img alt="Principal" className={`h-96 object-cover rounded-xl w-full ${isTucanBlog && 'object-top'}`} src={picture} />
