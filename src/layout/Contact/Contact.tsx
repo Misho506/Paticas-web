@@ -1,7 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
 import CustomInputWithErrorMessage from "../../components/customInputWithErrorMessage/CustomInputWithErrorMessage";
-import CircularContainerWithInfo from "../../components/circularContainerWithInfo/CircularContainerWithInfo";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import { sectionContact } from "../../utils/hardCodedData/sections";
 import { useTranslation } from "react-i18next";

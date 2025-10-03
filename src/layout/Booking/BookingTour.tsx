@@ -3,7 +3,7 @@ import { StepType } from '../../utils/types';
 import { useNavigate } from 'react-router';
 
 import "./BookingTour.css";
-import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/createBooking';
+import { BookingEmail, BookingFirstForm, BookingSecondForm } from '../../components/CreateBooking';
 import { useTranslation } from 'react-i18next';
 import { useTour } from '../../context/TourContext';
 
@@ -61,7 +61,7 @@ const BookingTour = () => {
       {/* Progress Steps */}
       <nav aria-label="Progress steps" className="mb-8">
         <ol className="flex items-center justify-center gap-4">
-          {steps.map((step, index) => (
+          {steps.map((step) => (
             <li key={step.number} className="flex items-center">
               <div className={`
                 flex items-center justify-center w-8 h-8 rounded-full 

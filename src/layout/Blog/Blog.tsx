@@ -2,7 +2,7 @@ import { useBlog } from "../../context/BlogContext";
 import { useTranslation } from "react-i18next";
 
 import "./Blog.css";
-import BlogsCarrousel from "../../components/blogsCarrousel/BlogsCarrousel";
+import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
 
 const Blogs = () => {
   const { i18n } = useTranslation();
