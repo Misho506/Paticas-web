@@ -10,7 +10,7 @@ const Blogs = () => {
 
   const goToFirstBlog = () => {
     setSelectedBlog(blogs[0]);
-    navigate(`/blog/?${blogs[0].id}`);
+    navigate(`/blogs/:${blogs[0].id}`);
   }
 
   return (

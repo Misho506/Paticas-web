@@ -70,8 +70,8 @@ const Header = () => {
     <header className="w-full z-10 flex flex-col header-container">
       <div className="flex h-20 shadow-md flex-row items-center justify-between">
         <Modal open={openModal} onClose={setOpenModal} message={i18n.t("notAvailableCard.message")} title={i18n.t("notAvailableCard.title")} />
-        <section className="flex flex-row items-center" onClick={() => navigate('/')}>
-          <img alt="icon background green" src={IconWithName} className="h-16 pl-4 sm:pl-16" />
+        <section className="flex flex-row items-center cursor-pointer" onClick={() => navigate('/')}>
+          <img alt="icon background green" src={IconWithName} className="h-16 ml-4 sm:ml-16" />
         </section>
         {/* Navbar Web Links */}
         <section className="hidden sm:flex navbar-links justify-around">

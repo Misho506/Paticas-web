@@ -349,9 +349,9 @@ const poasVolcano = (t: TFunction): TourType => ({
   childsPrice: 0,
 });
 
-const carribeanTour = (t: TFunction): TourType => ({
+const caribbeanTour = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/04/caribean-00007.jpg",
-  id: "carribeanTour",
+  id: "caribbeanTour",
   suggestedTours: ["manuelAntonio", "queseraBeach", "whaleWatching"],
   aproxHours: "12 - 14",
   peekLink: t("oneDayTour.caribbeanTour.peekLink"),
@@ -416,7 +416,7 @@ const carribeanTour = (t: TFunction): TourType => ({
 const queseraBeach = (t: TFunction): TourType => ({
   img: "https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/quesera-beach-00009.jpeg",
   id: "queseraBeach",
-  suggestedTours: ["manuelAntonio", "whaleWatching", "carribeanTour"],
+  suggestedTours: ["manuelAntonio", "whaleWatching", "caribbeanTour"],
   aproxHours: "11 - 13",
   peekLink: t("oneDayTour.queseraBeach.peekLink"),
   title: t("oneDayTour.queseraBeach.title"),
@@ -719,7 +719,7 @@ const allOneDayTours = (t: TFunction): Array<TourType> => [
   arenalLake(t),
   manuelAntonio(t),
   poasVolcano(t),
-  carribeanTour(t),
+  caribbeanTour(t),
   queseraBeach(t),
   sarchiCity(t),
   santaTeresaSurf(t),
@@ -735,7 +735,7 @@ export {
   manuelAntonio,
   dinoLand,
   poasVolcano,
-  carribeanTour,
+  caribbeanTour,
   queseraBeach,
   sarchiCity,
   santaTeresaSurf,

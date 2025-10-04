@@ -106,8 +106,8 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     url: "/:beach-mountain-sun/multiDay-tours/:southCaribean",
   },
   {
-    title: t("tours.tropicalSerenity.shortTitle"),
-    id: "tropicalSerenity",
+    title: t("tours.tropicalTranquility.shortTitle"),
+    id: "tropicalTranquility",
     url: "/:beach-mountain-sun/multiDay-tours/:tropicalTranquility",
   },
 
@@ -135,12 +135,12 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     url: "/categories/:our-favorite-spots",
   },
   {
-    title: t("tours.favoriteSpots.secretsOfCostaRica.shortTitle"),
+    title: t("tours.secretsOfCostaRica.shortTitle"),
     id: "secretsOfCostaRica",
     url: "/:our-favorite-spots/multiDay-tours/:secretsOfCostaRica",
   },
   {
-    title: t("tours.favoriteSpots.mostPopularInCostaRica.shortTitle"),
+    title: t("tours.mostPopularInCostaRica.shortTitle"),
     id: "mostPopularInCostaRica",
     url: "/:our-favorite-spots/multiDay-tours/:mostPopularInCostaRica",
   },

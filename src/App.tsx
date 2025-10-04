@@ -19,6 +19,11 @@ import Tours from "./layout/Tours/Tours";
 import Contact from "./layout/Contact/Contact";
 import Breadcrumb from "./components/breadcrumb/Breadcrumb";
 import { useLocation } from "react-router";
+import TermsConditions from "./layout/Terms&Conditions/Terms&Conditions";
+import PrivacyPolitics from "./layout/PrivacyPolitics/PrivacyPolitics";
+import CancelationPolitics from "./layout/CancelationPolitics/CancelationPolitics";
+import PaymentMethods from "./layout/PaymentMethods/PaymentMethods";
+import CommunityImpact from "./layout/CommunityImpact/CommunityImpact";
 
 function App() {
   const { i18n } = useTranslation();
@@ -44,6 +49,11 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/:id" element={<Blog />} />
             <Route path="/contact" element={<Contact showForm />} />
+            <Route path="/terms&conditions" element={<TermsConditions />} />
+            <Route path="/privacyPolitics" element={<PrivacyPolitics />} />
+            <Route path="/cancel" element={<CancelationPolitics />} />
+            <Route path="/payment" element={<PaymentMethods />} />
+            <Route path="/community" element={<CommunityImpact />} />
           </Routes>
         </BlogProvider>
       </TourProvider>

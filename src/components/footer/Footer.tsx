@@ -1,10 +1,9 @@
-import { FaRegCopyright } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram, FaTiktok, FaTripadvisor } from "react-icons/fa";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 
-// import Pyme from "../../assets/PYME.webp";
-// import TripAdvisorIMG from "../../assets/tripadvisor.png";
+import Pyme from "../../assets/PYME.webp";
+import TripAdvisorIMG from "../../assets/tripadvisor-5-star1.png";
 import Modal from "../modal/Modal";
 import { useState } from "react";
 
@@ -22,16 +21,18 @@ const Footer = () => {
       />
 
       {/* Top Section */}
-      <section className="bg-[#2a4328] py-10 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
+      <section className="bg-[#2a4328] py-8 px-6">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-8 gap-8">
+
+
           {/* Company Info */}
-          <article>
+          <article className="col-span-2 md:pt-4">
             <h2 className="text-xl font-bold">{i18n.t("footer.company.title")}</h2>
             <p className="mt-2 text-sm italic">{i18n.t("footer.company.description")}</p>
           </article>
 
           {/* Explore */}
-          <nav aria-label="explore">
+          <nav aria-label="explore" className="col-span-1 md:pt-4">
             <h3 className="font-semibold text-lg">{i18n.t("footer.explore.title")}</h3>
             <ul className="mt-2 space-y-2 text-sm text-left italic pl-0">
               <li><a href="" className="text-white">{i18n.t("footer.explore.tours")}</a></li>
@@ -43,7 +44,7 @@ const Footer = () => {
           </nav>
 
           {/* Support */}
-          <nav aria-label="support">
+          <nav aria-label="support" className="col-span-2 md:pt-4">
             <h3 className="font-semibold text-lg">{i18n.t("footer.support.title")}</h3>
             <ul className="mt-2 space-y-2 text-sm text-left italic pl-0">
               <li><a href={`/terms&conditions/`} className="text-white">{i18n.t("footer.support.terms")}</a></li>
@@ -55,13 +56,23 @@ const Footer = () => {
           </nav>
 
           {/* Contact */}
-          <section aria-label={i18n.t("footer.contact.title")}>
+          <section aria-label={i18n.t("footer.contact.title")} className="col-span-2 md:pt-4">
             <h3 className="font-semibold text-lg">{i18n.t("footer.contact.title")}</h3>
             <p className="mt-2 italic text-sm">
               {i18n.t("footer.contact.location")}
             </p>
-            <p className="mt-1 italic text-sm">{i18n.t("footer.contact.email")}</p>
-            <p className="mt-1 italic text-sm">{i18n.t("footer.contact.phone")}</p>
+            <a
+              href={`mailto:info@paticastravel.com?subject=${encodeURIComponent(i18n.t("generalEmail.subject"))}&body=${encodeURIComponent(i18n.t("generalEmail.body"))}`}
+              className="mt-1 italic text-sm text-white">info@paticastravel.com
+            </a>
+            <br />
+            <a
+              href={`https://api.whatsapp.com/send?phone=+50687758884&text=${i18n.t("whatsappMessage")}`}
+
+              className="text-white mt-5 italic text-sm"
+            >
+              {i18n.t("footer.contact.phone")}
+            </a>
             <div className="flex gap-4 mt-3 ">
               <div onClick={() => window.open('https://www.instagram.com/paticas_paque_las_quierocr/')} className="w-8 h-8 rounded-full bg-[#F0B500] flex items-center justify-content-center cursor-pointer">
                 <FaInstagram className="text-xl text-black" />
@@ -77,49 +88,55 @@ const Footer = () => {
               </div>
             </div>
           </section>
+
+          <article className="flex md:flex-col md:col-span-1 col-span-2 justify-center">
+            <img src={Pyme} alt="PYME" className="w-24 mx-4 md:mx-0" />
+            <img src={TripAdvisorIMG} alt="TripAdvisorIMG" className="w-24 mx-4 md:mx-0" />
+          </article>
         </div>
 
+
         {/* Certifications */}
-        <section className="text-black py-8 px-6">
+        {/* <section className="text-black py-8 px-6">
           <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-6 text-center md:text-left">
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.tripadvisor")}</article>
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.ict")}</article>
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.nta")}</article>
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.essential")}</article>
           </div>
-        </section>
-      </section>
+        </section> */}
+      </section >
 
       {/* Newsletter */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-4 items-center text-center md:text-left">
+      <section className="max-w-7xl mx-auto grid md:grid-cols-4 gap-4 items-center text-center md:text-left" >
         <article className="p-4 text-black text-left md:col-span-2">
           {i18n.t("footer.newsletter.text")}
         </article>
-        <div className="md:col-span-1">
+        <article className="md:col-span-1">
           <input
             type="email"
             placeholder={i18n.t("footer.newsletter.placeholder")}
             className="mt-2 p-2 border border-gray-300 rounded w-11/12"
           />
-        </div>
-        <div className="md:col-span-1 flex justify-center md:justify-start">
+        </article>
+        <article className="md:col-span-1 flex justify-center md:justify-start">
           <button
             onClick={() => setOpenModal(true)}
             className="my-2 bg-[#2A4328] text-white px-4 py-2 rounded flex items-center"
           >
             {i18n.t("footer.newsletter.subscribe")} <IoIosArrowRoundForward className="ml-2 text-xl" />
           </button>
-        </div>
-      </div>
+        </article>
+      </section >
 
       {/* Bottom Section */}
-      <section className="bg-[#65a603] py-6 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-sm text-gray-300">
+      <section className="bg-[#65a603] py-6 px-6" >
+        <article className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-sm text-gray-300">
           <p>{i18n.t("footer.bottom.rights")}</p>
           <p className="mt-2 md:mt-0">{i18n.t("footer.bottom.motto")}</p>
-        </div>
-      </section>
-    </footer>
+        </article>
+      </section >
+    </footer >
   );
 };
 
