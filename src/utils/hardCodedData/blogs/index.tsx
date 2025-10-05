@@ -3,6 +3,7 @@ import { BlogType } from "../../types";
 import { BiodiversityFrontPage, CaribeFrontPage, TicosAndTicasFrontPage, BluezoneFrontPage } from "../../../assets/blogs";
 
 const blogTicosAndTicas = (t: TFunction): BlogType => ({
+  id: "blogTicosAndTicas",
   picture: TicosAndTicasFrontPage,
   title: t("blogs.0.title"),
   date: t("blogs.0.date"),
@@ -32,6 +33,7 @@ const blogTicosAndTicas = (t: TFunction): BlogType => ({
 });
 
 const blogCaribe = (t: TFunction): BlogType => ({
+  id: "blogCaribe",
   picture: CaribeFrontPage,
   title: t("blogs.1.title"),
   date: t("blogs.1.date"),
@@ -61,6 +63,7 @@ const blogCaribe = (t: TFunction): BlogType => ({
 });
 
 const blogBlueZone = (t: TFunction): BlogType => ({
+  id: "blogBlueZone",
   picture: BluezoneFrontPage,
   title: t("blogs.2.title"),
   date: t("blogs.2.date"),
@@ -90,6 +93,7 @@ const blogBlueZone = (t: TFunction): BlogType => ({
 });
 
 const blogBiodiversity = (t: TFunction): BlogType => ({
+  id: "blogBiodiversity",
   picture: BiodiversityFrontPage,
   title: t("blogs.3.title"),
   date: t("blogs.3.date"),

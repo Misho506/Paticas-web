@@ -9,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 import "./Main.css";
 import BlogsCarrousel from "../../components/BlogsCarrousel/BlogsCarrousel";
 import { sectionOurTour, sectionBlogs, sectionAboutUs, sectionReviews } from "../../utils/hardCodedData/sections";
-import Contact from "../Contact/Contact";
 import {
   AirportTransferIcon,
   MealsIncludedIcon,
@@ -67,7 +66,7 @@ const Main = () => {
             {i18n.t("moreThanFamily")}
           </h2>
           <p className="text-2xl italic">{i18n.t("weAre")}</p>
-          <button onClick={() => navigate("/about-us")} className="bg-white text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
+          <button onClick={() => navigate('/about-us')} className="bg-white text-black border-full py-2 px-3 mt-3 rounded-full flex justify-self-center">
             {i18n.t("discoverMore")}
             <IoIosArrowRoundForward className="mx-1 flex self-center text-2xl" />
           </button>
@@ -75,8 +74,6 @@ const Main = () => {
       </section>
       <SectionWithTitle title={sectionReviews(i18n.t).title} body={sectionReviews(i18n.t).body} />
       <Reviews />
-      <br />
-      <Contact />
     </section>
   )
 };

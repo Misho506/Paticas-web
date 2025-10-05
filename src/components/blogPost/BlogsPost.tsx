@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router";
 import { BlogType } from "../../utils/types";
-import { useTranslation } from "react-i18next";
 import { useBlog } from "../../context/BlogContext";
 
 type BlogtypeProps = {
@@ -8,14 +7,13 @@ type BlogtypeProps = {
 }
 
 const BlogPost = ({ blog }: BlogtypeProps) => {
-  const { picture, title, date, readingTime, shortDescription } = blog;
-  const { i18n } = useTranslation();
+  const { picture, title, date, readingTime, shortDescription, id } = blog;
   const { setSelectedBlog } = useBlog();
   const navigate = useNavigate();
 
   const goToBlogs = () => {
     setSelectedBlog(blog);
-    navigate(`/blog/:${title}`);
+    navigate(`/blogs/:${id}`);
   };
 
   return (

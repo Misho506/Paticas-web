@@ -37,6 +37,7 @@ const AboutUs = () => {
         title={i18n.t("aboutUs.title")}
         body={
           <>
+            {/* <span className="italic">{i18n.t("aboutUs.")}</span> */}
             {i18n.t("aboutUs.description")}
           </>
         }

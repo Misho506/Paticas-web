@@ -10,11 +10,11 @@ const Blogs = () => {
 
   const goToFirstBlog = () => {
     setSelectedBlog(blogs[0]);
-    navigate(`/blog/${blogs[0].title}`);
+    navigate(`/blogs/:${blogs[0].id}`);
   }
 
   return (
-    <section className="mb-4 mx-auto flex flex-col justify-self-center">
+    <section className="mb-4 mx-auto flex flex-col justify-self-center pt-10">
       <section style={{ position: 'relative', textAlign: 'left', color: '#fff' }}>
         <img
           src={blogs[0].picture}

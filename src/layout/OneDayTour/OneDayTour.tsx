@@ -11,10 +11,10 @@ const OneDayTour = () => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className="mt-2">
       {createSectionWithTitle({ title: i18n.t("oneDayTour.title"), body: i18n.t("oneDayTour.description"), bgColor: "bg-white" })}
       {allOneDayTours(i18n.t) &&
-        <ToursCards oneDayTours={true} tours={allOneDayTours(i18n.t)} />
+        <ToursCards redirectTo="/one-day-tours" tours={allOneDayTours(i18n.t)} />
       }
       <button
         onClick={() => navigate('/')}
@@ -23,7 +23,7 @@ const OneDayTour = () => {
         <IoMdArrowBack />
         {i18n.t("goBack")}
       </button>
-    </>
+    </div>
   )
 };
 

@@ -13,6 +13,7 @@ interface BlogContextType {
 const BlogContext = createContext<BlogContextType | undefined>(undefined);
 
 const selectBlogInitialValue: BlogType = {
+  id: "",
   picture: "",
   title: "",
   date: "",

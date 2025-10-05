@@ -1,7 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
 import CustomInputWithErrorMessage from "../../components/customInputWithErrorMessage/CustomInputWithErrorMessage";
-import CircularContainerWithInfo from "../../components/circularContainerWithInfo/CircularContainerWithInfo";
 import SectionWithTitle from "../../components/sectionWithTitle/SectionWithTitle";
 import { sectionContact } from "../../utils/hardCodedData/sections";
 import { useTranslation } from "react-i18next";
@@ -26,7 +23,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
       .min(1, { message: i18n.t("formErrors.email.required") })
       .email({ message: i18n.t("formErrors.email.invalidType") }),
     description: z.string({
-      invalid_type_error: i18n.t("formErrors.description.invalidType"),
+      invalid_type_error: i18n.t("formErrors.description.required"),
     }).min(1, { message: i18n.t("formErrors.description.required") })
   });
   const [messageInfo, setMessageInfo] = useState<typeof initValues>(initValues);
@@ -164,7 +161,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
 
   // Removed unused phoneNumberChange function as phoneNumber is not part of the schema or form fields.
   return (
-    <section className="">
+    <section className="mt-2">
       <SectionWithTitle title={sectionContact(i18n.t).title} body={sectionContact(i18n.t).body} />
       {showForm && <div className="grid grid-cols-1 md:grid-cols-2">
         <form onSubmit={submitForm} className="space-y-6 justify-center flex flex-col p-6 sm:w-9/12 w-full h-5/6 max-w-lg m-auto">
@@ -174,7 +171,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
           </button>
         </form>
         <img src="https://misoinfodata.wordpress.com/wp-content/uploads/2025/08/carribean-tour00004.jpg" alt="family" className="object-fill w-11/12 h-[85%] m-auto rounded" />      </div>}
-      <div className="flex items-center justify-center gap-8 px-6 p-8 max-sm:flex-col">
+      {/* <div className="flex items-center justify-center gap-8 px-6 p-8 max-sm:flex-col">
         {CircularContainerWithInfo(
           <FaWhatsapp className="text-black text-xl" />,
           <>
@@ -201,7 +198,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
             </a>
           </>
         )}
-      </div>
+      </div> */}
     </section>
   )
 };
