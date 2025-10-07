@@ -181,7 +181,7 @@ const Contact = ({ showForm = false }: { showForm?: boolean }) => {
 
               className="text-gray-600 text-xs hover:text-gray-800 transition-colors"
             >
-              +506 8775 8884
+              +506 8775-8884
             </a>
           </>
         )}
