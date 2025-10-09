@@ -1733,6 +1733,78 @@
     "detailed": "Detailed",
     "booking": "Booking",
     "blog": "Blog",
-    "blogs": "Blogs"
+    "blogs": "Blogs",
+    "faqs": "FAQs"
+  },
+  "faqs": {
+    "annotation": "Traveling with Paticas",
+    "title": "Frequently Asked Questions",
+    "description": "There are many questions you might have when planning your trip to Costa Rica with Paticas Travel. To help you prepare, we’ve gathered the most common questions travelers ask about our tailor-made journeys and exclusive experiences.",
+    "categories": {
+      "costaRicaEssentials": {
+        "title": "Costa Rica Travel Essentials",
+        "questions": {
+          "1": {
+            "question": "What is the weather like in Costa Rica and when is the best time to visit?",
+            "answer": "Costa Rica has two main seasons: the dry season (December to April) and the rainy season (May to November). The best time to visit for sunshine and outdoor adventures is during the dry season, but even then, always bring a light rain jacket—after all, we are in the tropics, and rain is our best friend! \nThere’s also a short transition with less rainfall between July and early August, known as “little summer” (veranillo), which is a hidden gem for travelers.\nIf you’re visiting during the dry season, check out our Beach, Mountain & Sun multi-day tours —perfect for enjoying Costa Rica’s best summer escapes.",
+            "interLink": "/categories/:beachAdventures"
+          },
+          "2": {
+            "question": "Do I need to exchange money for Costa Rican colones?",
+            "answer": "U.S. dollars and major credit cards are widely accepted in Costa Rica. However, for small purchases in rural areas, carrying some Costa Rican colones is recommended for better rates and convenience. You can easily exchange your money at the airport, banks, or local exchange offices during your trip."
+          },
+          "3": {
+            "question": "Is tipping customary in Costa Rica?",
+            "answer": "Tipping is not required, but it is always appreciated."
+          },
+          "4": {
+            "question": "What should I wear when visiting Costa Rica?",
+            "answer": "Dress for the tropical weather. Costa Rica is famous for its rain showers, so always expect some rain—even in the dry season (December to April). Pack light, breathable clothing, a rain jacket, and comfortable walking shoes. For higher-altitude destinations like volcanoes and cloud forests, such as our Arenal & Monteverde: Volcanoes & Cloud Forest Adventures, bring a light sweater or jacket. And remember: forecasts here are just suggestions—the rain sometimes decides its own schedule.",
+            "interLink": "/categories/beachAdventures/:volcanoes"
+          }
+        }
+      },
+      "wildlifeNature": {
+        "title": "Wildlife & Nature",
+        "questions": {
+          "5": {
+            "question": "When is the whale watching and turtle nesting season in Costa Rica?",
+            "answer": "From July to November, Costa Rica enters the green season, also known as the rainy season. But don’t let the rain stop you—this is the best time for whale watching and turtle nesting. The peak months are August and September, when both humpback whales and sea turtles can be spotted in abundance. If you dream of unforgettable wildlife experiences, plan your trip around these months.\nDiscover our exclusive whale watching and turtle nesting tours in Costa Rica",
+            "interLink": "/tours/multi-day-tours/turtle-nesting-whale-watching"
+          }
+        }
+      },
+      "toursServices": {
+        "title": "Tours & Services",
+        "questions": {
+          "6": {
+            "question": "Are all tours private with Paticas Travel?",
+            "answer": "Yes. All our tours—whether one-day or multi-day—are exclusive and tailor-made for you and your group."
+          },
+          "7": {
+            "question": "Are all Paticas Travel guides certified?",
+            "answer": "Yes. Every guide is licensed and certified by the ICT (Costa Rican Tourism Board)."
+          },
+          "8": {
+            "question": "Once I join the tour, are there any extra costs?",
+            "answer": "Most of our tours are all-inclusive, unless otherwise specified. Additional expenses are not included, such as dinners, alcoholic beverages, personal purchases, tips, or optional transportation beyond the standard itinerary (upon request).\nFor extended experiences, our Costa Rica multi-day tours are designed to include almost everything—so all you need to do is relax and enjoy the journey.",
+            "interLink": "/categories"
+          },
+          "9": {
+            "question": "What type of transportation is used for tours?",
+            "answer": "We provide modern, comfortable vehicles with A/C and Wi-Fi. Depending on your group size, you may travel in a private car or shuttle."
+          },
+          "10": {
+            "question": "Do you offer children’s rates?",
+            "answer": "Yes. Please contact us directly for customized family-friendly tour rates."
+          },
+          "11": {
+            "question": "When should I book my tour in Costa Rica?",
+            "answer": "We recommend booking early to secure availability, especially during high season (December to April).",
+            "interLink": "/one-day-tours/:poasVolcano"
+          }
+        }
+      }
+    }
   }
 }

@@ -35,7 +35,7 @@ const Footer = () => {
           <nav aria-label="explore" className="col-span-1 md:pt-4">
             <h3 className="font-semibold text-lg">{i18n.t("footer.explore.title")}</h3>
             <ul className="mt-2 space-y-2 text-sm text-left italic pl-0">
-              <li><a href="" className="text-white">{i18n.t("footer.explore.tours")}</a></li>
+              <li><a href="/multi-day-tours" className="text-white">{i18n.t("footer.explore.tours")}</a></li>
               <li><a href="/blogs" className="text-white">{i18n.t("footer.explore.blog")}</a></li>
               <li><a href="/about-us" className="text-white">{i18n.t("footer.explore.about")}</a></li>
               <li><a href="/contact" className="text-white">{i18n.t("footer.explore.contact")}</a></li>
@@ -47,11 +47,11 @@ const Footer = () => {
           <nav aria-label="support" className="col-span-2 md:pt-4">
             <h3 className="font-semibold text-lg">{i18n.t("footer.support.title")}</h3>
             <ul className="mt-2 space-y-2 text-sm text-left italic pl-0">
-              <li><a href={`/terms&conditions/`} className="text-white">{i18n.t("footer.support.terms")}</a></li>
+              <li><a href="/terms&conditions/" className="text-white">{i18n.t("footer.support.terms")}</a></li>
               <li><a href={`/privacy/${i18n.language}`} className="text-white">{i18n.t("footer.support.privacy")}</a></li>
-              <li><a href={`/cancel/`} className="text-white">{i18n.t("footer.support.cancel")}</a></li>
-              <li><a href={`/payment/`} className="text-white">{i18n.t("footer.support.payment")}</a></li>
-              <li><a href={`/community/`} className="text-white">{i18n.t("footer.support.community")}</a></li>
+              <li><a href="/cancel/" className="text-white">{i18n.t("footer.support.cancel")}</a></li>
+              <li><a href="/payment/" className="text-white">{i18n.t("footer.support.payment")}</a></li>
+              <li><a href="/community/" className="text-white">{i18n.t("footer.support.community")}</a></li>
             </ul>
           </nav>
 
