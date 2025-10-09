@@ -60,7 +60,8 @@ type CompanyValues = {
 type FAQType = {
   question: string;
   answer: string;
-  interLink?: string;
+  interLink?: string[];
+  interLinkText?: string[]
   id: ID;
 };
 

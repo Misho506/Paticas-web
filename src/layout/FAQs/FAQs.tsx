@@ -2,19 +2,51 @@ import { useState } from "react";
 import FAQsData from "../../utils/hardCodedData/faqs";
 import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
 import { useTranslation } from "react-i18next";
-
+import { useNavigate } from "react-router";
+import { useTour } from "../../context/TourContext";
+import { allTours } from "../../utils/hardCodedData/categories/tours";
+import { allOneDayTours } from "../../utils/hardCodedData/categories/oneDayTours";
 
 const FAQs = () => {
+  const { setSelectedTour } = useTour();
+  const navigate = useNavigate();
   const i18n = useTranslation();
   const [openQuestions, setOpenQuestions] = useState<Array<number>>([]);
 
   const showHideQuestion = (index: number) => {
-    console.log("ENTRy");
     if (openQuestions.includes(index)) {
       setOpenQuestions(openQuestions.filter(question => question !== index));
     } else {
       setOpenQuestions([...openQuestions, index]);
     }
+  };
+
+  const navigateToLink = (link: string) => {
+    const selectedTour = link.split(":")[1];
+    const foundTour = allTours(i18n.t).find(tour => tour.id === selectedTour) || allOneDayTours(i18n.t).find(tour => tour.id === selectedTour);
+    if (foundTour) {
+      setSelectedTour(foundTour);
+    }
+    navigate(link);
+  }
+
+  const insertLinkIntoText = (text: string, link: string[], textForLink: string[]) => {
+    const parts = text.split('[link]');
+    return (
+      <>
+        {parts.map((part, index) => {
+          console.log("LINK", i18n.t(link[index]), "TEXT", i18n.t(textForLink[index]));
+          return (
+            <span key={index}>
+              {part}
+              {index < parts.length - 1 && (
+                <span onClick={() => navigateToLink(i18n.t(link[index]))} className="text-blue-600 underline hover:text-blue-700 cursor-pointer">{i18n.t(textForLink[index])}</span>
+              )}
+            </span>
+          )
+        })}
+      </>
+    );
   };
 
   return (
@@ -34,33 +66,35 @@ const FAQs = () => {
         </section>
       </header>
       <section className="max-w-4xl mx-auto pb-16 px-4">
-
-        {FAQsData(i18n.t).map((section) => (
+        {FAQsData.map((section) => (
           <article key={section.category} className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              {section.category}
+              {i18n.t(section.category)}
             </h2>
-
-            {/* <div className="space-y-3"> */}
-            {section.questions.map(({ question, answer, interLink, id }, index) => (
-              <article key={index} className="my-6 rounded" style={{ boxShadow: "0 4px 5px -3px gray" }}>
-                <article onClick={() => showHideQuestion(id as number)} className="w-full max-h-screen hover:bg-[#f0b500] py-3 px-4 mx-auto flex justify-between items-center cursor-pointer rounded" >
-                  <h5 key={index} className="text-lg">{question}</h5>
-                  {openQuestions.includes(id as number) ? <RiArrowUpSLine className="text-2xl" /> : <RiArrowDownSLine className="text-2xl" />}
+            {section.questions.map(({ question, answer, interLink, interLinkText, id }) => (
+              <article key={id} className="my-6 rounded" style={{ boxShadow: "0 4px 5px -3px gray" }}>
+                <article
+                  onClick={() => showHideQuestion(id as number)}
+                  className="w-full hover:bg-[#f0b500] py-3 px-4 mx-auto flex justify-between items-center cursor-pointer rounded"
+                >
+                  <h5 className="text-lg">{i18n.t(question)}</h5>
+                  {openQuestions.includes(id as number) ? (
+                    <RiArrowUpSLine className="text-2xl" />
+                  ) : (
+                    <RiArrowDownSLine className="text-2xl" />
+                  )}
                 </article>
-                <div className={`${openQuestions.includes(id as number) ? 'max-h-screen' : 'm-0 h-0 overflow-hidden'} flex flex-col transition-all duration-400 ease-in-out`}>
+                <div className={`${openQuestions.includes(id as number) ? "max-h-screen" : "m-0 h-0 overflow-hidden"} flex flex-col transition-all duration-400 ease-in-out`}>
                   <p className="italic text-left text-lg whitespace-pre-line mx-4 mt-2">
-                    {answer}
-                    {interLink && (
-                      <a href={interLink} className="text-blue-600 underline mt-2 ml-2">
-                        Learn more...
-                      </a>
+                    {interLink && interLinkText ? (
+                      insertLinkIntoText(i18n.t(answer), interLink, interLinkText)
+                    ) : (
+                      i18n.t(answer)
                     )}
                   </p>
                 </div>
               </article>
             ))}
-            {/* </div> */}
           </article>
         ))}
       </section>

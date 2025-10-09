@@ -66,54 +66,54 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
   {
     title: t("tours.wildLife.shortTitle"),
     id: "wildLife",
-    url: "/:wildlifePhotography/multiDay-tours/:wildLife",
+    url: "/categories/:wildlifePhotography/:wildLife",
   },
   {
     title: t("tours.followingQuetzal.shortTitle"),
     id: "followingQuetzal",
-    url: "/:wildlifePhotography/multiDay-tours/:followingQuetzal",
+    url: "/categories/:wildlifePhotography/:followingQuetzal",
   },
   {
     title: t("tours.crocodilesAndBirds.shortTitle"),
     id: "crocodilesAndBirds",
-    url: "/:wildlifePhotography/multiDay-tours/:crocodilesAndBirds",
+    url: "/categories/:wildlifePhotography/:crocodilesAndBirds",
   },
 
-  // Beach, Mountain, and Sun
+  // Beach, Mountain and Sun
   {
     title: t('category3.shortTitle'),
     id: "beachAdventures",
-    url: "/categories/:beach-mountain-sun",
+    url: "/categories/:beachAdventures",
   },
   {
     title: t("tours.sunAndSand.shortTitle"),
     id: "sunAndSand",
-    url: "/:beach-mountain-sun/multiDay-tours/:sunAndSand",
+    url: "/categories/:beachAdventures/:sunAndSand",
   },
   {
     title: t("tours.manuelAntonio.shortTitle"),
     id: "manuelAntonio",
-    url: "/:beach-mountain-sun/multiDay-tours/:manuelAntonio",
+    url: "/categories/:beachAdventures/:manuelAntonio",
   },
   {
     title: t("tours.turtlesAndWhales.shortTitle"),
     id: "turtlesAndWhales",
-    url: "/:beach-mountain-sun/multiDay-tours/:turtlesAndWhales",
+    url: "/categories/:beachAdventures/:turtlesAndWhales",
   },
   {
     title: t("tours.volcanoes.shortTitle"),
     id: "volcanoes",
-    url: "/:beach-mountain-sun/multiDay-tours/:volcanoes",
+    url: "/categories/:beachAdventures/:volcanoes",
   },
   {
     title: t("tours.southCaribean.shortTitle"),
     id: "southCaribean",
-    url: "/:beach-mountain-sun/multiDay-tours/:southCaribean",
+    url: "/categories/:beachAdventures/:southCaribean",
   },
   {
     title: t("tours.tropicalTranquility.shortTitle"),
     id: "tropicalTranquility",
-    url: "/:beach-mountain-sun/multiDay-tours/:tropicalTranquility",
+    url: "/categories/:beachAdventures/:tropicalTranquility",
   },
 
   // Adventure
@@ -125,12 +125,12 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
   {
     title: t("tours.sportFishing.shortTitle"),
     id: "sportFishing",
-    url: "/:adventure/multiDay-tours/:sportFishing",
+    url: "/categories/:adventure/:sportFishing",
   },
   {
     title: t("tours.ecoExplor.shortTitle"),
     id: "ecoExplor",
-    url: "/:adventure/multiDay-tours/:ecoExplor",
+    url: "/categories/:adventure/:ecoExplor",
   },
 
   // Our Favorite Spots
@@ -142,12 +142,12 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
   {
     title: t("tours.secretsOfCostaRica.shortTitle"),
     id: "secretsOfCostaRica",
-    url: "/:our-favorite-spots/multiDay-tours/:secretsOfCostaRica",
+    url: "/categories/:our-favorite-spots/:secretsOfCostaRica",
   },
   {
     title: t("tours.mostPopularInCostaRica.shortTitle"),
     id: "mostPopularInCostaRica",
-    url: "/:our-favorite-spots/multiDay-tours/:mostPopularInCostaRica",
+    url: "/categories/:our-favorite-spots/:mostPopularInCostaRica",
   },
 
   // One day tours
@@ -175,7 +175,8 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     title: t("oneDayTour.manuelAntonio.shortTitle"),
     id: "manuelAntonio",
     url: "/one-day-tours/:manuelAntonio",
-  }, {
+  },
+  {
     title: t("oneDayTour.poasVolcano.shortTitle"),
     id: "poasVolcano",
     url: "/one-day-tours/:poasVolcano",

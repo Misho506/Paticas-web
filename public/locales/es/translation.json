@@ -123,7 +123,7 @@
     },
     "contact": {
       "title": "Contáctanos",
-      "location": "San José, Costa Rica (cerca del Aeropuerto Juan Santamaría)",
+      "location": "Alajuela, Costa Rica (cerca del Aeropuerto Juan Santamaría)",
       "email": "info@paticastravel.com",
       "phone": "+506 8775-8884"
     },
@@ -1746,8 +1746,9 @@
         "questions": {
           "1": {
             "question": "¿Cómo es el clima en Costa Rica y cuál es la mejor época para visitar?",
-            "answer": "Costa Rica tiene dos estaciones principales: la estación seca (diciembre a abril) y la estación lluviosa (mayo a noviembre). La estación seca es ideal para disfrutar del sol y de actividades al aire libre, pero aun así, siempre lleva una chaqueta ligera para la lluvia: estamos en el trópico, y la lluvia es parte de nuestra magia.\nEntre julio y principios de agosto también ocurre el “veranillo”, un período corto con menos lluvias que muchos viajeros consideran un secreto bien guardado.\nSi visitas durante la estación seca, revisa nuestros tours multi-día de Playa, Montaña y Sol, perfectos para disfrutar las mejores escapadas de verano en Costa Rica.",
-            "interLink": "/categories/:beachAdventures"
+            "answer": "Costa Rica tiene dos estaciones principales: la estación seca (diciembre a abril) y la estación lluviosa (mayo a noviembre). La estación seca es ideal para disfrutar del sol y de actividades al aire libre, pero aun así, siempre lleva una chaqueta ligera para la lluvia: estamos en el trópico, y la lluvia es parte de nuestra magia.\nEntre julio y principios de agosto también ocurre el “veranillo”, un período corto con menos lluvias que muchos viajeros consideran un secreto bien guardado.\nSi visitas durante la estación seca, revisa nuestros [link], perfectos para disfrutar las mejores escapadas de verano en Costa Rica.",
+            "interLink": "/categories/:beachAdventures",
+            "interLinkText": "tours multi-día de Playa, Montaña y Sol"
           },
           "2": {
             "question": "¿Debo cambiar dinero a colones costarricenses?",
@@ -1759,8 +1760,9 @@
           },
           "4": {
             "question": "¿Qué ropa debo llevar a Costa Rica?",
-            "answer": "Vístete para el clima tropical. Costa Rica es famosa por sus lluvias, así que siempre espera algo de lluvia—incluso en la estación seca (diciembre a abril). Empaca ropa ligera y transpirable, una chaqueta impermeable y zapatos cómodos para caminar.\nPara destinos de mayor altitud como volcanes y bosques nubosos, como nuestro tour Arenal & Monteverde: Volcanes y Bosque Nuboso, lleva un suéter o chaqueta ligera. Y recuerda: los pronósticos aquí son solo sugerencias—la lluvia a veces decide su propio horario.",
-            "interLink": "/categories/beachAdventures/:volcanoes"
+            "answer": "Vístete para el clima tropical. Costa Rica es famosa por sus lluvias, así que siempre espera algo de lluvia—incluso en la estación seca (diciembre a abril). Empaca ropa ligera y transpirable, una chaqueta impermeable y zapatos cómodos para caminar.\nPara destinos de mayor altitud como volcanes y bosques nubosos, como nuestro [link], lleva un suéter o chaqueta ligera. Y recuerda: los pronósticos aquí son solo sugerencias—la lluvia a veces decide su propio horario.",
+            "interLink": "/categories/beachAdventures/:volcanoes",
+            "interLinkText": "tour Arenal & Monteverde: Volcanes y Bosque Nuboso"
           }
         }
       },
@@ -1769,8 +1771,9 @@
         "questions": {
           "5": {
             "question": "¿Cuándo es la temporada de avistamiento de ballenas y desove de tortugas en Costa Rica?",
-            "answer": "De julio a noviembre Costa Rica vive la llamada temporada verde o lluviosa. Es la mejor época para experiencias únicas de avistamiento de ballenas y tortugas anidando. Los meses pico son agosto y septiembre, cuando las ballenas jorobadas y las tortugas marinas se pueden observar en abundancia.\nDescubre nuestros tours exclusivos de avistamiento de ballenas y anidación de tortugas en Costa Rica.",
-            "interLink": "/categories/beachAdventures/:turtlesAndWhales"
+            "answer": "De julio a noviembre Costa Rica vive la llamada temporada verde o lluviosa. Es la mejor época para experiencias únicas de avistamiento de ballenas y tortugas anidando. Los meses pico son agosto y septiembre, cuando las ballenas jorobadas y las tortugas marinas se pueden observar en abundancia.\nDescubre nuestros tours exclusivos de [link]",
+            "interLink": "/categories/beachAdventures/:turtlesAndWhales",
+            "interLinkText": "avistamiento de ballenas y anidación de tortugas en Costa Rica."
           }
         }
       },
@@ -1787,8 +1790,9 @@
           },
           "8": {
             "question": "¿Una vez que me uno al tour, hay costos adicionales?",
-            "answer": "La mayoría de nuestros tours son todo incluido, salvo que se indique lo contrario. Los gastos adicionales no están incluidos, como cenas, bebidas alcohólicas, compras personales, propinas o transporte opcional fuera del itinerario estándar (si se solicita).\nPara experiencias más largas, nuestros tours de varios días en Costa Rica están diseñados para incluir casi todo—de modo que lo único que necesitas hacer es relajarte y disfrutar del viaje.",
-            "interLink": "/categories"
+            "answer": "La mayoría de nuestros tours son todo incluido, salvo que se indique lo contrario. Los gastos adicionales no están incluidos, como cenas, bebidas alcohólicas, compras personales, propinas o transporte opcional fuera del itinerario estándar (si se solicita).\nPara experiencias más largas, nuestros [link] en Costa Rica están diseñados para incluir casi todo—de modo que lo único que necesitas hacer es relajarte y disfrutar del viaje.",
+            "interLink": "/categories",
+            "interLinkText": "tours de varios días"
           },
           "9": {
             "question": "¿Qué tipo de transporte se utiliza para los tours?",
@@ -1800,8 +1804,11 @@
           },
           "11": {
             "question": "¿Cuándo debo reservar mi tour en Costa Rica?",
-            "answer": "Recomendamos reservar tu tour lo antes posible para asegurar disponibilidad, especialmente durante la temporada alta (diciembre a abril).\nExperiencias populares como el Tour Privado al Parque Nacional Manuel Antonio y el Tour Privado al Volcán Poás con Degustación de Fresas Locales se agotan rápido, por lo que reservar con antelación garantiza las mejores opciones para tu viaje personalizado.",
-            "interLink": "/one-day-tours/:poasVolcano"
+            "answer": "Recomendamos reservar tu tour lo antes posible para asegurar disponibilidad, especialmente durante la temporada alta (diciembre a abril).\nExperiencias populares como el [link] y el [link] se agotan rápido, por lo que reservar con antelación garantiza las mejores opciones para tu viaje personalizado.",
+            "interLink": "/one-day-tours/:manuelAntonio",
+            "interLinkText": "Tour Privado al Parque Nacional Manuel Antonio",
+            "interLink2": "/one-day-tours/:poasVolcano",
+            "interLinkText2": "Tour Privado al Volcán Poás con Degustación de Fresas Locales"
           }
         }
       }
