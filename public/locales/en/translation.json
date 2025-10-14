@@ -103,7 +103,7 @@
   "footer": {
     "company": {
       "title": "Paticas Travel",
-      "description": "Private and Luxury Tours in Costa Rica.\n\nTailor-made experiences that connect you with nature, culture, and the communities of Costa Rica."
+      "description": "Tailor-made experiences that connect you with nature, culture, and the communities of Costa Rica."
     },
     "explore": {
       "title": "Explore",
@@ -202,7 +202,7 @@
   "gallery": "Gallery",
   "headers": [
     {
-      "name": "Tours",
+      "name": "Multi-Day Tours",
       "link": "/categories"
     },
     {
@@ -230,7 +230,7 @@
   "kids": "Kids",
   "lastName": "Last name",
   "mission": {
-    "description": "To create private, luxury travel experiences tailored to each client’s preferences, while maintaining the highest standards of quality, sustainability, and social responsibility. We’re also committed to promoting domestic tourism by supporting local businesses and rural entrepreneurs across Costa Rica.",
+    "description": "To create exceptional travel experiences that combine comfort, authenticity, and purpose — partnering with Costa Rica’s finest local providers to ensure every journey enriches travelers while uplifting communities and protecting nature.",
     "title": "Our Mission"
   },
   "mission&Vision": "Mission and Vision",
@@ -829,7 +829,7 @@
   },
   "sectionOurTour": {
     "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours. Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
-    "title": "Our Tours"
+    "title": "Private & Luxury Tours Costa Rica"
   },
   "sectionReviews": {
     "body": "We grow with your feedback",
@@ -1694,7 +1694,7 @@
     "title": "Corporate Values"
   },
   "vision": {
-    "description": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry.",
+    "description": "To be recognized internationally as a leading high-end travel company in Costa Rica, renowned for crafting authentic experiences that celebrate the country’s nature, culture, and people — while supporting exceptional local partners and creating a lasting positive impact.",
     "title": "Our Vision"
   },
   "weAre": "We have the spirit for travel",

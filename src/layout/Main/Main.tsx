@@ -38,7 +38,8 @@ const Main = () => {
   return (
     <section>
       <Carousel />
-      <SectionWithTitle title={sectionOurTour(i18n.t).title} body={sectionOurTour(i18n.t).body} />
+
+      <SectionWithTitle title={<h1 className="mx-auto w-full text-center text-4xl pb-3">{i18n.t('sectionOurTour.title')}</h1>} body={sectionOurTour(i18n.t).body} />
       <article className="py-11 max-w-4xl px-3 mx-auto flex flex-col justify-self-center">
         <h4 className="mb-3">{i18n.t('ourTours.includesTitle')}</h4>
         <div className="flex flex-wrap items-center">
