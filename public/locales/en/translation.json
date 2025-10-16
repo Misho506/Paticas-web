@@ -83,8 +83,8 @@
   },
   "category3": {
     "body": "Unwind on Costa Rica’s best beaches, mountain retreats, and natural hot springs. Enjoy the sound of the ocean, explore breathtaking landscapes, and escape to a tropical paradise. Our relaxation-focused tours offer the perfect getaway for travelers seeking peace, comfort, and nature with the best Costa Rica travel agency for beach and wellness tourism.",
-    "title": "Beach, Mountain, and Sun",
-    "shortTitle": "Beach, Mountain, and Sun"
+    "title": "Beach, Mountain and Sun",
+    "shortTitle": "Beach, Mountain and Sun"
   },
   "category4": {
     "body": "Explore Costa Rica’s most breathtaking destinations, from the Top 10 most popular spots, like La Fortuna’s hot springs, Rio Celeste’s turquoise waters, Santa Teresa’s paradise beaches, and the vibrant Caribbean coast, to hidden gems only locals know, including secluded waterfalls, volcanic hikes, and untouched beaches. Travel with the best Costa Rica travel agency for exclusive adventures.",
@@ -103,7 +103,7 @@
   "footer": {
     "company": {
       "title": "Paticas Travel",
-      "description": "Private and Luxury Tours in Costa Rica.\n\nTailor-made experiences that connect you with nature, culture, and the communities of Costa Rica."
+      "description": "Tailor-made experiences that connect you with nature, culture, and the communities of Costa Rica."
     },
     "explore": {
       "title": "Explore",
@@ -123,7 +123,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "location": "San José, Costa Rica (near Juan Santamaría Airport)",
+      "location": "Alajuela, Costa Rica (near Juan Santamaría Airport)",
       "email": "info@paticastravel.com",
       "phone": "+506 8775-8884"
     },
@@ -202,7 +202,7 @@
   "gallery": "Gallery",
   "headers": [
     {
-      "name": "Tours",
+      "name": "Multi-Day Tours",
       "link": "/categories"
     },
     {
@@ -230,7 +230,7 @@
   "kids": "Kids",
   "lastName": "Last name",
   "mission": {
-    "description": "To create private, luxury travel experiences tailored to each client’s preferences, while maintaining the highest standards of quality, sustainability, and social responsibility. We’re also committed to promoting domestic tourism by supporting local businesses and rural entrepreneurs across Costa Rica.",
+    "description": "To create exceptional travel experiences that combine comfort, authenticity, and purpose — partnering with Costa Rica’s finest local providers to ensure every journey enriches travelers while uplifting communities and protecting nature.",
     "title": "Our Mission"
   },
   "mission&Vision": "Mission and Vision",
@@ -829,7 +829,7 @@
   },
   "sectionOurTour": {
     "body": "Discover our private luxury tours in Costa Rica — these are not group tours, these are your tours. Experience Costa Rica through tailor-made journeys designed for you. Whether it’s adventure, wildlife photography, or serene beach escapes, each tour is customized to your style and pace. \n\nBy choosing our tours, you also support high-quality local businesses and communities, ensuring your journey has a positive impact on the people and places you visit.",
-    "title": "Our Tours"
+    "title": "Private & Luxury Tours Costa Rica"
   },
   "sectionReviews": {
     "body": "We grow with your feedback",
@@ -1694,7 +1694,7 @@
     "title": "Corporate Values"
   },
   "vision": {
-    "description": "To be a leading travel agency recognized for its safety, reliability, diverse activities, and customer-centric approach in the travel industry.",
+    "description": "To be recognized internationally as a leading high-end travel company in Costa Rica, renowned for crafting authentic experiences that celebrate the country’s nature, culture, and people — while supporting exceptional local partners and creating a lasting positive impact.",
     "title": "Our Vision"
   },
   "weAre": "We have the spirit for travel",
@@ -1733,6 +1733,85 @@
     "detailed": "Detailed",
     "booking": "Booking",
     "blog": "Blog",
-    "blogs": "Blogs"
+    "blogs": "Blogs",
+    "faqs": "FAQs"
+  },
+  "faqs": {
+    "annotation": "Traveling with Paticas",
+    "title": "Frequently Asked Questions",
+    "description": "There are many questions you might have when planning your trip to Costa Rica with Paticas Travel. To help you prepare, we’ve gathered the most common questions travelers ask about our tailor-made journeys and exclusive experiences.",
+    "categories": {
+      "costaRicaEssentials": {
+        "title": "Costa Rica Travel Essentials",
+        "questions": {
+          "1": {
+            "question": "What is the weather like in Costa Rica and when is the best time to visit?",
+            "answer": "Costa Rica has two main seasons: the dry season (December to April) and the rainy season (May to November). The best time to visit for sunshine and outdoor adventures is during the dry season, but even then, always bring a light rain jacket—after all, we are in the tropics, and rain is our best friend! \nThere’s also a short transition with less rainfall between July and early August, known as “little summer” (veranillo), which is a hidden gem for travelers.\nIf you’re visiting during the dry season, check out our [link] —perfect for enjoying Costa Rica’s best summer escapes.",
+            "interLink": "/categories/:beachAdventures",
+            "interLinkText": "Beach, Mountain & Sun multi-day tours"
+          },
+          "2": {
+            "question": "Do I need to exchange money for Costa Rican colones?",
+            "answer": "U.S. dollars and major credit cards are widely accepted in Costa Rica. However, for small purchases in rural areas, carrying some Costa Rican colones is recommended for better rates and convenience. You can easily exchange your money at the airport, banks, or local exchange offices during your trip."
+          },
+          "3": {
+            "question": "Is tipping customary in Costa Rica?",
+            "answer": "Tipping is not required, but it is always appreciated."
+          },
+          "4": {
+            "question": "What should I wear when visiting Costa Rica?",
+            "answer": "Dress for the tropical weather. Costa Rica is famous for its rain showers, so always expect some rain—even in the dry season (December to April). Pack light, breathable clothing, a rain jacket, and comfortable walking shoes. For higher-altitude destinations like volcanoes and cloud forests, such as our [link], bring a light sweater or jacket. And remember: forecasts here are just suggestions—the rain sometimes decides its own schedule.",
+            "interLink": "/categories/beachAdventures/:volcanoes",
+            "interLinkText": "Arenal & Monteverde: Volcanoes & Cloud Forest Adventures"
+          }
+        }
+      },
+      "wildlifeNature": {
+        "title": "Wildlife & Nature",
+        "questions": {
+          "5": {
+            "question": "When is the whale watching and turtle nesting season in Costa Rica?",
+            "answer": "From July to November, Costa Rica enters the green season, also known as the rainy season. But don’t let the rain stop you—this is the best time for whale watching and turtle nesting. The peak months are August and September, when both humpback whales and sea turtles can be spotted in abundance. If you dream of unforgettable wildlife experiences, plan your trip around these months.\nDiscover our exclusive [link]",
+            "interLink": "/categories/beachAdventures/:turtlesAndWhales",
+            "interLinkText": "Whale Watching & Turtle Nesting Tours"
+          }
+        }
+      },
+      "toursServices": {
+        "title": "Tours & Services",
+        "questions": {
+          "6": {
+            "question": "Are all tours private with Paticas Travel?",
+            "answer": "Yes. All our tours—whether one-day or multi-day—are exclusive and tailor-made for you and your group. At Paticas Travel, we specialize in custom guided experiences in Costa Rica, designed with comfort, authenticity, and memorable details."
+          },
+          "7": {
+            "question": "Are all Paticas Travel guides certified?",
+            "answer": "Yes. Every guide at Paticas Travel is a licensed professional certified by the ICT (Costa Rican Tourism Board). Our team ensures safe, authentic, and enriching experiences throughout the country."
+          },
+          "8": {
+            "question": "Once I join the tour, are there any extra costs?",
+            "answer": "Most of our tours are all-inclusive, unless otherwise specified. Additional expenses are not included, such as dinners, alcoholic beverages, personal purchases, tips, or optional transportation beyond the standard itinerary (upon request).\nFor extended experiences, our Costa Rica [link] are designed to include almost everything—so all you need to do is relax and enjoy the journey.",
+            "interLink": "/categories",
+            "interLinkText": "multi-day tours"
+          },
+          "9": {
+            "question": "What type of transportation is used for tours?",
+            "answer": "We provide modern, comfortable, and safe vehicles with air-conditioning and free Wi-Fi. Depending on your group size, transportation may be in a private car or shuttle—always ensuring a smooth and enjoyable travel experience in Costa Rica."
+          },
+          "10": {
+            "question": "Do you offer children’s rates?",
+            "answer": "Yes. We offer special children’s rates. Please contact us directly for details, and we’ll customize your family-friendly private tour in Costa Rica."
+          },
+          "11": {
+            "question": "When should I book my tour in Costa Rica?",
+            "answer": "We recommend booking your tour as early as possible to secure availability, especially during high season (December to April). Popular experiences like the [link] and the [link] sell out quickly, so booking in advance ensures the best options for your custom Costa Rica journey. ",
+            "interLink": "/one-day-tours/:manuelAntonio",
+            "interLinkText": "Private Manuel Antonio National Park Tour",
+            "interLink2": "/one-day-tours/:poasVolcano",
+            "interLinkText2": "Private Tour to Poás Volcano with Local Strawberry Tasting"
+          }
+        }
+      }
+    }
   }
 }

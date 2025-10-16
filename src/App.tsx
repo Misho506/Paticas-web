@@ -24,6 +24,7 @@ import PrivacyPolitics from "./layout/PrivacyPolitics/PrivacyPolitics";
 import CancelationPolitics from "./layout/CancelationPolitics/CancelationPolitics";
 import PaymentMethods from "./layout/PaymentMethods/PaymentMethods";
 import CommunityImpact from "./layout/CommunityImpact/CommunityImpact";
+import FAQs from "./layout/FAQs/FAQs";
 
 function App() {
   const { i18n } = useTranslation();
@@ -54,6 +55,7 @@ function App() {
             <Route path="/cancel" element={<CancelationPolitics />} />
             <Route path="/payment" element={<PaymentMethods />} />
             <Route path="/community" element={<CommunityImpact />} />
+            <Route path="/faqs" element={<FAQs />} />
           </Routes>
         </BlogProvider>
       </TourProvider>

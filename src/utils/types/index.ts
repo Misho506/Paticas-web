@@ -57,6 +57,19 @@ type CompanyValues = {
   img: string;
 };
 
+type FAQType = {
+  question: string;
+  answer: string;
+  interLink?: string[];
+  interLinkText?: string[]
+  id: ID;
+};
+
+type FAQTypeCategory = Array<{
+  category: string;
+  questions: FAQType[]
+}>
+
 type FormError = {
   id: ID;
   error: string;
@@ -174,6 +187,7 @@ type UserInfo = {
   phoneNumber?: string;
 };
 
+
 export type {
   BannerType,
   BreadcrumbType,
@@ -182,6 +196,8 @@ export type {
   BookingTourType,
   CategoryType,
   CompanyValues,
+  FAQType,
+  FAQTypeCategory,
   FormError,
   FormField,
   FormFieldsType,

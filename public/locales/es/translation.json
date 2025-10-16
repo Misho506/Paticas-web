@@ -73,7 +73,7 @@
   ],
   "category1": {
     "body": "Somos fotógrafos profesionales de vida silvestre y expertos locales. Con profundo conocimiento en fotografía de selva tropical, te llevamos a los mejores lugares en el momento perfecto, asegurando luz natural óptima y encuentros inolvidables con la fauna. Captura imágenes espectaculares de la naturaleza salvaje de Costa Rica con nuestra agencia especializada en tours fotográficos.",
-    "title": "Expedición Fotográfica: Vida Silvestre en Corcovado",
+    "title": "Expedición Fotográfica de Vida Silvestre",
     "shortTitle": "Fotografía de Vida Silvestre"
   },
   "category2": {
@@ -103,7 +103,7 @@
   "footer": {
     "company": {
       "title": "Paticas Travel",
-      "description": "Tours Privados y de Lujo en Costa Rica.\n\nExperiencias a tu medida que conectan con la naturaleza, la cultura y las comunidades de Costa Rica."
+      "description": "Experiencias a tu medida que conectan con la naturaleza, la cultura y las comunidades de Costa Rica."
     },
     "explore": {
       "title": "Explora",
@@ -123,7 +123,7 @@
     },
     "contact": {
       "title": "Contáctanos",
-      "location": "San José, Costa Rica (cerca del Aeropuerto Juan Santamaría)",
+      "location": "Alajuela, Costa Rica (cerca del Aeropuerto Juan Santamaría)",
       "email": "info@paticastravel.com",
       "phone": "+506 8775-8884"
     },
@@ -230,7 +230,7 @@
   "kids": "Niños",
   "lastName": "Apellido",
   "mission": {
-    "description": "Ofrecer tours privados y de lujo personalizados según las preferencias de cada cliente, bajo los más altos estándares de calidad, sostenibilidad e impacto social positivo. Impulsamos el turismo nacional apoyando negocios locales y emprendimientos rurales.",
+    "description": "Crear experiencias de viaje excepcionales que combinan comodidad, autenticidad y propósito, colaborando con los mejores proveedores locales de Costa Rica para que cada viaje enriquezca al viajero, impulse a las comunidades y proteja la naturaleza.",
     "title": "Nuestra Misión"
   },
   "mission&Vision": "Misión and Visión",
@@ -253,7 +253,7 @@
   },
   "noTaxes": "Sin impuestos adicionales ni tarifas de reserva",
   "oneDayTour": {
-    "title": "Tours por un día",
+    "title": "Tours de un día",
     "description": "Vive lo mejor de Costa Rica en un solo día con nuestros exclusivos tours privados de lujo—una experiencia todo incluido que combina naturaleza, cultura y confort.",
     "birdwatching": {
       "shortTitle": "Avistamiento de Aves",
@@ -762,7 +762,7 @@
   "overview": "Descripción general",
   "ourTours": {
     "description": "Descubre Costa Rica a través de nuestros tours privados de lujo, completamente personalizables según tu estilo de viaje. Desde destinos icónicos como Manuel Antonio, Arenal y Monteverde hasta joyas escondidas como Bajos del Toro, nuestras experiencias combinan aventura, naturaleza y cultura. Ya sea fotografía de vida silvestre, actividades de adrenalina o escapadas tranquilas en la playa, diseñamos cada recorrido especialmente para ti.",
-    "title": "Nuestros Tours",
+    "title": "Tours de varios días",
     "includesTitle": "Todos nuestros tours incluyen:",
     "includes": [
       "Traslado aeropuerto",
@@ -805,7 +805,7 @@
     },
     "wildLife": {
       "description": "Captura impresionantes fotografías de vida silvestre en Corcovado, uno de los lugares más biodiversos del planeta.",
-      "title": "Expedición Fotográfica: Vida Silvestre en Corcovado"
+      "title": "Expedición Fotográfica de Vida Silvestre"
     }
   },
   "recentBlogs": "Nuestros mas recientes Blogs",
@@ -828,7 +828,7 @@
   },
   "sectionOurTour": {
     "body": "Descubre nuestros tours privados de lujo en Costa Rica — no son tours grupales, son tus tours. Vive Costa Rica a través de viajes hechos a tu medida. Ya sea aventura, fotografía de vida silvestre o escapadas tranquilas a la playa, cada tour se personaliza según tu estilo y ritmo.\n\nAl elegir nuestros tours, también apoyas a negocios y comunidades locales de alta calidad, asegurando que tu viaje tenga un impacto positivo en las personas y lugares que visitas.",
-    "title": "Nuestras Giras"
+    "title": "Tours Privados y de Lujo en Costa Rica"
   },
   "sectionReviews": {
     "body": "Lo que dicen nuestros viajeros",
@@ -1694,7 +1694,7 @@
     "title": "Nuestros valores"
   },
   "vision": {
-    "description": "Ser una agencia líder en Costa Rica, reconocida por sus experiencias exclusivas, su enfoque centrado en el cliente y su compromiso con la excelencia, la seguridad y la diversidad turística.",
+    "description": "Ser reconocidos internacionalmente como una empresa líder en viajes de alto nivel en Costa Rica, reconocida por crear experiencias auténticas que celebran la naturaleza, la cultura y la gente del país, apoyando a socios locales excepcionales y generando un impacto positivo duradero.",
     "title": "Nuestra Visión"
   },
   "weAre": "Somos Patacalientes.",
@@ -1733,6 +1733,85 @@
     "detailed": "Detallado",
     "booking": "Reserva",
     "blog": "Blog",
-    "blogs": "Blogs"
+    "blogs": "Blogs",
+    "faqs": "Preguntas Frecuentes"
+  },
+  "faqs": {
+    "annotation": "Viajando con Paticas",
+    "title": "Preguntas Frecuentes",
+    "description": "Al planear tu viaje a Costa Rica con Paticas Travel, es normal tener dudas sobre el clima, la moneda, qué empacar o cómo funcionan nuestros tours. Para ayudarte a preparar tu experiencia, hemos reunido las preguntas más comunes que recibimos de nuestros viajeros sobre nuestras experiencias a la medida.",
+    "categories": {
+      "costaRicaEssentials": {
+        "title": "Esenciales de Viaje en Costa Rica",
+        "questions": {
+          "1": {
+            "question": "¿Cómo es el clima en Costa Rica y cuál es la mejor época para visitar?",
+            "answer": "Costa Rica tiene dos estaciones principales: la estación seca (diciembre a abril) y la estación lluviosa (mayo a noviembre). La estación seca es ideal para disfrutar del sol y de actividades al aire libre, pero aun así, siempre lleva una chaqueta ligera para la lluvia: estamos en el trópico, y la lluvia es parte de nuestra magia.\nEntre julio y principios de agosto también ocurre el “veranillo”, un período corto con menos lluvias que muchos viajeros consideran un secreto bien guardado.\nSi visitas durante la estación seca, revisa nuestros [link], perfectos para disfrutar las mejores escapadas de verano en Costa Rica.",
+            "interLink": "/categories/:beachAdventures",
+            "interLinkText": "tours de varios días de Playa, Montaña y Sol"
+          },
+          "2": {
+            "question": "¿Debo cambiar dinero a colones costarricenses?",
+            "answer": "Los dólares estadounidenses y las principales tarjetas de crédito se aceptan ampliamente en Costa Rica. Sin embargo, para compras pequeñas en áreas rurales es recomendable llevar algunos colones costarricenses, ya que te dará mejores tasas y más comodidad. Puedes cambiar dinero fácilmente en el aeropuerto, bancos o casas de cambio locales."
+          },
+          "3": {
+            "question": "¿Es habitual dejar propina en Costa Rica?",
+            "answer": "No es obligatorio, pero siempre es bien recibido."
+          },
+          "4": {
+            "question": "¿Qué ropa debo llevar a Costa Rica?",
+            "answer": "Vístete para el clima tropical. Costa Rica es famosa por sus lluvias, así que siempre espera algo de lluvia—incluso en la estación seca (diciembre a abril). Empaca ropa ligera y transpirable, una chaqueta impermeable y zapatos cómodos para caminar.\nPara destinos de mayor altitud como volcanes y bosques nubosos, como nuestro [link], lleva un suéter o chaqueta ligera. Y recuerda: los pronósticos aquí son solo sugerencias—la lluvia a veces decide su propio horario.",
+            "interLink": "/categories/beachAdventures/:volcanoes",
+            "interLinkText": "Tour Arenal & Monteverde: Volcanes y Bosque Nuboso"
+          }
+        }
+      },
+      "wildlifeNature": {
+        "title": "Naturaleza y Vida Silvestre",
+        "questions": {
+          "5": {
+            "question": "¿Cuándo es la temporada de avistamiento de ballenas y desove de tortugas en Costa Rica?",
+            "answer": "De julio a noviembre Costa Rica vive la llamada temporada verde o lluviosa. Es la mejor época para experiencias únicas de avistamiento de ballenas y tortugas anidando. Los meses pico son agosto y septiembre, cuando las ballenas jorobadas y las tortugas marinas se pueden observar en abundancia.\nDescubre nuestros tours exclusivos de [link]",
+            "interLink": "/categories/beachAdventures/:turtlesAndWhales",
+            "interLinkText": "avistamiento de ballenas y anidación de tortugas en Costa Rica."
+          }
+        }
+      },
+      "toursServices": {
+        "title": "Tours y Servicios",
+        "questions": {
+          "6": {
+            "question": "¿Todos los tours son privados con Paticas Travel?",
+            "answer": "Sí. Todos nuestros tours, ya sean de un día o varios días, son exclusivos y hechos a la medida para ti y tu grupo. En Paticas Travel, nos especializamos en experiencias guiadas personalizadas en Costa Rica, diseñadas con comodidad, autenticidad y detalles memorables."
+          },
+          "7": {
+            "question": "¿Todos los guías de Paticas Travel están certificados?",
+            "answer": "Sí. Todos los guías de Paticas Travel son profesionales licenciados por el ICT (Instituto Costarricense de Turismo). Nuestro equipo garantiza experiencias seguras, auténticas y enriquecedoras en todo el país."
+          },
+          "8": {
+            "question": "¿Una vez que me uno al tour, hay costos adicionales?",
+            "answer": "La mayoría de nuestros tours son todo incluido, salvo que se indique lo contrario. Los gastos adicionales no están incluidos, como cenas, bebidas alcohólicas, compras personales, propinas o transporte opcional fuera del itinerario estándar (si se solicita).\nPara experiencias más largas, nuestros [link] en Costa Rica están diseñados para incluir casi todo—de modo que lo único que necesitas hacer es relajarte y disfrutar del viaje.",
+            "interLink": "/categories",
+            "interLinkText": "tours de varios días"
+          },
+          "9": {
+            "question": "¿Qué tipo de transporte se utiliza para los tours?",
+            "answer": "Proveemos vehículos modernos, cómodos y seguros con aire acondicionado y Wi-Fi gratuito. Dependiendo del tamaño de tu grupo, el transporte puede ser en un carro privado o shuttle—siempre asegurando una experiencia de viaje suave y agradable en Costa Rica."
+          },
+          "10": {
+            "question": "¿Ofrecen tarifas para niños?",
+            "answer": "Sí. Ofrecemos tarifas especiales para niños. Por favor contáctenos directamente para detalles, y personalizamos tu tour privado familiar en Costa Rica."
+          },
+          "11": {
+            "question": "¿Cuándo debo reservar mi tour en Costa Rica?",
+            "answer": "Recomendamos reservar tu tour lo antes posible para asegurar disponibilidad, especialmente durante la temporada alta (diciembre a abril).\nExperiencias populares como el [link] y el [link] se agotan rápido, por lo que reservar con antelación garantiza las mejores opciones para tu viaje personalizado.",
+            "interLink": "/one-day-tours/:manuelAntonio",
+            "interLinkText": "Tour Privado al Parque Nacional Manuel Antonio",
+            "interLink2": "/one-day-tours/:poasVolcano",
+            "interLinkText2": "Tour Privado al Volcán Poás con Degustación de Fresas Locales"
+          }
+        }
+      }
+    }
   }
 }
