@@ -1813,5 +1813,99 @@
         }
       }
     }
+  },
+  "terms&ConditionsView": {
+    "title": "Terms and Conditions – Paticas Pa’que las Quiero",
+    "intro": {
+      "paragraph": "At Paticas, we are committed to providing you with unforgettable experiences with total security and transparency. Below, we outline our terms and conditions, which govern reservations, payments, cancellations, and other important aspects of our service. \n By booking with us, you agree to these terms and conditions."
+    },
+    "sections": {
+      "reservations": {
+        "title": "1. Reservations and Payments",
+        "info": "Reservation requests will be processed within 36 hours. Once availability is confirmed, we will send you an email with the reservation details and payment instructions. \n We accept payments via credit and debit cards, as well as bank transfers (the customer assumes transaction costs).",
+        "paymentTitle": "Payment options:",
+        "paymentItems": [
+          "Through our digital platform using a credit or debit card.",
+          "Via a secure payment link, which will be sent by our travel designers upon request.",
+          "PayPal, as an online payment option."
+        ],
+        "currencyTitle": "Currency:",
+        "currencyInfo": "All prices are expressed in U.S. dollars (USD) and must be paid in this currency.",
+        "paymentConfirmationTitle": "Payment confirmation:",
+        "paymentConfirmationInfo": "Charges to the card will only be made with the customer’s authorization. Once payment is completed, the corresponding receipts will be sent and must be presented at the time of service."
+      },
+      "cancellation": {
+        "title": "2. Cancellation Policy",
+        "intro": "Cancellations must be requested in writing via email at",
+        "email": "info@paticastravel.com",
+        "items": [
+          {
+            "title": "More than 22 days in advance:",
+            "info": " Full refund (no penalty)."
+          },
+          {
+            "title": "Between 22 and 12 days before:",
+            "info": " 70% refund."
+          },
+          {
+            "title": "Between 11 and 9 days before:",
+            "info": " 50% refund."
+          },
+          {
+            "title": "Less than 9 days before: No refund.",
+            "info": " No refund."
+          },
+          {
+            "title": "",
+            "info": "If a service was prepaid and later canceled, the refund will depend on the policy of the corresponding provider (hotels, tour operators, etc.)."
+          },
+          {
+            "title": "Cancellations due to medical reasons: ",
+            "info": "A valid medical certificate must be presented. In such cases, the customer may opt for a refund or a credit for future bookings, subject to our providers’ terms."
+          },
+          {
+            "title": "No refund:",
+            "info": "A valid medical certificate must be presented. In such cases, the customer may opt for a refund or a credit for future bookings, subject to our providers’ terms.."
+          }
+        ]
+      },
+      "liability": {
+        "title": "3. Modifications and Liability",
+        "items": [
+          {
+            "title": "Itinerary modifications:",
+            "info": " Paticas reserves the right to adjust or modify itineraries for operational or safety reasons."
+          },
+          {
+            "title": "Factors beyond our control:",
+            "info": " We cannot guarantee wildlife sightings, specific weather conditions, or natural phenomena."
+          },
+          {
+            "title": "Losses and personal belongings:",
+            "info": " Luggage and personal items are the sole responsibility of the customer."
+          },
+          {
+            "title": "Liability disclaimer: ",
+            "info": "Paticas and its agents shall not be held responsible for any losses, additional expenses, or incidents arising from:"
+          }
+        ],
+        "subItems": [
+          "Delays or changes in itineraries.",
+          "Theft, loss, or damage to luggage.",
+          "Illness, accidents, or death.",
+          "Adverse weather conditions.",
+          "Strikes, fires, volcanic eruptions, earthquakes, floods, or epidemics.",
+          "Trail conditions, river levels, road conditions, or transportation delays.",
+          "Wars, conflicts, or any other force majeure events."
+        ]
+      },
+      "privacy": {
+        "title": "4. Privacy Policy",
+        "paragraph1": "All information provided by our customers will be treated with strict confidentiality and will not be shared with third parties, except when necessary for the proper provision of the service.",
+        "paragraph2": "For any additional inquiries, please contact us at",
+        "email": "info@paticastravel.com",
+        "closing": "We will be happy to assist you."
+      }
+    }
   }
 }

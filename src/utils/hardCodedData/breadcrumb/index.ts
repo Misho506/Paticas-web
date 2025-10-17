@@ -13,7 +13,7 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     url: "/faqs",
   },
   {
-    title: t("routesName.contact"),
+    title: t("routesName.mientrast"),
     id: "contact",
     url: "/contact",
   },
